@@ -1,0 +1,458 @@
+{
+  "version": "2026.1-draft",
+  "typ": "lieferketten",
+  "stand": "2026-05-12",
+  "hinweis": "Pilot-Draft Lauf 002 fuer Lieferketten im Scope Nahrung und Drogerieprodukte.",
+  "eintraege": [
+    {
+      "id": "rapunzel-kaffee-cafe-capitan-mexiko",
+      "unternehmen": "Rapunzel Naturkost",
+      "marke": "Rapunzel",
+      "warengruppe": "Röstkaffee",
+      "rohstoffe": [
+        "Arabica-Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Kaffee",
+          "HAND IN HAND-Fairhandelsprogramm",
+          "Partnerkooperative Café Capitán in Mexiko"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Direktimport aus dem Ursprungsland, physische Rueckverfolgbarkeit nach HAND IN HAND-Kriterien und langfristige Partnerbeziehungen sprechen fuer einen ueberdurchschnittlich transparenten Kaffeefall. Kein Maximalscore, weil keine chargengenaue Verbraucher-Rueckverfolgung und keine vollstaendige Farmlistenoffenlegung belegt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm",
+            "rapunzel-hand-in-hand-kriterien"
+          ],
+          "notiz": "Rapunzel arbeitet mit direkten, langfristigen Lieferbeziehungen, Jahresvertraegen, Fairtrade-Praemien und Vorfinanzierung auf Anfrage."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-cafe-capitan",
+            "rapunzel-hand-in-hand-programm"
+          ],
+          "notiz": "Persoenlicher Kontakt, Partnerbesuche und lokale Sozialprojekte sind expliziter Teil des Programms."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-einkommen",
+          "beschreibung": "Kaffee bleibt ein Hochrisikorohstoff fuer Preisdruck und unzureichende Einkommen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "kaffee-klima-biodiversitaet",
+          "beschreibung": "Kaffeeanbau ist klima- und biodiversitaetssensibel, insbesondere ausserhalb standortangepasster Agroforstsysteme.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hero-coffee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "direktimport",
+          "beschreibung": "Rapunzel importiert Rohstoffe fast ausschliesslich direkt aus dem Ursprungsland statt ueber Spotmaerkte oder Boersen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "hand-in-hand-praemie",
+          "beschreibung": "Fairer Produktpreis plus HAND IN HAND-Praemie und 1 Prozent des Einkaufswerts fuer Spendenprojekte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "externe-zertifizierung",
+          "beschreibung": "Das HAND IN HAND-Programm wird extern zertifiziert; Rapunzel uebernimmt die externen Kontroll- und Zertifizierungskosten der Partner.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-kriterien"
+          ]
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "beschreibung": "Die Kriterien verlangen physische Rueckverfolgbarkeit der HAND IN HAND-Rohstoffe und -Produkte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-kriterien-pdf"
+          ]
+        }
+      ],
+      "begruendung": "Der Rapunzel-Kaffee aus dem HAND IN HAND-Programm ist ein guter Pilotfall fuer Kaffee, weil Rapunzel faire Bezahlung, direkte Handelsbeziehungen, externe Kontrolle und physische Rueckverfolgbarkeit im eigenen Programm explizit verknuepft. Gleichzeitig bleibt die Aussage auf Marken- und Partnerprogramm-Ebene: Eine chargengenaue Verbraucher-Rueckverfolgung bis zur einzelnen Farm ist oeffentlich nicht belegt.",
+      "quellen": [
+        {
+          "id": "rapunzel-hand-in-hand-programm",
+          "titel": "Rapunzel: HAND IN HAND – Fair trade meets ecological responsibility",
+          "url": "https://en.rapunzel.de/hand-in-hand-fair-trade-program.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "transparente-lieferketten",
+            "direktimport",
+            "jahresvertraege",
+            "praemie",
+            "vorfinanzierung"
+          ]
+        },
+        {
+          "id": "rapunzel-hand-in-hand-kriterien",
+          "titel": "Rapunzel: HAND IN HAND – Die Kriterien",
+          "url": "https://www.rapunzel.de/kriterien-hand-in-hand.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "externe-zertifizierung",
+            "ilo-bezug",
+            "kontrollsystem"
+          ]
+        },
+        {
+          "id": "rapunzel-hand-in-hand-kriterien-pdf",
+          "titel": "Rapunzel HAND IN HAND Kriterien Version 6-2021",
+          "url": "https://www.rapunzel.de/download/hih_kriterien_de_version6_juni2021.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "physische-rueckverfolgbarkeit",
+            "programmregeln",
+            "praemienverwaltung"
+          ]
+        },
+        {
+          "id": "rapunzel-cafe-capitan",
+          "titel": "Rapunzel: Hero coffee from Mexico – Café Capitán",
+          "url": "https://en.rapunzel.de/cafe-capitan.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "partnerkooperative",
+            "kaffeeherkunft",
+            "bio-und-fairer-anbau"
+          ]
+        },
+        {
+          "id": "rapunzel-hero-coffee",
+          "titel": "Rapunzel: Hero coffee",
+          "url": "https://en.rapunzel.de/hero-coffee.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "mischkultur",
+            "schattenbaeume",
+            "biodiversitaet",
+            "vom-anbau-bis-zum-laden"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung beschreibt die Kaffee-Lieferkette im Rapunzel-HAND-IN-HAND-Programm, nicht eine chargengenaue Packungsrueckverfolgung fuer jede einzelne Kaffeepackung."
+    },
+    {
+      "id": "andechser-bio-weidemilch-38",
+      "unternehmen": "Andechser Molkerei Scheitz",
+      "marke": "Andechser Natur",
+      "warengruppe": "Bio-Weidemilch",
+      "rohstoffe": [
+        "Kuhmilch",
+        "Futtermittel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Frische Bio-Weidemilch 3,8% Fett 1L",
+          "Bioland-Qualitaet",
+          "Rueckverfolgbar bis zum Bio-Bauern"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Die Rueckverfolgbarkeit bis zum Bio-Bauern, der geschlossene Futterkreislauf und die direkte Anbindung an zertifizierte Lieferbetriebe sind stark. Kein hoeherer Score, weil die oeffentliche Transparenz zur vorgelagerten Futtermittel-Lieferkette begrenzt bleibt."
+      },
+      "faktoren": [
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern",
+            "andechser-weidemilch-produkt"
+          ],
+          "notiz": "Andechser arbeitet mit einem bekannten regionalen Milcheinzugsgebiet und konkreten Bio-Milchlieferanten."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tierprodukte-futtermittel",
+          "beschreibung": "Tierische Lieferketten bleiben risikobehaftet durch Futtermittel, Tierwohl und Klimawirkungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern",
+            "andechser-klima"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "geschlossener-futterkreislauf",
+          "beschreibung": "Andechser verlangt einen geschlossenen und transparenten Futterkreislauf als zusaetzlichen Bio-Standard.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern"
+          ]
+        },
+        {
+          "id": "rueckverfolgung-bis-zum-bauern",
+          "beschreibung": "Die Bio-Weidemilch wird nach Unternehmensangaben bis zum Bio-Bauern rueckverfolgbar gemacht.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt"
+          ]
+        },
+        {
+          "id": "weidepraemie",
+          "beschreibung": "Aktive Weidewirtschaft wird ueber eine Weidepraemie gefoerdert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt",
+            "andechser-klima"
+          ]
+        },
+        {
+          "id": "klimabauer",
+          "beschreibung": "Das KlimaBauer-Programm arbeitet an CO2-Vermeidung und -Bindung auf den Bio-Hoefen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt",
+            "andechser-klima"
+          ]
+        }
+      ],
+      "begruendung": "Andechser Natur ist fuer Milch ein sinnvoller Pilotfall, weil das Unternehmen fuer das konkrete Produkt Rueckverfolgbarkeit bis zum Bio-Bauern, verbandsgebundene Milchlieferanten und einen geschlossenen Futterkreislauf oeffentlich nennt. Das ist fuer Milch deutlich mehr als der Branchendurchschnitt. Gleichzeitig bleibt die Transparenz zur vorgelagerten Futtermittelkette oeffentlich begrenzt, weshalb die Bewertung bewusst unter einem Maximalwert bleibt.",
+      "quellen": [
+        {
+          "id": "andechser-weidemilch-produkt",
+          "titel": "Andechser Natur: Frische Bio-Weidemilch 3,8% Fett 1L",
+          "url": "https://www.andechser-natur.de/de/bio-produkte/frische-bio-weidemilch-38-fett-1l",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "weidehaltung",
+            "weidepraemie",
+            "rueckverfolgbarkeit-bis-zum-bauern",
+            "bioland"
+          ]
+        },
+        {
+          "id": "andechser-bio-milchbauern",
+          "titel": "Andechser Natur: Bio-Milchbauern",
+          "url": "https://www.andechser-natur.de/de/bio-molkerei/mensch/bio-milchbauern",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierte-lieferhoefe",
+            "geschlossener-futterkreislauf",
+            "interaktive-karte",
+            "anbauverbaende"
+          ]
+        },
+        {
+          "id": "andechser-klima",
+          "titel": "Andechser Natur: Unser Beitrag zum Klima",
+          "url": "https://www.andechser-natur.de/de/beitrag-klima",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "klimabauer",
+            "weidepraemie",
+            "stellvertretender-lieferant"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage ist fuer dieses Milchprodukt konkreter als bei vielen anderen Tierprodukten, bleibt aber bei Futtermittel-Vorstufen nicht vollstaendig oeffentlich ausgeleuchtet."
+    },
+    {
+      "id": "weleda-naturkosmetik-palmoel-derivate",
+      "unternehmen": "Weleda AG",
+      "marke": "Weleda",
+      "warengruppe": "Naturkosmetik und Koerperpflege",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "NATRUE-zertifizierte Naturkosmetik",
+          "palmbasierte Rohstoffe in Teilen des Sortiments"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "mass_balance",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -1,
+        "final": 6,
+        "anmerkung": "Weleda belegt UEBT-gepruefte Rohstoffbeschaffung und 100 Prozent zertifizierte Palmderivateaufnahme, arbeitet aber laut RSPO-ACOP fast vollstaendig mit Mass Balance und nur minimal mit Segregated. Deshalb bleibt die Bewertung im Mittelfeld."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-raw-materials",
+            "weleda-rspo-acop-2024"
+          ],
+          "notiz": "Weleda arbeitet mit UEBT-Standards, FONAP und Lieferanten an der Verbesserung der Palm-Lieferkette."
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024"
+          ],
+          "notiz": "Der RSPO-ACOP 2024 weist fuer zertifizierte Derivate 333 Einheiten Mass Balance und nur 1 Einheit Segregated aus."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung",
+          "beschreibung": "Palmrohstoffe bleiben strukturell hochriskant fuer Entwaldung, Landrechte und Biodiversitaetsverlust.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-why-palm-oil"
+          ]
+        },
+        {
+          "id": "derivattransparenz",
+          "beschreibung": "Gerade bei Palm-Derivaten ist die Traceability in der Vorstufe schwierig.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "uebt-audits",
+          "beschreibung": "Weleda verweist auf UEBT-gepruefte Lieferketten fuer Naturkosmetik-Rohstoffe.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-raw-materials",
+            "weleda-annual-report-2024"
+          ]
+        },
+        {
+          "id": "rspo-mitgliedschaft",
+          "beschreibung": "Weleda ist seit Jahren RSPO- und FONAP-aktiv und berichtet transparent im RSPO-ACOP.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024",
+            "weleda-annual-report-2024"
+          ]
+        },
+        {
+          "id": "brasilien-palmprojekt",
+          "beschreibung": "Weleda beschreibt fuer reines Palmoel ein faires Bezugsmodell aus Brasilien ohne Regenwaldzerstoerung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-why-palm-oil"
+          ]
+        }
+      ],
+      "begruendung": "Weleda ist ein sinnvoller Pilotfall fuer Drogerieprodukte, weil das Unternehmen seine Rohstoffstrategie, UEBT-Orientierung und RSPO-Daten vergleichsweise offen kommuniziert. Fuer den konkreten Palmbereich bleibt die Lieferkette aber nur teilweise produktnah: In den RSPO-Derivaten dominiert Mass Balance, und Weleda nennt selbst die schwierige Traceability im Derivatemarkt als Hauptherausforderung.",
+      "quellen": [
+        {
+          "id": "weleda-why-palm-oil",
+          "titel": "Weleda: Why do we use palm oil?",
+          "url": "https://www.weleda.com/weleda/our-responsibility/why-palmoil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm-in-natural-cosmetics",
+            "regenwaldrisiko",
+            "brasilien-bezug",
+            "biodiversitaet"
+          ]
+        },
+        {
+          "id": "weleda-rspo-acop-2024",
+          "titel": "Weleda AG RSPO Annual Communication of Progress 2024",
+          "url": "https://document.rspo.org/2024/Weleda_AG_ACOP2024.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-zertifizierte-aufnahme",
+            "mass-balance",
+            "segregated",
+            "traceability-challenges",
+            "fONAP-aktivitaeten"
+          ]
+        },
+        {
+          "id": "weleda-raw-materials",
+          "titel": "Weleda: What ethical sourcing means to Weleda",
+          "url": "https://www.weleda.com/weleda/our-responsibility/raw-materials",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "uebt-auditbezug",
+            "traceability-anspruch",
+            "ethische-beschaffung"
+          ]
+        },
+        {
+          "id": "weleda-annual-report-2024",
+          "titel": "Weleda Annual and Sustainability Report 2024",
+          "url": "https://www.weleda.com/binaries/content/assets/pdf/corporate/weleda-annual-sustainability-report-2024",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "82-prozent-organisch-oder-biodynamisch",
+            "hohe-traceability",
+            "uebt-mitgliedschaft"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Bewertung beschreibt Weledas Rohstoff- und Palmstrategie auf Unternehmens- und Warengruppenebene, nicht die chargengenaue Lieferkette eines einzelnen Kosmetikprodukts."
+    }
+  ]
+}

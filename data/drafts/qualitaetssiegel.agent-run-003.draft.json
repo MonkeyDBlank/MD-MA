@@ -1,0 +1,829 @@
+{
+  "version": "2026.1-draft",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-12",
+  "hinweis": "Draft-Daten aus Agentenlauf 003 und lokaler Nachrecherche fuer GOTS. Nicht an App-Team uebergeben.",
+  "eintraege": [
+    {
+      "id": "fsc",
+      "name": "Forest Stewardship Council (FSC)",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "wald",
+        "holz",
+        "papier",
+        "verpackung",
+        "chain-of-custody",
+        "umwelt",
+        "sozial"
+      ],
+      "produktbereich": [
+        "Holzprodukte",
+        "Papier",
+        "Zellstoff",
+        "Verpackungen",
+        "forstbasierte Produkte"
+      ],
+      "traeger": "Forest Stewardship Council, internationale unabhaengige Non-Profit-NGO mit Multi-Stakeholder-Governance aus Umwelt-, Sozial- und Wirtschaftskammern",
+      "standardtyp": "freiwilliger internationaler Forstmanagement-, Rohstoff- und Chain-of-Custody-Standard fuer Holz, Papier, Verpackungen und weitere forstbasierte Produkte",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 3,
+        "minus": -6,
+        "final": 3,
+        "anmerkung": "FSC als Dachlabel. Fuer FSC 100%, FSC Mix und FSC Recycled waere spaeter eine getrennte Bewertung fachlich sauberer."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fsc-coc-standard",
+            "fsc-certification-system"
+          ]
+        },
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-timber"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": [
+            "fsc-principles-criteria"
+          ],
+          "notiz": "Living-Wage-Anforderung ist im Forest-Management-Standard klarer belegt als in allen CoC-Stufen."
+        },
+        {
+          "id": "mass-balance",
+          "name": "Mass Balance / Credit- und Percentage-System",
+          "wert": -4,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fsc-coc-standard",
+            "fsc-labels"
+          ],
+          "notiz": "Vor allem fuer FSC Mix relevant; fuer FSC 100% wuerde dieser Abzug nicht passen."
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "greenpeace-fsc-critique"
+          ]
+        }
+      ],
+      "begruendung": "FSC ist ein etablierter internationaler Forst- und Chain-of-Custody-Standard mit detaillierten Umwelt- und Sozialanforderungen, Drittzertifizierung und externer Anerkennung. Die Bewertung wird vor allem durch FSC-Mix-Bilanzierungsmodelle und starke Greenpeace-Kritik gedrueckt.",
+      "quellen": [
+        {
+          "id": "fsc-principles-criteria",
+          "titel": "FSC Principles and Criteria for Forest Stewardship",
+          "url": "https://fsc.org/sites/default/files/2019-05/FSC-STD-01-001%2520V5-2%2520EN.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "umwelt-sozialkriterien",
+            "living-wage"
+          ]
+        },
+        {
+          "id": "fsc-coc-standard",
+          "titel": "FSC Chain of Custody Certification Standard",
+          "url": "https://us.fsc.org/sites/default/files/2022-03/01092021_FSC-STD-40-004_V3-1_EN_FINAL%20%282%29.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "chain-of-custody",
+            "percentage-system",
+            "credit-system"
+          ]
+        },
+        {
+          "id": "fsc-governance",
+          "titel": "FSC Governance",
+          "url": "https://fsc.org/en/governance",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "governance"
+          ]
+        },
+        {
+          "id": "fsc-certification-system",
+          "titel": "FSC Certification system",
+          "url": "https://connect.fsc.org/certification/certification-system",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "asi-aufsicht"
+          ]
+        },
+        {
+          "id": "fsc-labels",
+          "titel": "FSC Deutschland: Kennzeichen",
+          "url": "https://www.fsc-deutschland.de/was-ist-fsc/kennzeichen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fsc-100",
+            "fsc-mix",
+            "fsc-recycled"
+          ],
+          "quellenproblem": "Erklaerseite, kein Standarddokument."
+        },
+        {
+          "id": "wwf-timber",
+          "titel": "WWF: Responsible timber trade",
+          "url": "https://www.worldwildlife.org/our-work/forests/timber/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "externe-validierung"
+          ]
+        },
+        {
+          "id": "greenpeace-fsc-critique",
+          "titel": "Greenpeace International: Certification schemes such as FSC are greenwashing forest destruction",
+          "url": "https://www.greenpeace.org/international/press-release/46802/certification-schemes-such-as-fsc-are-greenwashing-forest-destruction/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "rspo",
+      "name": "RSPO - Roundtable on Sustainable Palm Oil",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "palm-oel",
+        "rohstoff",
+        "chain-of-custody",
+        "umwelt",
+        "sozial"
+      ],
+      "produktbereich": [
+        "Palmoel",
+        "Palmkernoel",
+        "Derivate",
+        "Konsumgueter mit Palm(derivaten)"
+      ],
+      "traeger": "Roundtable on Sustainable Palm Oil, globale Multi-Stakeholder-Non-Profit-Organisation",
+      "standardtyp": "freiwilliger Rohstoffstandard fuer nachhaltigeres Palmoel mit Plantagen-/Muehlenzertifizierung und Supply-Chain-Standard",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -6,
+        "final": 2,
+        "anmerkung": "Bei klar belegtem Identity Preserved oder Segregated waere eine bessere produktbezogene Bewertung moeglich als fuer generisches RSPO."
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt_mit_einschraenkung",
+          "quelle_ids": [
+            "wwf-palm-oil-scorecards"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "belegt_mit_umsetzungsunsicherheit",
+          "quelle_ids": [
+            "rspo-principles-criteria-2024"
+          ]
+        },
+        {
+          "id": "mass-balance",
+          "name": "Mass Balance",
+          "wert": -4,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rspo-supply-chain-standard",
+            "rspo-market-claims"
+          ]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "greenpeace-palm-oil-critique",
+            "ran-rspo-critique"
+          ]
+        }
+      ],
+      "begruendung": "RSPO ist der wichtigste globale Palmölstandard und deckt Umwelt-, Sozial- und Lieferkettenanforderungen ab. Die Bewertung faellt vor allem wegen offiziell erlaubter Mass-Balance-/Credits-Modelle und substanzieller NGO-Kritik niedrig aus.",
+      "quellen": [
+        {
+          "id": "rspo-about",
+          "titel": "RSPO: Who we are",
+          "url": "https://rspo.org/who-we-are/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "multistakeholder"
+          ]
+        },
+        {
+          "id": "rspo-principles-criteria-2024",
+          "titel": "2024 RSPO Principles & Criteria",
+          "url": "https://rspo.org/wp-content/uploads/PC-Booklet-2024-V1.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "umweltkriterien",
+            "sozialkriterien",
+            "living-wage"
+          ]
+        },
+        {
+          "id": "rspo-supply-chain-standard",
+          "titel": "RSPO Supply Chain Certification Standard 2020",
+          "url": "https://rspo.org/wp-content/uploads/RSPO_Supply_Chain_Certification_Standard_2020-English.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "identity-preserved",
+            "segregated",
+            "mass-balance"
+          ]
+        },
+        {
+          "id": "rspo-market-claims",
+          "titel": "RSPO Rules on Market Communications and Claims 2022",
+          "url": "https://rspo.org/wp-content/uploads/RSPO-Rules-on-Market-Communications-Claims-2022_ENG.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "claims",
+            "mixed",
+            "credits"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil-scorecards",
+          "titel": "WWF Palm Oil Buyers Scorecards",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/responsible_purchasing/palm_oil_buyers_scorecards/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Bewertet eher Beschaffung und RSPO-Nutzung als einzelne Produkte."
+        },
+        {
+          "id": "greenpeace-palm-oil-critique",
+          "titel": "Greenpeace: Kritische Palmoel-Zertifikate",
+          "url": "https://www.greenpeace.de/biodiversitaet/waelder/waelder-erde/kritische-palmoel-zertifikate",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik"
+          ]
+        },
+        {
+          "id": "ran-rspo-critique",
+          "titel": "Rainforest Action Network: RSPO criticism",
+          "url": "https://www.ran.org/press-releases/rspo-risks-eudr-failure/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "gots",
+      "name": "Global Organic Textile Standard (GOTS)",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "textil",
+        "bio",
+        "umwelt",
+        "sozial",
+        "chain-of-custody",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Bekleidung",
+        "Heimtextilien",
+        "textiles Spielzeug",
+        "Matratzen und Bettwaren"
+      ],
+      "traeger": "Global Standard gGmbH / GOTS Programm, hervorgegangen aus vier Gruenderorganisationen des internationalen GOTS-Arbeitskreises",
+      "standardtyp": "freiwilliger globaler Textilstandard fuer Biofasern mit Anforderungen entlang der gesamten textilen Lieferkette, chemischen Vorgaben, Sozialkriterien und Zertifizierung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 3,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Sehr starke Textilbewertung; GOTS ist kein Fair-Trade-Siegel, aber ein anspruchsvoller Oeko- und Sozialstandard mit Lieferkettenbezug."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gots-standard-v8",
+            "gots-key-features"
+          ]
+        },
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-/Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "siegelklarheit-gots",
+            "verbraucherzentrale-faire-kleidung",
+            "uba-bekleidung"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gots-standard-v8"
+          ]
+        }
+      ],
+      "begruendung": "GOTS ist ein sehr starker Textilstandard mit Anforderungen an Biofaseranteile, Chemikalien, Verarbeitung, Dokumentation, Zertifizierung und Sozialstandards entlang der Lieferkette. Die aktuelle Version enthaelt ausdrueckliche Living-Wage-Gap-Berechnung und Plaene zur Schliessung der Luecke.",
+      "quellen": [
+        {
+          "id": "gots-standard-v8",
+          "titel": "Global Organic Textile Standard (GOTS) Version 8.0",
+          "url": "https://global-standard.org/images/resource-library/documents/standard-and-manual/GOTS_v8.0_signed.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-faseranteil",
+            "transaction-certificates",
+            "traceability",
+            "living-wage",
+            "chemische-kriterien"
+          ]
+        },
+        {
+          "id": "gots-key-features",
+          "titel": "GOTS: The Standard / Key Features",
+          "url": "https://gotslive.global-standard.org/the-standard/gots-key-features?id=89&view=category",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "gesamte-lieferkette",
+            "gruenderorganisationen",
+            "programmstruktur"
+          ]
+        },
+        {
+          "id": "oecd-gots-assessment-2025",
+          "titel": "OECD: Alignment Assessment of the Global Organic Textile Standard",
+          "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/06/alignment-assessment-of-the-global-organic-textile-standard-with-oecd-due-diligence-standards_5b78780a/ee86fea7-en.pdf",
+          "quelle_typ": "oeffentliche-fachquelle",
+          "belegt": [
+            "due-diligence-einordnung"
+          ]
+        },
+        {
+          "id": "siegelklarheit-gots",
+          "titel": "Siegelklarheit: GOTS",
+          "url": "https://www.siegelklarheit.de/gots-global-organic-textile-standard-7",
+          "quelle_typ": "verbraucher-meta-bewertung",
+          "belegt": [
+            "sehr-gute-wahl",
+            "externe-validierung"
+          ]
+        },
+        {
+          "id": "verbraucherzentrale-faire-kleidung",
+          "titel": "Verbraucherzentrale: Faire Kleidung - Das bedeuten die Siegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/nachhaltigkeit/faire-kleidung-das-bedeuten-die-siegel-7072",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "70-prozent-regel",
+            "95-prozent-organic",
+            "ilo-kernarbeitsnormen"
+          ]
+        },
+        {
+          "id": "uba-bekleidung",
+          "titel": "Umweltbundesamt: Bekleidung",
+          "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/haushalt-wohnen/bekleidung",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "empfehlung",
+            "einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "gruener-knopf",
+      "name": "Gruener Knopf",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "Deutschland",
+        "international"
+      ],
+      "typ_tags": [
+        "textil",
+        "staatliches-siegel",
+        "meta-siegel",
+        "sorgfaltspflichten",
+        "sozial",
+        "umwelt"
+      ],
+      "produktbereich": [
+        "Textilien",
+        "Bekleidung",
+        "Heimtextilien"
+      ],
+      "traeger": "Bundesministerium fuer wirtschaftliche Zusammenarbeit und Entwicklung (BMZ); Geschaeftsstelle Gruener Knopf",
+      "standardtyp": "staatliches freiwilliges Textilsiegel mit Unternehmenspruefung zu menschenrechtlichen und oekologischen Sorgfaltsprozessen sowie Meta-Siegelansatz fuer produktbezogene Anforderungen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": -2,
+        "final": 6,
+        "anmerkung": "Mass Balance nur produktbezogen pruefen, wenn ein anerkanntes Nachweissystem wie CmiA Mass Balance konkret genutzt wird."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "vz-faire-kleidung",
+            "vzbv-gruener-knopf"
+          ]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "forum-fairer-handel-gruener-knopf",
+            "vzbv-gruener-knopf"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 0,
+          "aussage_status": "eingeschraenkt_belegt",
+          "quelle_ids": [
+            "gruener-knopf-standard-201"
+          ],
+          "notiz": "Living Wage wird prozessual adressiert, aber nicht als gesichert gezahlter Standard belegt."
+        }
+      ],
+      "begruendung": "Der Gruene Knopf verbindet staatliche Glaubwuerdigkeit mit Unternehmens-Sorgfaltspflichten und anerkannten Textilsiegeln. Die Bewertung bleibt unter GOTS, weil der Meta-Siegelansatz von unterschiedlich starken Nachweissystemen abhaengt und Kritik an Lieferkettenabdeckung sowie Living-Wage-Wirkung besteht.",
+      "quellen": [
+        {
+          "id": "gruener-knopf-standard-201",
+          "titel": "Gruener-Knopf-Standard 2.0.1",
+          "url": "https://gruener-knopf.de/media/648/download",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "sorgfaltsprozesse",
+            "produktanforderungen",
+            "living-wage-einschraenkung"
+          ]
+        },
+        {
+          "id": "gruener-knopf-meta-standard",
+          "titel": "Gruener Knopf: Anerkennung von Siegeln",
+          "url": "https://gruener-knopf.de/media/638/download",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "meta-siegelansatz"
+          ]
+        },
+        {
+          "id": "gruener-knopf-anerkannte-siegel-2026",
+          "titel": "Anerkannte Siegel beim Gruenen Knopf, Stand 01/2026",
+          "url": "https://gruener-knopf.de/media/925/download",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "anerkannte-siegel",
+            "mass-balance-hinweis"
+          ]
+        },
+        {
+          "id": "dakks-gruener-knopf",
+          "titel": "DAkkS akkreditiert Zertifizierungsstellen fuer den Gruenen Knopf 2.0",
+          "url": "https://www.dakks.de/de/pressemitteilung-detail/dakks-akkreditiert-zertifizierungsstellen-fuer-den-gruenen-knopf.html",
+          "quelle_typ": "institutionsquelle",
+          "belegt": [
+            "akkreditierung",
+            "zertifizierungsstellen"
+          ]
+        },
+        {
+          "id": "vz-faire-kleidung",
+          "titel": "Verbraucherzentrale: Faire Kleidung - Das bedeuten die Siegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/nachhaltigkeit/faire-kleidung-das-bedeuten-die-siegel-7072",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung"
+          ]
+        },
+        {
+          "id": "vzbv-gruener-knopf",
+          "titel": "vzbv: Gruener Knopf muss Versprechen halten",
+          "url": "https://www.vzbv.de/meldungen/gruener-knopf-muss-versprechen-halten",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "kritik"
+          ]
+        },
+        {
+          "id": "forum-fairer-handel-gruener-knopf",
+          "titel": "Forum Fairer Handel: Einordnung des Gruenen Knopf 2.0",
+          "url": "https://www.forum-fairer-handel.de/fileadmin/user_upload/Dateien/Publikationen_FFH/2022-09-08_Einordnung_des_Gruenen_Knopf_2.0.pdf",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "blauer-engel",
+      "name": "Blauer Engel",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "umweltzeichen",
+        "staatliches-siegel",
+        "produktstandard",
+        "non-food"
+      ],
+      "produktbereich": [
+        "Papier",
+        "Textilien",
+        "Moebel",
+        "Elektrogeraete",
+        "Farben",
+        "viele weitere Non-Food-Produktgruppen"
+      ],
+      "traeger": "Bundesumweltministerium als Zeicheninhaber; Umweltbundesamt erarbeitet Kriterien; Jury Umweltzeichen beschliesst Kriterien; RAL gGmbH vergibt das Zeichen",
+      "standardtyp": "staatliches ISO-14024-Typ-I-Umweltzeichen mit produktgruppenspezifischen Kriterien",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Kein allgemeiner Lieferketten- oder Living-Wage-Standard, aber starkes oeffentliches Umweltzeichen."
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt_mit_einschraenkung",
+          "quelle_ids": [
+            "siegelklarheit-blauer-engel-papier",
+            "siegelklarheit-blauer-engel-textilien",
+            "vz-recyclingpapier"
+          ]
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 0,
+          "aussage_status": "nicht_generell_belegt",
+          "quelle_ids": [
+            "blauer-engel-vergabekriterien"
+          ],
+          "notiz": "Produktgruppenspezifische Kriterien, kein generelles Rohstoff-CoC-Siegel."
+        }
+      ],
+      "begruendung": "Der Blaue Engel ist ein etabliertes staatliches Umweltzeichen mit transparenter Kriterienentwicklung und starker institutioneller Trennung. Die Bewertung ist hoch, aber bewusst unter klaren Lieferketten- und Sozialstandards gehalten.",
+      "quellen": [
+        {
+          "id": "blauer-engel-akteure",
+          "titel": "Blauer Engel: Akteure",
+          "url": "https://www.blauer-engel.de/de/blauer-engel/akteure",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "rollen",
+            "unabhaengigkeit"
+          ]
+        },
+        {
+          "id": "blauer-engel-zeichen",
+          "titel": "Blauer Engel: Unser Zeichen fuer die Umwelt",
+          "url": "https://www.blauer-engel.de/de/blauer-engel/unser-zeichen-fuer-die-umwelt",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standardtyp",
+            "iso-14024"
+          ]
+        },
+        {
+          "id": "blauer-engel-vergabekriterien",
+          "titel": "Blauer Engel: Vergabekriterien",
+          "url": "https://www.blauer-engel.de/de/zertifizierung/vergabekriterien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktgruppenspezifische-kriterien"
+          ]
+        },
+        {
+          "id": "uba-siegel-label",
+          "titel": "Umweltbundesamt: Siegel und Label",
+          "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/uebergreifende-tipps/siegel-label",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "einordnung"
+          ]
+        },
+        {
+          "id": "siegelklarheit-blauer-engel-papier",
+          "titel": "Siegelklarheit: Blauer Engel - Papier",
+          "url": "https://www.siegelklarheit.de/blauer-engel-papier-23",
+          "quelle_typ": "verbraucher-meta-bewertung",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Produktgruppenspezifisch."
+        },
+        {
+          "id": "siegelklarheit-blauer-engel-textilien",
+          "titel": "Siegelklarheit: Blauer Engel - Textilien",
+          "url": "https://www.siegelklarheit.de/blauer-engel-textilien-20",
+          "quelle_typ": "verbraucher-meta-bewertung",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Produktgruppenspezifisch."
+        },
+        {
+          "id": "vz-recyclingpapier",
+          "titel": "Verbraucherzentrale: Papier sparen, Recyclingpapier nutzen",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/nachhaltigkeit/zum-schutz-der-waelder-papier-sparen-recyclingpapier-nutzen-13930",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "externe-validierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "eu-ecolabel",
+      "name": "EU Ecolabel",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "EU",
+        "EWR"
+      ],
+      "typ_tags": [
+        "umweltzeichen",
+        "oeffentlich",
+        "produktstandard",
+        "non-food"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Textilien",
+        "Schuhe",
+        "Papier",
+        "Reinigungsprodukte",
+        "Tourismusdienstleistungen",
+        "weitere Produktgruppen"
+      ],
+      "traeger": "Europaeische Kommission und zustaendige Stellen der EU-/EWR-Mitgliedstaaten; European Union Ecolabelling Board (EUEB)",
+      "standardtyp": "freiwilliges EU-weites ISO-14024-Typ-I-Umweltzeichen mit produktgruppenspezifischen Kriterien und Drittpruefung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Kein pauschaler Rueckverfolgbarkeitsbonus, weil das EU Ecolabel kein genereller Chain-of-Custody-Standard ist."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "siegelklarheit-eu-ecolabel-textilien",
+            "vz-waschmittel",
+            "uba-top-umweltsiegel"
+          ]
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 0,
+          "aussage_status": "nicht_pauschal_belegt",
+          "quelle_ids": [
+            "eu-ecolabel-about",
+            "eu-ecolabel-regulation"
+          ],
+          "notiz": "Produktbezogene Nachweise und Kontrollen sind belegt, aber kein generelles Rohstoff-CoC-System."
+        }
+      ],
+      "begruendung": "Das EU Ecolabel ist ein starkes oeffentliches Umweltzeichen mit lebenszyklusbezogenen und regelmaessig ueberarbeiteten Produktkriterien. Es ist kein Fair-Trade- oder Lieferkettensiegel, daher bleibt die hohe Bewertung auf die Produkt-/Umweltebene begrenzt.",
+      "quellen": [
+        {
+          "id": "eu-ecolabel-about",
+          "titel": "European Commission: About the EU Ecolabel",
+          "url": "https://environment.ec.europa.eu/topics/circular-economy-topics/eu-ecolabel/about-eu-ecolabel_en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "iso-14024",
+            "lebenszyklusansatz"
+          ]
+        },
+        {
+          "id": "eu-ecolabel-product-groups",
+          "titel": "European Commission: EU Ecolabel Product Groups and Criteria",
+          "url": "https://environment.ec.europa.eu/topics/circular-economy-topics/eu-ecolabel/product-groups-and-criteria_en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktgruppen",
+            "kriterienentwicklung"
+          ]
+        },
+        {
+          "id": "eu-ecolabel-regulation",
+          "titel": "Regulation (EC) No 66/2010 on the EU Ecolabel",
+          "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32010R0066",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rechtliche-grundlage",
+            "competent-bodies"
+          ]
+        },
+        {
+          "id": "siegelklarheit-eu-ecolabel-textilien",
+          "titel": "Siegelklarheit: EU Ecolabel - Textilien",
+          "url": "https://www.siegelklarheit.de/eu-ecolabel-textilien-24",
+          "quelle_typ": "verbraucher-meta-bewertung",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Produktgruppenspezifisch."
+        },
+        {
+          "id": "vz-waschmittel",
+          "titel": "Verbraucherzentrale: Umweltfreundliche Waschmittel",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/wohnen/waesche-waschen-bewaehrte-waschmittel-und-ueberfluessige-produkte-13910",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "externe-validierung"
+          ]
+        },
+        {
+          "id": "uba-top-umweltsiegel",
+          "titel": "Umweltbundesamt: Siegel und Label",
+          "url": "https://www.umweltbundesamt.de/umwelttipps-fuer-den-alltag/uebergreifende-tipps/siegel-label",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    }
+  ]
+}

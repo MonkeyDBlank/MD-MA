@@ -1,0 +1,76 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/tm517y",
+    "id": "tm517y",
+    "slide": 1,
+    "layoutId": "5d5849df-1a3f-4eee-b126-7802b532e536",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "371093b0-dc38-4fad-a10b-8f13cbde2d04",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "5d5849df-1a3f-4eee-b126-7802b532e536",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "371093b0-dc38-4fad-a10b-8f13cbde2d04",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "371093b0-dc38-4fad-a10b-8f13cbde2d04",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF"
+    }
+  ],
+  "composeRuns": []
+}

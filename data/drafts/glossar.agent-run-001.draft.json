@@ -1,0 +1,54 @@
+{
+  "version": "2026.1-draft",
+  "typ": "glossar",
+  "sprache": "de",
+  "stand": "2026-05-12",
+  "hinweis": "Eigenstaendiges Glossar-JSON. Wird bei relevanten neuen Begriffen aus der Recherche erweitert.",
+  "begriffe": [
+    {
+      "id": "mass-balance",
+      "begriff": "Mass Balance",
+      "kurzdefinition": "Ein Bilanzierungsverfahren, bei dem zertifizierte und nicht-zertifizierte Rohstoffe rechnerisch verrechnet werden koennen.",
+      "ausfuehrliche_erklaerung": "Bei Mass Balance muss zertifizierte Ware nicht zwingend physisch getrennt verarbeitet werden. Entscheidend ist, dass rechnerisch nur so viel zertifizierte Ware verkauft wird, wie zuvor zertifiziert eingekauft wurde.",
+      "bewertungsrelevanz": "Mass Balance kann die Transparenz fuer Verbraucher schwaechen, weil die zertifizierte Eigenschaft nicht zwingend physisch im konkreten Endprodukt enthalten ist.",
+      "beispiel": "Ein Produkt kann zertifizierten Kakao oder zertifiziertes Palmoel ausweisen, obwohl der konkrete Rohstoffstrom gemischt wurde.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "chain-of-custody",
+      "begriff": "Chain of Custody",
+      "kurzdefinition": "Ein Kontrollsystem zur Nachverfolgung zertifizierter Materialien entlang der Lieferkette.",
+      "ausfuehrliche_erklaerung": "Chain of Custody beschreibt die dokumentierte Kontrolle von zertifizierten Rohstoffen oder Produkten von der Herkunft bis zum Endprodukt. Je nach Standard kann dies physische Trennung, Mass Balance, Prozentmethoden oder Kreditmethoden umfassen.",
+      "bewertungsrelevanz": "Die konkrete Chain-of-Custody-Methode entscheidet darueber, wie stark ein Siegel mit dem physischen Produkt verbunden ist.",
+      "beispiel": "PEFC erlaubt physische Trennung, Prozentmethode und Kreditmethode als Chain-of-Custody-Methoden.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "drittzertifizierung",
+      "begriff": "Drittzertifizierung",
+      "kurzdefinition": "Pruefung eines Standards durch eine externe Zertifizierungsstelle.",
+      "ausfuehrliche_erklaerung": "Bei Drittzertifizierung prueft eine externe Stelle, ob ein Produkt, Unternehmen oder Prozess die Anforderungen eines Standards erfuellt. Die Aussagekraft haengt davon ab, wie unabhaengig, akkreditiert und regelmaessig diese Pruefung ist.",
+      "bewertungsrelevanz": "Drittzertifizierung erhoeht die Glaubwuerdigkeit, ersetzt aber keine Bewertung der inhaltlichen Strenge des Standards.",
+      "beispiel": "NATRUE und COSMOS nutzen zugelassene Zertifizierungsstellen fuer die Produktzertifizierung.",
+      "kategorie": "Kontrolle & Glaubwuerdigkeit"
+    },
+    {
+      "id": "naturkosmetik",
+      "begriff": "Naturkosmetik",
+      "kurzdefinition": "Kosmetik, deren Rezeptur und Herstellung sich an natuerlichen oder naturnahen Inhaltsstoffen orientiert.",
+      "ausfuehrliche_erklaerung": "Naturkosmetikstandards regeln typischerweise erlaubte und ausgeschlossene Inhaltsstoffe, Verarbeitungsprozesse, Verpackung und teilweise Umweltmanagement. Der Begriff ist ohne Siegel nicht automatisch eindeutig geschuetzt.",
+      "bewertungsrelevanz": "Naturkosmetik-Siegel muessen kritisch danach bewertet werden, wie streng Inhaltsstoffe, Kontrolle, Transparenz und Bio-Anteile geregelt sind.",
+      "beispiel": "NATRUE und COSMOS Natural sind Standards im Bereich Naturkosmetik.",
+      "kategorie": "Kosmetik & Produktstandards"
+    },
+    {
+      "id": "biokosmetik",
+      "begriff": "Biokosmetik",
+      "kurzdefinition": "Kosmetik mit Anforderungen an den Anteil biologisch erzeugter Inhaltsstoffe.",
+      "ausfuehrliche_erklaerung": "Biokosmetik geht ueber allgemeine Naturkosmetik hinaus, wenn ein Standard konkrete Mindestanteile biologischer Inhaltsstoffe fordert und kontrolliert.",
+      "bewertungsrelevanz": "Der Bio-Mindestanteil ist ein wichtiges Unterscheidungsmerkmal zwischen staerkeren und schwaecheren Kosmetikstandards.",
+      "beispiel": "COSMOS Organic verlangt Bio-Mindestanteile, COSMOS Natural nicht.",
+      "kategorie": "Kosmetik & Produktstandards"
+    }
+  ]
+}

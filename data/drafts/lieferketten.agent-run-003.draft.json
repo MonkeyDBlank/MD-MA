@@ -1,0 +1,426 @@
+{
+  "version": "2026.1-draft",
+  "typ": "lieferketten",
+  "stand": "2026-05-12",
+  "hinweis": "Pilot-Draft Lauf 003 fuer Lieferketten im Scope Nahrung und Drogerieprodukte.",
+  "eintraege": [
+    {
+      "id": "gepa-tee-tpi-darjeeling",
+      "unternehmen": "GEPA - The Fair Trade Company",
+      "marke": "GEPA",
+      "warengruppe": "Schwarztee / Darjeeling-Tee",
+      "rohstoffe": [
+        "Tee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "GEPA Bio-Darjeeling-Schwarztee",
+          "Partner Tea Promoters India",
+          "fair gehandelt und bio"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "GEPA legt den Handelspartner offen, arbeitet langjaehrig direkt mit TPI und verbindet Preisaufschlaege mit konkreten Projekten. Kein Maximalscore, weil keine chargengenaue Verbraucherrueckverfolgung bis zu einzelnen Teegaerten oeffentlich belegt ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-kriterien",
+            "gepa-tpi"
+          ],
+          "notiz": "Langfristige Partnerschaft seit 1990, faire Preise und Projekte ueber den GEPA-Mehrpreis sind belegt."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ],
+          "notiz": "Wiederholte Besuche und dokumentierte Zusammenarbeit vor Ort sind auf der Partnerseite aufgefuehrt."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tee-arbeitsrechte",
+          "beschreibung": "Teeplantagen sind strukturell risikobehaftet bei Lohnniveau, Mitbestimmung und Arbeitsbedingungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi",
+            "gepa-oekotest-tee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "langfristiger-partner",
+          "beschreibung": "GEPA arbeitet seit 1990 mit Tea Promoters India zusammen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        },
+        {
+          "id": "bio-und-fair",
+          "beschreibung": "TPI wird als Pionier im Bio-Anbau von Tee und bei der Mitbestimmung der Teearbeiterinnen und -arbeiter beschrieben.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        },
+        {
+          "id": "mehrpreis-projekte",
+          "beschreibung": "Mit dem GEPA-Mehrpreis wurden Schule, Solarstrom und Wasserprojekte in der Region finanziert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        }
+      ],
+      "begruendung": "GEPA ist fuer Tee ein sinnvoller Lieferkettenfall, weil das Unternehmen den Handelspartner, die Dauer der Partnerschaft, die sozialen Wirkungen und die Struktur der Zusammenarbeit offen beschreibt. Die Aussage bleibt auf Partner- und Programmniveau, ist aber fuer einen Tee-Fall ueberdurchschnittlich konkret und deutlich besser belegt als bei vielen konventionellen Marken.",
+      "quellen": [
+        {
+          "id": "gepa-tpi",
+          "titel": "GEPA: Handelspartner TPI",
+          "url": "https://www.gepa.de/handelspartner/unsere-partner/partner/tpi",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "partner seit 1990",
+            "anbaugebiete",
+            "soziale-projekte",
+            "besuche-vor-ort",
+            "produkte"
+          ]
+        },
+        {
+          "id": "gepa-kriterien",
+          "titel": "GEPA-Kriterien",
+          "url": "https://www.gepa.de/ueber-gepa/was-wir-tun/gepa-kriterien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "faire-preise",
+            "langfristige-partnerschaften",
+            "zertifizierungen"
+          ]
+        },
+        {
+          "id": "gepa-oekotest-tee",
+          "titel": "GEPA: Oeko-Test Bio-Darjeeling-Schwarztee",
+          "url": "https://www.gepa.de/gepa/presse/pressemitteilung/oeko-test-bio-darjeeling-schwarztee-der-gepa-mit-gut-ausgezeichnet.html",
+          "quelle_typ": "primaer-nah",
+          "belegt": [
+            "transparenz",
+            "strategie-zu-existenzsichernden-loehnen",
+            "teepartner-tpi"
+          ],
+          "quellenproblem": "Pressemitteilung von GEPA, verweist aber auf externen Test und eingeforderte Belege."
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Bewertung beschreibt die dokumentierte GEPA-Tee-Lieferkette mit Tea Promoters India auf Partner- und Warengruppenebene, nicht die chargengenaue Herkunft jeder einzelnen Packung."
+    },
+    {
+      "id": "followfood-bio-lachs-norwegen",
+      "unternehmen": "followfood GmbH",
+      "marke": "followfood",
+      "warengruppe": "Bio-Lachs",
+      "rohstoffe": [
+        "Lachs (Salmo salar)"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Bio-Lachs Portionen",
+          "Tracking-Code auf jeder Packung",
+          "Herkunft Norwegen, Irland oder Schottland",
+          "oekologische Aquakultur"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Tracking-Code, Farmbezug und Bio-Aquakultur-Mindeststandard sind fuer Aquakultur stark. Kein Maximalscore, weil Herkunft je nach Packung zwischen mehreren Laendern und Farmen variiert und die Futtermittel-Vorstufen nicht vollstaendig oeffentlich aufgeschluesselt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischerei-abc",
+            "followfood-bio-lachs-artikel"
+          ],
+          "notiz": "followfood setzt Bio als Mindeststandard in der Aquakultur und wo moeglich zusaetzlich Naturland."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-artikel",
+            "followfood-tracking"
+          ],
+          "notiz": "Der Tracking-Code fuehrt laut followfood bis zur konkreten Farm bzw. zum Herkunftsland."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "aquakultur-kritische-punkte",
+          "beschreibung": "Lachsaquakultur bleibt trotz Bio-Standards ein sensibler Bereich, etwa bei Besatzdichte, Futtermitteln und oekologischen Auswirkungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-portionen",
+            "followfood-bio-lachs-artikel"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "tracking-code",
+          "beschreibung": "Jede Packung traegt einen Tracking-Code, der Herkunft und Farm offengelegt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-artikel",
+            "followfood-tracking"
+          ]
+        },
+        {
+          "id": "bio-mindeststandard",
+          "beschreibung": "Alle Lachsprodukte erfuellen bei followfood laut Unternehmen den Bio-Mindeststandard der oekologischen Aquakultur.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-portionen",
+            "followfood-fischerei-abc"
+          ]
+        }
+      ],
+      "begruendung": "Der followfood-Bio-Lachs ist ein starker Aquakulturfall, weil Tracking-Code, Bio-Mindeststandard und Herkunftsangaben deutlich mehr Transparenz schaffen als der Marktstandard. Zugleich bleibt die Bewertung bewusst unterhalb eines Maximalwerts, weil es sich um eine mehrlaenderige Beschaffung handelt und die Futtermittel- und Vorstufen nicht vollstaendig produktscharf oeffentlich sind.",
+      "quellen": [
+        {
+          "id": "followfood-bio-lachs-portionen",
+          "titel": "followfood: Bio Lachs Portionen",
+          "url": "https://followfood.de/produktwelt/fisch/details/bio-lachs-portionen",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "bio-aquakultur",
+            "herkunftslaender",
+            "tracking-bezug",
+            "kritische-punkte-aquakultur"
+          ]
+        },
+        {
+          "id": "followfood-bio-lachs-artikel",
+          "titel": "followfood: Der followfood Bio-Lachs",
+          "url": "https://followfood.de/magazin/beitrag/der-followfood-bio-lachs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code",
+            "farmbezug",
+            "bio-anteil",
+            "kritische-punkte-lachszucht"
+          ]
+        },
+        {
+          "id": "followfood-fischerei-abc",
+          "titel": "followfood: Fischereirichtlinien",
+          "url": "https://followfood.de/index.php/bewegung/nachhaltigkeits-abc/eintrag/fischereirichtlinien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-bio-aquakultur",
+            "naturland-option",
+            "mindeststandard"
+          ]
+        },
+        {
+          "id": "followfood-tracking",
+          "titel": "followfood: Tracking-Code",
+          "url": "https://followfood.de/tracking",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code-auf-jeder-packung",
+            "herkunft-anbau-fang-verarbeitung"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Mit Tracking-Code kann followfood fuer Bio-Lachs deutlich konkretere Herkunftsaussagen machen als viele andere Aquakulturprodukte."
+    },
+    {
+      "id": "ferrero-nutella-palmoel",
+      "unternehmen": "Ferrero Group",
+      "marke": "Nutella",
+      "warengruppe": "Nuss-Nougat-Creme",
+      "rohstoffe": [
+        "Palmoel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Nutella",
+          "100 Prozent RSPO-zertifiziertes segregiertes Palmoel laut Hersteller"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Ferrero belegt fuer Palmoel ein im Branchenvergleich starkes segregiertes und weit bis zu Plantagen rueckverfolgbares Modell. Kein hoeherer Score, weil es trotzdem kein Identity-Preserved-System ist und Palm grundsaetzlich ein Hochrisikorohstoff bleibt."
+      },
+      "faktoren": [
+        {
+          "id": "echtzeit-monitoring",
+          "name": "Echtzeit-Monitoring",
+          "wert": 2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ],
+          "notiz": "Ferrero nennt Satellitenmonitoring mit Starling zur Deforstationserkennung im Palm-Liefernetz."
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": 0,
+          "aussage_status": "gegenbelegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ],
+          "notiz": "Ferrero beschreibt fuer Nutella und den Grossteil des Konzerns segregiertes RSPO-Palmoel statt Mass Balance."
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -1,
+          "aussage_status": "belegt_mit_minderung",
+          "quelle_ids": [
+            "nutella-palm-oil-page"
+          ],
+          "notiz": "Palm bleibt ein struktureller Hochrisikorohstoff. Die unternehmensseitigen Gegenmassnahmen mindern das Risiko, heben es aber nicht vollstaendig auf."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung",
+          "beschreibung": "Palm-Lieferketten sind strukturell mit Entwaldung, Landnutzungskonflikten und Arbeitsrechtsrisiken verbunden.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "segregated-rspo",
+          "beschreibung": "Ferrero beschreibt sein Palmoel fuer Nutella als 100 Prozent RSPO-zertifiziert und segregiert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        },
+        {
+          "id": "mills-and-plantations-disclosure",
+          "beschreibung": "Ferrero publiziert regelmaessig Muehlenlisten und verweist auf Rueckverfolgbarkeit bis zur Plantage.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ferrero-palm-traceability-news",
+            "ferrero-palm-mills-list"
+          ]
+        },
+        {
+          "id": "satellite-monitoring",
+          "beschreibung": "Ferrero setzt nach eigenen Angaben Starling-Satellitenmonitoring fuer Entwaldungschecks ein.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        }
+      ],
+      "begruendung": "Ferrero ist fuer Palm in Lebensmitteln ein sinnvoller Pilotfall, weil das Unternehmen fuer Nutella vergleichsweise konkret ueber segregiertes RSPO-Palmoel, Rueckverfolgbarkeit bis zu Muehlen und Plantagen sowie Satellitenmonitoring berichtet. Die Bewertung bleibt dennoch unter dem oberen Rand, weil Segregation nicht mit Identity Preserved gleichzusetzen ist und Palm als Rohstoff strukturell hochriskant bleibt.",
+      "quellen": [
+        {
+          "id": "nutella-palm-oil-page",
+          "titel": "Nutella: Our palm oil",
+          "url": "https://www.nutella.com/us/en/inside-nutella/our-responsibility/palm-oil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-rspo-segregated",
+            "mills-traceability",
+            "satellitenmonitoring",
+            "wwf-einordnung"
+          ]
+        },
+        {
+          "id": "ferrero-palm-sourcing",
+          "titel": "Ferrero Group: Source palm oil sustainably",
+          "url": "https://www.ferrero.com/int/en/people-planet/source-our-ingredients-sustainably/palm-oil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traceability-to-plantations",
+            "segregated-sourcing",
+            "starling-monitoring",
+            "supplier-principles"
+          ]
+        },
+        {
+          "id": "ferrero-palm-traceability-news",
+          "titel": "Ferrero: Palm oil traceability and transparency",
+          "url": "https://www.ferrero.com/int/en/news-stories/news/ferrero-palm-oil-traceability-and-transparency",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "offenlegung-der-muehlenlisten",
+            "halbjaehrliche-updates"
+          ]
+        },
+        {
+          "id": "ferrero-palm-mills-list",
+          "titel": "Ferrero Palm Oil Suppliers and Mill Lists",
+          "url": "https://www.ferrero.com/int/sites/ferrero_int/files/2025-04/palm-oil-mills-list-january-june-2023.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "muehlenlisten",
+            "lieferkettentransparenz"
+          ],
+          "quellenproblem": "Mills-Liste statt verbraucherfreundlicher Endproduktdarstellung; fuer Fachauswertung aber stark."
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage betrifft den Palm-Lieferkettenansatz fuer Nutella und die Ferrero-Palmstrategie, nicht die vollstaendige Gesamtbewertung aller Nutella-Rohstoffe."
+    }
+  ]
+}

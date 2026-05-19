@@ -1,0 +1,748 @@
+{
+  "version": "2026.1-draft",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-12",
+  "hinweis": "Lokaler Bereinigungsentwurf aus vorhandenen Notion-Siegeln. Notion wurde nicht veraendert. Nicht an App-Team uebergeben.",
+  "eintraege": [
+    {
+      "id": "demeter",
+      "name": "Demeter",
+      "kategorie": "Premium-Öko & Sozial",
+      "region": ["international", "EU", "Deutschland"],
+      "typ_tags": ["bio", "biodynamisch", "verbandssiegel", "premium-oeko", "sozialstandard"],
+      "produktbereich": ["Lebensmittel", "landwirtschaftliche Erzeugnisse", "verarbeitete Produkte"],
+      "traeger": "Biodynamic Federation Demeter International e.V.; in Deutschland Demeter e.V.",
+      "standardtyp": "privater Verbandsstandard oberhalb EU-Bio mit separatem Sozialstandard",
+      "vertrauensniveau": "sehr hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; kein Living-Wage-Bonus vergeben."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["demeter-standard-2026"]
+        },
+        {
+          "id": "externe-verbraucher-ngo-validierung",
+          "name": "Externe Verbraucher-/NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": ["verbraucherzentrale-bio"]
+        }
+      ],
+      "begruendung": "Demeter liegt deutlich über EU-Bio und verlangt zusätzliche Demeter-Kontrollen. Die Richtlinie fordert getrennte Lagerung, Kennzeichnung und dokumentierten Warenfluss. Der Sozialstandard deckt zentrale Arbeits- und Sozialanforderungen ab, aber kein durchgängiger Living-Wage-Anspruch wurde belegt.",
+      "quellen": [
+        {
+          "id": "demeter-standard-page",
+          "titel": "Demeter Standard, offizielle Standardseite",
+          "url": "https://demeter.net/certification/standard/",
+          "quelle_typ": "primaer",
+          "belegt": ["standardtyp", "kriterienumfang"]
+        },
+        {
+          "id": "demeter-standard-2026",
+          "titel": "Internationaler Demeter/Biodynamisch Standard 2026",
+          "url": "https://demeter.net/wp-content/uploads/2025/11/2026_Int_Dem_bio_Standard_de.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["rueckverfolgbarkeit", "premium-oeko"]
+        },
+        {
+          "id": "demeter-social-2024",
+          "titel": "Demeter International Richtlinie soziale Verantwortung 2024",
+          "url": "https://demeter.net/wp-content/uploads/2024/02/2024-02_BFDI_Standard_socialrespons_gerVersion_final_abb.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["sozialstandard"]
+        },
+        {
+          "id": "verbraucherzentrale-bio",
+          "titel": "Verbraucherzentrale: EU-Bio und Verbandssiegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/kennzeichnung-von-bioprodukten-eulogo-deutsches-biosiegel-symbole-von-anbauverbaenden-handelsmarken-13914",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["externe-validierung", "verbandssiegel-einordnung"]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "naturland-naturland-fair",
+      "name": "Naturland / Naturland Fair",
+      "kategorie": "Premium-Öko & Sozial",
+      "region": ["international", "EU", "Deutschland"],
+      "typ_tags": ["bio", "verbandssiegel", "premium-oeko", "sozialstandard", "fair-handel"],
+      "produktbereich": ["Lebensmittel", "landwirtschaftliche Erzeugnisse", "verarbeitete Produkte", "Aquakultur"],
+      "traeger": "Naturland - Verband für ökologischen Landbau e.V.",
+      "standardtyp": "privater Bio-Verbandsstandard; Naturland Fair als freiwillige Fair-Zusatzqualifizierung auf Naturland-Basis",
+      "vertrauensniveau": "sehr hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; kein expliziter Living-Wage-Bonus vergeben."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["oekolandbau-fair", "verbraucherzentrale-fair"]
+        },
+        {
+          "id": "externe-verbraucher-ngo-validierung",
+          "name": "Externe Verbraucher-/NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": ["verbraucherzentrale-bio", "oekolandbau-naturland"]
+        }
+      ],
+      "begruendung": "Naturland kombiniert strenge Bio-Anforderungen mit verpflichtenden Sozialrichtlinien. Naturland Fair ergänzt faire Handelsbeziehungen, faire Erzeugerpreise und Transparenz. Für Naturland Fair wurde kein Mengenausgleich festgestellt; ein expliziter Living-Wage-Standard ist aber nicht ausreichend belegt.",
+      "quellen": [
+        {
+          "id": "oekolandbau-naturland",
+          "titel": "Ökolandbau.de: Richtlinien des Bio-Anbauverbandes Naturland",
+          "url": "https://www.oekolandbau.de/bio-zertifizierung/richtlinien-der-oeko-anbauverbaende/naturland/",
+          "quelle_typ": "staatlich/verbraucherorientiert",
+          "belegt": ["premium-oeko", "standardumfang"]
+        },
+        {
+          "id": "naturland-standards-poster",
+          "titel": "Naturland Academy: Naturland Standards",
+          "url": "https://academy.naturland.org/pluginfile.php/2459/mod_resource/content/8/POSTER_Naturland%20standards_EN.pdf",
+          "quelle_typ": "primaer-nah",
+          "belegt": ["standardumfang"],
+          "quellenproblem": "Zusammenfassung, kein vollständiger Richtlinientext."
+        },
+        {
+          "id": "naturland-social-extract",
+          "titel": "Naturland Standards: Social Responsibility, Extract",
+          "url": "https://es.scribd.com/document/636848124/4-Naturland-Standards-Extract-Social-responsibility",
+          "quelle_typ": "sekundaer",
+          "belegt": ["sozialstandard"],
+          "quellenproblem": "Nicht auf Naturland-Domain; als schwächere Quelle markieren."
+        },
+        {
+          "id": "oekolandbau-fair",
+          "titel": "Ökolandbau.de: Fair erzeugte Bio-Produkte",
+          "url": "https://www.oekolandbau.de/umwelt-und-gesellschaft/faire-bio-lieferketten/fair-erzeugte-bio-produkte/",
+          "quelle_typ": "staatlich/verbraucherorientiert",
+          "belegt": ["fair-zusatzstandard", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "verbraucherzentrale-fair",
+          "titel": "Verbraucherzentrale RLP: Faire Lebensmittel",
+          "url": "https://www.verbraucherzentrale-rlp.de/wissen/lebensmittel/lebensmittelproduktion/faire-lebensmittel-das-bedeuten-die-label-18796",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["externe-validierung", "fair-einordnung"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "bioland",
+      "name": "Bioland",
+      "kategorie": "Premium-Öko & Sozial",
+      "region": ["Deutschland", "Südtirol"],
+      "typ_tags": ["bio", "verbandssiegel", "premium-oeko", "sozialstandard"],
+      "produktbereich": ["Lebensmittel", "landwirtschaftliche Erzeugnisse", "verarbeitete Produkte"],
+      "traeger": "Bioland e.V.",
+      "standardtyp": "privater Bio-Verbandsstandard oberhalb EU-Bio",
+      "vertrauensniveau": "sehr hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; kein expliziter Living-Wage-Bonus vergeben."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["bioland-richtlinie-2025"]
+        },
+        {
+          "id": "externe-verbraucher-ngo-validierung",
+          "name": "Externe Verbraucher-/NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": ["verbraucherzentrale-bio"]
+        }
+      ],
+      "begruendung": "Bioland-Richtlinien gehen deutlich über den gesetzlichen Bio-Mindeststandard hinaus. Die aktuelle Richtlinie enthält soziale Mindestanforderungen sowie Anforderungen an Produktidentifikation, Rückstellproben und Lieferantenidentifikation. Kein Abzug belegt; Living-Wage-Bonus nicht vergeben.",
+      "quellen": [
+        {
+          "id": "bioland-download",
+          "titel": "Bioland Richtlinien Download",
+          "url": "https://www.bioland.de/services/fachinfos-leistungen/richtlinien-download",
+          "quelle_typ": "primaer",
+          "belegt": ["richtlinien"]
+        },
+        {
+          "id": "bioland-richtlinie-2025",
+          "titel": "Bioland-Richtlinien, Fassung 24./25. November 2025",
+          "url": "https://a.storyblok.com/f/319110/x/fc1d542382/bioland-richtlinien_aktuelle-fassung_2025-11.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["premium-oeko", "sozialstandard", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "verbraucherzentrale-bio",
+          "titel": "Verbraucherzentrale: EU-Bio und Verbandssiegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/kennzeichnung-von-bioprodukten-eulogo-deutsches-biosiegel-symbole-von-anbauverbaenden-handelsmarken-13914",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["externe-validierung", "verbandssiegel-einordnung"]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "eu-bio",
+      "name": "EU-Bio",
+      "kategorie": "Gesetzlicher Mindeststandard",
+      "region": ["EU"],
+      "typ_tags": ["bio", "staatliches-siegel", "gesetzlicher-mindeststandard"],
+      "produktbereich": ["Lebensmittel", "landwirtschaftliche Erzeugnisse", "Futtermittel", "Saatgut", "Aquakultur"],
+      "traeger": "Europäische Union; zuständige Behörden und zugelassene Öko-Kontrollstellen",
+      "standardtyp": "gesetzlicher Mindeststandard für ökologische/biologische Produktion und Kennzeichnung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 5,
+        "plus": 2,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Weniger streng als private Bio-Verbandsstandards; kein Sozial-/Living-Wage-Bonus."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["eu-logo", "eu-controls"]
+        },
+        {
+          "id": "externe-verbraucher-ngo-validierung",
+          "name": "Externe Verbraucher-/NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": ["verbraucherzentrale-bio"]
+        }
+      ],
+      "begruendung": "EU-Bio ist die verbindliche gesetzliche Bio-Basis mit Kontrollstellen-Code, Herkunftsangabe und Kontrollsystem. Private Verbandssiegel werden als strengere Ergänzung oberhalb EU-Bio eingeordnet. Soziale/fair-trade-spezifische Anforderungen und Living-Wage-Regeln fehlen.",
+      "quellen": [
+        {
+          "id": "eu-logo",
+          "titel": "European Commission: The organic logo",
+          "url": "https://agriculture.ec.europa.eu/farming/organic-farming/organic-logo_en",
+          "quelle_typ": "primaer",
+          "belegt": ["kennzeichnung", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "eu-controls",
+          "titel": "European Commission: Controls in organic farming",
+          "url": "https://agriculture.ec.europa.eu/farming/organic-farming/controls_en",
+          "quelle_typ": "primaer",
+          "belegt": ["kontrollen"]
+        },
+        {
+          "id": "eu-legislation",
+          "titel": "European Commission: Organic farming legislation",
+          "url": "https://agriculture.ec.europa.eu/farming/organic-farming/legislation_en",
+          "quelle_typ": "primaer",
+          "belegt": ["gesetzlicher-standard"]
+        },
+        {
+          "id": "verbraucherzentrale-bio",
+          "titel": "Verbraucherzentrale: EU-Bio-Logo und Verbandssiegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/kennzeichnung-von-bioprodukten-eulogo-deutsches-biosiegel-symbole-von-anbauverbaenden-handelsmarken-13914",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["externe-validierung", "einordnung"]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "fairtrade",
+      "name": "Fairtrade",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": ["global"],
+      "typ_tags": ["fairtrade", "sozial", "landwirtschaft", "rohstoff"],
+      "produktbereich": ["Lebensmittel und Agrarrohstoffe"],
+      "traeger": "Fairtrade International / nationale Fairtrade-Organisationen; Zertifizierung durch FLOCERT",
+      "standardtyp": "freiwilliger Fair-Trade-Produkt- und Rohstoffstandard mit Drittzertifizierung, Mindestpreis-/Prämienlogik und produktabhängiger Rückverfolgbarkeit",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 4,
+        "final": 4,
+        "anmerkung": "Score gilt für Fairtrade-Produkte in mass-balance-fähigen Produktgruppen; ohne Mass Balance wäre final 8."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-ngo-validierung",
+          "name": "Externe Verbraucher-/NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": ["fairtrade-vz-faire-labels", "fairtrade-minimum-price-premium"]
+        },
+        {
+          "id": "mass-balance",
+          "name": "Mass Balance",
+          "wert": -4,
+          "quelle_ids": ["fairtrade-flocert-mass-balance", "fairtrade-spo-explanatory"]
+        }
+      ],
+      "begruendung": "Fairtrade ist ein starker Sozial- und Fair-Handelsstandard mit Mindestpreis- und Prämienmechanik. Der Mass-Balance-Abzug ist nur für betroffene Produktgruppen gerechtfertigt, insbesondere Kakao, Rohrzucker, Saft und Tee.",
+      "quellen": [
+        {
+          "id": "fairtrade-flocert-mass-balance",
+          "titel": "FLOCERT Glossary: Mass Balance",
+          "url": "https://www.flocert.net/glossary/mass-balance/",
+          "quelle_typ": "primaer",
+          "belegt": ["mass-balance"]
+        },
+        {
+          "id": "fairtrade-spo-explanatory",
+          "titel": "Fairtrade Standard for Small-scale Producer Organizations, Explanatory Document",
+          "url": "https://www.fairtrade.net/content/dam/fairtrade/fairtrade-international/standards/small-scale-producer/2020.10.08_SPO_Expl_Doc.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["traceability"],
+          "quellenproblem": "PDF/Erlaeuterungsdokument; produktbezogene Anwendung muss aus Traceability-Abschnitt abgeleitet werden."
+        },
+        {
+          "id": "fairtrade-minimum-price-premium",
+          "titel": "Fairtrade Minimum Price and Premium Information",
+          "url": "https://www.fairtrade.net/en/why-fairtrade/how-we-do-it/standards/fairtrade-minimum-price-and-premium-information.html",
+          "quelle_typ": "primaer",
+          "belegt": ["mindestpreis", "praemie"]
+        },
+        {
+          "id": "fairtrade-vz-faire-labels",
+          "titel": "Verbraucherzentrale: Faire Lebensmittel - Das bedeuten die Label",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/faire-lebensmittel-das-bedeuten-die-label-18796",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["externe-validierung"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "rainforest-alliance",
+      "name": "Rainforest Alliance",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": ["global"],
+      "typ_tags": ["umwelt", "sozial", "landwirtschaft", "rohstoff", "chain-of-custody"],
+      "produktbereich": ["Kakao", "Kaffee", "Tee", "Bananen", "Haselnüsse", "Kokosöl", "verarbeitete Früchte", "Kräuter", "Gewürze", "Blumen"],
+      "traeger": "Rainforest Alliance",
+      "standardtyp": "freiwilliger privater Nachhaltigkeitsstandard für Landwirtschaft mit Drittzertifizierung, Traceability-System und produktabhängiger Mass-Balance-Option",
+      "vertrauensniveau": "niedrig",
+      "scoring": {
+        "basis": 6,
+        "plus": 0,
+        "minus": 6,
+        "final": 1,
+        "anmerkung": "Mass-Balance-Abzug nur für zugelassene Mass-Balance-Kulturen/Produktgruppen."
+      },
+      "faktoren": [
+        {
+          "id": "mass-balance",
+          "name": "Mass Balance",
+          "wert": -4,
+          "quelle_ids": ["ra-labeling-claims-policy", "ra-mass-balance-sourcing"]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "quelle_ids": ["cal-certification-schemes"]
+        }
+      ],
+      "begruendung": "Rainforest Alliance hat ein Zertifizierungs- und Traceability-System, erlaubt aber für zentrale Verbraucherproduktgruppen Mass Balance. Zusätzlich gibt es substanzielle NGO-Kritik an Wirkung und Arbeitsbedingungen in zertifizierten Lieferketten.",
+      "quellen": [
+        {
+          "id": "ra-labeling-claims-policy",
+          "titel": "Rainforest Alliance Labeling and Claims Policy",
+          "url": "https://knowledge.rainforest-alliance.org/docs/tr/labeling-and-claims-policy",
+          "quelle_typ": "primaer",
+          "belegt": ["labeling", "claims", "mass-balance"]
+        },
+        {
+          "id": "ra-mass-balance-sourcing",
+          "titel": "Rainforest Alliance: Mass Balance Sourcing",
+          "url": "https://www.rainforest-alliance.org/business/certification/what-is-mass-balance-sourcing/",
+          "quelle_typ": "primaer",
+          "belegt": ["mass-balance"]
+        },
+        {
+          "id": "ra-certification-program",
+          "titel": "Rainforest Alliance Certification Program",
+          "url": "https://www.rainforest-alliance.org/for-business/certification/",
+          "quelle_typ": "primaer",
+          "belegt": ["zertifizierung"]
+        },
+        {
+          "id": "cal-certification-schemes",
+          "titel": "Corporate Accountability Lab: Certification Schemes Are Failing Workers and Consumers",
+          "url": "https://corpaccountabilitylab.org/calblog/2023/2/1/certification-schemes-why-fairtrade-international-rainforest-alliance-and-others-are-failing-workers-and-consumers",
+          "quelle_typ": "ngo",
+          "belegt": ["schwere-kritik"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "msc",
+      "name": "MSC (Marine Stewardship Council)",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": ["global"],
+      "typ_tags": ["fischerei", "wildfang", "umwelt", "chain-of-custody", "drittzertifizierung"],
+      "produktbereich": ["Wildfang-Fisch", "Meeresfrüchte aus Wildfang"],
+      "traeger": "Marine Stewardship Council",
+      "standardtyp": "freiwilliger Wildfang-Fischereistandard mit MSC Chain of Custody für getrennte und rückverfolgbare zertifizierte Ware",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 2,
+        "final": 5,
+        "anmerkung": "Kein Mass-Balance-Abzug; MSC CoC verlangt Trennung und Rückverfolgbarkeit zertifizierter Ware."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["msc-standards", "msc-best-practice"]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "quelle_ids": ["greenpeace-msc-position", "wwf-msc-kritik"]
+        }
+      ],
+      "begruendung": "MSC hat eine starke Chain-of-Custody-Logik mit Trennung und Rückverfolgbarkeit zertifizierter Ware. Abwertung wegen dokumentierter Kritik an Zertifizierungsqualität, Vorsorgeprinzip und Fangmethoden.",
+      "quellen": [
+        {
+          "id": "msc-standards",
+          "titel": "MSC Standards and Chain of Custody Standard",
+          "url": "https://www.msc.org/en-us/standards-and-certification/the-msc-standards",
+          "quelle_typ": "primaer",
+          "belegt": ["standard", "chain-of-custody"]
+        },
+        {
+          "id": "msc-best-practice",
+          "titel": "MSC: How we meet best practice",
+          "url": "https://www.msc.org/about-the-msc/how-we-meet-best-practice",
+          "quelle_typ": "primaer",
+          "belegt": ["assurance"]
+        },
+        {
+          "id": "greenpeace-msc-position",
+          "titel": "Greenpeace-Position zum Marine Stewardship Council",
+          "url": "https://www.greenpeace.de/biodiversitaet/meere/meeresschutz/greenpeace-position-marine-stewardship-council-msc",
+          "quelle_typ": "ngo",
+          "belegt": ["kritik"]
+        },
+        {
+          "id": "wwf-msc-kritik",
+          "titel": "WWF Österreich: Kritik am MSC-Gütesiegel",
+          "url": "https://www.wwf.at/artikel/msc-kritik/",
+          "quelle_typ": "ngo",
+          "belegt": ["kritik", "einordnung"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "asc",
+      "name": "ASC (Aquaculture Stewardship Council)",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": ["global"],
+      "typ_tags": ["aquakultur", "fisch", "umwelt", "sozial", "chain-of-custody", "drittzertifizierung"],
+      "produktbereich": ["Zuchtfisch", "Meeresfrüchte aus Aquakultur"],
+      "traeger": "Aquaculture Stewardship Council",
+      "standardtyp": "freiwilliger Aquakulturstandard mit Farmstandard und MSC-basierter Chain of Custody plus ASC CoC Module",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 2,
+        "final": 5,
+        "anmerkung": "Kein Mass-Balance-Abzug; ASC nutzt CoC zur Herkunftsprüfung und Rückverfolgbarkeit."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["asc-coc-standard", "asc-coc-module"]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "quelle_ids": ["greenpeace-msc-asc-kritik", "lemonde-asc-salmon"]
+        }
+      ],
+      "begruendung": "ASC ist für Aquakultur relevant und nutzt Chain-of-Custody-Anforderungen, damit gelabelte Ware von zertifizierten Farmen stammt. Abwertung wegen Kritik an Nachhaltigkeitsversprechen, Kontrolltiefe und industriellen Aquakulturpraktiken.",
+      "quellen": [
+        {
+          "id": "asc-coc-standard",
+          "titel": "ASC: Chain of Custody Standard",
+          "url": "https://asc-aqua.org/business/chain-of-custody-standard/",
+          "quelle_typ": "primaer",
+          "belegt": ["chain-of-custody"]
+        },
+        {
+          "id": "asc-coc-module",
+          "titel": "ASC: Chain of Custody Module",
+          "url": "https://asc-aqua.org/new-standards-programme-improvements/completed-projects/coc_module/",
+          "quelle_typ": "primaer",
+          "belegt": ["chain-of-custody"]
+        },
+        {
+          "id": "greenpeace-msc-asc-kritik",
+          "titel": "Greenpeace Österreich: Kritik an MSC und ASC",
+          "url": "https://greenpeace.at/presse/greenpeace-erneuert-kritik-an-msc-und-asc/",
+          "quelle_typ": "ngo",
+          "belegt": ["kritik"],
+          "quellenproblem": "Ältere Quelle; aktuelle Standardrevisionen gegenprüfen."
+        },
+        {
+          "id": "lemonde-asc-salmon",
+          "titel": "Le Monde: Saumon - les failles du label ASC",
+          "url": "https://www.lemonde.fr/les-decodeurs/article/2024/10/14/saumon-les-failles-du-label-asc-qui-prone-un-elevage-responsable_6351353_4355770.html",
+          "quelle_typ": "journalistische-recherche",
+          "belegt": ["kritik"],
+          "quellenproblem": "Produktfokus Lachs; Zugriff kann paywall-abhaengig sein."
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "vlog-ohne-gentechnik",
+      "name": "VLOG / Ohne GenTechnik",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": ["Deutschland", "EU"],
+      "typ_tags": ["lebensmittel", "futtermittel", "prozessstandard", "gentechnikfrei", "drittzertifizierung"],
+      "produktbereich": ["Lebensmittel", "tierische Lebensmittel", "Futtermittel"],
+      "traeger": {
+        "name": "Verband Lebensmittel ohne Gentechnik e.V. (VLOG)",
+        "typ": "privater Verband / Lizenzgeber",
+        "sitz": "Berlin"
+      },
+      "standardtyp": "freiwilliger Prozess- und Prüfstandard zur Nutzung der Ohne-GenTechnik- und VLOG-geprüft-Kennzeichnung",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 1,
+        "minus": 0,
+        "final": 3
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["vlog-standard-v2601"]
+        }
+      ],
+      "begruendung": "VLOG ist kein breiter Nachhaltigkeits-, Bio- oder Sozialstandard, erfüllt aber seine eng definierte Prozessaussage prüfbar. Der Standard verlangt Rückverfolgbarkeit von relevanten Rohstoffen, Produkten, Futtermitteln und Tieren.",
+      "quellen": [
+        {
+          "id": "vlog-standard-v2601",
+          "titel": "VLOG-Standard V26.01",
+          "url": "https://www.ohnegentechnik.org/fileadmin/user_upload/01_unternehmen/e_standards/e1_der_vlog_standard/VLOG-Standard_V26.01/Gesamtdokument_und_Teile/VLOG_Standard_V26.01_komplett.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["standardtyp", "zertifizierung", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "vlog-standardseite",
+          "titel": "VLOG: Der VLOG-Standard",
+          "url": "https://www.ohnegentechnik.org/fuer-unternehmen/standards/der-vlog-standard",
+          "quelle_typ": "primaer",
+          "belegt": ["standardversion", "dokumente"]
+        },
+        {
+          "id": "bvl-gvo-faq",
+          "titel": "BVL: Kennzeichnungspflicht gentechnisch veränderter Organismen",
+          "url": "https://www.bvl.bund.de/DE/Service/04_FAQ/01_FAQ-Verbraucher/04_Gentechnik/_functions/faq_table-4-2-KennzGVO.html",
+          "quelle_typ": "behoerde",
+          "belegt": ["rechtlicher-kontext"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "qs-pruefsystem",
+      "name": "QS-Prüfsystem",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": ["Deutschland", "EU"],
+      "typ_tags": ["lebensmittel", "prozessstandard", "fleisch", "obst-gemuese-kartoffeln", "qualitaetssicherung", "industriegetragen"],
+      "produktbereich": ["Fleisch", "Fleischwaren", "Wurst", "Obst", "Gemüse", "Kartoffeln", "Küchenkräuter"],
+      "traeger": {
+        "name": "QS Qualität und Sicherheit GmbH",
+        "typ": "Gesellschaft der Agrar- und Ernährungswirtschaft",
+        "sitz": "Bonn"
+      },
+      "standardtyp": "privatwirtschaftliches stufenübergreifendes Qualitätssicherungs- und Kontrollsystem für frische Lebensmittel",
+      "vertrauensniveau": "niedrig",
+      "scoring": {
+        "basis": 2,
+        "plus": 0,
+        "minus": 2,
+        "final": 1
+      },
+      "faktoren": [
+        {
+          "id": "mangelnde-unabhaengigkeit",
+          "name": "Mangelnde Unabhängigkeit",
+          "wert": -2,
+          "quelle_ids": ["vz-zahlen-zeichen-siegel", "lebensmittelklarheit-qs", "tuev-nord-qs"]
+        }
+      ],
+      "begruendung": "QS ist vor allem ein Prozess- und Lebensmittelsicherheitssystem der Agrar- und Ernährungswirtschaft. Wegen der wirtschaftsnahen Trägerschaft wird der Matrix-Abzug für mangelnde Unabhängigkeit gewertet. Pauschale Skandalverweise aus Notion wurden nicht übernommen, weil sie nicht präzise genug belegt waren.",
+      "quellen": [
+        {
+          "id": "vz-zahlen-zeichen-siegel",
+          "titel": "Verbraucherzentrale: Lebensmittel - Zahlen, Zeichen, Codes und Siegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/lebensmittel-zahlen-zeichen-codes-und-siegel-8382",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["traeger", "einordnung"]
+        },
+        {
+          "id": "lebensmittelklarheit-qs",
+          "titel": "Lebensmittelklarheit: QS-Prüfzeichen",
+          "url": "https://www.lebensmittelklarheit.de/lexikon/qs-pruefzeichen",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["produktbereich", "prozessfokus"]
+        },
+        {
+          "id": "tuev-nord-qs",
+          "titel": "TÜV NORD: QS-System in der Lebensmittelindustrie",
+          "url": "https://www.tuev-nord.de/de/dienstleistungen/auditierung-und-zertifizierung/qs-system/",
+          "quelle_typ": "zertifizierer",
+          "belegt": ["standardtyp", "produktbereich"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "haltungsform-stufe-1-2",
+      "name": "Haltungsform Stufe 1 & 2",
+      "kategorie": "Eigenlabels / Marketing",
+      "region": ["Deutschland"],
+      "typ_tags": ["tierhaltung", "fleisch", "milch", "handelskennzeichnung", "tierwohl-orientierung", "eigenlabel"],
+      "produktbereich": ["Fleisch", "Fleischwaren", "Milch", "Milchprodukte"],
+      "traeger": {
+        "name": "Gesellschaft zur Förderung des Tierwohls in der Nutztierhaltung mbH",
+        "typ": "privatwirtschaftliche Trägergesellschaft der Lebensmittelwirtschaft / Initiative Tierwohl",
+        "sitz": "Bonn"
+      },
+      "standardtyp": "freiwillige privatwirtschaftliche Haltungskennzeichnung des Handels; Stufe 1 = Stall, Stufe 2 = Stall + Platz",
+      "vertrauensniveau": "niedrig",
+      "scoring": {
+        "basis": 1,
+        "plus": 0,
+        "minus": 2,
+        "final": 1
+      },
+      "faktoren": [
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "quelle_ids": ["duh-tierhaltungskennzeichnung", "vz-tierhaltungskennzeichnung"]
+        }
+      ],
+      "begruendung": "Die unteren Haltungsform-Stufen sind primär Orientierung im Handel, aber kein belastbares Tierwohllabel. Verbraucherzentrale und DUH kritisieren die unteren Stufen deutlich; der Finalscore bleibt wegen Mindestscore bei 1.",
+      "quellen": [
+        {
+          "id": "haltungsform-leitfaden",
+          "titel": "Haltungsform: Leitfaden Registrierung Standard",
+          "url": "https://www.haltungsform.de/wp-content/uploads/Leitfaden_Registrierung_Standard_Haltungsform.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["traeger", "standardtyp"]
+        },
+        {
+          "id": "vz-tierhaltungskennzeichnung",
+          "titel": "Verbraucherzentrale: Von Haltungsform bis Tierwohl",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/von-haltungsform-bis-tierwohl-alles-zur-tierhaltungskennzeichnung-25484",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": ["kritik"]
+        },
+        {
+          "id": "duh-tierhaltungskennzeichnung",
+          "titel": "Deutsche Umwelthilfe: Tierhaltungskennzeichnung",
+          "url": "https://www.duh.de/informieren/landwirtschaft-und-ernaehrung/tierhaltungskennzeichnung/",
+          "quelle_typ": "ngo",
+          "belegt": ["ngo-kritik"]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "globalgap",
+      "name": "GlobalG.A.P.",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": ["global"],
+      "typ_tags": ["landwirtschaft", "aquakultur", "prozessstandard", "lebensmittelsicherheit", "rueckverfolgbarkeit", "drittzertifizierung"],
+      "produktbereich": ["Obst", "Gemüse", "Blumen", "Zierpflanzen", "Aquakultur", "landwirtschaftliche Primärproduktion"],
+      "traeger": {
+        "name": "FoodPLUS GmbH / GLOBALG.A.P. Secretariat",
+        "typ": "privater Standardgeber",
+        "sitz": "Köln"
+      },
+      "standardtyp": "freiwilliges privatwirtschaftliches Farm-Assurance- und Chain-of-Custody-System mit Drittzertifizierung",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 1,
+        "minus": 0,
+        "final": 3
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rückverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": ["globalgap-gr-cb-v6", "globalgap-coc-v61", "globalgap-supply-chain-portal"]
+        }
+      ],
+      "begruendung": "GlobalG.A.P. ist ein breit genutzter Prozessstandard für Primärproduktion und Lieferketten, aber kein Premium-Öko-, Fair-Trade- oder Sozialstandard. Die offiziellen Regelwerke belegen Drittzertifizierung, Rückverfolgbarkeit und Trennung zertifizierter/nicht zertifizierter Ware.",
+      "quellen": [
+        {
+          "id": "globalgap-home",
+          "titel": "GLOBALG.A.P.: Smart farm assurance solutions",
+          "url": "https://www.globalgap.org/",
+          "quelle_typ": "primaer",
+          "belegt": ["traeger", "produktbereich"]
+        },
+        {
+          "id": "globalgap-gr-cb-v6",
+          "titel": "GLOBALG.A.P. General Regulations - Rules for Certification Bodies v6.0",
+          "url": "https://documents.globalgap.org/documents/250401_GG_GR_Rules_for_CBs_v6_0_Apr25_en.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["drittzertifizierung", "traceability"]
+        },
+        {
+          "id": "globalgap-coc-v61",
+          "titel": "GLOBALG.A.P. Chain of Custody General Regulations v6.1",
+          "url": "https://documents.globalgap.org/documents/221118_GG_CoC_GR_v6_1_Nov22_en.pdf",
+          "quelle_typ": "primaer",
+          "belegt": ["chain-of-custody", "segregation"]
+        },
+        {
+          "id": "globalgap-supply-chain-portal",
+          "titel": "GLOBALG.A.P.: Validate a certificate",
+          "url": "https://www.globalgap.org/supply-chain-portal/",
+          "quelle_typ": "primaer",
+          "belegt": ["zertifikatsvalidierung", "transparenz"]
+        }
+      ],
+      "unsicherheit": "mittel"
+    }
+  ]
+}

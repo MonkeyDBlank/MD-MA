@@ -1,0 +1,21 @@
+task mode: create
+primary deck-profile: strategy-leadership
+secondary profile gates: engineering-platform
+required proof objects:
+- scope change since Notion integration
+- agent-based automation setup
+- concrete data expansion in seals and supply chains
+- JSON structure changes relevant for app handoff
+source/asset requirements:
+- local project docs and processed JSON files only
+- no Notion edits
+- no external identity assets required
+brand authenticity constraints:
+- no invented product or company logos
+- neutral visual system only
+profile-specific QA gates:
+- 3 slides maximum
+- one clear claim per slide
+- counts must match current processed JSON files
+known missing inputs:
+- none blocking for this short internal update deck

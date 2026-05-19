@@ -1,0 +1,793 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/e7xxz1",
+    "id": "e7xxz1",
+    "slide": 3,
+    "layoutId": "17a0e9c1-512d-4c53-93e5-572e67c68d3e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "17a0e9c1-512d-4c53-93e5-572e67c68d3e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pg3ex0nu",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#F8FAFC",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/epkzupwb",
+      "id": "2",
+      "bbox": [
+        60,
+        52,
+        780,
+        42
+      ],
+      "geometry": "rect",
+      "text": "Prozess- und JSON-Aenderungen",
+      "textPreview": "Prozess- und JSON-Aenderungen",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Prozess- und JSON-Aenderungen"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prozess- und JSON-Aenderungen",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prozess- und JSON-Aenderungen",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7adsji5s",
+      "id": "3",
+      "bbox": [
+        60,
+        106,
+        760,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Die lokale Arbeitsstruktur ist jetzt so angelegt, dass weitere Recherchelaeufe systematischer und mit weniger manuellem Umbau anschliessen koennen.",
+      "textPreview": "Die lokale Arbeitsstruktur ist jetzt so angelegt, dass weitere Recherchelaeufe systematischer und mit weniger manuellem Umbau anschliesse...",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Die lokale Arbeitsstruktur ist jetzt so angelegt, dass weitere Recherchelaeufe"
+          },
+          {
+            "index": 2,
+            "text": "systematischer und mit weniger manuellem Umbau anschliessen koennen."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Die lokale Arbeitsstruktur ist jetzt so angelegt, dass weitere Recherchelaeufe systematischer und mit weniger manuellem Umbau anschliessen koennen.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Die lokale Arbeitsstruktur ist jetzt so angelegt, dass weitere Recherchelaeufe systematischer und mit weniger manuellem Umbau anschliessen koennen.",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w7mp0bi9",
+      "id": "4",
+      "bbox": [
+        80,
+        206,
+        90,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#CCFBF1",
+      "lineColor": "#99F6E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/psfil0rq",
+      "id": "5",
+      "bbox": [
+        80,
+        224,
+        90,
+        48
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/e1w7mp0b",
+      "id": "6",
+      "bbox": [
+        200,
+        206,
+        960,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E1EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp0bi9s",
+      "id": "7",
+      "bbox": [
+        226,
+        220,
+        560,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Agenten-Workflow statt Einzelrecherche",
+      "textPreview": "Agenten-Workflow statt Einzelrecherche",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Agenten-Workflow statt Einzelrecherche"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Agenten-Workflow statt Einzelrecherche",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Agenten-Workflow statt Einzelrecherche",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfyxobm5",
+      "id": "8",
+      "bbox": [
+        226,
+        248,
+        870,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Recherche, Bewertung, Review und Konsolidierung werden lokal ueber dokumentierte Agentenlaeufe vorbereitet.",
+      "textPreview": "Recherche, Bewertung, Review und Konsolidierung werden lokal ueber dokumentierte Agentenlaeufe vorbereitet.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Recherche, Bewertung, Review und Konsolidierung werden lokal ueber dokumentierte Agentenlaeufe vorbereitet."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Recherche, Bewertung, Review und Konsolidierung werden lokal ueber dokumentierte Agentenlaeufe vorbereitet.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Recherche, Bewertung, Review und Konsolidierung werden lokal ueber dokumentierte Agentenlaeufe vorbereitet.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0rqd4vm",
+      "id": "9",
+      "bbox": [
+        80,
+        332,
+        90,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#CCFBF1",
+      "lineColor": "#99F6E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hk3q5o7q",
+      "id": "10",
+      "bbox": [
+        80,
+        350,
+        90,
+        48
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oza1gvy9",
+      "id": "11",
+      "bbox": [
+        200,
+        332,
+        960,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E1EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zed8v6ps",
+      "id": "12",
+      "bbox": [
+        226,
+        346,
+        560,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Saubere Trennung von Werkbank und Endstand",
+      "textPreview": "Saubere Trennung von Werkbank und Endstand",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Saubere Trennung von Werkbank und Endstand"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Saubere Trennung von Werkbank und Endstand",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Saubere Trennung von Werkbank und Endstand",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6xkf6dcb",
+      "id": "13",
+      "bbox": [
+        226,
+        374,
+        870,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Interne Arbeitsstaende liegen in data/drafts, uebergabefaehige Dateien ohne Review-Felder in data/processed.",
+      "textPreview": "Interne Arbeitsstaende liegen in data/drafts, uebergabefaehige Dateien ohne Review-Felder in data/processed.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interne Arbeitsstaende liegen in data/drafts, uebergabefaehige Dateien ohne Review-Felder in data/processed."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interne Arbeitsstaende liegen in data/drafts, uebergabefaehige Dateien ohne Review-Felder in data/processed.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interne Arbeitsstaende liegen in data/drafts, uebergabefaehige Dateien ohne Review-Felder in data/processed.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hwfyxobm",
+      "id": "14",
+      "bbox": [
+        80,
+        458,
+        90,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#CCFBF1",
+      "lineColor": "#99F6E4",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/obm58z25",
+      "id": "15",
+      "bbox": [
+        80,
+        476,
+        90,
+        48
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#0F766E",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zqtcj6to",
+      "id": "16",
+      "bbox": [
+        200,
+        458,
+        960,
+        90
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E1EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65wjudg7",
+      "id": "17",
+      "bbox": [
+        226,
+        472,
+        560,
+        26
+      ],
+      "geometry": "rect",
+      "text": "Leichte JSON-Erweiterungen fuer bessere Einordnung",
+      "textPreview": "Leichte JSON-Erweiterungen fuer bessere Einordnung",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Leichte JSON-Erweiterungen fuer bessere Einordnung"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Leichte JSON-Erweiterungen fuer bessere Einordnung",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Leichte JSON-Erweiterungen fuer bessere Einordnung",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h0fepkzu",
+      "id": "18",
+      "bbox": [
+        226,
+        500,
+        870,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Vor allem bei Lieferketten kamen genauere Felder wie relevante_siegel und klare Unsicherheitslogik dazu.",
+      "textPreview": "Vor allem bei Lieferketten kamen genauere Felder wie relevante_siegel und klare Unsicherheitslogik dazu.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Vor allem bei Lieferketten kamen genauere Felder wie relevante_siegel und klare Unsicherheitslogik dazu."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Vor allem bei Lieferketten kamen genauere Felder wie relevante_siegel und klare Unsicherheitslogik dazu.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Vor allem bei Lieferketten kamen genauere Felder wie relevante_siegel und klare Unsicherheitslogik dazu.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sfil0rqd",
+      "id": "19",
+      "bbox": [
+        80,
+        622,
+        1040,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Ergebnis: konsistentere Daten, klarere Trennung von generischem Siegelscore und konkretem Lieferkettenfall sowie bessere Uebergabefaehigkeit fuer das App-Team.",
+      "textPreview": "Ergebnis: konsistentere Daten, klarere Trennung von generischem Siegelscore und konkretem Lieferkettenfall sowie bessere Uebergabefaehigk...",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ergebnis: konsistentere Daten, klarere Trennung von generischem Siegelscore und konkretem Lieferkettenfall sowie bessere Uebergabefaehigkeit fuer das"
+          },
+          {
+            "index": 2,
+            "text": "App-Team."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ergebnis: konsistentere Daten, klarere Trennung von generischem Siegelscore und konkretem Lieferkettenfall sowie bessere Uebergabefaehigkeit fuer das App-Team.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ergebnis: konsistentere Daten, klarere Trennung von generischem Siegelscore und konkretem Lieferkettenfall sowie bessere Uebergabefaehigkeit fuer das App-Team.",
+              "fontSize": 15,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

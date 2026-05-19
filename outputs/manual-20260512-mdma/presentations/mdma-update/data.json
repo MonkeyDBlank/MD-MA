@@ -1,0 +1,16 @@
+{
+  "stand": "2026-05-12",
+  "scope": [
+    "Nahrungsmittel",
+    "Drogerieprodukte"
+  ],
+  "qualitaetssiegel": 19,
+  "lieferketten": 8,
+  "glossar_begriffe": 14,
+  "lieferketten_hinweis": "Pilotbasis, kein Marktvollbestand",
+  "prozess": [
+    "Lokale Agenten-Workflows fuer Recherche, Bewertung und Konsolidierung",
+    "Bereinigte Enddateien in data/processed und interne Werkbank in data/drafts",
+    "Leichte JSON-Erweiterungen fuer genauere Einordnung und bessere Nutzbarkeit"
+  ]
+}

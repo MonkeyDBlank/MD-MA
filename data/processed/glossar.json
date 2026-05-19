@@ -1,0 +1,134 @@
+{
+  "version": "2026.1",
+  "typ": "glossar",
+  "sprache": "de",
+  "stand": "2026-05-12",
+  "begriffe": [
+    {
+      "id": "mass-balance",
+      "begriff": "Mass Balance",
+      "kurzdefinition": "Bilanzierungsverfahren, bei dem zertifizierte und nicht-zertifizierte Rohstoffe rechnerisch verrechnet werden koennen.",
+      "ausfuehrliche_erklaerung": "Bei Mass Balance muss zertifizierte Ware nicht zwingend physisch getrennt im Endprodukt vorliegen. Entscheidend ist nur, dass rechnerisch nicht mehr zertifizierte Ware verkauft wird, als zuvor eingekauft wurde.",
+      "bewertungsrelevanz": "Mass Balance schwaecht die Produktgenauigkeit eines Siegels und fuehrt in unserer Matrix oft zu deutlichen Abzuegen.",
+      "beispiel": "Ein Produkt kann Fairtrade-Kakao oder RSPO-Palmoel ausweisen, obwohl der konkrete Rohstoffstrom gemischt wurde.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "chain-of-custody",
+      "begriff": "Chain of Custody",
+      "kurzdefinition": "Kontrollsystem zur Nachverfolgung zertifizierter Materialien entlang der Lieferkette.",
+      "ausfuehrliche_erklaerung": "Chain of Custody beschreibt, wie zertifizierte Rohstoffe oder Produkte von der Herkunft bis zum Endprodukt dokumentiert, getrennt oder bilanziert werden.",
+      "bewertungsrelevanz": "Die konkrete CoC-Methode entscheidet, wie eng ein Siegel mit dem physischen Produkt verbunden ist.",
+      "beispiel": "MSC und ASC nutzen Chain-of-Custody-Anforderungen fuer Fischprodukte.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "drittzertifizierung",
+      "begriff": "Drittzertifizierung",
+      "kurzdefinition": "Pruefung eines Standards durch eine externe Zertifizierungsstelle.",
+      "ausfuehrliche_erklaerung": "Eine Drittzertifizierung ist glaubwuerdig, wenn die Zertifizierungsstelle unabhaengig arbeitet, regelmaessig prueft und idealerweise akkreditiert ist.",
+      "bewertungsrelevanz": "Sie erhoeht die Glaubwuerdigkeit, ersetzt aber nicht die inhaltliche Bewertung eines Standards.",
+      "beispiel": "NATRUE, COSMOS und Fairtrade arbeiten mit externen Zertifizierungsstellen.",
+      "kategorie": "Kontrolle und Glaubwuerdigkeit"
+    },
+    {
+      "id": "verbandsiegel",
+      "begriff": "Verbandsiegel",
+      "kurzdefinition": "Privates Siegel eines Anbau- oder Branchenverbands mit eigenen Richtlinien ueber gesetzlichen Mindeststandards.",
+      "ausfuehrliche_erklaerung": "Verbandsiegel wie Demeter, Bioland oder Naturland bauen auf gesetzlichen Regeln auf, gehen aber oft bei Tierhaltung, Duengung, Verarbeitung oder Sozialanforderungen darueber hinaus.",
+      "bewertungsrelevanz": "Verbandsiegel sind im Bio-Bereich oft strenger als EU-Bio und erreichen deshalb in der Matrix hoehere Basisscores.",
+      "beispiel": "Demeter und Bioland sind klassische Bio-Verbandsiegel.",
+      "kategorie": "Bio und Produktstandards"
+    },
+    {
+      "id": "fair-trade",
+      "begriff": "Fair Trade",
+      "kurzdefinition": "Handelsansatz mit sozialer Ausrichtung, der faire Preise, Praemien und bessere Arbeitsbedingungen sichern soll.",
+      "ausfuehrliche_erklaerung": "Fair-Trade-Standards kombinieren meist Mindestpreise, Praemien, Organisationsanforderungen und soziale Kriterien. Die konkrete Strenge haengt stark vom jeweiligen Standard und vom Rueckverfolgbarkeitsmodell ab.",
+      "bewertungsrelevanz": "Fair-Trade-Siegel koennen starke soziale Signale senden, werden aber bei Mass Balance oder schwacher Produktbindung abgewertet.",
+      "beispiel": "Fairtrade und Fair for Life sind Fair-Trade-orientierte Standards.",
+      "kategorie": "Handel und Soziales"
+    },
+    {
+      "id": "living-wage",
+      "begriff": "Living Wage",
+      "kurzdefinition": "Lohn, der die grundlegenden Lebenshaltungskosten eines Haushalts decken soll.",
+      "ausfuehrliche_erklaerung": "Ein Living Wage liegt ueber dem gesetzlichen Mindestlohn, wenn dieser nicht zum Leben reicht. In Standards ist wichtig, ob Living Wage nur angestrebt oder wirklich verbindlich geprueft wird.",
+      "bewertungsrelevanz": "Ein belastbar verankerter Living-Wage-Anspruch kann in unserer Matrix einen Bonus ausloesen.",
+      "beispiel": "Fair for Life und SA8000 beziehen sich ausdruecklich auf existenzsichernde Loehne.",
+      "kategorie": "Handel und Soziales"
+    },
+    {
+      "id": "living-income",
+      "begriff": "Living Income",
+      "kurzdefinition": "Existenzsicherndes Einkommen fuer selbststaendige Produzentinnen und Produzenten, etwa Kleinbaeuerinnen und Kleinbauern.",
+      "ausfuehrliche_erklaerung": "Living Income ist das Pendant zum Living Wage fuer landwirtschaftliche Betriebe. Es betrachtet, ob ein Haushalt aus seiner Produktion ein menschenwuerdiges Einkommen erzielen kann.",
+      "bewertungsrelevanz": "Bei Agrarrohstoffen wie Kakao oder Kaffee ist Living Income oft aussagekraeftiger als ein reiner Mindestpreis.",
+      "beispiel": "Bei Kakao- und Kaffeeprogrammen wird haeufig mit Living-Income-Konzepten gearbeitet.",
+      "kategorie": "Handel und Soziales"
+    },
+    {
+      "id": "naturkosmetik",
+      "begriff": "Naturkosmetik",
+      "kurzdefinition": "Kosmetik, deren Rezeptur und Herstellung an natuerlichen oder naturnahen Inhaltsstoffen ausgerichtet ist.",
+      "ausfuehrliche_erklaerung": "Der Begriff ist ohne anerkanntes Siegel nicht automatisch eindeutig. Verlaessliche Standards regeln erlaubte Inhaltsstoffe, Herstellungsverfahren, Verpackung und Kontrolle.",
+      "bewertungsrelevanz": "Bei Drogerieprodukten ist entscheidend, ob nur natuerliche Anmutung beworben wird oder ob ein echter Standard wie NATRUE oder COSMOS dahintersteht.",
+      "beispiel": "NATRUE und COSMOS Natural gehoeren in diesen Bereich.",
+      "kategorie": "Kosmetik und Drogerie"
+    },
+    {
+      "id": "biokosmetik",
+      "begriff": "Biokosmetik",
+      "kurzdefinition": "Kosmetik mit Anforderungen an biologisch erzeugte Inhaltsstoffe.",
+      "ausfuehrliche_erklaerung": "Biokosmetik geht ueber allgemeine Naturkosmetik hinaus, wenn ein Standard konkrete Mindestanteile biologischer Inhaltsstoffe vorschreibt und kontrolliert.",
+      "bewertungsrelevanz": "Der Bio-Anteil ist ein wichtiges Unterscheidungsmerkmal zwischen staerkeren und schwaecheren Kosmetikstandards.",
+      "beispiel": "COSMOS Organic ist strenger als COSMOS Natural, weil Bio-Mindestanteile vorgeschrieben sind.",
+      "kategorie": "Kosmetik und Drogerie"
+    },
+    {
+      "id": "identity-preserved",
+      "begriff": "Identity Preserved",
+      "kurzdefinition": "Rueckverfolgbarkeitsmodell, bei dem zertifizierte Ware physisch getrennt und ihrer Herkunft eindeutig zugeordnet bleibt.",
+      "ausfuehrliche_erklaerung": "Identity Preserved ist eines der strengsten Lieferkettenmodelle, weil zertifizierte Ware nicht mit anderer Ware vermischt wird und der Ursprung erhalten bleibt.",
+      "bewertungsrelevanz": "Dieses Modell stuetzt hohe Transparenz und kann bei Lieferkettenbewertungen positiv gewertet werden.",
+      "beispiel": "Bei einigen Rohstoffstandards ist Identity Preserved die staerkste Form der Lieferkettenabsicherung.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "segregation",
+      "begriff": "Segregation",
+      "kurzdefinition": "Lieferkettenmodell, bei dem zertifizierte Ware physisch getrennt von nicht-zertifizierter Ware bleibt, aber aus mehreren zertifizierten Quellen gemischt werden kann.",
+      "ausfuehrliche_erklaerung": "Segregation ist weniger streng als Identity Preserved, weil die exakte Herkunft nicht erhalten bleibt, die zertifizierte Eigenschaft aber physisch bestehen soll.",
+      "bewertungsrelevanz": "Segregation ist meist deutlich staerker als Mass Balance und wird deshalb methodisch anders eingeordnet.",
+      "beispiel": "Bei Palm- oder Fischstandards kann Segregation als Lieferkettenmodell vorkommen.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "book-and-claim",
+      "begriff": "Book and Claim",
+      "kurzdefinition": "Modell, bei dem Nachhaltigkeitsansprueche ueber Zertifikate oder Credits gehandelt werden, ohne dass der physische Rohstoff getrennt bleibt.",
+      "ausfuehrliche_erklaerung": "Book and Claim trennt die Nachhaltigkeitsaussage vom physischen Produkt. Verbraucher bekommen dann eher einen Finanzierungs- oder Foerderanspruch als eine direkte Produktgarantie.",
+      "bewertungsrelevanz": "Dieses Modell ist fuer Verbraucher am wenigsten produktnah und muss in Bewertungen klar offengelegt werden.",
+      "beispiel": "Ein Unternehmen kann Credits fuer einen Rohstoff kaufen, ohne dass genau dieser Rohstoff im Produkt enthalten ist.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "aquakultur",
+      "begriff": "Aquakultur",
+      "kurzdefinition": "Zucht von Fischen, Muscheln oder anderen Wasserorganismen unter kontrollierten Bedingungen.",
+      "ausfuehrliche_erklaerung": "Aquakultur unterscheidet sich von Wildfang. Typische Themen sind Futtermittel, Besatzdichte, Wasserqualitaet, Antibiotikaeinsatz und Auswirkungen auf Oekosysteme.",
+      "bewertungsrelevanz": "Fuer Fischprodukte ist entscheidend, ob ein Siegel Wildfang oder Aquakultur abdeckt.",
+      "beispiel": "ASC ist ein Standard fuer Aquakulturprodukte.",
+      "kategorie": "Fisch und Tierhaltung"
+    },
+    {
+      "id": "wildfang",
+      "begriff": "Wildfang",
+      "kurzdefinition": "Fisch oder Meeresfruechte, die nicht aus Zuchtanlagen, sondern aus natuerlichen Bestaenden gefangen werden.",
+      "ausfuehrliche_erklaerung": "Bei Wildfang stehen Ueberfischung, Fangmethode, Beifang und Bestandsmanagement im Mittelpunkt.",
+      "bewertungsrelevanz": "Wildfang und Aquakultur brauchen unterschiedliche Bewertungslogiken und unterschiedliche Standards.",
+      "beispiel": "MSC bezieht sich auf Wildfang-Fischereien.",
+      "kategorie": "Fisch und Tierhaltung"
+    }
+  ]
+}

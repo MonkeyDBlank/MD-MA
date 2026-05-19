@@ -1,0 +1,366 @@
+{
+  "version": "2026.1-draft",
+  "typ": "lieferketten",
+  "stand": "2026-05-12",
+  "hinweis": "Pilot-Draft Lauf 001 fuer Lieferketten im Scope Nahrung und Drogerieprodukte.",
+  "eintraege": [
+    {
+      "id": "tonys-chocolonely-schokolade-kakao",
+      "unternehmen": "Tony's Chocolonely",
+      "marke": "Tony's Chocolonely",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Schokolade mit kakaobasierter Lieferkette",
+          "markenbasierte Bewertung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Direktbezug hier als starkes Kooperativen-/Farmmapping mit bean-to-bar-Traceability interpretiert. Gedeckelt bei 10. Kein Rohstoff-Abzug, weil ein belastbares Sonderprogramm mit Living-Income-, CLMRS- und Entwaldungslogik belegt ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq"
+          ],
+          "notiz": "Tony's Open Chain arbeitet mit 5-jaehrigen Verpflichtungen und uebertraegt das Modell auf Mission Allies."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq",
+            "tonys-annual-report-2024-2025"
+          ],
+          "notiz": "Kooperativenpartnerschaften, CLMRS und GPS-Farmmapping sind auf die Ursprungsebene ausgerichtet."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-kinderarbeit",
+          "beschreibung": "Kakao aus Ghana und Coete d'Ivoire bleibt strukturell hochriskant fuer Kinderarbeit.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025"
+          ]
+        },
+        {
+          "id": "kakao-entwaldung",
+          "beschreibung": "Kakao aus Westafrika birgt ein hohes Entwaldungsrisiko, das aktiv kontrolliert werden muss.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025",
+            "tonys-open-chain-faq"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "beantracker",
+          "beschreibung": "BeanTracker dokumentiert die Warenstroeme digital von der Kooperative bis zur Schokoladenproduktion.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-bean-tracker"
+          ]
+        },
+        {
+          "id": "living-income-reference-price",
+          "beschreibung": "Tony's zahlt nach eigenen Angaben einen hoeheren Preis auf Basis des Living Income Reference Price.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025",
+            "tonys-open-chain-faq"
+          ]
+        },
+        {
+          "id": "clmrs",
+          "beschreibung": "Tony's Open Chain koppelt Rueckverfolgbarkeit mit Child Labor Monitoring and Remediation System (CLMRS).",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025"
+          ]
+        },
+        {
+          "id": "gps-deforestation-check",
+          "beschreibung": "Farms werden GPS-gemappt und gegen Entwaldungsrisiken geprueft.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq",
+            "tonys-annual-report-2024-2025"
+          ]
+        }
+      ],
+      "begruendung": "Tony's Chocolonely ist fuer Kakao ein starker Pilotfall, weil das Unternehmen ueber reine Zertifizierungsclaims hinaus eine offen beschriebene, digital gestuetzte und kooperativenbasierte Lieferkettenlogik dokumentiert. Die Starke liegt vor allem in der Rueckverfolgbarkeit der Bohnen, dem Living-Income-Ansatz, langfristigen Kooperativenbeziehungen und dem CLMRS. Gleichzeitig zeigt der Fall auch die Grenze ehrlicher Lieferkettenkommunikation: Das Unternehmen meldet selbst weiterhin Kinderarbeitsfaelle, was die strukturelle Hochrisikolage im Kakao nicht aufhebt, sondern transparent macht.",
+      "quellen": [
+        {
+          "id": "tonys-annual-report-2024-2025",
+          "titel": "Tony's Chocolonely: 2024/2025 Annual FAIR report page and summary",
+          "url": "https://tonyschocolonely.com/pages/annual-fair-report",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "jahresbericht",
+            "living-income-preis",
+            "child-labor-daten",
+            "entwaldungsdaten"
+          ]
+        },
+        {
+          "id": "tonys-annual-report-article-2025",
+          "titel": "Tony's Chocolonely US: Wow, look at all the impact you made last year!",
+          "url": "https://us.tonyschocolonely.com/blogs/serious-stuff/annual-fair-report-2023-2024",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "20-296-farmer",
+            "44-prozent-civ",
+            "18-prozent-ghana",
+            "3-9-prozent-child-labor",
+            "99-95-prozent-deforestation-free"
+          ]
+        },
+        {
+          "id": "tonys-bean-tracker",
+          "titel": "Tony's Chocolonely: Bean Tracker",
+          "url": "https://us.tonyschocolonely.com/pages/bean-tracker",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bean-to-bar-traceability",
+            "digitale-datenerfassung",
+            "separate-beans"
+          ]
+        },
+        {
+          "id": "tonys-open-chain-faq",
+          "titel": "Tony's Open Chain: Frequently asked questions",
+          "url": "https://www.tonysopenchain.com/frequently-asked-questions",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "5-sourcing-principles",
+            "100-prozent-traceable",
+            "5-year-commitments",
+            "mission-allies",
+            "fairtrade-sourced-cocoa"
+          ]
+        },
+        {
+          "id": "iied-tonys-case",
+          "titel": "IIED: Tony's Chocolonely - a holistic approach to sustainable chocolate",
+          "url": "https://www.iied.org/node/81476",
+          "quelle_typ": "oeffentliche-fachquelle",
+          "belegt": [
+            "einordnung",
+            "living-income",
+            "child-labor-context"
+          ],
+          "quellenproblem": "Sekundaerquelle, nur zur fachlichen Einordnung genutzt."
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung basiert auf marken- und rohstoffbezogener Lieferkettenlogik fuer Kakao, nicht auf einer chargengenauen Produktansicht."
+    },
+    {
+      "id": "followfood-thunfisch-malediven",
+      "unternehmen": "followfood GmbH",
+      "marke": "followfood",
+      "warengruppe": "Thunfisch-Konserven",
+      "rohstoffe": [
+        "Thunfisch (Katsuwonus pelamis)"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Tracking-Code auf jeder Packung",
+          "Wildfang-Thunfisch aus den Malediven",
+          "Pole-and-Line / Handangel"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Direktbezug hier als produktnahe Rueckverfolgbarkeit bis in den Ursprung interpretiert. Gedeckelt bei 10. Kein geographischer oder Kontrolltiefen-Abzug, weil Tracking-Code, MSC-Mindeststandard und eigene strengere Fischereirichtlinien belegt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "followfood-fischereirichtlinien-article"
+          ],
+          "notiz": "followfood setzt fuer Wildfisch eigene Fischereirichtlinien oberhalb des MSC-Mindeststandards durch."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "fisch-ueberfischung",
+          "beschreibung": "Fischerei bleibt strukturell risikobehaftet in Bezug auf Bestaende, Beifang und Management.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "vzbv-fischsiegel"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "tracking-code",
+          "beschreibung": "Tracking-Code auf jeder Packung ermoeglicht Rueckverfolgung von Herkunft, Fang und Verarbeitung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-tracking",
+            "followfood-transparency-article"
+          ]
+        },
+        {
+          "id": "pole-and-line",
+          "beschreibung": "Thunfisch wird per Handangel (Pole and Line) gefangen, um Beifang und Oekosystemdruck zu reduzieren.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-thunfisch-filets"
+          ]
+        },
+        {
+          "id": "ursprungsverarbeitung",
+          "beschreibung": "Die Verarbeitung findet laut followfood direkt auf den Malediven statt, wodurch ein Teil der Wertschoepfung an der Quelle bleibt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-thunfisch-filets"
+          ]
+        },
+        {
+          "id": "eigene-fischereirichtlinien",
+          "beschreibung": "followfood verlangt fuer Wildfisch MSC als Mindeststandard und setzt zusaetzlich eigene strengere Kriterien durch.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "followfood-common-good-report-2025"
+          ]
+        }
+      ],
+      "begruendung": "Der followfood-Thunfisch von den Malediven ist ein starker Pilotfall fuer Fisch, weil das Unternehmen hier produktnah mit Tracking-Code, Fangmethode, Herkunft, FAO-Gebiet und Verarbeitung am Ursprung arbeitet. Zusaetzlich stuetzt sich der Fall nicht nur auf MSC, sondern auf eigene Fischereirichtlinien, die ausdruecklich ueber den Mindeststandard hinausgehen. Die Bewertung bleibt trotzdem an die Rohstoffrealitaet gebunden: Fischerei ist grundsaetzlich ein Risikobereich, und auch starke Standards brauchen fortlaufende Pruefung.",
+      "quellen": [
+        {
+          "id": "followfood-thunfisch-filets",
+          "titel": "followfood: Thunfisch Filets Pur - ohne Abtropfen",
+          "url": "https://followfood.de/produktwelt/fisch/details/thunfisch-filets-ohne-abtropfen-direkt-verwendbar",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "herkunft",
+            "fangmethode",
+            "fao-gebiet",
+            "verarbeitung-am-ursprung",
+            "fair-trade-hinweis",
+            "vollstaendige-rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "followfood-fisch-page",
+          "titel": "followfood: Fisch",
+          "url": "https://followfood.de/produktwelt/fisch",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktbereich",
+            "tracking-anspruch",
+            "bio-aquakultur-oder-kontrollierter-wildfang"
+          ]
+        },
+        {
+          "id": "followfood-transparency-article",
+          "titel": "followfood: Volle Transparenz bis zum Ursprung",
+          "url": "https://followfood.de/magazin/beitrag/volle-transparenz-bis-zum-ursprung",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code",
+            "herkunft",
+            "transportroute"
+          ]
+        },
+        {
+          "id": "followfood-tracking",
+          "titel": "followfood: Tracking-Code",
+          "url": "https://followfood.de/tracking",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code-auf-jeder-packung",
+            "herkunft-anbau-fang-verarbeitung"
+          ]
+        },
+        {
+          "id": "followfood-fischereirichtlinien-pdf",
+          "titel": "followfood Fishery Sourcing Guidelines, Stand 03/2026",
+          "url": "https://followfood.de/files/followfish/uploads/downloads/followfood_Fischereirichtlinien_Stand_03-2026.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eigene-richtlinien",
+            "msc-als-mindeststandard",
+            "beifang",
+            "soziale-kriterien",
+            "jaehrliche-bewertung"
+          ]
+        },
+        {
+          "id": "followfood-fischereirichtlinien-article",
+          "titel": "followfood: Fischerei-Richtlinien",
+          "url": "https://followfood.de/magazin/beitrag/followfood-fischereirichtlinien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "einordnung",
+            "strengere-kriterien-als-msc"
+          ]
+        },
+        {
+          "id": "followfood-common-good-report-2025",
+          "titel": "followfood Gemeinwohlbericht 2025",
+          "url": "https://followfood.de/files/followfish/uploads/downloads/GW%C3%96-Bericht_followfood_Stand2025.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-bio-aquakultur",
+            "msc-als-grundlage",
+            "eigene-richtlinien"
+          ]
+        },
+        {
+          "id": "vzbv-fischsiegel",
+          "titel": "Verbraucherzentrale: Fischsiegel und -label",
+          "url": "https://www.verbraucherzentrale.de/umwelt-haushalt/fischsiegel-und-label-eine-orientierung-fuer-ihren-einkauf-69877",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung-msc",
+            "risikokontext-fischerei"
+          ],
+          "quellenproblem": "Allgemeine Fischsiegel-Einordnung, keine reine followfood-Bewertung."
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Mit Tracking-Code ist bei followfood eine deutlich konkretere Produktaussage moeglich als bei vielen anderen Fischprodukten."
+    }
+  ]
+}

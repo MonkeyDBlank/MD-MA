@@ -1,0 +1,368 @@
+{
+  "version": "2026.1-draft",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-12",
+  "hinweis": "Draft-Daten aus erster Agentenrecherche. Noch nicht final reviewed.",
+  "eintraege": [
+    {
+      "id": "natrue",
+      "name": "NATRUE",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": ["global", "europa"],
+      "typ_tags": ["kosmetik", "naturkosmetik", "biokosmetik", "produktstandard", "privater-standard", "drittzertifizierung"],
+      "produktbereich": ["Kosmetik", "Naturkosmetik", "Biokosmetik"],
+      "traeger": {
+        "name": "NATRUE AISBL / The International Natural and Organic Cosmetics Association",
+        "typ": "internationale Non-Profit-Organisation",
+        "sitz": "Bruessel"
+      },
+      "standardtyp": "freiwilliger privater Natur- und Biokosmetikstandard mit Drittzertifizierung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Mass-Balance-Thema bei Palm-/Palmkernöl wird im Draft nicht pauschal als voller Abzug gewertet."
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-/Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": ["natrue-q-verbraucherzentrale-kosmetiksiegel", "natrue-q-greenpeace-zeichen-tricks", "natrue-q-utopia"]
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 0,
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": ["natrue-q-cert-bodies"],
+          "notiz": "CoC-, Input-/Output- und Rohstoffnachweise werden geprueft, aber keine durchgehend physische Trennung aller Rohstoffstroeme belegt."
+        },
+        {
+          "id": "mass-balance-palm",
+          "name": "Mass Balance bei Palmoel/Palmkernoel",
+          "wert": 0,
+          "aussage_status": "belegt",
+          "quelle_ids": ["natrue-q-standard", "natrue-q-greenpeace-zeichen-tricks"],
+          "notiz": "NATRUE akzeptiert bei palmbasierten Rohstoffen mindestens RSPO/vergleichbare Lieferketten mit Mass Balance; Teamentscheidung noetig, ob das als eigener Abzug zaehlt."
+        }
+      ],
+      "begruendung": "NATRUE ist ein anspruchsvoller Natur- und Biokosmetikstandard mit detaillierten Inhaltsstoff-, Formulierungs-, Verpackungs-, Umwelt- und Auditvorgaben sowie unabhaengiger Drittzertifizierung. Der Standard ist aber kein Sozial- oder Fair-Trade-Standard und erlaubt fuer palmbasierte Rohstoffe mindestens Mass Balance.",
+      "quellen": [
+        {
+          "id": "natrue-q-standard",
+          "titel": "NATRUE Criteria / Label Requirements",
+          "url": "https://natrue.org/our-standard/natrue-criteria-2/",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["standardtyp", "kriterienumfang", "palmoel-anforderungen"]
+        },
+        {
+          "id": "natrue-q-cert-process",
+          "titel": "NATRUE certification process",
+          "url": "https://natrue.org/how-can-you-certify-your-finished-cosmetic-product/",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["zertifizierung", "kontrolle"]
+        },
+        {
+          "id": "natrue-q-cert-bodies",
+          "titel": "NATRUE requirements for certification bodies",
+          "url": "https://natrue.org/uploads/2021/06/Requirements-for-control-bodies-V3.1_2021.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["audit", "chain-of-custody", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "natrue-q-verbraucherzentrale-kosmetiksiegel",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt_kriterien": ["externe-validierung"]
+        },
+        {
+          "id": "natrue-q-greenpeace-zeichen-tricks",
+          "titel": "Greenpeace Oesterreich: Zeichen-Tricks II, Guetezeichen-Guide 2025",
+          "url": "https://greenpeace.at/uploads/2025/10/2025-10-13-gp-guetezeichen_guide-1.pdf",
+          "quelle_typ": "ngo",
+          "belegt_kriterien": ["externe-validierung", "kritik"]
+        },
+        {
+          "id": "natrue-q-utopia",
+          "titel": "Utopia: Das NATRUE-Siegel fuer Naturkosmetik",
+          "url": "https://utopia.de/siegel/natrue/",
+          "quelle_typ": "medien",
+          "belegt_kriterien": ["externe-validierung", "kontext"]
+        }
+      ],
+      "unsicherheit": "mittel",
+      "review_status": "draft"
+    },
+    {
+      "id": "cosmos-organic",
+      "name": "COSMOS Organic",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": ["global", "europa"],
+      "typ_tags": ["kosmetik", "naturkosmetik", "biokosmetik", "produktstandard", "privater-standard", "drittzertifizierung"],
+      "produktbereich": ["Kosmetik", "Biokosmetik", "kosmetische Rohstoffe"],
+      "traeger": {
+        "name": "COSMOS-standard AISBL",
+        "typ": "internationale Non-Profit-Organisation",
+        "gruender": ["BDIH", "Cosmebio", "Ecocert", "ICEA", "Soil Association"]
+      },
+      "standardtyp": "freiwilliger privater Produkt- und Rohstoffstandard mit Drittzertifizierung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 0,
+        "final": 9,
+        "anmerkung": "COSMOS Organic ist staerker als COSMOS Natural, weil Bio-Mindestanteile vorgeschrieben sind."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": ["cosmos-q-standard-v42", "cosmos-q-control-manual"]
+        },
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-/Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": ["cosmos-q-verbraucherzentrale", "cosmos-q-ecoconso", "cosmos-q-ethical-consumer"]
+        },
+        {
+          "id": "mass-balance-palm",
+          "name": "Mass Balance bei Palmoel/-derivaten",
+          "wert": 0,
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": ["cosmos-q-standard-v42"],
+          "notiz": "Bei Palmoel/-derivaten ist mindestens RSPO Mass Balance zulaessig; im Draft kein pauschaler Vollabzug fuer das gesamte Siegel."
+        }
+      ],
+      "begruendung": "COSMOS Organic ist ein anspruchsvoller Natur-/Biokosmetikstandard mit Drittzertifizierung, jaehrlichen Audits, Rueckverfolgbarkeitsanforderungen, Umweltmanagement-, Verpackungs- und Inhaltsstoffkriterien sowie Bio-Mindestanteilen. Schwachpunkte sind begrenzte Sozialanforderungen und die Zulassung von RSPO Mass Balance bei Palmoel/-derivaten.",
+      "quellen": [
+        {
+          "id": "cosmos-q-certification",
+          "titel": "COSMOS Certification",
+          "url": "https://www.cosmos-standard.org/en/certification/cosmos-certification/",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["zertifizierung", "standardtyp"]
+        },
+        {
+          "id": "cosmos-q-about",
+          "titel": "COSMOS-standard: About / Who We Are",
+          "url": "https://www.cosmos-standard.org/en/?lang=en",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["traeger"]
+        },
+        {
+          "id": "cosmos-q-standard-v42",
+          "titel": "COSMOS-standard Criteria Version 4.2",
+          "url": "https://media.cosmos-standard.org/filer_public/2f/6b/2f6bd179-76e1-46bc-b76f-b503e3ccb135/cosmos-standard_v4-2.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["kriterienumfang", "bio-anteil", "palmoel-anforderungen"]
+        },
+        {
+          "id": "cosmos-q-control-manual",
+          "titel": "COSMOS Control Manual Version 4.0",
+          "url": "https://media.cosmos-standard.org/filer_public/ec/f5/ecf5ae11-7ad5-4ad4-b7a3-84bafae0290f/cosmos-standard_control_manual_v40.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["audit", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "cosmos-q-verbraucherzentrale",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt_kriterien": ["externe-validierung"]
+        },
+        {
+          "id": "cosmos-q-ecoconso",
+          "titel": "Ecoconso: Le label Cosmos",
+          "url": "https://www.ecoconso.be/fr/content/le-label-cosmos-pour-les-cosmetiques-naturels-ou-bio",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt_kriterien": ["externe-validierung", "kritik"]
+        },
+        {
+          "id": "cosmos-q-ethical-consumer",
+          "titel": "Ethical Consumer: Ethical labels for organic and natural cosmetics",
+          "url": "https://www.ethicalconsumer.org/health-beauty/ethical-labels-organic-and-natural-cosmetics",
+          "quelle_typ": "ngo",
+          "belegt_kriterien": ["externe-validierung"]
+        }
+      ],
+      "unsicherheit": "mittel",
+      "review_status": "draft"
+    },
+    {
+      "id": "cosmos-natural",
+      "name": "COSMOS Natural",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": ["global", "europa"],
+      "typ_tags": ["kosmetik", "naturkosmetik", "produktstandard", "privater-standard", "drittzertifizierung"],
+      "produktbereich": ["Kosmetik", "Naturkosmetik", "kosmetische Rohstoffe"],
+      "traeger": {
+        "name": "COSMOS-standard AISBL",
+        "typ": "internationale Non-Profit-Organisation",
+        "gruender": ["BDIH", "Cosmebio", "Ecocert", "ICEA", "Soil Association"]
+      },
+      "standardtyp": "freiwilliger privater Produkt- und Rohstoffstandard mit Drittzertifizierung",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Schwaecher als COSMOS Organic, weil kein Mindestanteil an Bio-Inhaltsstoffen gefordert ist."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": ["cosmos-q-standard-v42", "cosmos-q-control-manual"]
+        },
+        {
+          "id": "kein-bio-mindestanteil",
+          "name": "Kein Bio-Mindestanteil",
+          "wert": 0,
+          "aussage_status": "belegt",
+          "quelle_ids": ["cosmos-q-standard-v42"],
+          "notiz": "Relevante Schwaeche, aber in der aktuellen Matrix noch kein offizieller Abzugsfaktor."
+        }
+      ],
+      "begruendung": "COSMOS Natural nutzt den COSMOS-Standardrahmen mit Drittzertifizierung, Audits, Inhaltsstoff-, Umwelt- und Verpackungskriterien. Im Gegensatz zu COSMOS Organic verlangt die Natural-Variante aber keinen Mindestanteil an Bio-Inhaltsstoffen, weshalb sie im Draft niedriger bewertet wird.",
+      "quellen": [
+        {
+          "id": "cosmos-q-certification",
+          "titel": "COSMOS Certification",
+          "url": "https://www.cosmos-standard.org/en/certification/cosmos-certification/",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["zertifizierung", "standardtyp"]
+        },
+        {
+          "id": "cosmos-q-standard-v42",
+          "titel": "COSMOS-standard Criteria Version 4.2",
+          "url": "https://media.cosmos-standard.org/filer_public/2f/6b/2f6bd179-76e1-46bc-b76f-b503e3ccb135/cosmos-standard_v4-2.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["kriterienumfang", "bio-anteil", "palmoel-anforderungen"]
+        },
+        {
+          "id": "cosmos-q-control-manual",
+          "titel": "COSMOS Control Manual Version 4.0",
+          "url": "https://media.cosmos-standard.org/filer_public/ec/f5/ecf5ae11-7ad5-4ad4-b7a3-84bafae0290f/cosmos-standard_control_manual_v40.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["audit", "rueckverfolgbarkeit"]
+        },
+        {
+          "id": "cosmos-q-verbraucherzentrale",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt_kriterien": ["externe-validierung"]
+        }
+      ],
+      "unsicherheit": "mittel",
+      "review_status": "draft"
+    },
+    {
+      "id": "pefc",
+      "name": "PEFC",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": ["global"],
+      "typ_tags": ["wald", "holz", "papier", "verpackung", "chain-of-custody", "umwelt", "sozial"],
+      "produktbereich": ["Holzprodukte", "Papier", "Zellstoff", "Verpackungen", "forst- und baumbasierte Produkte"],
+      "traeger": {
+        "name": "PEFC Council / Programme for the Endorsement of Forest Certification",
+        "typ": "internationale Non-Profit-Organisation mit nationalen Mitgliedssystemen"
+      },
+      "standardtyp": "Waldmanagement- und Chain-of-Custody-Standard fuer forstbasierte Produkte",
+      "vertrauensniveau": "niedrig",
+      "scoring": {
+        "basis": 2,
+        "plus": 0,
+        "minus": 6,
+        "final": 1,
+        "anmerkung": "Minimum-Score erreicht. Eine eigene Matrixkategorie fuer Forst-/Rohstoffstandards koennte spaeter diskutiert werden."
+      },
+      "faktoren": [
+        {
+          "id": "mass-balance",
+          "name": "Mass Balance / mengenbilanzaehnliche Chain-of-Custody",
+          "wert": -4,
+          "aussage_status": "belegt",
+          "quelle_ids": ["pefc-q-chain-of-custody"],
+          "notiz": "PEFC erlaubt physische Trennung, Prozentmethode und Kreditmethode; zertifizierter Inhalt ist daher nicht zwingend physisch getrennt im konkreten Endprodukt."
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": ["pefc-q-greenpeace-forest-certification"],
+          "notiz": "Greenpeace raet von PEFC-zertifizierten Holzfasern ab und sieht FSC 100 Prozent als staerkere Option bei notwendiger Frischfaser."
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 0,
+          "aussage_status": "nicht_auf_siegel_ebene_belegt",
+          "quelle_ids": ["pefc-q-chain-of-custody"],
+          "notiz": "Physische Trennung ist nur eine von mehreren zulaessigen CoC-Methoden."
+        }
+      ],
+      "begruendung": "PEFC hat formale internationale Standards mit Umwelt-, Sozial- und CoC-Anforderungen sowie unabhaengigen Audits. Gegen eine hohe Bewertung sprechen in der aktuellen Matrix die nicht zwingend physische Chain of Custody ueber Prozent-/Kreditmethode und deutliche NGO-Kritik. Bei Papier bewertet PEFC vor allem die Faserherkunft, nicht umfassend Chemikalien-, Energie- oder Wasserverbrauch der Herstellung.",
+      "quellen": [
+        {
+          "id": "pefc-q-discover",
+          "titel": "PEFC: Discover PEFC",
+          "url": "https://www.pefc.org/discover-pefc",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["traeger", "globales-system"]
+        },
+        {
+          "id": "pefc-q-assuring-compliance",
+          "titel": "PEFC: Assuring compliance",
+          "url": "https://pefc.org/standards-implementation/assuring-compliance",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["audit", "zertifizierung", "akkreditierung"]
+        },
+        {
+          "id": "pefc-q-sfm-standard",
+          "titel": "PEFC ST 1003:2024 Sustainable Forest Management",
+          "url": "https://cdn.pefc.org/pefc.org/media/2024-11/89abc90f-975f-4571-b456-0314a749f9fa/08907ebe-4c07-522c-9fab-8c1e8523853c.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["umwelt", "sozial", "waldmanagement"]
+        },
+        {
+          "id": "pefc-q-chain-of-custody",
+          "titel": "PEFC ST 2002:2020 Chain of Custody",
+          "url": "https://www.pefccanada.org/docs/chain_of_custody_pefc_st_2002_2020.pdf",
+          "quelle_typ": "primaer",
+          "belegt_kriterien": ["chain-of-custody", "mass-balance"]
+        },
+        {
+          "id": "pefc-q-greenpeace-forest-certification",
+          "titel": "Greenpeace Statement on Forest Certification",
+          "url": "https://www.greenpeace.org/static/planet4-international-stateless/2018/03/6b3d1c70-greenpeace-statement-on-forest-certification-and-guidance-for-companies-and-consumers_final.pdf",
+          "quelle_typ": "ngo",
+          "belegt_kriterien": ["schwere-ngo-kritik"]
+        },
+        {
+          "id": "pefc-q-verbraucherzentrale-papierlabels",
+          "titel": "Verbraucherzentrale NRW: Papierlabels",
+          "url": "https://www.verbraucherzentrale.de/sites/default/files/2019-03/Papierlabels_Internet_VZ_2019-1.pdf",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt_kriterien": ["kritik", "produktumfang"]
+        }
+      ],
+      "unsicherheit": "mittel",
+      "review_status": "draft"
+    }
+  ]
+}

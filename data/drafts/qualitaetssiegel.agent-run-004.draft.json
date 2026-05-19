@@ -1,0 +1,798 @@
+{
+  "version": "2026.1-draft",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-12",
+  "hinweis": "Draft-Daten aus Agentenlauf 004. Nicht an App-Team uebergeben.",
+  "eintraege": [
+    {
+      "id": "fair-for-life",
+      "name": "Fair for Life",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "fairtrade",
+        "sozial",
+        "umwelt",
+        "lieferkette",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Kosmetik",
+        "Textilien",
+        "Handwerk",
+        "natuerliche Rohstoffe",
+        "Agrarprodukte",
+        "Wildsammlung",
+        "Aquakultur",
+        "Tierhaltung",
+        "Bienenprodukte"
+      ],
+      "traeger": "Fair for Life Organisation / Ecocert Environnement SAS; historisch aus Bio-Stiftung Schweiz, IMO Fair for Life und Ecocert Fair Trade hervorgegangen",
+      "standardtyp": "freiwilliger internationaler Fair-Trade- und Responsible-Supply-Chain-Standard fuer Produkte und Lieferketten mit Zertifizierung bzw. Registrierung relevanter Lieferkettenakteure",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 3,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; physische Rueckverfolgbarkeit, externe Validierung und Living-Wage-Bezug sind belegt."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ffl-standard-2026",
+            "ffl-certification-process"
+          ]
+        },
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-/Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "labelchecker-fair-for-life",
+            "utopia-fair-for-life",
+            "bewusstkaufen-fair-for-life"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ffl-standard-2026",
+            "labelchecker-fair-for-life"
+          ]
+        }
+      ],
+      "begruendung": "Fair for Life ist ein anspruchsvoller Fair-Trade- und Lieferkettenstandard mit sozialen, oekologischen und Handelsanforderungen, Living-Wage-Bezug, Auditpflicht, Lieferkettenkontrolle und physischer Rueckverfolgbarkeit.",
+      "quellen": [
+        {
+          "id": "ffl-standard-2026",
+          "titel": "Fair for Life Standard, Version 2026-04-01",
+          "url": "https://www.fairforlife.org/wp-content/uploads/2026/04/Fair_for_Life_Standard_EN_20260401.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standardumfang",
+            "living-wage",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "ffl-certification-process",
+          "titel": "Fair for Life Certification Process",
+          "url": "https://www.fairforlife.org/wp-content/uploads/2025/05/20230101_EN_FFL_Certification_Process.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "auditprozess",
+            "lieferkettenkontrolle"
+          ]
+        },
+        {
+          "id": "ffl-label-page",
+          "titel": "Fair for Life: What is Fair for Life?",
+          "url": "https://www.fairforlife.org/en/our-labels/fair-for-life/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "produktbereiche"
+          ]
+        },
+        {
+          "id": "labelchecker-fair-for-life",
+          "titel": "Labelchecker: Fair for Life",
+          "url": "https://labelchecker.de/label/92-fair-for-life/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "externe-validierung",
+            "living-wage"
+          ]
+        },
+        {
+          "id": "utopia-fair-for-life",
+          "titel": "Utopia: Fair for Life",
+          "url": "https://utopia.de/siegel/fair-for-life-siegel-mit-hohen-fair-trade-standards/",
+          "quelle_typ": "verbrauchermedium",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Aeltere Sekundaerquelle, nur ergaenzend genutzt."
+        },
+        {
+          "id": "bewusstkaufen-fair-for-life",
+          "titel": "bewusstkaufen.at: Fair for Life",
+          "url": "https://www.bewusstkaufen.at/label-kompass/fair-for-life/",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "externe-validierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "fair-wear-foundation",
+      "name": "Fair Wear Foundation",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": [
+        "global",
+        "europa",
+        "produktionslaender-asien-afrika-europa"
+      ],
+      "typ_tags": [
+        "textilien",
+        "arbeitsrechte",
+        "sozialstandard",
+        "multi-stakeholder",
+        "markeninitiative",
+        "kein-klassisches-produktsiegel"
+      ],
+      "produktbereich": [
+        "Bekleidung",
+        "Textilien",
+        "Schuhe",
+        "arbeitsintensive Konfektions- und Naehprozesse"
+      ],
+      "traeger": "Stichting Fair Wear Foundation, Amsterdam; unabhaengige Non-Profit-/Multi-Stakeholder-Stiftung mit Industrie, Gewerkschaften und Arbeitsrechts-NGOs",
+      "standardtyp": "freiwillige Mitgliedschafts-, Due-Diligence- und Verifizierungsinitiative fuer Marken; keine klassische Produktzertifizierung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 0,
+        "final": 9,
+        "anmerkung": "Sehr starker Sozialstandard fuer Marken und Produktionsstaetten, aber kein physisches Produktsiegel."
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-/Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "siegelklarheit-fair-wear"
+          ]
+        },
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "belegt_mit_einschraenkung",
+          "quelle_ids": [
+            "fair-wear-code-labour",
+            "fair-wear-bpc-guide"
+          ],
+          "notiz": "Living Wage ist zentral, garantiert aber nicht automatisch, dass schon jede Fabrik existenzsichernd zahlt."
+        }
+      ],
+      "begruendung": "Fair Wear ist fachlich eher eine Marken- und Unternehmensinitiative als ein Produktsiegel. Stark sind Arbeitsrechte, Beschwerdemechanismen, Brand Performance Checks und der Living-Wage-Bezug.",
+      "quellen": [
+        {
+          "id": "fair-wear-code-labour",
+          "titel": "Fair Wear Code of Labour Practices",
+          "url": "https://api.fairwear.org/wp-content/uploads/2016/06/fwfcodeoflabourpractices.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "arbeitsrechte",
+            "living-wage",
+            "ilo-basis"
+          ]
+        },
+        {
+          "id": "fair-wear-bpc-guide",
+          "titel": "Fair Wear Brand Performance Check Guide 2023",
+          "url": "https://wp.fairwear.org/wp-content/uploads/2024/02/Fair-Wear-Brand-Performance-Check-Guide-2023-.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "hrdd-pruefung",
+            "living-wage-indikatoren",
+            "offenlegung"
+          ]
+        },
+        {
+          "id": "fair-wear-comm-flyer",
+          "titel": "Fair Wear information for resellers",
+          "url": "https://wp.fairwear.org/wp-content/uploads/2020/12/Fair-Wear-Third-Party-Comms-Flyer-EN.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kein-produktsiegel",
+            "logo-nutzung"
+          ]
+        },
+        {
+          "id": "fair-wear-hrdd-policy",
+          "titel": "Human Rights Due Diligence Policy for Fair Wear Members",
+          "url": "https://wp.fairwear.org/wp-content/uploads/2022/06/nLBRhliTT2RBmhiyOdbA1z1g2Qenxno3scuDfmMl.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "due-diligence",
+            "risikobewertung"
+          ]
+        },
+        {
+          "id": "fair-wear-annual-report",
+          "titel": "Fair Wear Annual Report 2022",
+          "url": "https://wp.fairwear.org/wp-content/uploads/2023/07/Fair-Wears-Annual-Report-2022.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "governance",
+            "unabhaengigkeit"
+          ]
+        },
+        {
+          "id": "siegelklarheit-fair-wear",
+          "titel": "Siegelklarheit: Fair Wear Foundation",
+          "url": "https://www.siegelklarheit.de/fair-wear-foundation-fwf-6",
+          "quelle_typ": "verbraucher-meta-bewertung",
+          "belegt": [
+            "externe-validierung"
+          ],
+          "quellenproblem": "Sekundaerbewertung, nicht identisch mit der MD&MA-Matrix."
+        },
+        {
+          "id": "ccc-fair-wear-joint-statement",
+          "titel": "Joint statement Fair Wear Foundation and Clean Clothes Campaign on future collaboration",
+          "url": "https://cleanclothes.org/file-repository/joint-statement-fair-wear-foundation-clean-clothes-campaign-future-collaboration/@@download/file",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "governance-einordnung"
+          ],
+          "quellenproblem": "Keine klassische Positiv- oder Negativbewertung."
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "sa8000",
+      "name": "SA8000",
+      "kategorie": "Sozial-/Arbeitsstandard",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "sozial",
+        "arbeitsrechte",
+        "menschenrechte",
+        "managementsystem",
+        "lieferkette",
+        "standortzertifizierung"
+      ],
+      "produktbereich": [
+        "branchenuebergreifend",
+        "produktionsstaetten und organisationen",
+        "kein klassisches produktsiegel"
+      ],
+      "traeger": "Social Accountability International (SAI); Akkreditierungs- und Programmaufsicht ueber Social Accountability Accreditation Services (SAAS)",
+      "standardtyp": "freiwilliger Sozial- und Arbeitsrechtsstandard fuer Organisationen und Produktionsstaetten; kein klassisches Produktsiegel",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": -2,
+        "final": 6,
+        "anmerkung": "Starker Arbeitsrechtsstandard mit Living-Wage-Bezug, aber kein Produktsiegel und mit belegter Auditkritik in Einzelfaellen."
+      },
+      "faktoren": [
+        {
+          "id": "living-wage",
+          "name": "Existenzsichernde Loehne",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sa8000-standard-2026"
+          ]
+        },
+        {
+          "id": "schwere-ngo-kritik",
+          "name": "Schwere NGO-Kritik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "clean-clothes-ali-enterprises",
+            "oecd-watch-rina"
+          ]
+        }
+      ],
+      "begruendung": "SA8000 ist primaer ein Sozial- und Arbeitsstandard fuer Organisationen bzw. Produktionsstaetten. Fachlich stark bei Arbeitsrechten und Living Wage, aber fuer Produktkommunikation nur eingeschraenkt geeignet.",
+      "quellen": [
+        {
+          "id": "sa8000-standard-2026",
+          "titel": "SA8000:2026 Standard",
+          "url": "https://sa-intl.org/wp-content/uploads/2026/01/SA8000-2026-Standard_final-2-1.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "arbeitsrechte",
+            "living-wage",
+            "managementsystem"
+          ]
+        },
+        {
+          "id": "sai-sa8000-page",
+          "titel": "SAI: SA8000 Standard",
+          "url": "https://sa-intl.org/resources/sa8000-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "standardtyp"
+          ]
+        },
+        {
+          "id": "sa8000-cabs",
+          "titel": "SAI: SA8000 Accredited Conformity Assessment Bodies",
+          "url": "https://sa-intl.org/resources/sa8000-accredited-conformity-assessment-bodies/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungsstellen",
+            "akkreditierung"
+          ]
+        },
+        {
+          "id": "sa8000-communication-guidelines",
+          "titel": "SA8000 Guidelines for Corporate Communication",
+          "url": "https://sa-intl.org/wp-content/uploads/2020/05/SA8000-Guidelines-for-Corporate-Communication_April-2018.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kein-produktsiegel",
+            "kommunikationsgrenzen"
+          ]
+        },
+        {
+          "id": "sa8000-search",
+          "titel": "SAI: SA8000 Certified Organization List",
+          "url": "https://sa-intl.org/sa8000-search/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "oeffentliche-zertifikatspruefung"
+          ]
+        },
+        {
+          "id": "clean-clothes-ali-enterprises",
+          "titel": "Clean Clothes Campaign: Faulty Pakistan factory audit",
+          "url": "https://cleanclothes.org/news/2020/faulty-pakistan-factory-audit-italian-social-auditor-rina-yet-again-disregards-families-harmed-by-textile-factory-fire-",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik",
+            "auditversagen"
+          ],
+          "quellenproblem": "Kampagnenquelle, aber fuer belegte Kritik relevant."
+        },
+        {
+          "id": "oecd-watch-rina",
+          "titel": "OECD Watch: Ali Enterprises Factory Fire Affectees Assoc. v. RINA S.p.A.",
+          "url": "https://www.oecdwatch.org/complaint/ali-enterprises-factory-fire-affectees-assoc-v-rina-s-p-a/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "kritik",
+            "beschwerde",
+            "auditversagen"
+          ],
+          "quellenproblem": "Fallbezogene Quelle, nicht Gesamturteil ueber jede heutige SA8000-Zertifizierung."
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "b-corp",
+      "name": "Certified B Corporation / B Corp",
+      "kategorie": "Unternehmenszertifizierung / ESG-Impact-Standard",
+      "region": [
+        "global"
+      ],
+      "typ_tags": [
+        "unternehmen",
+        "esg",
+        "governance",
+        "sozial",
+        "umwelt",
+        "nicht-produktspezifisch",
+        "kein-chain-of-custody"
+      ],
+      "produktbereich": [
+        "nicht produktspezifisch",
+        "zertifiziert Unternehmen bzw. in-scope Marken, nicht einzelne Produkteigenschaften"
+      ],
+      "traeger": "B Lab Global; regionale B Lab- und Sistema-B-Partner",
+      "standardtyp": "privater, freiwilliger Unternehmensstandard mit verifizierter Impact-Pruefung, Transparenzanforderungen und Stakeholder-Governance-Anforderung; kein Produktsiegel",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 4,
+        "plus": 2,
+        "minus": -3,
+        "final": 3,
+        "anmerkung": "Als Unternehmenssignal brauchbar, aber fuer Produktsiegel-Logik strukturell unscharf. Keine Rohstoff- oder Produktgarantie."
+      },
+      "faktoren": [
+        {
+          "id": "externe-pruefung",
+          "name": "Externe Verifizierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "bcorp-certification",
+            "bcorp-standards"
+          ]
+        },
+        {
+          "id": "transparenz",
+          "name": "Oeffentliche Transparenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "bcorp-agreement-summary",
+            "bcorp-legal"
+          ]
+        },
+        {
+          "id": "kein-produktsiegel",
+          "name": "Kein klassisches Produktsiegel",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "bcorp-brandbook",
+            "bcorp-brand-faq"
+          ]
+        },
+        {
+          "id": "schwere-kritik",
+          "name": "Relevante Greenwashing-Kritik",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "foodprocessing-nespresso-bcorp",
+            "novethic-bcorp-2026"
+          ]
+        }
+      ],
+      "begruendung": "B Corp ist fuer die Datenbasis als Unternehmenssignal sinnvoll, aber nicht als klassisches Produktsiegel. Es belegt keine konkrete Produktqualitaet, Rohstoffherkunft oder physische Rueckverfolgbarkeit.",
+      "quellen": [
+        {
+          "id": "bcorp-certification",
+          "titel": "B Lab: About B Corp Certification",
+          "url": "https://www.bcorporation.net/en-us/certification/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "unternehmenszertifizierung",
+            "drittverifizierung"
+          ]
+        },
+        {
+          "id": "bcorp-standards",
+          "titel": "B Lab: Explore the B Lab Standards",
+          "url": "https://www.bcorporation.net/en-us/standards/performance-requirements/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "impact-topics",
+            "pruefstandard"
+          ]
+        },
+        {
+          "id": "bcorp-brandbook",
+          "titel": "B Corp Brand Book: Visual Identity",
+          "url": "https://brand.bcorp.com/visual-identity",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kein-produktsiegel",
+            "packaging-nutzung"
+          ]
+        },
+        {
+          "id": "bcorp-brand-faq",
+          "titel": "B Corp Brand Book: FAQs",
+          "url": "https://brand.bcorp.com/faqs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "logo-nutzung",
+            "in-scope-marken"
+          ]
+        },
+        {
+          "id": "bcorp-agreement-summary",
+          "titel": "B Lab Knowledge Hub: Agreement for B Corp Certification Terms Summary",
+          "url": "https://kb.bimpactassessment.net/en/support/solutions/articles/43000778432-agreement-for-b-corp-certification-terms-summary",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rezertifizierung",
+            "transparenz",
+            "site-review"
+          ],
+          "quellenproblem": "Zusammenfassung, kein Vollvertrag."
+        },
+        {
+          "id": "bcorp-legal",
+          "titel": "B Lab: Legal Requirements",
+          "url": "https://www.bcorporation.net/en-us/about-b-corps/legal-requirements/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "stakeholder-governance"
+          ]
+        },
+        {
+          "id": "bcorp-new-standards-2025",
+          "titel": "B Lab: New B Corp Standards, April 2025",
+          "url": "https://www.bcorporation.net/en-us/news/press/b-lab-publishes-new-b-corp-standards-raising-the-bar-for-businesses-worldwide/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "neue-standards",
+            "mindestanforderungen"
+          ]
+        },
+        {
+          "id": "bcorp-fair-work",
+          "titel": "B Lab: New Standards Impact Topic Fair Work",
+          "url": "https://www.bcorporation.net/en-us/news/blog/b-lab-new-standards-impact-topic-fair-work/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fair-work",
+            "living-wage-einschraenkung"
+          ]
+        },
+        {
+          "id": "foodprocessing-nespresso-bcorp",
+          "titel": "Food Processing: Companies Protest B Lab Certification of Nespresso",
+          "url": "https://www.foodprocessing.com/business-of-food-beverage/marketing/news/11287906/companies-protest-b-lab-certification-of-nespresso",
+          "quelle_typ": "journalistische-recherche",
+          "belegt": [
+            "kritik",
+            "greenwashing-risiko"
+          ],
+          "quellenproblem": "Sekundaerquelle ueber NGO-Kritik."
+        },
+        {
+          "id": "novethic-bcorp-2026",
+          "titel": "Novethic: B Corp toughens its rules",
+          "url": "https://www.novethic.fr/economie-et-social/business-model-en-transition/bcorp-nouveaux-standards-pionniers-durabilite-critiques",
+          "quelle_typ": "fachmedium",
+          "belegt": [
+            "kritik",
+            "neue-standards"
+          ],
+          "quellenproblem": "Sekundaerquelle in franzoesischer Sprache."
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "v-label",
+      "name": "V-Label",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "vegan",
+        "vegetarisch",
+        "prozess",
+        "inhaltsstoffkennzeichnung",
+        "verbraucherorientierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Kosmetik",
+        "Wasch-, Putz- und Reinigungsmittel",
+        "Non-Food",
+        "Systemgastronomie"
+      ],
+      "traeger": "V-Label GmbH / V-Label-Netzwerk; in Deutschland Lizenzvergabe durch ProVeg e.V.",
+      "standardtyp": "freiwilliges Vegan-/Vegetarisch-Label mit Kriterien zu Zutaten, Verarbeitungshilfsstoffen, Produktions- und Verarbeitungsschritten sowie risikobasierten Kontrollen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 1,
+        "minus": 0,
+        "final": 3,
+        "anmerkung": "Nuetzliches Inhaltsstoff- und Prozesslabel, aber kein Umwelt- oder Sozialsiegel."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucherorientierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "vz-vegetarisch-vegan",
+            "lebensmittelklarheit-v-label"
+          ]
+        }
+      ],
+      "begruendung": "Das V-Label ist fuer Verbraucherinnen und Verbraucher ein nuetzliches Zeichen fuer vegane oder vegetarische Produkte. Es ist aber kein Oeko-, Fair-Trade- oder Lieferkettensiegel.",
+      "quellen": [
+        {
+          "id": "v-label-kriterien",
+          "titel": "V-Label: Kriterien",
+          "url": "https://www.v-label.com/de/kriterien-des-v-labels/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "vegan-kriterien",
+            "vegetarisch-kriterien",
+            "audits"
+          ]
+        },
+        {
+          "id": "v-label-faq",
+          "titel": "V-Label: FAQ Deutschland",
+          "url": "https://www.v-label.com/de/faqs/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "kontrollsystem",
+            "produktbereiche"
+          ],
+          "quellenproblem": "FAQ statt vollstaendigem Zertifizierungshandbuch."
+        },
+        {
+          "id": "v-label-home",
+          "titel": "V-Label Official Homepage",
+          "url": "https://www.v-label.com/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "internationales-label",
+            "verbreitung"
+          ]
+        },
+        {
+          "id": "vz-vegetarisch-vegan",
+          "titel": "Verbraucherzentrale: Vegetarische und vegane Lebensmittel erkennen",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/gesund-ernaehren/vegetarische-und-vegane-lebensmittel-erkennen-worauf-muss-ich-achten-68457",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "verbraucherorientierung"
+          ]
+        },
+        {
+          "id": "lebensmittelklarheit-v-label",
+          "titel": "Lebensmittelklarheit: V-Label",
+          "url": "https://www.lebensmittelklarheit.de/informationen/v-label-das-zeichen-fuer-vegetarische-und-vegane-produkte",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "kontrollen"
+          ],
+          "quellenproblem": "Stand 2023, fuer aktuelle Detailkriterien mit Primaerquelle abgeglichen."
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "biokreis",
+      "name": "Biokreis",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "bio",
+        "landwirtschaft",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel",
+        "Imkereiprodukte"
+      ],
+      "traeger": "Biokreis e.V., gemeinnuetziger Bio-Anbauverband, Passau",
+      "standardtyp": "privater Bio-Verbandsstandard mit Anforderungen ueber EU-Bio hinaus, jaehrlicher Kontrolle und zusaetzlicher Biokreis-Zertifizierung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; starke Rueckverfolgbarkeit und externe Einordnung als strenger Bio-Verbandsstandard."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "biokreis-erzeugung-2026",
+            "biokreis-verarbeitung-2026"
+          ]
+        },
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": [
+            "vz-bio-siegel",
+            "utopia-biokreis"
+          ]
+        }
+      ],
+      "begruendung": "Biokreis ist ein deutscher Bio-Anbauverband mit privaten Richtlinien ueber EU-Bio hinaus. Die Richtlinien verlangen dokumentierte Warenfluesse, Kontrollen und Trennung relevanter Warenstroeme.",
+      "quellen": [
+        {
+          "id": "biokreis-erzeugung-2026",
+          "titel": "Biokreis: Richtlinien Erzeugung, Stand 28.04.2026",
+          "url": "https://www.biokreis.de/wp-content/uploads/2026/04/260428_Richtlinien_Erzeugung.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kontrolle",
+            "rueckverfolgbarkeit",
+            "soziale-verantwortung"
+          ]
+        },
+        {
+          "id": "biokreis-verarbeitung-2026",
+          "titel": "Biokreis: Richtlinien Verarbeitung, Stand 30.03.2026",
+          "url": "https://www.biokreis.de/wp-content/uploads/2026/03/260330_Richtlinien_Verarbeiter-1.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "warenfluss",
+            "trennung",
+            "kennzeichnung"
+          ]
+        },
+        {
+          "id": "biokreis-ueber-uns",
+          "titel": "Biokreis: Ueber uns",
+          "url": "https://www.biokreis.de/ueber-uns/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "profil"
+          ]
+        },
+        {
+          "id": "vz-bio-siegel",
+          "titel": "Verbraucherzentrale: Bio-Siegel auf Lebensmitteln",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/biosiegel-auf-lebensmitteln-10710",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "bio-verbaende-strenger-als-eu-bio"
+          ],
+          "quellenproblem": "Allgemeine Einordnung von Bio-Verbandszeichen, keine reine Biokreis-Einzelbewertung."
+        },
+        {
+          "id": "utopia-biokreis",
+          "titel": "Utopia: Biokreis-Siegel",
+          "url": "https://utopia.de/siegel/biokreis/",
+          "quelle_typ": "verbrauchermedium",
+          "belegt": [
+            "einordnung"
+          ],
+          "quellenproblem": "Sekundaerquelle, nur ergaenzend genutzt."
+        }
+      ],
+      "unsicherheit": "mittel"
+    }
+  ]
+}

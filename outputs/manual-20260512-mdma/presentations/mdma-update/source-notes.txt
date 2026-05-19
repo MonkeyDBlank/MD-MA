@@ -1,0 +1,12 @@
+Source basis for local update deck
+
+- docs/uebergabedoku-app-team.md
+- PROJECT_CONTEXT.md
+- data/processed/qualitaetssiegel.json
+- data/processed/lieferketten.json
+- data/processed/glossar.json
+
+Working assumptions:
+- Scope is limited to food and drugstore products.
+- Notion was used as read-only source context and was not edited.
+- The deck summarizes only local changes since the Notion integration.

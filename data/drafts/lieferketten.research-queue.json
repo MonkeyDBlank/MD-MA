@@ -1,0 +1,161 @@
+{
+  "version": "2026.1-draft",
+  "typ": "lieferketten_research_queue",
+  "stand": "2026-05-12",
+  "scope": {
+    "produktbereiche": [
+      "Nahrungsmittel",
+      "Drogerieprodukte"
+    ],
+    "ausgeschlossen": [
+      "Textilien",
+      "reine Verpackungssiegel",
+      "allgemeine Unternehmenszertifizierungen ohne Produktbezug"
+    ]
+  },
+  "priorisierte_cluster": [
+    {
+      "id": "schokolade-kakao",
+      "warengruppe": "Schokolade und kakaohaltige Produkte",
+      "rohstoffe": [
+        "Kakao",
+        "Zucker",
+        "Palmöl"
+      ],
+      "typische_siegel": [
+        "fairtrade",
+        "rainforest-alliance",
+        "eu-bio",
+        "demeter",
+        "bioland",
+        "naturland-naturland-fair"
+      ],
+      "relevante_risiken": [
+        "Kinderarbeit",
+        "Living Income",
+        "Entwaldung",
+        "Mass Balance"
+      ],
+      "prioritaet": 1
+    },
+    {
+      "id": "fisch-wildfang-und-aquakultur",
+      "warengruppe": "Fisch und Meeresfrüchte",
+      "rohstoffe": [
+        "Wildfang-Fisch",
+        "Zuchtfisch"
+      ],
+      "typische_siegel": [
+        "msc",
+        "asc"
+      ],
+      "relevante_risiken": [
+        "Überfischung",
+        "Beifang",
+        "Futtermittel",
+        "Antibiotika",
+        "Kontrolltiefe"
+      ],
+      "prioritaet": 1
+    },
+    {
+      "id": "kaffee-und-tee",
+      "warengruppe": "Kaffee und Tee",
+      "rohstoffe": [
+        "Kaffee",
+        "Tee"
+      ],
+      "typische_siegel": [
+        "fairtrade",
+        "rainforest-alliance",
+        "eu-bio",
+        "demeter",
+        "bioland",
+        "naturland-naturland-fair",
+        "fair-for-life"
+      ],
+      "relevante_risiken": [
+        "Living Income",
+        "Pestizide",
+        "Arbeitsrechte",
+        "Mass Balance bei Teilstandards"
+      ],
+      "prioritaet": 2
+    },
+    {
+      "id": "palmol-in-nahrung-und-drogerie",
+      "warengruppe": "Produkte mit Palmöl oder Palmölderivaten",
+      "rohstoffe": [
+        "Palmöl",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "typische_siegel": [
+        "rspo",
+        "fairtrade",
+        "rainforest-alliance",
+        "cosmos-organic",
+        "cosmos-natural",
+        "natrue"
+      ],
+      "relevante_risiken": [
+        "Entwaldung",
+        "Landrechte",
+        "Mass Balance",
+        "Derivattransparenz"
+      ],
+      "prioritaet": 2
+    },
+    {
+      "id": "tierprodukte-und-futtermittel",
+      "warengruppe": "Milch, Fleisch, Eier",
+      "rohstoffe": [
+        "Tierische Rohstoffe",
+        "Soja-Futtermittel"
+      ],
+      "typische_siegel": [
+        "eu-bio",
+        "bioland",
+        "demeter",
+        "naturland-naturland-fair",
+        "globalgap",
+        "qs-pruefsystem",
+        "haltungsform-stufe-1-2",
+        "vlog-ohne-gentechnik"
+      ],
+      "relevante_risiken": [
+        "Tierwohl",
+        "Futtermittelherkunft",
+        "Soja-Entwaldung",
+        "Antibiotika",
+        "Haltungsniveau"
+      ],
+      "prioritaet": 2
+    },
+    {
+      "id": "naturkosmetik-und-drogerie",
+      "warengruppe": "Naturkosmetik und zertifizierte Drogerieprodukte",
+      "rohstoffe": [
+        "Pflanzenoele",
+        "Palm-Derivate",
+        "Duftstoffe",
+        "Tenside"
+      ],
+      "typische_siegel": [
+        "natrue",
+        "cosmos-organic",
+        "cosmos-natural",
+        "v-label"
+      ],
+      "relevante_risiken": [
+        "Palmöl-Derivate",
+        "Mass Balance",
+        "Inhaltsstofftransparenz",
+        "Tierische Bestandteile"
+      ],
+      "prioritaet": 2
+    }
+  ],
+  "empfohlene_bewertungseinheit": "Unternehmen oder Marke plus Warengruppe oder Rohstoff plus Lieferkettenmodell",
+  "eintraege": []
+}

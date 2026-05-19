@@ -1,0 +1,1060 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/5apy2b",
+    "id": "5apy2b",
+    "slide": 2,
+    "layoutId": "17a0e9c1-512d-4c53-93e5-572e67c68d3e",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Aptos"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "17a0e9c1-512d-4c53-93e5-572e67c68d3e",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "62c8b9fc-1286-4c32-8b5d-93aa40f50871",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cvixcze",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylc7u54z",
+      "id": "2",
+      "bbox": [
+        60,
+        52,
+        640,
+        44
+      ],
+      "geometry": "rect",
+      "text": "Was lokal erweitert wurde",
+      "textPreview": "Was lokal erweitert wurde",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "fontSize": 28,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Was lokal erweitert wurde"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Was lokal erweitert wurde",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Was lokal erweitert wurde",
+              "fontSize": 28,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65wjudg",
+      "id": "3",
+      "bbox": [
+        60,
+        106,
+        520,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Seit der Notion-Anbindung wurde aus dem Projektstand eine belastbare lokale Datenbasis mit sauber getrennten Enddateien aufgebaut.",
+      "textPreview": "Seit der Notion-Anbindung wurde aus dem Projektstand eine belastbare lokale Datenbasis mit sauber getrennten Enddateien aufgebaut.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Seit der Notion-Anbindung wurde aus dem Projektstand eine"
+          },
+          {
+            "index": 2,
+            "text": "belastbare lokale Datenbasis mit sauber getrennten"
+          },
+          {
+            "index": 3,
+            "text": "Enddateien aufgebaut."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Seit der Notion-Anbindung wurde aus dem Projektstand eine belastbare lokale Datenbasis mit sauber getrennten Enddateien aufgebaut.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Seit der Notion-Anbindung wurde aus dem Projektstand eine belastbare lokale Datenbasis mit sauber getrennten Enddateien aufgebaut.",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g3ex0nux",
+      "id": "4",
+      "bbox": [
+        60,
+        212,
+        560,
+        404
+      ],
+      "geometry": "rect",
+      "fillColor": "#F8FAFC",
+      "lineColor": "#D8E1EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5o7qpg3e",
+      "id": "5",
+      "bbox": [
+        88,
+        238,
+        340,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Inhaltliche Erweiterungen",
+      "textPreview": "Inhaltliche Erweiterungen",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Inhaltliche Erweiterungen"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Inhaltliche Erweiterungen",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Inhaltliche Erweiterungen",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxobm58z",
+      "id": "6",
+      "bbox": [
+        88,
+        300,
+        10,
+        10
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nih4byhg",
+      "id": "7",
+      "bbox": [
+        112,
+        292,
+        520,
+        48
+      ],
+      "geometry": "rect",
+      "text": "bestehende Notion-Siegel lokal bereinigt und in ein einheitliches JSON ueberfuehrt",
+      "textPreview": "bestehende Notion-Siegel lokal bereinigt und in ein einheitliches JSON ueberfuehrt",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "bestehende Notion-Siegel lokal bereinigt und in ein einheitliches"
+          },
+          {
+            "index": 2,
+            "text": "JSON ueberfuehrt"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "bestehende Notion-Siegel lokal bereinigt und in ein einheitliches JSON ueberfuehrt",
+          "runs": [
+            {
+              "index": 1,
+              "text": "bestehende Notion-Siegel lokal bereinigt und in ein einheitliches JSON ueberfuehrt",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7adsji5",
+      "id": "8",
+      "bbox": [
+        88,
+        366,
+        10,
+        10
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9s36hcrm",
+      "id": "9",
+      "bbox": [
+        112,
+        358,
+        520,
+        48
+      ],
+      "geometry": "rect",
+      "text": "neue Siegel im Scope Nahrung und Drogerie recherchiert, bewertet und eingearbeitet",
+      "textPreview": "neue Siegel im Scope Nahrung und Drogerie recherchiert, bewertet und eingearbeitet",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "neue Siegel im Scope Nahrung und Drogerie recherchiert,"
+          },
+          {
+            "index": 2,
+            "text": "bewertet und eingearbeitet"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "neue Siegel im Scope Nahrung und Drogerie recherchiert, bewertet und eingearbeitet",
+          "runs": [
+            {
+              "index": 1,
+              "text": "neue Siegel im Scope Nahrung und Drogerie recherchiert, bewertet und eingearbeitet",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d8v6psfi",
+      "id": "10",
+      "bbox": [
+        88,
+        432,
+        10,
+        10
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/onyd0z61",
+      "id": "11",
+      "bbox": [
+        112,
+        424,
+        520,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Lieferketten als Pilotbasis fuer konkrete Rohstoff- und Markenfaelle aufgebaut",
+      "textPreview": "Lieferketten als Pilotbasis fuer konkrete Rohstoff- und Markenfaelle aufgebaut",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lieferketten als Pilotbasis fuer konkrete Rohstoff- und"
+          },
+          {
+            "index": 2,
+            "text": "Markenfaelle aufgebaut"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lieferketten als Pilotbasis fuer konkrete Rohstoff- und Markenfaelle aufgebaut",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lieferketten als Pilotbasis fuer konkrete Rohstoff- und Markenfaelle aufgebaut",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z25kb6xk",
+      "id": "12",
+      "bbox": [
+        88,
+        498,
+        10,
+        10
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hcrmhk3",
+      "id": "13",
+      "bbox": [
+        112,
+        490,
+        520,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Glossar lokal als dritte JSON sauber abgegrenzt und ausbaubar gemacht",
+      "textPreview": "Glossar lokal als dritte JSON sauber abgegrenzt und ausbaubar gemacht",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Glossar lokal als dritte JSON sauber abgegrenzt und ausbaubar"
+          },
+          {
+            "index": 2,
+            "text": "gemacht"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Glossar lokal als dritte JSON sauber abgegrenzt und ausbaubar gemacht",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Glossar lokal als dritte JSON sauber abgegrenzt und ausbaubar gemacht",
+              "fontSize": 18,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dg7adsji",
+      "id": "14",
+      "bbox": [
+        680,
+        212,
+        540,
+        404
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D8E1EA",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovahoza1",
+      "id": "15",
+      "bbox": [
+        710,
+        238,
+        320,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Aktueller Datenstand",
+      "textPreview": "Aktueller Datenstand",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Aktueller Datenstand"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Aktueller Datenstand",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Aktueller Datenstand",
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vahoza1g",
+      "id": "16",
+      "bbox": [
+        710,
+        300,
+        220,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Qualitaetssiegel",
+      "textPreview": "Qualitaetssiegel",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Qualitaetssiegel"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Qualitaetssiegel",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Qualitaetssiegel",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tovahoz",
+      "id": "17",
+      "bbox": [
+        936,
+        300,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "19",
+      "textPreview": "19",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "19"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "19",
+          "runs": [
+            {
+              "index": 1,
+              "text": "19",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dsji5sne",
+      "id": "18",
+      "bbox": [
+        710,
+        334,
+        280,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#E2E8F0",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o7qpg3ex",
+      "id": "19",
+      "bbox": [
+        710,
+        334,
+        280,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#0F766E",
+      "lineColor": "#0F766E",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kjm1cfa9",
+      "id": "20",
+      "bbox": [
+        710,
+        390,
+        220,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Lieferketten",
+      "textPreview": "Lieferketten",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lieferketten"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lieferketten",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lieferketten",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/94fu18jq",
+      "id": "21",
+      "bbox": [
+        936,
+        390,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "8",
+      "textPreview": "8",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "8"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "8",
+          "runs": [
+            {
+              "index": 1,
+              "text": "8",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hwfyxob",
+      "id": "22",
+      "bbox": [
+        710,
+        424,
+        280,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#E2E8F0",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r2p8nqxs",
+      "id": "23",
+      "bbox": [
+        710,
+        424,
+        118,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#5EEAD4",
+      "lineColor": "#5EEAD4",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gvy90je9",
+      "id": "24",
+      "bbox": [
+        710,
+        480,
+        220,
+        24
+      ],
+      "geometry": "rect",
+      "text": "Glossarbegriffe",
+      "textPreview": "Glossarbegriffe",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Glossarbegriffe"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Glossarbegriffe",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Glossarbegriffe",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gr2p8nq",
+      "id": "25",
+      "bbox": [
+        936,
+        480,
+        52,
+        24
+      ],
+      "geometry": "rect",
+      "text": "14",
+      "textPreview": "14",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "bold": true,
+        "alignment": "right"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "14"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "14",
+          "runs": [
+            {
+              "index": 1,
+              "text": "14",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#0F172A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2p8nqxs7",
+      "id": "26",
+      "bbox": [
+        710,
+        514,
+        280,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#E2E8F0",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ra5gbq1o",
+      "id": "27",
+      "bbox": [
+        710,
+        514,
+        205,
+        14
+      ],
+      "geometry": "rect",
+      "fillColor": "#99F6E4",
+      "lineColor": "#99F6E4",
+      "lineWidth": 0
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzupwb2h",
+      "id": "28",
+      "bbox": [
+        710,
+        560,
+        420,
+        46
+      ],
+      "geometry": "rect",
+      "text": "Lieferketten aktuell als belastbare Pilotbasis, nicht als Vollbestand des Marktes.",
+      "textPreview": "Lieferketten aktuell als belastbare Pilotbasis, nicht als Vollbestand des Marktes.",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "fontSize": 16,
+        "typeface": "Aptos",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Lieferketten aktuell als belastbare Pilotbasis, nicht als"
+          },
+          {
+            "index": 2,
+            "text": "Vollbestand des Marktes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Lieferketten aktuell als belastbare Pilotbasis, nicht als Vollbestand des Marktes.",
+          "runs": [
+            {
+              "index": 1,
+              "text": "Lieferketten aktuell als belastbare Pilotbasis, nicht als Vollbestand des Marktes.",
+              "fontSize": 16,
+              "typeface": "Aptos",
+              "color": "#64748B"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1294 @@
+{
+  "version": "2026.1",
+  "typ": "lieferketten",
+  "stand": "2026-05-12",
+  "eintraege": [
+    {
+      "id": "andechser-bio-weidemilch-38",
+      "unternehmen": "Andechser Molkerei Scheitz",
+      "marke": "Andechser Natur",
+      "warengruppe": "Bio-Weidemilch",
+      "rohstoffe": [
+        "Kuhmilch",
+        "Futtermittel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Frische Bio-Weidemilch 3,8% Fett 1L",
+          "Bioland-Qualitaet",
+          "Rueckverfolgbar bis zum Bio-Bauern"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Die Rueckverfolgbarkeit bis zum Bio-Bauern, der geschlossene Futterkreislauf und die direkte Anbindung an zertifizierte Lieferbetriebe sind stark. Kein hoeherer Score, weil die oeffentliche Transparenz zur vorgelagerten Futtermittel-Lieferkette begrenzt bleibt."
+      },
+      "faktoren": [
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern",
+            "andechser-weidemilch-produkt"
+          ],
+          "notiz": "Andechser arbeitet mit einem bekannten regionalen Milcheinzugsgebiet und konkreten Bio-Milchlieferanten."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tierprodukte-futtermittel",
+          "beschreibung": "Tierische Lieferketten bleiben risikobehaftet durch Futtermittel, Tierwohl und Klimawirkungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern",
+            "andechser-klima"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "geschlossener-futterkreislauf",
+          "beschreibung": "Andechser verlangt einen geschlossenen und transparenten Futterkreislauf als zusaetzlichen Bio-Standard.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-bio-milchbauern"
+          ]
+        },
+        {
+          "id": "rueckverfolgung-bis-zum-bauern",
+          "beschreibung": "Die Bio-Weidemilch wird nach Unternehmensangaben bis zum Bio-Bauern rueckverfolgbar gemacht.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt"
+          ]
+        },
+        {
+          "id": "weidepraemie",
+          "beschreibung": "Aktive Weidewirtschaft wird ueber eine Weidepraemie gefoerdert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt",
+            "andechser-klima"
+          ]
+        },
+        {
+          "id": "klimabauer",
+          "beschreibung": "Das KlimaBauer-Programm arbeitet an CO2-Vermeidung und -Bindung auf den Bio-Hoefen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "andechser-weidemilch-produkt",
+            "andechser-klima"
+          ]
+        }
+      ],
+      "begruendung": "Andechser Natur ist fuer Milch ein sinnvoller Pilotfall, weil das Unternehmen fuer das konkrete Produkt Rueckverfolgbarkeit bis zum Bio-Bauern, verbandsgebundene Milchlieferanten und einen geschlossenen Futterkreislauf oeffentlich nennt. Das ist fuer Milch deutlich mehr als der Branchendurchschnitt. Gleichzeitig bleibt die Transparenz zur vorgelagerten Futtermittelkette oeffentlich begrenzt, weshalb die Bewertung bewusst unter einem Maximalwert bleibt.",
+      "quellen": [
+        {
+          "id": "andechser-weidemilch-produkt",
+          "titel": "Andechser Natur: Frische Bio-Weidemilch 3,8% Fett 1L",
+          "url": "https://www.andechser-natur.de/de/bio-produkte/frische-bio-weidemilch-38-fett-1l",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "weidehaltung",
+            "weidepraemie",
+            "rueckverfolgbarkeit-bis-zum-bauern",
+            "bioland"
+          ]
+        },
+        {
+          "id": "andechser-bio-milchbauern",
+          "titel": "Andechser Natur: Bio-Milchbauern",
+          "url": "https://www.andechser-natur.de/de/bio-molkerei/mensch/bio-milchbauern",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierte-lieferhoefe",
+            "geschlossener-futterkreislauf",
+            "interaktive-karte",
+            "anbauverbaende"
+          ]
+        },
+        {
+          "id": "andechser-klima",
+          "titel": "Andechser Natur: Unser Beitrag zum Klima",
+          "url": "https://www.andechser-natur.de/de/beitrag-klima",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "klimabauer",
+            "weidepraemie",
+            "stellvertretender-lieferant"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage ist fuer dieses Milchprodukt konkreter als bei vielen anderen Tierprodukten, bleibt aber bei Futtermittel-Vorstufen nicht vollstaendig oeffentlich ausgeleuchtet.",
+      "relevante_siegel": [
+        {
+          "id": "bioland",
+          "rolle": "Verbandssiegel fuer die Milchlieferkette",
+          "einordnung": "Der Lieferkettenscore stuetzt sich auf die Bioland-Basis plus konkrete Rueckverfolgbarkeit bis zum Bio-Bauern und den geschlossenen Futterkreislauf."
+        }
+      ]
+    },
+    {
+      "id": "ferrero-nutella-palmoel",
+      "unternehmen": "Ferrero Group",
+      "marke": "Nutella",
+      "warengruppe": "Nuss-Nougat-Creme",
+      "rohstoffe": [
+        "Palmoel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Nutella",
+          "100 Prozent RSPO-zertifiziertes segregiertes Palmoel laut Hersteller"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Ferrero belegt fuer Palmoel ein im Branchenvergleich starkes segregiertes und weit bis zu Plantagen rueckverfolgbares Modell. Kein hoeherer Score, weil es trotzdem kein Identity-Preserved-System ist und Palm grundsaetzlich ein Hochrisikorohstoff bleibt."
+      },
+      "faktoren": [
+        {
+          "id": "echtzeit-monitoring",
+          "name": "Echtzeit-Monitoring",
+          "wert": 2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ],
+          "notiz": "Ferrero nennt Satellitenmonitoring mit Starling zur Deforstationserkennung im Palm-Liefernetz."
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": 0,
+          "aussage_status": "gegenbelegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ],
+          "notiz": "Ferrero beschreibt fuer Nutella und den Grossteil des Konzerns segregiertes RSPO-Palmoel statt Mass Balance."
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -1,
+          "aussage_status": "belegt_mit_minderung",
+          "quelle_ids": [
+            "nutella-palm-oil-page"
+          ],
+          "notiz": "Palm bleibt ein struktureller Hochrisikorohstoff. Die unternehmensseitigen Gegenmassnahmen mindern das Risiko, heben es aber nicht vollstaendig auf."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung",
+          "beschreibung": "Palm-Lieferketten sind strukturell mit Entwaldung, Landnutzungskonflikten und Arbeitsrechtsrisiken verbunden.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "segregated-rspo",
+          "beschreibung": "Ferrero beschreibt sein Palmoel fuer Nutella als 100 Prozent RSPO-zertifiziert und segregiert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        },
+        {
+          "id": "mills-and-plantations-disclosure",
+          "beschreibung": "Ferrero publiziert regelmaessig Muehlenlisten und verweist auf Rueckverfolgbarkeit bis zur Plantage.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ferrero-palm-traceability-news",
+            "ferrero-palm-mills-list"
+          ]
+        },
+        {
+          "id": "satellite-monitoring",
+          "beschreibung": "Ferrero setzt nach eigenen Angaben Starling-Satellitenmonitoring fuer Entwaldungschecks ein.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutella-palm-oil-page",
+            "ferrero-palm-sourcing"
+          ]
+        }
+      ],
+      "begruendung": "Ferrero ist fuer Palm in Lebensmitteln ein sinnvoller Pilotfall, weil das Unternehmen fuer Nutella vergleichsweise konkret ueber segregiertes RSPO-Palmoel, Rueckverfolgbarkeit bis zu Muehlen und Plantagen sowie Satellitenmonitoring berichtet. Die Bewertung bleibt dennoch unter dem oberen Rand, weil Segregation nicht mit Identity Preserved gleichzusetzen ist und Palm als Rohstoff strukturell hochriskant bleibt.",
+      "quellen": [
+        {
+          "id": "nutella-palm-oil-page",
+          "titel": "Nutella: Our palm oil",
+          "url": "https://www.nutella.com/us/en/inside-nutella/our-responsibility/palm-oil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-rspo-segregated",
+            "mills-traceability",
+            "satellitenmonitoring",
+            "wwf-einordnung"
+          ]
+        },
+        {
+          "id": "ferrero-palm-sourcing",
+          "titel": "Ferrero Group: Source palm oil sustainably",
+          "url": "https://www.ferrero.com/int/en/people-planet/source-our-ingredients-sustainably/palm-oil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traceability-to-plantations",
+            "segregated-sourcing",
+            "starling-monitoring",
+            "supplier-principles"
+          ]
+        },
+        {
+          "id": "ferrero-palm-traceability-news",
+          "titel": "Ferrero: Palm oil traceability and transparency",
+          "url": "https://www.ferrero.com/int/en/news-stories/news/ferrero-palm-oil-traceability-and-transparency",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "offenlegung-der-muehlenlisten",
+            "halbjaehrliche-updates"
+          ]
+        },
+        {
+          "id": "ferrero-palm-mills-list",
+          "titel": "Ferrero Palm Oil Suppliers and Mill Lists",
+          "url": "https://www.ferrero.com/int/sites/ferrero_int/files/2025-04/palm-oil-mills-list-january-june-2023.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "muehlenlisten",
+            "lieferkettentransparenz"
+          ],
+          "quellenproblem": "Mills-Liste statt verbraucherfreundlicher Endproduktdarstellung; fuer Fachauswertung aber stark."
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage betrifft den Palm-Lieferkettenansatz fuer Nutella und die Ferrero-Palmstrategie, nicht die vollstaendige Gesamtbewertung aller Nutella-Rohstoffe.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "Der Lieferkettenscore liegt ueber dem generischen RSPO-Siegelscore, weil Ferrero fuer Nutella segregiertes RSPO-Palmoel, Muehlen-/Plantagentransparenz und Satellitenmonitoring belegt. Das ist staerker als ein generisches RSPO-Mass-Balance-Szenario."
+        }
+      ]
+    },
+    {
+      "id": "followfood-bio-lachs-norwegen",
+      "unternehmen": "followfood GmbH",
+      "marke": "followfood",
+      "warengruppe": "Bio-Lachs",
+      "rohstoffe": [
+        "Lachs (Salmo salar)"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "Bio-Lachs Portionen",
+          "Tracking-Code auf jeder Packung",
+          "Herkunft Norwegen, Irland oder Schottland",
+          "oekologische Aquakultur"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Tracking-Code, Farmbezug und Bio-Aquakultur-Mindeststandard sind fuer Aquakultur stark. Kein Maximalscore, weil Herkunft je nach Packung zwischen mehreren Laendern und Farmen variiert und die Futtermittel-Vorstufen nicht vollstaendig oeffentlich aufgeschluesselt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischerei-abc",
+            "followfood-bio-lachs-artikel"
+          ],
+          "notiz": "followfood setzt Bio als Mindeststandard in der Aquakultur und wo moeglich zusaetzlich Naturland."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-artikel",
+            "followfood-tracking"
+          ],
+          "notiz": "Der Tracking-Code fuehrt laut followfood bis zur konkreten Farm bzw. zum Herkunftsland."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "aquakultur-kritische-punkte",
+          "beschreibung": "Lachsaquakultur bleibt trotz Bio-Standards ein sensibler Bereich, etwa bei Besatzdichte, Futtermitteln und oekologischen Auswirkungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-portionen",
+            "followfood-bio-lachs-artikel"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "tracking-code",
+          "beschreibung": "Jede Packung traegt einen Tracking-Code, der Herkunft und Farm offengelegt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-artikel",
+            "followfood-tracking"
+          ]
+        },
+        {
+          "id": "bio-mindeststandard",
+          "beschreibung": "Alle Lachsprodukte erfuellen bei followfood laut Unternehmen den Bio-Mindeststandard der oekologischen Aquakultur.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-bio-lachs-portionen",
+            "followfood-fischerei-abc"
+          ]
+        }
+      ],
+      "begruendung": "Der followfood-Bio-Lachs ist ein starker Aquakulturfall, weil Tracking-Code, Bio-Mindeststandard und Herkunftsangaben deutlich mehr Transparenz schaffen als der Marktstandard. Zugleich bleibt die Bewertung bewusst unterhalb eines Maximalwerts, weil es sich um eine mehrlaenderige Beschaffung handelt und die Futtermittel- und Vorstufen nicht vollstaendig produktscharf oeffentlich sind.",
+      "quellen": [
+        {
+          "id": "followfood-bio-lachs-portionen",
+          "titel": "followfood: Bio Lachs Portionen",
+          "url": "https://followfood.de/produktwelt/fisch/details/bio-lachs-portionen",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "bio-aquakultur",
+            "herkunftslaender",
+            "tracking-bezug",
+            "kritische-punkte-aquakultur"
+          ]
+        },
+        {
+          "id": "followfood-bio-lachs-artikel",
+          "titel": "followfood: Der followfood Bio-Lachs",
+          "url": "https://followfood.de/magazin/beitrag/der-followfood-bio-lachs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code",
+            "farmbezug",
+            "bio-anteil",
+            "kritische-punkte-lachszucht"
+          ]
+        },
+        {
+          "id": "followfood-fischerei-abc",
+          "titel": "followfood: Fischereirichtlinien",
+          "url": "https://followfood.de/index.php/bewegung/nachhaltigkeits-abc/eintrag/fischereirichtlinien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-bio-aquakultur",
+            "naturland-option",
+            "mindeststandard"
+          ]
+        },
+        {
+          "id": "followfood-tracking",
+          "titel": "followfood: Tracking-Code",
+          "url": "https://followfood.de/tracking",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code-auf-jeder-packung",
+            "herkunft-anbau-fang-verarbeitung"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Mit Tracking-Code kann followfood fuer Bio-Lachs deutlich konkretere Herkunftsaussagen machen als viele andere Aquakulturprodukte.",
+      "relevante_siegel": [
+        {
+          "id": "asc",
+          "rolle": "Nicht pauschal angesetzt; der Fall wird ueber Bio-Aquakultur und Tracking bewertet",
+          "einordnung": "Dieser Lieferketteneintrag basiert primaer auf followfood-Tracking und Bio-Aquakultur-Informationen, nicht auf einer generischen ASC-Bewertung."
+        }
+      ]
+    },
+    {
+      "id": "followfood-thunfisch-malediven",
+      "unternehmen": "followfood GmbH",
+      "marke": "followfood",
+      "warengruppe": "Thunfisch-Konserven",
+      "rohstoffe": [
+        "Thunfisch (Katsuwonus pelamis)"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Tracking-Code auf jeder Packung",
+          "Wildfang-Thunfisch aus den Malediven",
+          "Pole-and-Line / Handangel"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Direktbezug hier als produktnahe Rueckverfolgbarkeit bis in den Ursprung interpretiert. Gedeckelt bei 10. Kein geographischer oder Kontrolltiefen-Abzug, weil Tracking-Code, MSC-Mindeststandard und eigene strengere Fischereirichtlinien belegt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "followfood-fischereirichtlinien-article"
+          ],
+          "notiz": "followfood setzt fuer Wildfisch eigene Fischereirichtlinien oberhalb des MSC-Mindeststandards durch."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "fisch-ueberfischung",
+          "beschreibung": "Fischerei bleibt strukturell risikobehaftet in Bezug auf Bestaende, Beifang und Management.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "vzbv-fischsiegel"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "tracking-code",
+          "beschreibung": "Tracking-Code auf jeder Packung ermoeglicht Rueckverfolgung von Herkunft, Fang und Verarbeitung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-tracking",
+            "followfood-transparency-article"
+          ]
+        },
+        {
+          "id": "pole-and-line",
+          "beschreibung": "Thunfisch wird per Handangel (Pole and Line) gefangen, um Beifang und Oekosystemdruck zu reduzieren.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-thunfisch-filets"
+          ]
+        },
+        {
+          "id": "ursprungsverarbeitung",
+          "beschreibung": "Die Verarbeitung findet laut followfood direkt auf den Malediven statt, wodurch ein Teil der Wertschoepfung an der Quelle bleibt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-thunfisch-filets"
+          ]
+        },
+        {
+          "id": "eigene-fischereirichtlinien",
+          "beschreibung": "followfood verlangt fuer Wildfisch MSC als Mindeststandard und setzt zusaetzlich eigene strengere Kriterien durch.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-fischereirichtlinien-pdf",
+            "followfood-common-good-report-2025"
+          ]
+        }
+      ],
+      "begruendung": "Der followfood-Thunfisch von den Malediven ist ein starker Pilotfall fuer Fisch, weil das Unternehmen hier produktnah mit Tracking-Code, Fangmethode, Herkunft, FAO-Gebiet und Verarbeitung am Ursprung arbeitet. Zusaetzlich stuetzt sich der Fall nicht nur auf MSC, sondern auf eigene Fischereirichtlinien, die ausdruecklich ueber den Mindeststandard hinausgehen. Die Bewertung bleibt trotzdem an die Rohstoffrealitaet gebunden: Fischerei ist grundsaetzlich ein Risikobereich, und auch starke Standards brauchen fortlaufende Pruefung.",
+      "quellen": [
+        {
+          "id": "followfood-thunfisch-filets",
+          "titel": "followfood: Thunfisch Filets Pur - ohne Abtropfen",
+          "url": "https://followfood.de/produktwelt/fisch/details/thunfisch-filets-ohne-abtropfen-direkt-verwendbar",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "herkunft",
+            "fangmethode",
+            "fao-gebiet",
+            "verarbeitung-am-ursprung",
+            "fair-trade-hinweis",
+            "vollstaendige-rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "followfood-fisch-page",
+          "titel": "followfood: Fisch",
+          "url": "https://followfood.de/produktwelt/fisch",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktbereich",
+            "tracking-anspruch",
+            "bio-aquakultur-oder-kontrollierter-wildfang"
+          ]
+        },
+        {
+          "id": "followfood-transparency-article",
+          "titel": "followfood: Volle Transparenz bis zum Ursprung",
+          "url": "https://followfood.de/magazin/beitrag/volle-transparenz-bis-zum-ursprung",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code",
+            "herkunft",
+            "transportroute"
+          ]
+        },
+        {
+          "id": "followfood-tracking",
+          "titel": "followfood: Tracking-Code",
+          "url": "https://followfood.de/tracking",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking-code-auf-jeder-packung",
+            "herkunft-anbau-fang-verarbeitung"
+          ]
+        },
+        {
+          "id": "followfood-fischereirichtlinien-pdf",
+          "titel": "followfood Fishery Sourcing Guidelines, Stand 03/2026",
+          "url": "https://followfood.de/files/followfish/uploads/downloads/followfood_Fischereirichtlinien_Stand_03-2026.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eigene-richtlinien",
+            "msc-als-mindeststandard",
+            "beifang",
+            "soziale-kriterien",
+            "jaehrliche-bewertung"
+          ]
+        },
+        {
+          "id": "followfood-fischereirichtlinien-article",
+          "titel": "followfood: Fischerei-Richtlinien",
+          "url": "https://followfood.de/magazin/beitrag/followfood-fischereirichtlinien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "einordnung",
+            "strengere-kriterien-als-msc"
+          ]
+        },
+        {
+          "id": "followfood-common-good-report-2025",
+          "titel": "followfood Gemeinwohlbericht 2025",
+          "url": "https://followfood.de/files/followfish/uploads/downloads/GW%C3%96-Bericht_followfood_Stand2025.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-bio-aquakultur",
+            "msc-als-grundlage",
+            "eigene-richtlinien"
+          ]
+        },
+        {
+          "id": "vzbv-fischsiegel",
+          "titel": "Verbraucherzentrale: Fischsiegel und -label",
+          "url": "https://www.verbraucherzentrale.de/umwelt-haushalt/fischsiegel-und-label-eine-orientierung-fuer-ihren-einkauf-69877",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung-msc",
+            "risikokontext-fischerei"
+          ],
+          "quellenproblem": "Allgemeine Fischsiegel-Einordnung, keine reine followfood-Bewertung."
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Mit Tracking-Code ist bei followfood eine deutlich konkretere Produktaussage moeglich als bei vielen anderen Fischprodukten.",
+      "relevante_siegel": [
+        {
+          "id": "msc",
+          "rolle": "Mindeststandard fuer Wildfangfisch",
+          "einordnung": "Der Lieferkettenscore liegt deutlich ueber dem generischen MSC-Siegelscore, weil followfood zusaetzlich Tracking-Code, Herkunftsbezug, Handangel-Fang und eigene strengere Fischereirichtlinien belegt."
+        }
+      ]
+    },
+    {
+      "id": "gepa-tee-tpi-darjeeling",
+      "unternehmen": "GEPA - The Fair Trade Company",
+      "marke": "GEPA",
+      "warengruppe": "Schwarztee / Darjeeling-Tee",
+      "rohstoffe": [
+        "Tee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "GEPA Bio-Darjeeling-Schwarztee",
+          "Partner Tea Promoters India",
+          "fair gehandelt und bio"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "GEPA legt den Handelspartner offen, arbeitet langjaehrig direkt mit TPI und verbindet Preisaufschlaege mit konkreten Projekten. Kein Maximalscore, weil keine chargengenaue Verbraucherrueckverfolgung bis zu einzelnen Teegaerten oeffentlich belegt ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-kriterien",
+            "gepa-tpi"
+          ],
+          "notiz": "Langfristige Partnerschaft seit 1990, faire Preise und Projekte ueber den GEPA-Mehrpreis sind belegt."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ],
+          "notiz": "Wiederholte Besuche und dokumentierte Zusammenarbeit vor Ort sind auf der Partnerseite aufgefuehrt."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tee-arbeitsrechte",
+          "beschreibung": "Teeplantagen sind strukturell risikobehaftet bei Lohnniveau, Mitbestimmung und Arbeitsbedingungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi",
+            "gepa-oekotest-tee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "langfristiger-partner",
+          "beschreibung": "GEPA arbeitet seit 1990 mit Tea Promoters India zusammen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        },
+        {
+          "id": "bio-und-fair",
+          "beschreibung": "TPI wird als Pionier im Bio-Anbau von Tee und bei der Mitbestimmung der Teearbeiterinnen und -arbeiter beschrieben.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        },
+        {
+          "id": "mehrpreis-projekte",
+          "beschreibung": "Mit dem GEPA-Mehrpreis wurden Schule, Solarstrom und Wasserprojekte in der Region finanziert.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-tpi"
+          ]
+        }
+      ],
+      "begruendung": "GEPA ist fuer Tee ein sinnvoller Lieferkettenfall, weil das Unternehmen den Handelspartner, die Dauer der Partnerschaft, die sozialen Wirkungen und die Struktur der Zusammenarbeit offen beschreibt. Die Aussage bleibt auf Partner- und Programmniveau, ist aber fuer einen Tee-Fall ueberdurchschnittlich konkret und deutlich besser belegt als bei vielen konventionellen Marken.",
+      "quellen": [
+        {
+          "id": "gepa-tpi",
+          "titel": "GEPA: Handelspartner TPI",
+          "url": "https://www.gepa.de/handelspartner/unsere-partner/partner/tpi",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "partner seit 1990",
+            "anbaugebiete",
+            "soziale-projekte",
+            "besuche-vor-ort",
+            "produkte"
+          ]
+        },
+        {
+          "id": "gepa-kriterien",
+          "titel": "GEPA-Kriterien",
+          "url": "https://www.gepa.de/ueber-gepa/was-wir-tun/gepa-kriterien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "faire-preise",
+            "langfristige-partnerschaften",
+            "zertifizierungen"
+          ]
+        },
+        {
+          "id": "gepa-oekotest-tee",
+          "titel": "GEPA: Oeko-Test Bio-Darjeeling-Schwarztee",
+          "url": "https://www.gepa.de/gepa/presse/pressemitteilung/oeko-test-bio-darjeeling-schwarztee-der-gepa-mit-gut-ausgezeichnet.html",
+          "quelle_typ": "primaer-nah",
+          "belegt": [
+            "transparenz",
+            "strategie-zu-existenzsichernden-loehnen",
+            "teepartner-tpi"
+          ],
+          "quellenproblem": "Pressemitteilung von GEPA, verweist aber auf externen Test und eingeforderte Belege."
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Bewertung beschreibt die dokumentierte GEPA-Tee-Lieferkette mit Tea Promoters India auf Partner- und Warengruppenebene, nicht die chargengenaue Herkunft jeder einzelnen Packung.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Fair-Trade-Logik als Referenzrahmen, aber kein einfacher Siegelscore-Transfer",
+          "einordnung": "Der Lieferkettenscore basiert auf der konkret beschriebenen GEPA-Partnerbeziehung zu TPI und nicht auf einem pauschalen generischen Fairtrade-Produktfall mit moeglicher Mass-Balance-Relevanz."
+        }
+      ]
+    },
+    {
+      "id": "rapunzel-kaffee-cafe-capitan-mexiko",
+      "unternehmen": "Rapunzel Naturkost",
+      "marke": "Rapunzel",
+      "warengruppe": "Röstkaffee",
+      "rohstoffe": [
+        "Arabica-Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Kaffee",
+          "HAND IN HAND-Fairhandelsprogramm",
+          "Partnerkooperative Café Capitán in Mexiko"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Direktimport aus dem Ursprungsland, physische Rueckverfolgbarkeit nach HAND IN HAND-Kriterien und langfristige Partnerbeziehungen sprechen fuer einen ueberdurchschnittlich transparenten Kaffeefall. Kein Maximalscore, weil keine chargengenaue Verbraucher-Rueckverfolgung und keine vollstaendige Farmlistenoffenlegung belegt sind."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm",
+            "rapunzel-hand-in-hand-kriterien"
+          ],
+          "notiz": "Rapunzel arbeitet mit direkten, langfristigen Lieferbeziehungen, Jahresvertraegen, Fairtrade-Praemien und Vorfinanzierung auf Anfrage."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-cafe-capitan",
+            "rapunzel-hand-in-hand-programm"
+          ],
+          "notiz": "Persoenlicher Kontakt, Partnerbesuche und lokale Sozialprojekte sind expliziter Teil des Programms."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-einkommen",
+          "beschreibung": "Kaffee bleibt ein Hochrisikorohstoff fuer Preisdruck und unzureichende Einkommen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "kaffee-klima-biodiversitaet",
+          "beschreibung": "Kaffeeanbau ist klima- und biodiversitaetssensibel, insbesondere ausserhalb standortangepasster Agroforstsysteme.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hero-coffee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "direktimport",
+          "beschreibung": "Rapunzel importiert Rohstoffe fast ausschliesslich direkt aus dem Ursprungsland statt ueber Spotmaerkte oder Boersen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "hand-in-hand-praemie",
+          "beschreibung": "Fairer Produktpreis plus HAND IN HAND-Praemie und 1 Prozent des Einkaufswerts fuer Spendenprojekte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-programm"
+          ]
+        },
+        {
+          "id": "externe-zertifizierung",
+          "beschreibung": "Das HAND IN HAND-Programm wird extern zertifiziert; Rapunzel uebernimmt die externen Kontroll- und Zertifizierungskosten der Partner.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-kriterien"
+          ]
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "beschreibung": "Die Kriterien verlangen physische Rueckverfolgbarkeit der HAND IN HAND-Rohstoffe und -Produkte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-kriterien-pdf"
+          ]
+        }
+      ],
+      "begruendung": "Der Rapunzel-Kaffee aus dem HAND IN HAND-Programm ist ein guter Pilotfall fuer Kaffee, weil Rapunzel faire Bezahlung, direkte Handelsbeziehungen, externe Kontrolle und physische Rueckverfolgbarkeit im eigenen Programm explizit verknuepft. Gleichzeitig bleibt die Aussage auf Marken- und Partnerprogramm-Ebene: Eine chargengenaue Verbraucher-Rueckverfolgung bis zur einzelnen Farm ist oeffentlich nicht belegt.",
+      "quellen": [
+        {
+          "id": "rapunzel-hand-in-hand-programm",
+          "titel": "Rapunzel: HAND IN HAND – Fair trade meets ecological responsibility",
+          "url": "https://en.rapunzel.de/hand-in-hand-fair-trade-program.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "transparente-lieferketten",
+            "direktimport",
+            "jahresvertraege",
+            "praemie",
+            "vorfinanzierung"
+          ]
+        },
+        {
+          "id": "rapunzel-hand-in-hand-kriterien",
+          "titel": "Rapunzel: HAND IN HAND – Die Kriterien",
+          "url": "https://www.rapunzel.de/kriterien-hand-in-hand.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "externe-zertifizierung",
+            "ilo-bezug",
+            "kontrollsystem"
+          ]
+        },
+        {
+          "id": "rapunzel-hand-in-hand-kriterien-pdf",
+          "titel": "Rapunzel HAND IN HAND Kriterien Version 6-2021",
+          "url": "https://www.rapunzel.de/download/hih_kriterien_de_version6_juni2021.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "physische-rueckverfolgbarkeit",
+            "programmregeln",
+            "praemienverwaltung"
+          ]
+        },
+        {
+          "id": "rapunzel-cafe-capitan",
+          "titel": "Rapunzel: Hero coffee from Mexico – Café Capitán",
+          "url": "https://en.rapunzel.de/cafe-capitan.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "partnerkooperative",
+            "kaffeeherkunft",
+            "bio-und-fairer-anbau"
+          ]
+        },
+        {
+          "id": "rapunzel-hero-coffee",
+          "titel": "Rapunzel: Hero coffee",
+          "url": "https://en.rapunzel.de/hero-coffee.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "mischkultur",
+            "schattenbaeume",
+            "biodiversitaet",
+            "vom-anbau-bis-zum-laden"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung beschreibt die Kaffee-Lieferkette im Rapunzel-HAND-IN-HAND-Programm, nicht eine chargengenaue Packungsrueckverfolgung fuer jede einzelne Kaffeepackung.",
+      "relevante_siegel": [
+        {
+          "id": "fair-for-life",
+          "rolle": "Methodischer Vergleichsrahmen zu physischer Rueckverfolgbarkeit und fairer Handelsbeziehung",
+          "einordnung": "Der Fall nutzt Rapunzels eigenes HAND-IN-HAND-Programm. Der hohe Lieferkettenscore stuetzt sich auf direkte Handelsbeziehungen und physische Rueckverfolgbarkeit, nicht auf ein externes Standardsiegel wie Fair for Life."
+        }
+      ]
+    },
+    {
+      "id": "tonys-chocolonely-schokolade-kakao",
+      "unternehmen": "Tony's Chocolonely",
+      "marke": "Tony's Chocolonely",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Schokolade mit kakaobasierter Lieferkette",
+          "markenbasierte Bewertung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 10,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Direktbezug hier als starkes Kooperativen-/Farmmapping mit bean-to-bar-Traceability interpretiert. Gedeckelt bei 10. Kein Rohstoff-Abzug, weil ein belastbares Sonderprogramm mit Living-Income-, CLMRS- und Entwaldungslogik belegt ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq"
+          ],
+          "notiz": "Tony's Open Chain arbeitet mit 5-jaehrigen Verpflichtungen und uebertraegt das Modell auf Mission Allies."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq",
+            "tonys-annual-report-2024-2025"
+          ],
+          "notiz": "Kooperativenpartnerschaften, CLMRS und GPS-Farmmapping sind auf die Ursprungsebene ausgerichtet."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-kinderarbeit",
+          "beschreibung": "Kakao aus Ghana und Coete d'Ivoire bleibt strukturell hochriskant fuer Kinderarbeit.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025"
+          ]
+        },
+        {
+          "id": "kakao-entwaldung",
+          "beschreibung": "Kakao aus Westafrika birgt ein hohes Entwaldungsrisiko, das aktiv kontrolliert werden muss.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025",
+            "tonys-open-chain-faq"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "beantracker",
+          "beschreibung": "BeanTracker dokumentiert die Warenstroeme digital von der Kooperative bis zur Schokoladenproduktion.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-bean-tracker"
+          ]
+        },
+        {
+          "id": "living-income-reference-price",
+          "beschreibung": "Tony's zahlt nach eigenen Angaben einen hoeheren Preis auf Basis des Living Income Reference Price.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025",
+            "tonys-open-chain-faq"
+          ]
+        },
+        {
+          "id": "clmrs",
+          "beschreibung": "Tony's Open Chain koppelt Rueckverfolgbarkeit mit Child Labor Monitoring and Remediation System (CLMRS).",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-annual-report-2024-2025"
+          ]
+        },
+        {
+          "id": "gps-deforestation-check",
+          "beschreibung": "Farms werden GPS-gemappt und gegen Entwaldungsrisiken geprueft.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-faq",
+            "tonys-annual-report-2024-2025"
+          ]
+        }
+      ],
+      "begruendung": "Tony's Chocolonely ist fuer Kakao ein starker Pilotfall, weil das Unternehmen ueber reine Zertifizierungsclaims hinaus eine offen beschriebene, digital gestuetzte und kooperativenbasierte Lieferkettenlogik dokumentiert. Die Starke liegt vor allem in der Rueckverfolgbarkeit der Bohnen, dem Living-Income-Ansatz, langfristigen Kooperativenbeziehungen und dem CLMRS. Gleichzeitig zeigt der Fall auch die Grenze ehrlicher Lieferkettenkommunikation: Das Unternehmen meldet selbst weiterhin Kinderarbeitsfaelle, was die strukturelle Hochrisikolage im Kakao nicht aufhebt, sondern transparent macht.",
+      "quellen": [
+        {
+          "id": "tonys-annual-report-2024-2025",
+          "titel": "Tony's Chocolonely: 2024/2025 Annual FAIR report page and summary",
+          "url": "https://tonyschocolonely.com/pages/annual-fair-report",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "jahresbericht",
+            "living-income-preis",
+            "child-labor-daten",
+            "entwaldungsdaten"
+          ]
+        },
+        {
+          "id": "tonys-annual-report-article-2025",
+          "titel": "Tony's Chocolonely US: Wow, look at all the impact you made last year!",
+          "url": "https://us.tonyschocolonely.com/blogs/serious-stuff/annual-fair-report-2023-2024",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "20-296-farmer",
+            "44-prozent-civ",
+            "18-prozent-ghana",
+            "3-9-prozent-child-labor",
+            "99-95-prozent-deforestation-free"
+          ]
+        },
+        {
+          "id": "tonys-bean-tracker",
+          "titel": "Tony's Chocolonely: Bean Tracker",
+          "url": "https://us.tonyschocolonely.com/pages/bean-tracker",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bean-to-bar-traceability",
+            "digitale-datenerfassung",
+            "separate-beans"
+          ]
+        },
+        {
+          "id": "tonys-open-chain-faq",
+          "titel": "Tony's Open Chain: Frequently asked questions",
+          "url": "https://www.tonysopenchain.com/frequently-asked-questions",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "5-sourcing-principles",
+            "100-prozent-traceable",
+            "5-year-commitments",
+            "mission-allies",
+            "fairtrade-sourced-cocoa"
+          ]
+        },
+        {
+          "id": "iied-tonys-case",
+          "titel": "IIED: Tony's Chocolonely - a holistic approach to sustainable chocolate",
+          "url": "https://www.iied.org/node/81476",
+          "quelle_typ": "oeffentliche-fachquelle",
+          "belegt": [
+            "einordnung",
+            "living-income",
+            "child-labor-context"
+          ],
+          "quellenproblem": "Sekundaerquelle, nur zur fachlichen Einordnung genutzt."
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung basiert auf marken- und rohstoffbezogener Lieferkettenlogik fuer Kakao, nicht auf einer chargengenauen Produktansicht.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Rohstoff- und Sozialstandard im Kakaoeinkauf",
+          "einordnung": "Der hohe Lieferkettenscore entsteht nicht durch das generische Fairtrade-Siegel allein, sondern durch zusaetzliche Open-Chain-Elemente wie Bean Tracker, Living-Income-Preis, CLMRS und Farmmapping."
+        }
+      ]
+    },
+    {
+      "id": "weleda-naturkosmetik-palmoel-derivate",
+      "unternehmen": "Weleda AG",
+      "marke": "Weleda",
+      "warengruppe": "Naturkosmetik und Koerperpflege",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "NATRUE-zertifizierte Naturkosmetik",
+          "palmbasierte Rohstoffe in Teilen des Sortiments"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "mass_balance",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -1,
+        "final": 6,
+        "anmerkung": "Weleda belegt UEBT-gepruefte Rohstoffbeschaffung und 100 Prozent zertifizierte Palmderivateaufnahme, arbeitet aber laut RSPO-ACOP fast vollstaendig mit Mass Balance und nur minimal mit Segregated. Deshalb bleibt die Bewertung im Mittelfeld."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-raw-materials",
+            "weleda-rspo-acop-2024"
+          ],
+          "notiz": "Weleda arbeitet mit UEBT-Standards, FONAP und Lieferanten an der Verbesserung der Palm-Lieferkette."
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024"
+          ],
+          "notiz": "Der RSPO-ACOP 2024 weist fuer zertifizierte Derivate 333 Einheiten Mass Balance und nur 1 Einheit Segregated aus."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung",
+          "beschreibung": "Palmrohstoffe bleiben strukturell hochriskant fuer Entwaldung, Landrechte und Biodiversitaetsverlust.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-why-palm-oil"
+          ]
+        },
+        {
+          "id": "derivattransparenz",
+          "beschreibung": "Gerade bei Palm-Derivaten ist die Traceability in der Vorstufe schwierig.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "uebt-audits",
+          "beschreibung": "Weleda verweist auf UEBT-gepruefte Lieferketten fuer Naturkosmetik-Rohstoffe.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-raw-materials",
+            "weleda-annual-report-2024"
+          ]
+        },
+        {
+          "id": "rspo-mitgliedschaft",
+          "beschreibung": "Weleda ist seit Jahren RSPO- und FONAP-aktiv und berichtet transparent im RSPO-ACOP.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-rspo-acop-2024",
+            "weleda-annual-report-2024"
+          ]
+        },
+        {
+          "id": "brasilien-palmprojekt",
+          "beschreibung": "Weleda beschreibt fuer reines Palmoel ein faires Bezugsmodell aus Brasilien ohne Regenwaldzerstoerung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "weleda-why-palm-oil"
+          ]
+        }
+      ],
+      "begruendung": "Weleda ist ein sinnvoller Pilotfall fuer Drogerieprodukte, weil das Unternehmen seine Rohstoffstrategie, UEBT-Orientierung und RSPO-Daten vergleichsweise offen kommuniziert. Fuer den konkreten Palmbereich bleibt die Lieferkette aber nur teilweise produktnah: In den RSPO-Derivaten dominiert Mass Balance, und Weleda nennt selbst die schwierige Traceability im Derivatemarkt als Hauptherausforderung.",
+      "quellen": [
+        {
+          "id": "weleda-why-palm-oil",
+          "titel": "Weleda: Why do we use palm oil?",
+          "url": "https://www.weleda.com/weleda/our-responsibility/why-palmoil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm-in-natural-cosmetics",
+            "regenwaldrisiko",
+            "brasilien-bezug",
+            "biodiversitaet"
+          ]
+        },
+        {
+          "id": "weleda-rspo-acop-2024",
+          "titel": "Weleda AG RSPO Annual Communication of Progress 2024",
+          "url": "https://document.rspo.org/2024/Weleda_AG_ACOP2024.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "100-prozent-zertifizierte-aufnahme",
+            "mass-balance",
+            "segregated",
+            "traceability-challenges",
+            "fONAP-aktivitaeten"
+          ]
+        },
+        {
+          "id": "weleda-raw-materials",
+          "titel": "Weleda: What ethical sourcing means to Weleda",
+          "url": "https://www.weleda.com/weleda/our-responsibility/raw-materials",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "uebt-auditbezug",
+            "traceability-anspruch",
+            "ethische-beschaffung"
+          ]
+        },
+        {
+          "id": "weleda-annual-report-2024",
+          "titel": "Weleda Annual and Sustainability Report 2024",
+          "url": "https://www.weleda.com/binaries/content/assets/pdf/corporate/weleda-annual-sustainability-report-2024",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "82-prozent-organisch-oder-biodynamisch",
+            "hohe-traceability",
+            "uebt-mitgliedschaft"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Bewertung beschreibt Weledas Rohstoff- und Palmstrategie auf Unternehmens- und Warengruppenebene, nicht die chargengenaue Lieferkette eines einzelnen Kosmetikprodukts.",
+      "relevante_siegel": [
+        {
+          "id": "natrue",
+          "rolle": "Produkt- und Naturkosmetikstandard",
+          "einordnung": "NATRUE wird in der Siegellogik nicht pauschal wegen Palm-Mass-Balance abgewertet; auf Lieferkettenebene wird der konkrete Palm-Derivate-Mix von Weleda trotzdem kritischer bewertet."
+        },
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "Der mittlere Lieferkettenscore passt zum generischen RSPO-Befund: Weleda nutzt fuer Derivate laut ACOP ueberwiegend Mass Balance und nur wenig Segregation."
+        }
+      ]
+    }
+  ]
+}
