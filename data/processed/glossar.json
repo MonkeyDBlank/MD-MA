@@ -1,5 +1,5 @@
 {
-  "version": "2026.4",
+  "version": "2026.5",
   "typ": "glossar",
   "sprache": "de",
   "stand": "2026-05-19",
@@ -21,6 +21,15 @@
       "bewertungsrelevanz": "Fuer Fischprodukte ist entscheidend, ob ein Siegel Wildfang oder Aquakultur abdeckt.",
       "beispiel": "ASC ist ein Standard fuer Aquakulturprodukte.",
       "kategorie": "Fisch und Tierhaltung"
+    },
+    {
+      "id": "baseline-assessment",
+      "begriff": "Baseline Assessment",
+      "kurzdefinition": "Ausgangserhebung, mit der ein Programm den Startzustand misst, bevor Wirkungen spaeter bewertet werden.",
+      "ausfuehrliche_erklaerung": "Ein Baseline Assessment erfasst zum Beispiel Einkommen, Produktivitaet oder soziale Risiken zu Beginn eines Lieferkettenprogramms. Erst mit spaeteren Vergleichsdaten laesst sich belastbarer beurteilen, ob Massnahmen wirklich wirken.",
+      "bewertungsrelevanz": "Bei Living-Income-Programmen ist wichtig, ob nur Ziele formuliert werden oder ob eine Ausgangserhebung und spaetere Wirkungsmessung vorgesehen sind.",
+      "beispiel": "Lidl nennt Baseline Assessments fuer das Fairtrade-entwickelte Living-Income-Programm in der Kakaolieferkette.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
     },
     {
       "id": "biokosmetik",
@@ -156,6 +165,15 @@
       "bewertungsrelevanz": "Segregation ist meist deutlich staerker als Mass Balance und wird deshalb methodisch anders eingeordnet.",
       "beispiel": "Bei Palm- oder Fischstandards kann Segregation als Lieferkettenmodell vorkommen.",
       "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
+      "id": "typ-i-umweltzeichen",
+      "begriff": "Typ-I-Umweltzeichen",
+      "kurzdefinition": "Mehrkriterien-Umweltzeichen nach ISO-14024-Logik, das Produkte innerhalb einer Produktgruppe anhand oekologischer Kriterien auszeichnet.",
+      "ausfuehrliche_erklaerung": "Typ-I-Umweltzeichen arbeiten produktgruppenspezifisch und betrachten mehrere Umweltaspekte, oft ueber den Lebenszyklus eines Produkts. Sie sind staerker als reine Werbeaussagen, aber nicht automatisch Lieferketten- oder Sozialstandards.",
+      "bewertungsrelevanz": "Der Begriff hilft, Blauer Engel, EU Ecolabel und Ecocert Ecodetergents korrekt einzuordnen: stark fuer Umwelt- und Produktkriterien, aber begrenzt fuer Rohstoffherkunft und faire Einkommen.",
+      "beispiel": "Das EU Ecolabel und der Blaue Engel sind typische Umweltzeichen mit produktgruppenspezifischen Kriterien.",
+      "kategorie": "Kennzeichnung und Verbraucherinformation"
     },
     {
       "id": "verbandsiegel",

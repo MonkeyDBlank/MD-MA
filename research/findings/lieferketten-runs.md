@@ -221,3 +221,7 @@ Ziel: Einen alltagsnahen Handelsfall fuer Fischprodukte hinzufuegen, ohne das Li
 
 - `Kaufland` wird als produktliniennaher Handelsfall modelliert, weil die oeffentliche Rueckverfolgbarkeit stark am konkreten QR-/LOT-Bezug haengt.
 - Das bestehende Lieferkettenformat blieb unveraendert; es wurde nur ein weiterer Eintrag im vorhandenen Schema ergaenzt.
+
+## Lauf 007 - Lieferketten Kakao/Schokolade (2026-05-19)
+
+Neue Eintraege: `gepa-schokolade-kakao-cooproagro` und `lidl-way-to-go-schokolade-kakao-ghana`. GEPA wurde wegen physischer Rueckverfolgbarkeit und Verzicht auf Mengenausgleich fuer Schokolade/Gebaeck hoch bewertet; Trinkschokolade ist wegen kommunizierter Ausnahme ausgeklammert. Lidl wurde als Discount-Pilotfall mit Fairtrade-, Way-To-Go- und Living-Income-Programm aufgenommen, aber wegen programmbezogener statt chargengenauer Transparenz unter GEPA/Tony's eingeordnet.

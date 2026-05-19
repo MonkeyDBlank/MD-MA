@@ -87,9 +87,9 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 28 aktive Eintraege
-- `data/processed/lieferketten.json`: 13 aktive Pilotfaelle
-- `data/processed/glossar.json`: 19 relevante Begriffe
+- `data/processed/qualitaetssiegel.json`: 33 aktive Eintraege
+- `data/processed/lieferketten.json`: 15 aktive Pilotfaelle
+- `data/processed/glossar.json`: 21 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
@@ -203,11 +203,11 @@ Stand nach Lauf 007:
 Stand weitere JSONs:
 
 - aktuelle uebergabefaehige Glossar-Datei: `data/processed/glossar.json`
-- aktueller Zaehler: 19 Begriffe
+- aktueller Zaehler: 21 Begriffe
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 13 aktive Pilotfaelle
+- aktueller Zaehler: 15 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -260,3 +260,12 @@ Stand Lieferketten nach Lauf 006:
 - Zuerst werden vorhandene Notion-Daten bereinigt und in sauberes JSON gebracht; neue Siegel kommen danach ergänzend.
 - `draft`, `reviewed` und `approved` sind interne Arbeitsstati. Sie sollen nicht in finalen JSONs für das App-Team stehen.
 - Notion wird aktuell nicht bearbeitet. Alle Änderungen passieren lokal.
+
+Stand nach Lauf 008 / Lieferketten Lauf 007:
+
+- 33 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen bzw. reaktiviert: `bio-suisse-knospe`, `blauer-engel`, `ecogarantie`, `ecocert-ecodetergents`, `eu-ecolabel`
+- 15 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `gepa-schokolade-kakao-cooproagro`, `lidl-way-to-go-schokolade-kakao-ghana`
+- 21 Glossar-Begriffe in `data/processed/glossar.json`
+- neu hinzugekommen: `typ-i-umweltzeichen`, `baseline-assessment`

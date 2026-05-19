@@ -1,5 +1,5 @@
 {
-  "version": "2026.4",
+  "version": "2026.5-draft",
   "typ": "lieferketten",
   "stand": "2026-05-19",
   "hinweis": "Interner Arbeitsstand fuer Lieferketten im Scope Nahrung und Drogerieprodukte.",
@@ -1267,6 +1267,159 @@
       ]
     },
     {
+      "id": "gepa-schokolade-kakao-cooproagro",
+      "unternehmen": "GEPA - The Fair Trade Company",
+      "marke": "GEPA",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao",
+        "Zucker",
+        "Milch",
+        "Kakaobutter"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "GEPA-Schokolade",
+          "100 Prozent bio und fair nach Unternehmensangabe",
+          "physische Rueckverfolgbarkeit des Kakaos ohne Mengenausgleich fuer Schokolade und Gebaeck"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "identity_preserved",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 8,
+        "plus": 2,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; GEPA belegt fuer Schokolade eine aussergewoehnlich starke physische Rueckverfolgbarkeit und verzichtet fuer Schokolade/Gebaeck auf Mengenausgleich. Trinkschokolade ist laut GEPA bis September 2026 eine Ausnahme und nicht Teil dieser Bewertung."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-fairplus",
+            "gepa-lieferketten"
+          ],
+          "notiz": "GEPA kombiniert Fairhandel, Bioanteil, langfristige Partnerschaften und Handelspartnerfonds."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-lieferketten",
+            "gepa-faq"
+          ],
+          "notiz": "GEPA nennt Handelspartner und beschreibt den Weg des Kakaos bis zur Verarbeitung."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-kinderarbeit-und-armut",
+          "beschreibung": "Kakao bleibt strukturell riskant durch Armut, Kinderarbeit und Preisdruck, auch wenn GEPA ueber Fairhandels- und Bio-Strukturen gegensteuert.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "gepa-fairplus"
+          ]
+        },
+        {
+          "id": "trinkschokolade-ausnahme-mengenausgleich",
+          "beschreibung": "GEPA nennt fuer Trinkschokoladen bis September 2026 eine Ausnahmeregelung mit Mengenausgleich; diese Bewertung gilt deshalb fuer Schokolade und Gebaeck.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-lieferketten"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "direkte-genossenschaftliche-beschaffung",
+          "beschreibung": "GEPA beschreibt direkten Kakaoeinkauf bei Genossenschaften und Kenntnis der Partner.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-faq"
+          ]
+        },
+        {
+          "id": "getrennte-verarbeitung",
+          "beschreibung": "GEPA laesst faire Rohwaren getrennt von anderen verarbeiten und verzichtet fuer Schokolade und Gebaeck auf Mengenausgleich.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-lieferketten"
+          ]
+        },
+        {
+          "id": "bio-und-fair-anteil",
+          "beschreibung": "GEPA gibt an, dass alle GEPA-Schokoladen 100 Prozent bio und fair sind.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "gepa-fairplus"
+          ]
+        }
+      ],
+      "begruendung": "GEPA ist ein sehr starker Kakao-Pilotfall, weil das Unternehmen fuer Schokolade eine physische, partnerbezogene Rueckverfolgbarkeit von der Bohne bis zur Tafel beschreibt und den bei Fairtrade moeglichen Mengenausgleich fuer Schokolade/Gebaeck ausschliesst. Die Bewertung bleibt methodisch sauber auf Schokolade und Gebaeck beschraenkt, weil GEPA fuer Trinkschokoladen zeitweise eine Ausnahme kommuniziert.",
+      "quellen": [
+        {
+          "id": "gepa-lieferketten",
+          "titel": "GEPA: Unsere Lieferketten - Schokolade",
+          "url": "https://www.gepa.de/handelspartner/lieferketten",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "schokolade",
+            "rueckverfolgbarkeit",
+            "ohne-mengenausgleich",
+            "handelspartner"
+          ]
+        },
+        {
+          "id": "gepa-faq",
+          "titel": "GEPA: FAQ - Fairtrade, GEPA und Mengenausgleich",
+          "url": "https://www.gepa.de/faq",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bohne-bis-tafel",
+            "direkte-genossenschaften",
+            "getrennte-verarbeitung",
+            "mengenausgleich"
+          ]
+        },
+        {
+          "id": "gepa-fairplus",
+          "titel": "GEPA: Mehr als fair - fairplus",
+          "url": "https://www.gepa.de/ueber-gepa/was-wir-tun/fairplus",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairplus",
+            "faire-bezahlung",
+            "bio-und-fair",
+            "partnerbeziehungen"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "niedrig",
+      "hinweis_fuer_app": "Bewertet wird GEPA-Schokolade bzw. Gebaeck mit Kakao, nicht jede GEPA-Kakaoproduktform. Trinkschokolade ist wegen kommunizierter Mengenausgleich-Ausnahme gesondert zu behandeln.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Fairhandelsstandard im Kakao- und Zuckerbezug",
+          "einordnung": "Der hohe Lieferkettenscore entsteht nicht aus dem generischen Fairtrade-Siegel allein, sondern aus GEPA-spezifischer physischer Rueckverfolgbarkeit und Verzicht auf Mengenausgleich."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Mindeststandard fuer Zutaten",
+          "einordnung": "Bio stuetzt die oekologische Produktseite, ersetzt aber nicht die Lieferkettenbewertung."
+        }
+      ]
+    },
+    {
       "id": "gepa-tee-tpi-darjeeling",
       "unternehmen": "GEPA - The Fair Trade Company",
       "marke": "GEPA",
@@ -1564,6 +1717,172 @@
           "id": "eu-bio",
           "rolle": "relevant fuer Bio-Fischprodukte der Eigenmarken",
           "einordnung": "Bio kann einzelne Produkte staerken, ist hier aber nicht die primaere Grundlage des Lieferkettenpilotfalls."
+        }
+      ]
+    },
+    {
+      "id": "lidl-way-to-go-schokolade-kakao-ghana",
+      "unternehmen": "Lidl Deutschland",
+      "marke": "Way To Go / Fairglobe / Fin Carre Eigenmarken",
+      "warengruppe": "Tafelschokolade",
+      "rohstoffe": [
+        "Kakao",
+        "Zucker",
+        "Vanille"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Fairtrade-zertifizierte Schokolade",
+          "Kakao aus Ghana bzw. Kuapa Kokoo im Way-To-Go-Konzept",
+          "Living-Income-Programm fuer Eigenmarken-Tafelschokolade ab Maerz 2026"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "segregation",
+      "kettentyp": "Kooperativenbezug",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Stark fuer einen Discount-Eigenmarkenfall durch Fairtrade-Partnerschaft, Kooperativenbezug und Living-Income-Programm. Unter GEPA/Tonys, weil die oeffentliche Transparenz weniger detailliert und staerker programm- bzw. warengruppenbezogen ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-living-income-2026",
+            "lidl-way-to-go-konzept"
+          ],
+          "notiz": "Skalierung auf das Eigenmarken-Tafelschokoladensortiment kann wegen Lidl-Reichweite relevante Hebelwirkung haben."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-way-to-go-start",
+            "lidl-way-to-go-konzept"
+          ],
+          "notiz": "Way To Go verweist auf Ghana, Kuapa Kokoo und Fairtrade-gestuetzte Projekte."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-living-income-luecke",
+          "beschreibung": "Kakao ist weiterhin Hochrisikosektor fuer nicht existenzsichernde Einkommen; Lidl begruendet das Programm gerade mit dieser Luecke.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-living-income-2026",
+            "lidl-way-to-go-konzept"
+          ]
+        },
+        {
+          "id": "programmtransparenz-statt-produktcharge",
+          "beschreibung": "Die Informationen sind stark, aber nicht chargengenau fuer jede einzelne Tafel oeffentlich nachvollziehbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "lidl-way-to-go-start",
+            "lidl-fairtrade-kakao"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "living-income-programm",
+          "beschreibung": "Lidl stellt ab Maerz 2026 das Eigenmarken-Tafelschokoladensortiment in Festlistung auf ein Fairtrade-entwickeltes Living-Income-Programm um.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-living-income-2026"
+          ]
+        },
+        {
+          "id": "way-to-go-zusatzpraemie",
+          "beschreibung": "Way To Go zahlt zusaetzlich zu Fairtrade-Mindestpreis und Praemie einen Aufschlag fuer lokale landwirtschaftliche Projekte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-way-to-go-start",
+            "lidl-way-to-go-konzept"
+          ]
+        },
+        {
+          "id": "kuapa-kokoo-rueckverfolgbarkeit",
+          "beschreibung": "Lidl beschreibt fuer Way To Go physische Rueckverfolgbarkeit der Kakaobohnen bis zur Kooperative Kuapa Kokoo in Ghana.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-way-to-go-start"
+          ]
+        }
+      ],
+      "begruendung": "Lidl Way To Go bzw. die 2026 ausgeweitete Eigenmarken-Tafelschokoladenstrategie ist ein belastbarer neuer Discount-Pilotfall. Besonders relevant sind Fairtrade-Partnerschaft, Zusatzpraemie, Kooperativenbezug in Ghana und das neue Living-Income-Programm. Die Bewertung bleibt unter sehr starken Direktmodellen, weil die oeffentliche Information programmbezogen bleibt und keine vollstaendige chargengenaue Endproduktkette bereitstellt.",
+      "quellen": [
+        {
+          "id": "lidl-living-income-2026",
+          "titel": "Lidl Deutschland: Tafelschokoladen der Eigenmarken werden auf Living-Income-Programm umgestellt, 19.02.2026",
+          "url": "https://unternehmen.lidl.de/pressreleases/2026/260219_living-income-schokolade",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "living-income-programm",
+            "fairtrade",
+            "eigenmarken-tafelschokolade",
+            "booster"
+          ]
+        },
+        {
+          "id": "lidl-way-to-go-start",
+          "titel": "Lidl Deutschland: Lidl fuehrt Way To Go-Schokolade ein, 10.03.2020",
+          "url": "https://unternehmen.lidl.de/pressreleases/2020/200310_verkaufsstart-way-to-go-schokolade",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kuapa-kokoo",
+            "ghana",
+            "physische-rueckverfolgbarkeit",
+            "zusatzpraemie"
+          ]
+        },
+        {
+          "id": "lidl-way-to-go-konzept",
+          "titel": "Lidl Deutschland: Way To Go-Konzept",
+          "url": "https://unternehmen.lidl.de/verantwortung/gut-fuer-die-menschen/fair-handeln/handlungsfelder/fairtrade/way-to-go",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "einkommenssituation",
+            "fortbildung",
+            "geschlechtergerechtigkeit",
+            "transparenz"
+          ]
+        },
+        {
+          "id": "lidl-fairtrade-kakao",
+          "titel": "Lidl Deutschland: Fairtrade-Kakao",
+          "url": "https://unternehmen.lidl.de/lidlcorporate_DE/verantwortung/gut-fuer-die-menschen/fair-handeln/handlungsfelder/fairtrade/fairtrade-kakao",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairtrade-rohstoffsiegel",
+            "eigenmarken",
+            "kakao"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung gilt fuer Lidl-Eigenmarken-Tafelschokolade und Way-To-Go-/Fairtrade-Kakao-Programme, nicht fuer jede kakaohaltige Lidl-Ware mit gleicher Schaerfe.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "zentrales Sozial- und Rohstoffsiegel",
+          "einordnung": "Fairtrade ist Grundlage, aber der Lieferkettenscore wird durch Lidl-spezifische Living-Income- und Way-To-Go-Elemente erhoeht."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "teilweise Produktbezug bei Bio-Schokolade",
+          "einordnung": "Bio ist fuer einzelne Fairglobe-Produkte relevant, aber nicht die Grundlage des Lieferkettenscores."
         }
       ]
     },

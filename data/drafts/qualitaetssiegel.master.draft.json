@@ -1,5 +1,5 @@
 {
-  "version": "2026.4",
+  "version": "2026.5-draft",
   "typ": "qualitaetssiegel",
   "stand": "2026-05-19",
   "hinweis": "Konsolidierter interner Master-Draft fuer Nahrungsmittel und Drogerieprodukte. Lokal erstellt, nicht an App-Team uebergeben.",
@@ -228,6 +228,98 @@
       "unsicherheit": "mittel"
     },
     {
+      "id": "bio-suisse-knospe",
+      "name": "Bio Suisse Knospe",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Schweiz",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard",
+        "rueckverfolgbarkeit",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "verarbeitete Bio-Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Bio Suisse, Dachverband der Schweizer Knospe-Betriebe",
+      "standardtyp": "privater Schweizer Bio-Verbandsstandard fuer Erzeugung, Verarbeitung und Handel von Knospe-Produkten",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; starke Bio-Verbandsregeln und Rueckverfolgbarkeit, aber Deutschlandbezug vor allem ueber importierte oder im Handel sichtbare Produkte."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "bio-suisse-transparenz",
+            "bio-suisse-richtlinien-2026"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": 0,
+          "quelle_ids": [
+            "bio-suisse-marke"
+          ],
+          "aussage_status": "abgeleitet",
+          "notiz": "Relevanz im deutschen Markt vorhanden, aber geringer als bei deutschen Bio-Verbandssiegeln."
+        }
+      ],
+      "begruendung": "Bio Suisse Knospe ist ein strenger Bio-Verbandsstandard fuer Lebensmittel. Stark sind verbindliche Richtlinien fuer Erzeugung, Verarbeitung und Handel, Kontrollpflicht und Rueckverfolgbarkeit von Knospe-Zutaten. Im deutschen Projektkontext wird das Siegel als import- bzw. handelssichtbares Lebensmittelzeichen aufgenommen.",
+      "quellen": [
+        {
+          "id": "bio-suisse-richtlinien-2026",
+          "titel": "Bio Suisse: Richtlinien fuer die Erzeugung, Verarbeitung und den Handel von Knospe-Produkten, 2026",
+          "url": "https://www.bioaktuell.ch/fileadmin/documents/ba/Bioregelwerk-2026/deutsch/2_BioSuisse_Allg/BioSuisse_Richtlinien_2026_de.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "richtlinien",
+            "kontrollpflicht",
+            "verarbeitung",
+            "handel"
+          ]
+        },
+        {
+          "id": "bio-suisse-transparenz",
+          "titel": "Bio Suisse: Transparenz, Rueckverfolgbarkeit und strenge Kontrollen",
+          "url": "https://www.bio-suisse.ch/de/unser-engagement/transparenz.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rueckverfolgbarkeit",
+            "zutaten",
+            "importierte-rohstoffe"
+          ]
+        },
+        {
+          "id": "bio-suisse-marke",
+          "titel": "Bio Suisse: Die Knospe steht fuer Bio Suisse und fuer Bio-Produkte",
+          "url": "https://www.bio-suisse.ch/de/unser-engagement/das-knospe-prinzip/unsere-marke.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "marke",
+            "traeger"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "biokreis",
       "name": "Biokreis",
       "kategorie": "Premium-Öko & Sozial",
@@ -417,6 +509,101 @@
           "belegt": [
             "externe-validierung",
             "verbandssiegel-einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "blauer-engel",
+      "name": "Blauer Engel",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "umweltzeichen",
+        "staatliches-siegel",
+        "produktstandard",
+        "drogerie",
+        "reinigungsmittel",
+        "kosmetik"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Spuelmittel",
+        "Shampoos",
+        "Duschgele",
+        "Seifen",
+        "Hygiene- und Drogerieprodukte"
+      ],
+      "traeger": "Bundesumweltministerium als Zeicheninhaber; Umweltbundesamt erarbeitet Kriterien; Jury Umweltzeichen beschliesst Kriterien; RAL gGmbH vergibt das Zeichen",
+      "standardtyp": "staatliches ISO-14024-Typ-I-Umweltzeichen mit produktgruppenspezifischen Kriterien fuer umwelt- und gesundheitsvertraeglichere Produkte",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Reaktiviert aus dem Archiv, aber auf drogerierelevante Produktgruppen eingegrenzt. Kein Lieferketten- oder Sozialstandard."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "uba-umweltzeichen-wasch-reinigung",
+            "blauer-engel-vergabekriterien"
+          ]
+        },
+        {
+          "id": "kein-lieferkettenstandard",
+          "name": "Kein Lieferkettenstandard",
+          "wert": 0,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "blauer-engel-vergabekriterien"
+          ],
+          "notiz": "Produktgruppenspezifische Umwelt- und Gesundheitskriterien statt Rohstoff-CoC."
+        }
+      ],
+      "begruendung": "Der Blaue Engel ist fuer den aktiven Drogerie-Scope relevant, weil es Kriterien fuer Wasch-, Reinigungs- und Koerperpflegeprodukte gibt. Die Staerke liegt in oeffentlicher Kriterienentwicklung, unabhaengiger Vergabe und produktgruppenspezifischen Umwelt-/Gesundheitsanforderungen. Die Bewertung bleibt unter Lieferketten- und Fairhandelsstandards.",
+      "quellen": [
+        {
+          "id": "blauer-engel-vergabekriterien",
+          "titel": "Blauer Engel: Vergabekriterien",
+          "url": "https://www.blauer-engel.de/de/zertifizierung/vergabekriterien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktgruppen",
+            "waschmittel",
+            "reinigungsmittel",
+            "kosmetik"
+          ]
+        },
+        {
+          "id": "uba-umweltzeichen-wasch-reinigung",
+          "titel": "Umweltbundesamt: Umweltzeichen fuer Wasch- und Reinigungsmittel",
+          "url": "https://www.umweltbundesamt.de/themen/chemikalien/wasch-reinigungsmittel/umweltzeichen",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "traegerstruktur",
+            "produktgruppen",
+            "drogerierelevanz"
+          ]
+        },
+        {
+          "id": "blauer-engel-akteure",
+          "titel": "Blauer Engel: Akteure",
+          "url": "https://www.blauer-engel.de/de/blauer-engel/akteure",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rollen",
+            "zeicheninhaber",
+            "vergabe"
           ]
         }
       ],
@@ -856,6 +1043,175 @@
       "unsicherheit": "niedrig"
     },
     {
+      "id": "ecocert-ecodetergents",
+      "name": "Ecocert Ecodetergents",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "reinigungsmittel",
+        "waschmittel",
+        "oekologisch",
+        "iso-14024",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Haushaltsreiniger",
+        "Spuelmittel",
+        "Homecare-Produkte"
+      ],
+      "traeger": "Ecocert Group",
+      "standardtyp": "privater Ecodetergent-Standard fuer Reinigungs- und Haushaltsprodukte mit Drittzertifizierung nach ISO-14024-Logik",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Starker oekologischer Reinigungsmittelstandard; kein Fair- oder Rohstoff-CoC-Siegel."
+      },
+      "faktoren": [
+        {
+          "id": "drittzertifizierung",
+          "name": "Drittzertifizierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ecocert-ecodetergents"
+          ]
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": 0,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ecocert-ecodetergents"
+          ],
+          "notiz": "Schwerpunkt auf Umwelt-, Inhaltsstoff- und Herstellungsanforderungen."
+        }
+      ],
+      "begruendung": "Ecocert Ecodetergents ist fuer Drogerieprodukte relevant, weil der Standard Reinigungs- und Haushaltsprodukte natuerlichen oder biologischen Ursprungs adressiert. Belegt sind Umweltanforderungen, Foerderung natuerlicher bzw. biologischer Inhaltsstoffe, Begrenzung petrochemischer Inhaltsstoffe und Drittzertifizierung. Lieferketten- und Sozialtiefe bleiben begrenzt.",
+      "quellen": [
+        {
+          "id": "ecocert-ecodetergents",
+          "titel": "Ecocert: Eco-friendly cleaning and household products / Ecodetergents",
+          "url": "https://www.ecocert.com/en/certification-detail/ecological-household-products-natdet",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standardtyp",
+            "iso-14024",
+            "drittzertifizierung",
+            "produktbereich",
+            "inhaltsstoffkriterien"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ecogarantie",
+      "name": "Ecogarantie",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "kosmetik",
+        "reinigungsmittel",
+        "oekologisch",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Hygieneprodukte",
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Raumduft",
+        "Babyprodukte",
+        "Biozide"
+      ],
+      "traeger": "Probila-Unitrab / Ecogarantie, mit anerkannten externen Kontroll- und Zertifizierungsstellen",
+      "standardtyp": "privater oekologischer Non-Food-Produktstandard fuer Kosmetik, Hygiene- und Reinigungsprodukte mit verpflichtender Kontrolle",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Starker Drogerie-Produktstandard, aber weniger oeffentlich-institutionell als Blauer Engel oder EU Ecolabel."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ecogarantie-faq",
+            "ecogarantie-standard-2024"
+          ]
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": 0,
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": [
+            "ecogarantie-standard-2024"
+          ],
+          "notiz": "Primaer ein oekologischer Produktstandard."
+        }
+      ],
+      "begruendung": "Ecogarantie ist im Drogerie-Scope relevant, weil es Non-Food-Produkte wie Kosmetik, Hygiene- und Reinigungsmittel abdeckt. Positiv sind verbindliche Standards, GMO- und petrochemiebezogene Ausschluesse sowie verpflichtende externe Kontrollen. Es ist jedoch kein klassischer Lieferketten- oder Fairhandelsstandard.",
+      "quellen": [
+        {
+          "id": "ecogarantie-standard-2024",
+          "titel": "Ecogarantie: Full Standards, 28.10.2024",
+          "url": "https://ecogarantie.eu/wp-content/uploads/2024/11/28_10_24-Ecogarantie-full-Standards-1.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "produktgruppen",
+            "kontrolle",
+            "gmo-ausschluss",
+            "oekologische-kriterien"
+          ]
+        },
+        {
+          "id": "ecogarantie-faq",
+          "titel": "Ecogarantie: FAQ",
+          "url": "https://ecogarantie.eu/faq-ecogarantie/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktbereiche",
+            "pflichtkontrolle",
+            "auditorganisationen"
+          ]
+        },
+        {
+          "id": "ecogarantie-products",
+          "titel": "Ecogarantie: Certified products",
+          "url": "https://ecogarantie.eu/ecogarantie-certified-products/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kosmetik",
+            "wasch-und-reinigungsprodukte"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "eu-bio",
       "name": "EU-Bio",
       "kategorie": "Gesetzlicher Mindeststandard",
@@ -943,6 +1299,114 @@
           "belegt": [
             "externe-validierung",
             "einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "eu-ecolabel",
+      "name": "EU Ecolabel",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "EU",
+        "EWR",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "umweltzeichen",
+        "oeffentlich",
+        "produktstandard",
+        "drogerie",
+        "reinigungsmittel",
+        "kosmetik",
+        "iso-14024"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Spuelmittel",
+        "Allzweckreiniger",
+        "Sanitaerreiniger",
+        "Shampoo",
+        "Seifen",
+        "Kosmetik",
+        "weitere drogerierelevante Produktgruppen"
+      ],
+      "traeger": "Europaeische Kommission und zustaendige Stellen der EU-/EWR-Mitgliedstaaten; European Union Ecolabelling Board",
+      "standardtyp": "freiwilliges EU-weites ISO-14024-Typ-I-Umweltzeichen mit produktgruppenspezifischen Kriterien und Drittpruefung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Reaktiviert aus dem Archiv, aber auf drogerierelevante Produktgruppen eingegrenzt. Kein pauschaler Rueckverfolgbarkeitsbonus."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eu-ecolabel-about",
+            "eu-ecolabel-cleaning",
+            "uba-umweltzeichen-wasch-reinigung"
+          ]
+        },
+        {
+          "id": "kein-lieferkettenstandard",
+          "name": "Kein Lieferkettenstandard",
+          "wert": 0,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eu-ecolabel-product-groups"
+          ],
+          "notiz": "Lebenszyklus- und Produktkriterien, aber keine generelle Rohstoff-Chain-of-Custody."
+        }
+      ],
+      "begruendung": "Das EU Ecolabel ist fuer Drogerieprodukte relevant, weil es Produktgruppen wie Waschmittel, Reinigungsprodukte, Shampoos und Seifen abdeckt. Die Staerke liegt in offiziellen, lebenszyklusbezogenen Kriterien, regelmaessiger Ueberarbeitung und Drittpruefung. Es bleibt aber ein Umweltzeichen und kein Fairhandels- oder Lieferkettenstandard.",
+      "quellen": [
+        {
+          "id": "eu-ecolabel-about",
+          "titel": "European Commission: About the EU Ecolabel",
+          "url": "https://environment.ec.europa.eu/topics/circular-economy-topics/eu-ecolabel/about-eu-ecolabel_en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "freiwilliges-umweltzeichen",
+            "produktgruppen"
+          ]
+        },
+        {
+          "id": "eu-ecolabel-cleaning",
+          "titel": "European Commission: EU Ecolabel - Cleaning",
+          "url": "https://environment.ec.europa.eu/topics/circular-economy/eu-ecolabel/product-groups-and-criteria/cleaning_en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "waschmittel",
+            "reinigungsprodukte",
+            "lebenszyklusansatz"
+          ]
+        },
+        {
+          "id": "eu-ecolabel-product-groups",
+          "titel": "European Commission: EU Ecolabel Product Groups and Criteria",
+          "url": "https://environment.ec.europa.eu/topics/circular-economy-topics/eu-ecolabel/product-groups-and-criteria_en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktgruppen",
+            "kriterien"
+          ]
+        },
+        {
+          "id": "uba-umweltzeichen-wasch-reinigung",
+          "titel": "Umweltbundesamt: Umweltzeichen fuer Wasch- und Reinigungsmittel",
+          "url": "https://www.umweltbundesamt.de/themen/chemikalien/wasch-reinigungsmittel/umweltzeichen",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "deutsche-einordnung",
+            "drogerierelevanz"
           ]
         }
       ],

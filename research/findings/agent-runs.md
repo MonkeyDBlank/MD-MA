@@ -363,3 +363,7 @@ Ziel: Relevante Drogerie-/Haushaltsstandards im bestehenden JSON-Format ergaenze
 
 - `data/processed/qualitaetssiegel.json` enthaelt jetzt 28 aktive Eintraege.
 - `data/processed/glossar.json` enthaelt jetzt 19 relevante Begriffe.
+
+## Lauf 008 - Qualitaetssiegel Nahrung/Drogerie (2026-05-19)
+
+Neue bzw. reaktivierte Eintraege: `bio-suisse-knospe`, `blauer-engel`, `ecogarantie`, `ecocert-ecodetergents`, `eu-ecolabel`. Blauer Engel und EU Ecolabel wurden aus dem Archiv in den aktiven Bestand uebernommen, aber nur mit direktem Drogerie-/Reinigungsproduktbezug. Primaerquellen: Bio Suisse, Umweltbundesamt/Blauer Engel, EU-Kommission, Ecogarantie und Ecocert.

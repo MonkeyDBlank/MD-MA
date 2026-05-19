@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 28 aktive Eintraege
+- 33 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 13 aktive Pilotfaelle
+- 15 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -58,7 +58,7 @@ Das Glossar ist eine eigenstaendige dritte JSON mit relevanten Begriffen fuer Na
 Aktiver Stand:
 
 - `data/processed/glossar.json`
-- 19 Begriffe
+- 21 Begriffe
 
 ### 6. Agenten-Workflow eingefuehrt
 
@@ -87,3 +87,16 @@ Recherche und Bewertung laufen nicht mehr nur als Einzelausgabe, sondern ueber e
 - `docs/siegel-lieferketten-abgleich.md`
 - `research/findings/agent-runs.md`
 - `research/findings/lieferketten-runs.md`
+
+## Aktualisierung 2026-05-19
+
+Stand nach Lauf 008 / Lieferketten Lauf 007:
+
+- 33 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen bzw. reaktiviert: `bio-suisse-knospe`, `blauer-engel`, `ecogarantie`, `ecocert-ecodetergents`, `eu-ecolabel`
+- 15 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `gepa-schokolade-kakao-cooproagro`, `lidl-way-to-go-schokolade-kakao-ghana`
+- 21 Glossar-Begriffe in `data/processed/glossar.json`
+- neu hinzugekommen: `typ-i-umweltzeichen`, `baseline-assessment`
+
+Die Umweltzeichen `blauer-engel` und `eu-ecolabel` wurden nicht pauschal als breite Non-Food-Siegel reaktiviert, sondern auf drogerierelevante Produktgruppen eingegrenzt.
