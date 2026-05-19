@@ -2,9 +2,8 @@
 
 ## Matrix
 
-- Sollen Zusatzfaktoren wie `Teilweise NGO-Kritik`, `Einzelfallkritik`, `Systemkritik` und `Transparente Vergabekriterien` offiziell in die Siegelmatrix?
-- Sollen neue Basiswerte wie 8 oder 9 erlaubt werden, oder müssen alle Siegel in die vorhandenen fünf Kategorien fallen?
 - Soll `Vertrauensniveau` automatisch aus Score abgeleitet werden oder separat bewertet werden?
+- Wann nehmen wir Nischenstandards wie `ICADA Natural`, `NCP` oder `NCS` in den aktiven Datenstand auf?
 
 ## Daten
 
@@ -14,7 +13,5 @@
 
 ## Lieferketten
 
-- Welche Unternehmen und Produkte sollen als erste Testfälle bewertet werden?
-- Soll die Lieferkettenmatrix pro Unternehmen, pro Produkt oder pro Rohstoff angewendet werden?
-- Wie streng soll mit Unternehmensselbstauskünften umgegangen werden?
-
+- Welche weiteren alltagsnahen Handels- und Eigenmarkenfaelle sollen als naechstes folgen?
+- Wie streng soll mit aelteren, aber fachlich weiter gueltigen Unternehmens-Infoblaettern umgegangen werden, wenn aktuelle Produktseiten die Grundlogik bestaetigen?

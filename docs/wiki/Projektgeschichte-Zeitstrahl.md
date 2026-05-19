@@ -55,7 +55,7 @@ Schwerpunkte:
 Ergebnis:
 
 - `data/processed/qualitaetssiegel.json`
-- 19 aktive Eintraege im finalen Scope
+- 26 aktive Eintraege im finalen Scope
 
 ## Phase 5: Lieferkettenmethodik und Pilotfaelle
 
@@ -68,7 +68,7 @@ Schwerpunkte:
 Ergebnis:
 
 - `data/processed/lieferketten.json`
-- 8 aktive Pilotfaelle
+- 12 aktive Pilotfaelle
 
 ## Phase 6: Glossar, Abgleich und Uebergabe-Logik
 
@@ -103,8 +103,8 @@ Ergebnis:
 Stand: `2026-05-19`
 
 - GitHub-first-Dokumentation aktiv
-- `qualitaetssiegel.json` mit 23 aktiven Eintraegen
-- `lieferketten.json` mit 10 aktiven Pilotfaellen
-- `glossar.json` mit 16 Begriffen
+- `qualitaetssiegel.json` mit 26 aktiven Eintraegen
+- `lieferketten.json` mit 12 aktiven Pilotfaellen
+- `glossar.json` mit 18 Begriffen
 - Agenten-Workflow dokumentiert
 - Repo fuer weitere Recherche- und Bewertungslaeufe vorbereitet

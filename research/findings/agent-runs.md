@@ -285,3 +285,44 @@ Nach Nutzerhinweis wurde der aktive Scope fuer Qualitätssiegel geschärft:
 - `gruener-knopf`
 - `pefc`
 - `sa8000`
+
+## Lauf 006 - Deutschland-Scope und Herkunftszeichen geschaerft
+
+Datum: 2026-05-19
+
+Ziel: Sichtbare und methodisch sinnvolle Deutschland-Siegel nachziehen, ohne den Scope in Nischensiegel oder unscharfe Marketingsymbole aufzuweichen.
+
+### Gestartete Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e401d-e72b-77b1-b6ff-b65cb0446879` | Regionalfenster / Bayerisches Bio-Siegel | Herkunfts- und regionales Bio-Zeichen fuer den deutschen Markt bewerten | `regionalfenster` und `bayerisches-bio-siegel` empfohlen |
+| `019e401d-e7bb-7630-9603-6cb1201b2703` | KAT / ICADA Natural | Eier-Rueckverfolgbarkeitsstandard und Naturkosmetik-Nischensiegel pruefen | `kat` empfohlen, `ICADA Natural` nicht priorisiert |
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-006.draft.json`
+- `data/drafts/glossar.agent-run-003.draft.json`
+
+### Neue Siegel-Eintraege
+
+- `bayerisches-bio-siegel`
+- `kat`
+- `regionalfenster`
+
+### Neue Glossarbegriffe
+
+- `eiercode`
+- `herkunftszeichen`
+
+### Methodische Entscheidungen
+
+- `Regionalfenster` wird als Herkunfts- und Transparenzzeichen modelliert, nicht als starkes Nachhaltigkeits- oder Qualitaetssiegel.
+- `Bayerisches Bio-Siegel` wird als `Regionales Bio-Qualitaetszeichen` zwischen `eu-bio` und privaten Premium-Verbandszeichen eingeordnet.
+- `KAT` wird als spezialisierter Eier-/Haltungs- und Rueckverfolgbarkeitsstandard gefuehrt und nicht mit Premium-Tierwohlsiegeln gleichgesetzt.
+- `ICADA Natural` bleibt vorerst ausserhalb des aktiven Datenstands, weil der Mehrwert gegenueber `natrue` und `cosmos-*` aktuell zu gering ist.
+
+### Ergebnis
+
+- `data/processed/qualitaetssiegel.json` enthaelt jetzt 26 aktive Eintraege.
+- `data/processed/glossar.json` enthaelt jetzt 18 relevante Begriffe.

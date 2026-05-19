@@ -148,3 +148,41 @@ Ziel: Die Pilotbasis um einen belastbaren Obstfall und einen weiteren starken Dr
 
 - `BanaFair` bleibt bewusst ein Marken-/Produktgruppenfall und nicht die chargengenaue Lieferkette jeder Banane.
 - `Dr. Bronner's` wurde auf Produktlinien- und Kernrohstoffebene aufgenommen, nicht auf Ebene einer einzelnen Seifencharge.
+
+## Lauf 005 - Eier und Wasch-/Reinigungsrohstoffe
+
+Datum: 2026-05-19
+
+Ziel: Den Pilotbestand um einen alltagsnahen Eier-Fall und einen staerkeren Wasch-/Reinigungsfall erweitern.
+
+## Neue Eintraege
+
+- `eifrisch-schaleneier-kat-deutschland`
+- `sonett-seifen-und-waschmittel-rohstoffkette`
+
+## Auswahlgrund
+
+- `Eifrisch`: deutsche Alltagsware mit KAT-basierter Herkunftssicherung, Eiercode-Logik und oeffentlich beschriebener Warenflussarchitektur
+- `Sonett`: fuer Drogerie ungewoehnlich starke Produkt- und Rohstoffkommunikation mit konkreten Oelherkuenften und offener Palm-Einordnung
+
+## Eingesetzte Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e401d-e991-7940-a12c-d1d7a798504b` | Eifrisch / KAT | Neuer Eier-Pilotfall | `eifrisch-schaleneier-kat-deutschland` empfohlen |
+| `019e401d-e89b-7ec1-a9d7-777d123f2ff8` | Sonett | Neuer Wasch-/Reinigungs-Pilotfall | `sonett-seifen-und-waschmittel-rohstoffkette` empfohlen |
+
+## Entstandene Dateien
+
+- `data/drafts/lieferketten.agent-run-005.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+## Ergebnis
+
+`data/processed/lieferketten.json` enthaelt jetzt 12 aktive Pilot-Eintraege.
+
+## Methodische Hinweise
+
+- `Eifrisch` wird bewusst als `Unternehmen/Marke + Warengruppe + Rueckverfolgbarkeitssystem` gefuehrt, nicht als packungsscharfer Eier-Eintrag ohne Eiercode.
+- `Sonett` bleibt ein produktliniennaher Rohstofffall mit starker Teiltransparenz, aber ohne chargengenaue Offenlegung aller Tensidvorstufen.

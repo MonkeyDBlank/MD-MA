@@ -1,0 +1,417 @@
+{
+  "version": "2026.3",
+  "typ": "lieferketten",
+  "stand": "2026-05-19",
+  "eintraege": [
+    {
+      "id": "eifrisch-schaleneier-kat-deutschland",
+      "unternehmen": "Eifrisch",
+      "marke": "Eifrisch",
+      "warengruppe": "Schaleneier",
+      "rohstoffe": [
+        "Ei",
+        "Futtermittel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Eier aus Boden-, Freiland- oder Biohaltung",
+          "KAT-Systembezug",
+          "Rueckverfolgung ueber Eiercode und Warenflusspruefung"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "standardgestuetzte-herkunftssicherung",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 1,
+        "final": 7,
+        "anmerkung": "Starker deutscher Eier-Pilotfall wegen KAT-basierter Rueckverfolgbarkeit, zentraler Datenbank und offener Systembeschreibung. Abzug, weil die oeffentliche Transparenz ohne konkreten Eiercode und bei Vorstufen/Futtermitteln begrenzt bleibt."
+      },
+      "faktoren": [
+        {
+          "id": "systemische-rueckverfolgbarkeit",
+          "name": "Systemische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-herkunft",
+            "kat-datenbank"
+          ]
+        },
+        {
+          "id": "unangekuendigte-kontrollarchitektur",
+          "name": "Unangekuendigte Kontrollarchitektur",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kat-logo-kontrollsystem",
+            "kat-verein"
+          ],
+          "notiz": "KAT verbindet Warenflusspruefung, Auditkette und unabhaengige Zertifizierungsstellen."
+        },
+        {
+          "id": "begrenzte-vorstufentransparenz",
+          "name": "Begrenzte Vorstufentransparenz",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kat-verein",
+            "eifrisch-haltung"
+          ],
+          "notiz": "Das Modell ist systemisch belastbar, aber nicht fuer jede Packung oder Vorstufe vollstaendig offen."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "heterogene-tierwohlqualitaet",
+          "beschreibung": "Die Tierwohlqualitaet variiert innerhalb des Sortiments zwischen Boden-, Freiland- und Biohaltung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-haltung"
+          ]
+        },
+        {
+          "id": "futtermittel-transparenz",
+          "beschreibung": "Die oeffentliche Transparenz zu konkreten Futtermittelherkuenften und Vorstufen bleibt begrenzt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kat-verein",
+            "kat-datenbank"
+          ]
+        },
+        {
+          "id": "produktpraezision-ohne-eiercode",
+          "beschreibung": "Ohne konkreten Eiercode oder konkrete Packung bleibt die Aussage auf Marken-/Warengruppenebene.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-herkunft",
+            "kat-verein"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "eigene-farmen-und-partnerbetriebe",
+          "beschreibung": "Eifrisch nennt eigene Farmen und regionale Partnerbetriebe als Basis der Eierbeschaffung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-herkunft"
+          ]
+        },
+        {
+          "id": "bruderhahn-und-alternativen",
+          "beschreibung": "Eifrisch nennt Bruderhahnaufzucht sowie SELEGGT- und Plantegg-Verfahren.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-haltung"
+          ]
+        },
+        {
+          "id": "zusaetzliche-zertifizierungen",
+          "beschreibung": "Flankierende Standards sind laut Eifrisch unter anderem IFS Food, IFS Broker, VLOG und Bio-Zertifizierungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "eifrisch-quality-partner",
+            "eifrisch-haltung"
+          ]
+        }
+      ],
+      "begruendung": "Eifrisch ist ein guter Alltags-Pilotfall fuer deutsche Eier, weil die Lieferkette nicht nur ueber Haltungsangaben, sondern ueber ein systemisches Rueckverfolgbarkeitsmodell mit Eiercode, KAT-Datenbank und Auditarchitektur beschrieben werden kann. Gleichzeitig bleibt die Bewertung bewusst unter einem Spitzenwert, weil die Aussagen ohne konkrete Packung und bei Futtermittel-Vorstufen nicht vollstaendig offen liegen.",
+      "quellen": [
+        {
+          "id": "eifrisch-herkunft",
+          "titel": "Eifrisch: Herkunft",
+          "url": "https://eifrisch.de/herkunft/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rueckverfolgbarkeit",
+            "eigene-farmen",
+            "partnerbetriebe"
+          ]
+        },
+        {
+          "id": "eifrisch-haltung",
+          "titel": "Eifrisch: Haltung",
+          "url": "https://eifrisch.de/haltung/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "haltungsformen",
+            "kat",
+            "bruderhahn",
+            "seleggt",
+            "plantegg"
+          ]
+        },
+        {
+          "id": "eifrisch-quality-partner",
+          "titel": "Eifrisch B2B: Quality Partner",
+          "url": "https://eifrisch.de/b2b-en/quality-partner/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "vollstaendige-rueckverfolgbarkeit",
+            "zertifizierte-prozesse"
+          ]
+        },
+        {
+          "id": "kat-verein",
+          "titel": "KAT: Der Verein",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/index.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "systemarchitektur",
+            "grenzen-des-systems"
+          ]
+        },
+        {
+          "id": "kat-datenbank",
+          "titel": "KAT: Datenbank",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/kontrollsystem/datenbank.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "datenbank",
+            "warenflusspruefung"
+          ]
+        },
+        {
+          "id": "kat-logo-kontrollsystem",
+          "titel": "KAT: Logo und Kontrollsystem",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/kontrollsystem/logo.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungsstellen",
+            "unangekuendigte-kontrollen"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage ist fuer Eier deutlich systemischer abgesichert als bei vielen anderen Tierprodukten, bleibt aber ohne konkreten Eiercode bewusst auf Marken- und Warengruppenebene.",
+      "relevante_siegel": [
+        {
+          "id": "kat",
+          "rolle": "zentrales Rueckverfolgbarkeits- und Kontrollsystem",
+          "einordnung": "Der Lieferkettenscore stuetzt sich massgeblich auf die KAT-Architektur aus Datenbank, Auditkette und Herkunftssicherung."
+        },
+        {
+          "id": "vlog-ohne-gentechnik",
+          "rolle": "moeglicher Zusatzclaim fuer Teile des Sortiments",
+          "einordnung": "Von Eifrisch genannt, aber nicht fuer jede Verbraucherpackung gleichermaassen oeffentlich belegt."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "relevant fuer den Bio-Teil des Sortiments",
+          "einordnung": "Der Bio-Bezug gilt nur fuer den Teil der Eier, die als Bio vermarktet werden."
+        }
+      ]
+    },
+    {
+      "id": "sonett-seifen-und-waschmittel-rohstoffkette",
+      "unternehmen": "Sonett",
+      "marke": "Sonett",
+      "warengruppe": "Seifenbasierte Wasch-, Reinigungs- und Koerperpflegeprodukte",
+      "rohstoffe": [
+        "Pflanzliche Oele und Fette",
+        "Kokosoel",
+        "Olivenoel",
+        "Palm(oel)",
+        "Raps",
+        "Sonnenblume",
+        "Tensidvorstufen"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Produktbeispiele: Handseife und Waschpulver",
+          "Bio-/biodynamische Oelbasis",
+          "teilweise konkrete Herkunftsangaben zu zentralen Oelen"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rohstoffgruppen-transparent-biobasiert",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Staerker als viele Drogerie-Lieferketten durch konkrete Rohstoffangaben, Bio-/biodynamische Oelbasis und offene Einordnung von Palmbezug. Kein Spitzenwert, weil verarbeitete Tensidvorstufen und komplette Lieferantentiefe nicht vollstaendig produktgenau offenliegen."
+      },
+      "faktoren": [
+        {
+          "id": "konkrete-rohstoffherkunft",
+          "name": "Konkrete Rohstoffherkunft",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-hand-soap",
+            "sonett-herkunft-oele"
+          ]
+        },
+        {
+          "id": "bio-und-standardeinbettung",
+          "name": "Bio- und Standardeinbettung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-quality",
+            "sonett-certifications"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-risiken",
+          "beschreibung": "Palm- und Palmkernoel bleiben bei Teilen der Seifen- und Tensidkette ein Entwaldungs- und Sozialrisiko.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-palm-oil",
+            "sonett-washing-powder"
+          ]
+        },
+        {
+          "id": "verarbeitete-tensidvorstufen",
+          "beschreibung": "Bei Zuckertensiden und Fettalkoholsulfaten ist die Lieferkette nur teilweise kontrollierbar und weniger transparent als bei den direkt eingesetzten Oelen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-palm-oil",
+            "sonett-quality"
+          ]
+        },
+        {
+          "id": "gruppenbezogene-statt-chargenscharfer-transparenz",
+          "beschreibung": "Die Transparenz ist fuer Produktlinien und Rohstoffgruppen stark, aber nicht chargengenau fuer jede Einzelware.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-herkunft-oele",
+            "sonett-hand-soap"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "bio-und-biodynamische-oele",
+          "beschreibung": "Sonett beschreibt fuer die Seifenbasis den Einsatz von biologischen bzw. biodynamischen Oelen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-quality",
+            "sonett-washing-powder"
+          ]
+        },
+        {
+          "id": "offene-herkunftsangaben",
+          "beschreibung": "Sonett nennt fuer zentrale Oele konkrete Herkuenfte, etwa Kokosoel von Kleinfarmen auf den Philippinen und Olivenoel aus Nordtunesien bzw. dem Mittelmeerraum.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-hand-soap",
+            "sonett-herkunft-oele"
+          ]
+        },
+        {
+          "id": "offene-palm-kommunikation",
+          "beschreibung": "Sonett verschweigt Palmbezug nicht, sondern erklaert den Einsatz von Bio-Palmoel in der eigenen Seifenproduktion und RSPO-Absicherung bei bestimmten Tensidvorstufen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-palm-oil"
+          ]
+        },
+        {
+          "id": "volldeklaration-und-standards",
+          "beschreibung": "Sonett verweist auf Volldeklaration der Inhaltsstoffe und verschiedene Produkt- bzw. Unternehmenszertifizierungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sonett-certifications",
+            "sonett-quality"
+          ]
+        }
+      ],
+      "begruendung": "Sonett ist ein starker Drogerie-Pilotfall, weil das Unternehmen auf Produkt- und Rohstoffebene mehr konkrete Angaben macht als viele vergleichbare Marken. Besonders stark sind die offen benannten Herkuenfte zentraler Oele und die transparente Einordnung von Palmbezug. Die Bewertung bleibt unter der Maximalzone, weil Tensidvorstufen und vollstaendige Lieferantentiefe nicht fuer jede Einzelware offengelegt sind.",
+      "quellen": [
+        {
+          "id": "sonett-hand-soap",
+          "titel": "Sonett: Hand Soap Rosemary",
+          "url": "https://www.sonett.eu/products/koerperpflege/hand-soap-rosemary/?L=1",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kokosoel-philippinen",
+            "olivenoel-tunesien",
+            "produktbezug"
+          ]
+        },
+        {
+          "id": "sonett-washing-powder",
+          "titel": "Sonett: Laundry Powder",
+          "url": "https://www.sonett.eu/products/waschen/laundry-powder/?L=1",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "seifenbasis",
+            "bio-oele",
+            "palmoel-bezug"
+          ]
+        },
+        {
+          "id": "sonett-herkunft-oele",
+          "titel": "Sonett: Herkunft Oele",
+          "url": "https://www.sonett.eu/qualitaet/informationen/herkunft-oele/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "herkunft-oele",
+            "palmoel-kolumbien",
+            "kokosoel-projekt"
+          ]
+        },
+        {
+          "id": "sonett-quality",
+          "titel": "Sonett: The Sonett Quality",
+          "url": "https://www.sonett.eu/quality/the-sonett-quality/?L=1",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-biodynamische-rohstoffe",
+            "grundsaetze"
+          ]
+        },
+        {
+          "id": "sonett-certifications",
+          "titel": "Sonett: Certifications",
+          "url": "https://www.sonett.eu/quality/certifications/?L=1",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungen",
+            "produktstandards",
+            "unternehmensstandard"
+          ]
+        },
+        {
+          "id": "sonett-palm-oil",
+          "titel": "Sonett: Palm oil in Sonett products",
+          "url": "https://www.sonett.eu/fileadmin/content/Englische_Bilder/3_Qualitaet/Further_Information/0_Palmoel_in_Sonett_Produkten_GB_mit_Logo_2018.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palmoel",
+            "rspo-vorstufen"
+          ],
+          "quellenproblem": "Einzelnes Infoblatt ist aelter; Produktseiten und aktuelle Qualitaetsseiten stutzen die Grundlogik aber weiterhin."
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage ist fuer Sonett staerker als uebliche Markenclaims, bleibt aber bewusst auf Produktlinien- und Rohstoffgruppenebene statt auf chargengenauer Einzelware.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "indirekter Vorstufenbezug",
+          "einordnung": "RSPO ist bei Sonett nicht der Hauptclaim, aber fuer den Palmanteil in bestimmten zugekauften Tensidvorstufen relevant."
+        },
+        {
+          "id": "vegan-trademark-veganblume",
+          "rolle": "teilweise direkter Produktbezug",
+          "einordnung": "Viele, aber nicht zwingend alle Sonett-Produkte tragen zusaetzlich einen Vegan-Claim; fuer die Rohstoffkette ist das nur ein Nebenaspekt."
+        }
+      ]
+    }
+  ]
+}

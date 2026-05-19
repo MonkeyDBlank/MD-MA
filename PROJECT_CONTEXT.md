@@ -77,9 +77,9 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 23 aktive Eintraege
-- `data/processed/lieferketten.json`: 10 aktive Pilotfaelle
-- `data/processed/glossar.json`: 16 relevante Begriffe
+- `data/processed/qualitaetssiegel.json`: 26 aktive Eintraege
+- `data/processed/lieferketten.json`: 12 aktive Pilotfaelle
+- `data/processed/glossar.json`: 18 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
@@ -175,14 +175,22 @@ Stand nach Lauf 005:
   - `vegan-trademark-veganblume`
   - `leaping-bunny`
 
+Stand nach Lauf 006:
+
+- 26 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen:
+  - `bayerisches-bio-siegel`
+  - `kat`
+  - `regionalfenster`
+
 Stand weitere JSONs:
 
 - aktuelle uebergabefaehige Glossar-Datei: `data/processed/glossar.json`
-- aktueller Zaehler: 16 Begriffe
+- aktueller Zaehler: 18 Begriffe
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 10 aktive Pilotfaelle
+- aktueller Zaehler: 12 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -213,6 +221,13 @@ Stand Lieferketten nach Lauf 004:
 - neu hinzugekommen:
   - `banafair-bio-bananen-urocal-ecuador`
   - `dr-bronner-reine-naturseife-rohstoffkette`
+
+Stand Lieferketten nach Lauf 005:
+
+- 12 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen:
+  - `eifrisch-schaleneier-kat-deutschland`
+  - `sonett-seifen-und-waschmittel-rohstoffkette`
 
 ## Entscheidungen Vom 2026-05-12
 

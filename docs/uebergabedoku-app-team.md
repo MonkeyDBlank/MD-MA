@@ -39,7 +39,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 23 aktive Einträge
+- 26 aktive Einträge
 - nur Siegel im Scope Nahrung und Drogerie
 
 Wichtige Felder:
@@ -69,7 +69,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 10 aktive Pilot-Einträge
+- 12 aktive Pilot-Einträge
 - bewusst als belastbare Pilotbasis, noch kein Vollbestand
 
 Wichtige Felder:
@@ -104,7 +104,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 16 relevante Begriffe
+- 18 relevante Begriffe
 - nur Begriffe im Scope Nahrung und Drogerie
 
 Wichtige Begriffe:
@@ -165,6 +165,8 @@ Derzeit enthalten:
 - `ferrero-nutella-palmoel`
 - `banafair-bio-bananen-urocal-ecuador`
 - `dr-bronner-reine-naturseife-rohstoffkette`
+- `eifrisch-schaleneier-kat-deutschland`
+- `sonett-seifen-und-waschmittel-rohstoffkette`
 
 ## Wichtige Zusatzdokumente
 

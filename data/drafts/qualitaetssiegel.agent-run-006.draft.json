@@ -1,0 +1,402 @@
+{
+  "version": "2026.3",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-19",
+  "eintraege": [
+    {
+      "id": "bayerisches-bio-siegel",
+      "name": "Bayerisches Bio-Siegel",
+      "kategorie": "Regionales Bio-Qualitaetszeichen",
+      "region": [
+        "Deutschland",
+        "Bayern"
+      ],
+      "typ_tags": [
+        "bio",
+        "staatliches-siegel",
+        "regional",
+        "lebensmittel",
+        "qualitaetszeichen",
+        "rueckverfolgbarkeit"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Bayerisches Staatsministerium fuer Ernahrung, Landwirtschaft, Forsten und Tourismus (StMELF); Systemkontrolle durch die Bayerische Landesanstalt fuer Landwirtschaft (LfL)",
+      "standardtyp": "staatliches bayerisches Bio-Qualitaetszeichen auf Basis der EU-Oeko-Regeln mit zusaetzlichen Qualitaetsanforderungen und optionalem Herkunftsnachweis",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 1,
+        "final": 8,
+        "anmerkung": "Staerker als EU-Bio durch Zusatzkriterien, Systemkontrolle und Herkunftsoption, aber unter sehr strengen privaten Verbandsstandards mit ausgepraegter Sozialdimension."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "bayerisches-bio-das-system",
+            "bayerisches-bio-programmbestimmungen"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "bayerisches-bio-stmelf",
+            "bayerisches-bio-lfl"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "bayerisches-bio-leistungsinhalt"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Das Bayerische Bio-Siegel ist fuer den deutschen Markt relevant, weil es sichtbar ist und ueber EU-Bio hinausgeht. Stark sind die zusaetzlichen Anforderungen, das dreistufige Kontrollsystem und die moegliche lueckenlose bayerische Herkunftsabsicherung. Es bleibt aber ein regionales Bio-Qualitaetszeichen, kein umfassender Fair- oder Sozialstandard.",
+      "quellen": [
+        {
+          "id": "bayerisches-bio-stmelf",
+          "titel": "StMELF: Bayerisches Bio-Siegel",
+          "url": "https://www.stmelf.bayern.de/ernaehrung/markt/bio-siegel/index.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "kontrollsystem",
+            "hoeherer-standard-als-eu-bio"
+          ]
+        },
+        {
+          "id": "bayerisches-bio-das-system",
+          "titel": "Bayerisches Bio-Siegel: Das System",
+          "url": "https://www.biosiegel.bayern/das-system/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "herkunftsnachweis",
+            "kontrollsystem",
+            "qualitaetskriterien"
+          ]
+        },
+        {
+          "id": "bayerisches-bio-programmbestimmungen",
+          "titel": "Bayerisches Bio-Siegel: Programmbestimmungen",
+          "url": "https://www.stmelf.bayern.de/mam/cms01/markt/dateien/biosiegel_programmbestimmungen.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "formale-regeln",
+            "herkunftsanforderungen"
+          ]
+        },
+        {
+          "id": "bayerisches-bio-leistungsinhalt",
+          "titel": "Bayerisches Bio-Siegel: Leistungsinhalt",
+          "url": "https://www.stmelf.bayern.de/mam/cms01/markt/dateien/leistungsinhalt_bio_siegel.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zusatzanforderungen",
+            "futter",
+            "duengung",
+            "kontrollen"
+          ]
+        },
+        {
+          "id": "bayerisches-bio-lfl",
+          "titel": "LfL: Bayerisches Bio-Siegel",
+          "url": "https://www.lfl.bayern.de/iem/oekolandbau/223729/index.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "staatliche-systemkontrolle"
+          ]
+        },
+        {
+          "id": "bayerisches-bio-vis",
+          "titel": "Verbraucherportal Bayern: Herkunft von Lebensmitteln",
+          "url": "https://vis.bayern.de/essen_trinken/kennzeichnung/herkunft_lebensmittel.htm",
+          "quelle_typ": "verbraucherportal",
+          "belegt": [
+            "einordnung",
+            "herkunftsgarantie"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "kat",
+      "name": "KAT / Ihr Pruefsystem fuer Eier",
+      "kategorie": "Eier-/Haltungs- und Rueckverfolgbarkeitsstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "eier",
+        "haltung",
+        "rueckverfolgbarkeit",
+        "eiprodukte",
+        "kontrollsystem",
+        "deutschland"
+      ],
+      "produktbereich": [
+        "Eier",
+        "Eiprodukte"
+      ],
+      "traeger": "KAT e.V. Verein fuer kontrollierte alternative Tierhaltungsformen",
+      "standardtyp": "branchengetragenes Kontroll- und Rueckverfolgbarkeitssystem fuer alternative Haltungsformen, Eiprodukte und Warenfluesse",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 5,
+        "plus": 4,
+        "minus": 2,
+        "final": 7,
+        "anmerkung": "Sehr stark bei Eier-Herkunft und Warenflusskontrolle, aber kein umfassender Nachhaltigkeitsstandard und governance-seitig deutlich industrienahe."
+      },
+      "faktoren": [
+        {
+          "id": "systemische-rueckverfolgbarkeit",
+          "name": "Systemische Rueckverfolgbarkeit",
+          "wert": 2,
+          "quelle_ids": [
+            "kat-kriterien",
+            "kat-datenbank"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "kat-logo-kontrollsystem"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "zusatzanforderung-kuekentoeten",
+          "name": "Zusatzanforderung zum Kuekentoeten",
+          "wert": 1,
+          "quelle_ids": [
+            "kat-kuekentoeten",
+            "vz-kuekentoeten"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "industrienaehe",
+          "name": "Industrienaehe",
+          "wert": -1,
+          "quelle_ids": [
+            "kat-verein"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "kat-verein",
+            "vz-kuekentoeten"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "KAT ist fuer Eier in Deutschland hoch relevant, weil das System Rueckverfolgbarkeit, Warenflusspruefung und alternative Haltungsformen sichtbar absichert. Es ist aber kein Vollsiegel fuer Nachhaltigkeit, Umwelt oder soziale Standards, sondern ein spezialisierter Standard fuer Eier und Eiprodukte.",
+      "quellen": [
+        {
+          "id": "kat-kriterien",
+          "titel": "KAT: Kriterien",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/kontrollsystem/kat-kriterien.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kriterien",
+            "scope",
+            "stufen-der-kette"
+          ]
+        },
+        {
+          "id": "kat-datenbank",
+          "titel": "KAT: Datenbank",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/kontrollsystem/datenbank.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "datenbank",
+            "warenflusskontrolle",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "kat-logo-kontrollsystem",
+          "titel": "KAT: Logo und Kontrollsystem",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/kontrollsystem/logo.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungsstellen",
+            "unangekuendigte-kontrollen"
+          ]
+        },
+        {
+          "id": "kat-verein",
+          "titel": "KAT: Der Verein",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/index.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "marktbedeutung",
+            "grenzen-des-systems"
+          ]
+        },
+        {
+          "id": "kat-kuekentoeten",
+          "titel": "KAT: Ausstieg aus dem Kuekentoeten",
+          "url": "https://www.was-steht-auf-dem-ei.de/de/kat-verein/ausstieg-kuekentoeten.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kuekentoeten",
+            "chargenbezug"
+          ]
+        },
+        {
+          "id": "vz-kuekentoeten",
+          "titel": "Verbraucherzentrale: Toetung von Eintagskueken vorbei",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/toetung-von-eintagskueken-vorbei-aber-nur-in-bruetereien-in-deutschland-11924",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "handelssichtbarkeit"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "regionalfenster",
+      "name": "Regionalfenster",
+      "kategorie": "Regional-/Herkunftszeichen",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "regional",
+        "herkunft",
+        "transparenz",
+        "lebensmittel",
+        "freiwilliges-zeichen"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Regionalfenster Service GmbH / Tragerverein Regionalfenster e.V.",
+      "standardtyp": "freiwilliges deutsches Herkunfts- und Transparenzzeichen fuer Lebensmittel mit kontrollierter Regionsangabe und Verarbeitungsangabe",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 2,
+        "minus": 1,
+        "final": 4,
+        "anmerkung": "Nuetzlich fuer Herkunftstransparenz, aber kein Qualitaets-, Umwelt-, Sozial- oder Tierwohlsiegel."
+      },
+      "faktoren": [
+        {
+          "id": "transparente-herkunftsangabe",
+          "name": "Transparente Herkunftsangabe",
+          "wert": 1,
+          "quelle_ids": [
+            "regionalfenster-start",
+            "regionalfenster-kriterien"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "jaehrliche-unabhaengige-kontrolle",
+          "name": "Jaehrliche unabhaengige Kontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "regionalfenster-start",
+            "regionalfenster-handbuch"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-qualitaetsanspruch",
+          "name": "Begrenzter Qualitaetsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "vz-regionale-lebensmittel",
+            "vsb-regionalfenster"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Das Regionalfenster ist fuer den deutschen Markt sichtbar und als Transparenzhilfe sinnvoll. Es sagt aber vor allem etwas ueber Herkunft, Verarbeitungsort und den Anteil regionaler Zutaten aus, nicht ueber Nachhaltigkeit oder Produktqualitaet im engeren Sinn.",
+      "quellen": [
+        {
+          "id": "regionalfenster-start",
+          "titel": "Regionalfenster",
+          "url": "https://www.regionalfenster.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zweck",
+            "kontrolle",
+            "einsatzbereich"
+          ]
+        },
+        {
+          "id": "regionalfenster-kriterien",
+          "titel": "Regionalfenster: Kriterien",
+          "url": "https://www.regionalfenster.de/lizenznehmer/kriterien.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "regionsdefinition",
+            "kontrollstelle",
+            "grundstruktur"
+          ]
+        },
+        {
+          "id": "regionalfenster-handbuch",
+          "titel": "Regionalfenster Handbuch 4.1.4",
+          "url": "https://www.regionalfenster.de/fileadmin/user_upload/Systemdokumente/PDF/RF_Handbuch_4.1.4.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "51-prozent-regel",
+            "monoprodukte",
+            "kontrollverfahren"
+          ]
+        },
+        {
+          "id": "vz-regionale-lebensmittel",
+          "titel": "Verbraucherzentrale: Regionale Lebensmittel nicht immer aus der Region",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/regionale-lebensmittel-nicht-immer-aus-der-region-11403",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "kritische-einordnung",
+            "grenzen"
+          ]
+        },
+        {
+          "id": "vsb-regionalfenster",
+          "titel": "Verbraucherservice Bayern: Das Regionalfenster",
+          "url": "https://www.verbraucherservice-bayern.de/themen/ernaehrung/das-regionalfenster-ein-zeichen-auf-lebensmitteln",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "kein-qualitaetszeichen",
+            "vorteile-nachteile"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    }
+  ]
+}

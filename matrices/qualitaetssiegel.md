@@ -14,12 +14,18 @@ Version: abgeleitet aus Notion `Bewertungsmatrix`, Stand 2026-05-12
 |---|---:|---|
 | Premium-Öko & Sozial | 10 | Demeter, Naturland |
 | Hoher Standard / Fairer Handel | 7 | GEPA, Fairtrade |
+| Regionales Bio-Qualitätszeichen | 7 | Bayerisches Bio-Siegel |
 | Natur-/Biokosmetikstandard | 7 | COSMOS Organic, NATRUE |
+| Tierwohl-/Haltungsstandard | 7 | NEULAND |
+| Eier-/Haltungs- und Rückverfolgbarkeitsstandard | 5 | KAT |
 | Sozial-/Arbeitsstandard | 7 | SA8000 |
 | Umweltzeichen / Produktstandard | 7 | Blauer Engel, EU Ecolabel |
 | Forst-/Rohstoffstandard mit CoC | 6 | FSC, PEFC, RSPO |
 | Unternehmenszertifizierung / ESG-Impact-Standard | 4 | B Corp |
 | Gesetzlicher Mindeststandard | 5 | EU-Bio |
+| Regional-/Herkunftszeichen | 3 | Regionalfenster |
+| Tierversuchsfreiheitsstandard | 3 | Leaping Bunny |
+| Vegan-/Vegetarischstandard | 3 | Vegan Trademark, V-Label |
 | Industrie- & Prozessstandard | 2 | QS, GlobalG.A.P. |
 | Eigenlabels / Marketing | 1 | Regionale Qualität, Haltungsform niedrig |
 
@@ -49,20 +55,31 @@ Mass Balance wird nicht automatisch auf ein ganzes Siegel angewendet, wenn nur e
 
 Wenn Mass Balance nur eine Randbedingung für einzelne Rohstoffe ist, wird sie als Hinweis oder Risikofaktor dokumentiert, aber nicht pauschal mit `-4` gewertet.
 
-## Noch Zu Klärende Erweiterungen
+## Formalisierte Erweiterungen
 
-Die vorhandenen Notion-Daten nutzen Faktoren, die in der Matrix noch nicht sauber definiert sind:
+Die Matrix wurde im Projektverlauf erweitert, weil der aktive Scope `Nahrungsmittel + Drogerieprodukte in Deutschland` sonst methodisch unsauber geworden waere.
 
-- `Teilweise NGO-Kritik`
-- `Industrienähe`
-- `Einzelfallkritik an Umsetzung`
-- `Systemkritik`
-- `Transparente Vergabekriterien`
-- `Starker Arbeitsrechtsstandard`
-- `Staatliches Siegel mit Unternehmensprüfung`
-- `Kein produktspezifischer Lieferkettenstandard`
+Zusatzkategorien:
 
-Diese Faktoren sollten entweder als offizielle Regeln aufgenommen oder aus den Bewertungen entfernt werden.
+- `Regionales Bio-Qualitätszeichen`
+- `Regional-/Herkunftszeichen`
+- `Tierwohl-/Haltungsstandard`
+- `Eier-/Haltungs- und Rückverfolgbarkeitsstandard`
+- `Tierversuchsfreiheitsstandard`
+- `Vegan-/Vegetarischstandard`
+
+Zusaetzliche, in Einzelfaellen zulaessige Faktoren:
+
+- `staatliche-systemkontrolle` (+1)
+- `transparente-herkunftsangabe` (+1)
+- `systemische-rueckverfolgbarkeit` (+2 bei eng begrenzten Spezialsystemen wie Eiern)
+- `unabhaengige-systemkontrolle` (+1)
+- `begrenzte-sozialdimension` (-1)
+- `begrenzter-qualitaetsanspruch` (-1)
+- `begrenzter-nachhaltigkeitsanspruch` (-1)
+- `industrienaehe` (-1)
+
+Wichtig: Solche Erweiterungen sind nur dann sauber, wenn sie in der Begruendung und in den Quellen sichtbar gemacht werden. Die Matrix bleibt damit erweiterbar, aber nicht beliebig.
 
 ## Mindest-Ausgabe Pro Bewertung
 

@@ -40,6 +40,8 @@ Version: abgeleitet aus Notion `Phase 4 - Bewertungsmatrix Lieferketten`, Stand 
 - Unternehmen
 - Produkt oder Warengruppe
 - Rohstoff
+- Bewertungsebene
+- Produktgenauigkeit
 - Herkunftsland/-region
 - bekannte Tier-Stufen der Lieferkette
 - Tracking-Mechanismus, z. B. GTIN, Batch, QR, GLN, GGN
@@ -53,8 +55,14 @@ Version: abgeleitet aus Notion `Phase 4 - Bewertungsmatrix Lieferketten`, Stand 
 {
   "id": "unternehmen-produkt-rohstoff",
   "unternehmen": "Unternehmen",
-  "produkt": "Produkt/Warengruppe",
+  "warengruppe": "Produkt/Warengruppe",
   "rohstoff": "Kakao|Soja|Palmöl|Fisch|...",
+  "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+  "produktbezug": {
+    "produktgenauigkeit": "konkret|warengruppe|produktliniennah",
+    "scan_fakten": [],
+    "tracking_code_verfuegbar": false
+  },
   "kettentyp": "Direktbezug|Vertikale Integration|Tier-2-Transparenz|Tier-1-Fokus|Spot-Markt / Broker",
   "scoring": {
     "basis": 0,
@@ -63,9 +71,9 @@ Version: abgeleitet aus Notion `Phase 4 - Bewertungsmatrix Lieferketten`, Stand 
     "final": 0
   },
   "faktoren": [],
+  "relevante_siegel": [],
   "quellen": [],
   "unsicherheit": "niedrig|mittel|hoch",
-  "review_status": "draft|source_checked|reviewed|approved"
+  "aussage_sicherheit": "niedrig|mittel|hoch"
 }
 ```
-

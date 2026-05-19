@@ -1,5 +1,5 @@
 {
-  "version": "2026.2",
+  "version": "2026.3",
   "typ": "glossar",
   "sprache": "de",
   "stand": "2026-05-19",
@@ -68,6 +68,15 @@
       "kategorie": "Kontrolle und Glaubwuerdigkeit"
     },
     {
+      "id": "eiercode",
+      "begriff": "Eiercode",
+      "kurzdefinition": "Code auf dem Ei, der Haltungsform, Herkunftsland und Legebetrieb identifizierbar macht.",
+      "ausfuehrliche_erklaerung": "Der Eiercode ist ein zentrales Rueckverfolgbarkeitsinstrument fuer Schaleneier. Er macht sichtbar, aus welcher Haltungsform und welchem Herkunftsland ein Ei stammt und verweist auf den registrierten Legebetrieb.",
+      "bewertungsrelevanz": "Bei Eier-Lieferketten ist der Eiercode wichtig, weil er Produktbezug und systemische Rueckverfolgbarkeit deutlich staerker absichert als bloeße Markenangaben.",
+      "beispiel": "Ein Ei mit einem Code fuer Freilandhaltung aus Deutschland kann ueber Datenbanken und Packstelleninformationen weiter eingeordnet werden.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    },
+    {
       "id": "fair-trade",
       "begriff": "Fair Trade",
       "kurzdefinition": "Handelsansatz mit sozialer Ausrichtung, der faire Preise, Praemien und bessere Arbeitsbedingungen sichern soll.",
@@ -75,6 +84,15 @@
       "bewertungsrelevanz": "Fair-Trade-Siegel koennen starke soziale Signale senden, werden aber bei Mass Balance oder schwacher Produktbindung abgewertet.",
       "beispiel": "Fairtrade und Fair for Life sind Fair-Trade-orientierte Standards.",
       "kategorie": "Handel und Soziales"
+    },
+    {
+      "id": "herkunftszeichen",
+      "begriff": "Herkunftszeichen",
+      "kurzdefinition": "Kennzeichen, das vor allem die geografische Herkunft oder den Verarbeitungsort eines Produkts sichtbar machen soll.",
+      "ausfuehrliche_erklaerung": "Herkunftszeichen unterscheiden sich von starken Nachhaltigkeits- oder Qualitaetssiegeln dadurch, dass sie in erster Linie Transparenz ueber Region oder Verarbeitungsort schaffen. Sie sagen meist deutlich weniger ueber Umwelt-, Sozial- oder Tierwohlstandards aus.",
+      "bewertungsrelevanz": "Dieser Unterschied ist wichtig, damit Zeichen wie Regionalfenster nicht irrtuemlich wie Premium-Bio- oder Fair-Handels-Siegel interpretiert werden.",
+      "beispiel": "Das Regionalfenster ist ein Herkunftszeichen fuer Lebensmittel, aber kein umfassendes Nachhaltigkeitssiegel.",
+      "kategorie": "Kennzeichnung und Verbraucherinformation"
     },
     {
       "id": "identity-preserved",

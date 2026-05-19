@@ -24,21 +24,21 @@
   "data_status": {
     "qualitaetssiegel": {
       "path": "data/processed/qualitaetssiegel.json",
-      "version": "2026.2",
+      "version": "2026.3",
       "stand": "2026-05-19",
-      "count": 23
+      "count": 26
     },
     "lieferketten": {
       "path": "data/processed/lieferketten.json",
-      "version": "2026.2",
+      "version": "2026.3",
       "stand": "2026-05-19",
-      "count": 10
+      "count": 12
     },
     "glossar": {
       "path": "data/processed/glossar.json",
-      "version": "2026.2",
+      "version": "2026.3",
       "stand": "2026-05-19",
-      "count": 16
+      "count": 18
     }
   },
   "core_files": {
