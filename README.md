@@ -25,3 +25,13 @@ Das Projekt soll aus Recherchequellen strukturierte Bewertungen erzeugen:
 
 Die Siegel-Bewertung ist fachlich weit fortgeschritten, aber noch nicht sauber genug belegt und strukturiert; die Lieferketten-Bewertung hat eine gute Matrix und starke Hintergrundrecherche, aber noch kein gefülltes Datenmodell.
 
+## GitHub-First-Doku
+
+Die laufende Projektdokumentation fuer die Ablösung von Notion liegt unter:
+
+- `docs/wiki/Home.md`
+- `docs/wiki/Projektstand.md`
+- `docs/wiki/Methodik-Qualitaetssiegel.md`
+- `docs/wiki/Methodik-Lieferketten.md`
+- `docs/wiki/JSON-Formate.md`
+- `docs/wiki/Agenten-Workflow.md`
