@@ -1,0 +1,431 @@
+{
+  "version": "2026.2",
+  "typ": "lieferketten",
+  "stand": "2026-05-19",
+  "eintraege": [
+    {
+      "id": "banafair-bio-bananen-urocal-ecuador",
+      "unternehmen": "BanaFair e.V.",
+      "marke": "BanaFair",
+      "warengruppe": "Bio-Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Bananen aus Fairem Handel",
+          "BanaFair Markenproduktgruppe",
+          "Vertrieb ueber Weltlaeden, Biolaeden und Bio-Grosshandel"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "direktimport-kooperative",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Direkte langjaehrige Kleinbauernpartnerschaft, Bio-/Fair-/Naturland-Einbettung und spezialisierter Vertrieb sprechen fuer eine ueberdurchschnittlich starke Bananen-Lieferkette. Kein hoeherer Score, weil die Kette fuer Verbraucher nicht chargengenau offengelegt wird."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "banafair-fairer-handel",
+            "banafair-make-fruit-fair"
+          ],
+          "notiz": "BanaFair verbindet Handel mit politischer und sektorbezogener Kampagnenarbeit fuer faire Preise und Arbeitsrechte."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "banafair-handelspartner",
+            "banafair-zertifikate"
+          ],
+          "notiz": "Die Kernpartnerschaft mit UROCAL in Ecuador ist oeffentlich benannt und langjaehrig dokumentiert."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "bananen-preisdruck",
+          "beschreibung": "Der Bananensektor bleibt durch starken Preisdruck, Machtungleichgewichte im Handel und Lohndruck strukturell risikobehaftet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-bananen",
+            "fairtrade-riskmap-banana"
+          ]
+        },
+        {
+          "id": "bananen-klimarisiken",
+          "beschreibung": "Klimaextreme und Pflanzenkrankheiten wie TR4 bleiben relevante Lieferkettenrisiken fuer Bananen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "langfristige-partnerschaft",
+          "beschreibung": "BanaFair nennt eine langjaehrige Partnerschaft mit UROCAL in Ecuador seit 1998.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "banafair-handelspartner",
+            "banafair-wer-ist"
+          ]
+        },
+        {
+          "id": "kleinbaeuerliche-beschaffung",
+          "beschreibung": "Die Beschaffung erfolgt aus kleinbaeuerlichen Strukturen statt aus klassischen Exportplantagen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "banafair-fairer-handel"
+          ]
+        },
+        {
+          "id": "bio-und-agroforst",
+          "beschreibung": "BanaFair verknuepft den Bananenhandel mit Bioanbau sowie teils agroforst- bzw. mischkulturbasierten Produktionsansaetzen.",
+          "aussage_status": "teilweise_belegt",
+          "quelle_ids": [
+            "banafair-fairer-handel",
+            "banafair-zertifikate"
+          ]
+        },
+        {
+          "id": "spezialisierter-vertrieb",
+          "beschreibung": "Der Vertrieb erfolgt ueber Weltlaeden, Biolaeden und Bio-Grosshandel und nicht primaer ueber den konventionellen Discount.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "banafair-wo-kaufen"
+          ]
+        }
+      ],
+      "begruendung": "BanaFair ist ein sinnvoller neuer Pilotfall fuer Obst, weil das Unternehmen eine spezialisierte, kleinbaeuerliche und langjaehrig dokumentierte Bananen-Lieferkette mit klar benanntem Kernpartner, Bio-/Fairtrade-/Naturland-Einbettung und direktem Deutschlandbezug bietet. Die Bewertung bleibt bewusst unter dem oberen Rand, weil die operative Kette fuer Endverbraucher nicht chargengenau offengelegt wird.",
+      "quellen": [
+        {
+          "id": "banafair-fairer-handel",
+          "titel": "BanaFair: Fairer Handel mit kleinbaeuerlichen Produzent*innen",
+          "url": "https://www.banafair.de/fairer-handel-mit-produzent-innen.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kleinbauern",
+            "fairer-handel",
+            "bioanbau"
+          ]
+        },
+        {
+          "id": "banafair-handelspartner",
+          "titel": "BanaFair: Handelspartner UROCAL aus Ecuador",
+          "url": "https://www.banafair.de/handelspartner.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "urocal",
+            "partnerschaft",
+            "ecuador"
+          ]
+        },
+        {
+          "id": "banafair-zertifikate",
+          "titel": "BanaFair: Zertifikate zum Download",
+          "url": "https://www.banafair.de/zertifikate-zum-download.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairtrade",
+            "naturland",
+            "bio"
+          ]
+        },
+        {
+          "id": "banafair-wo-kaufen",
+          "titel": "BanaFair: Wo gibt es BanaFair-Bananen?",
+          "url": "https://www.banafair.de/wo-gibt-es-banafair-bananen.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "deutschlandvertrieb"
+          ]
+        },
+        {
+          "id": "banafair-wer-ist",
+          "titel": "BanaFair: Wer ist BanaFair?",
+          "url": "https://www.banafair.de/wer-ist-banafair.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "organisation",
+            "profil"
+          ]
+        },
+        {
+          "id": "banafair-make-fruit-fair",
+          "titel": "BanaFair: Make Fruit Fair",
+          "url": "https://www.banafair.de/make-fruit-fair.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kampagnenarbeit",
+            "arbeitsrechte"
+          ]
+        },
+        {
+          "id": "fairtrade-bananen",
+          "titel": "Fairtrade Deutschland: Bananen",
+          "url": "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/bananen.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "branchenrisiken",
+            "fairtrade-kontext"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-banana",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "sektorrisiken",
+            "klimarisiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die BanaFair-Bananenlieferkette als Marken- und Produktgruppenfall mit Kernpartner UROCAL, nicht die chargengenaue Kette jeder einzelnen Banane.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Sozial- und Handelssiegel im Bananensektor",
+          "einordnung": "Der Lieferkettenscore stuetzt sich nicht nur auf Fairtrade, sondern auf die direkte BanaFair-UROCAL-Beziehung und die spezialisierte Handelsstruktur."
+        },
+        {
+          "id": "naturland-naturland-fair",
+          "rolle": "Zusatzstandard fuer Oeko- und Fairhandelsanforderungen",
+          "einordnung": "Naturland bzw. Naturland Fair staerken im konkreten BanaFair-Kontext Produktions- und Handelsanforderungen ueber Fairtrade allein hinaus."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Mindeststandard der Produktion",
+          "einordnung": "Relevant fuer Produktionspraxis und Pestizid-/Duengerreduktion, aber nicht hinreichend fuer die Gesamtbewertung der Lieferkette."
+        }
+      ]
+    },
+    {
+      "id": "dr-bronner-reine-naturseife-rohstoffkette",
+      "unternehmen": "Dr. Bronner's",
+      "marke": "Dr. Bronner's",
+      "warengruppe": "Naturseife",
+      "rohstoffe": [
+        "Palmoel",
+        "Kokosoel",
+        "Olivenoel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Reine Naturseife fuer den deutschen Markt",
+          "Stueckseife mit Palm-, Kokos- und Olivenoelbezug",
+          "Fair Trade und teils Regenerative Organic in den Hauptrohstoffen"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "projektpartnerschaften-drittzertifiziert",
+      "kettentyp": "Mehrstufige Projektkette",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Dr. Bronner beschreibt fuer die Kernoele ungewoehnlich konkret Herkunft, Partner und Sozial-/Anbauprogramme. Kein hoeherer Score, weil keine chargenscharfe Transparenz fuer deutsche Endprodukte vorliegt und einzelne Rohstoffzuteilungen produktlinienweit bleiben."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-fair-trade-projekte",
+            "drb-fair-for-life"
+          ],
+          "notiz": "Die Beschaffung zentraler Oele erfolgt ueber eigene oder eng verbundene Fair-Trade-Projekte statt nur ueber generische Rohstoffzertifikate."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-fair-trade-projekte",
+            "drb-palm-oil"
+          ],
+          "notiz": "Dr. Bronner veroeffentlicht fuer Palm, Kokos und Olive konkrete Projekt- und Herkunftsangaben."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-hochrisiko",
+          "beschreibung": "Palm bleibt trotz verbesserter Projekte ein struktureller Hochrisikorohstoff fuer Entwaldung, Biodiversitaet und Arbeitsbedingungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-palm-oil",
+            "drb-regenerative-organic"
+          ]
+        },
+        {
+          "id": "olivenoel-geopolitik",
+          "beschreibung": "Die Olivenoelkette ist durch die politische Lage in Israel und Palaestina stoeranfaellig.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-olive-oil"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "fair-for-life-kernoele",
+          "beschreibung": "Die Hauptrohstoffe werden laut Unternehmen unter Fair for Life bzw. vergleichbaren Fair-Trade-Strukturen beschafft.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-fair-for-life",
+            "drb-fair-trade-projekte"
+          ]
+        },
+        {
+          "id": "regenerative-praktiken",
+          "beschreibung": "Dr. Bronner verweist fuer zentrale Rohstoffe wie Palm und Kokos auf regenerative bzw. Regenerative Organic Certified Praktiken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-regenerative-organic"
+          ]
+        },
+        {
+          "id": "ghana-palmprojekt",
+          "beschreibung": "Palmbezug erfolgt laut Unternehmen aus kleinbaeuerlichen Strukturen in Ghana ueber das Serendipalm-Projekt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-palm-oil",
+            "drb-fair-trade-projekte"
+          ]
+        },
+        {
+          "id": "olive-partnerschaften",
+          "beschreibung": "Olivenoel wird ueber langjaehrige Fair-Trade-Partnerschaften in Israel und Palaestina beschafft.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "drb-olive-oil",
+            "drb-fair-trade-projekte"
+          ]
+        }
+      ],
+      "begruendung": "Dr. Bronner's ist ein sinnvoller neuer Drogerie-Pilotfall, weil das Unternehmen fuer die Stueckseifen-Rohstoffkette zu Palm, Kokos und Olive deutlich konkretere Angaben macht als viele Kosmetik- oder Reinigungsmarken. Die Staerke liegt in projektbasierten Fair-Trade-Ketten, Bio- und teils regenerativen Standards sowie relativ klaren Herkunftsangaben. Die Aussage bleibt trotzdem auf Produktlinien- und Rohstoffkettenebene und nicht auf chargengenauer Endprodukt-Rueckverfolgung.",
+      "quellen": [
+        {
+          "id": "drb-fair-trade-projekte",
+          "titel": "Dr. Bronner's Deutschland: Fair Trade Projekte und Partnerschaften",
+          "url": "https://drbronner.de/blogs/our-suppliers/fair-trade",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "projektpartner",
+            "rohstoffherkunft",
+            "fair-trade"
+          ]
+        },
+        {
+          "id": "drb-produkt-eukalyptus",
+          "titel": "Dr. Bronner's Deutschland: Reine Naturseife Eukalyptus",
+          "url": "https://drbronner.de/products/reine-naturseife-eukalyptus",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "warengruppe",
+            "rohstoffe"
+          ]
+        },
+        {
+          "id": "drb-projects-global",
+          "titel": "Dr. Bronner's: Our Fair Trade Projects & Partnerships",
+          "url": "https://www.drbronner.com/blogs/our-suppliers/projects-and-partnerships",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "projektlogik",
+            "partner",
+            "rohstoffe"
+          ]
+        },
+        {
+          "id": "drb-palm-oil",
+          "titel": "Dr. Bronner Support: Palm Oil",
+          "url": "https://drbronner.gorgias.help/en-US/palm-oil-452430",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "ghana",
+            "serendipalm",
+            "entwaldungskontext"
+          ]
+        },
+        {
+          "id": "drb-olive-oil",
+          "titel": "Dr. Bronner Support: Olive Oil",
+          "url": "https://drbronner.gorgias.help/en-US/olive-oil-452427",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "israel-palaestina",
+            "partner"
+          ]
+        },
+        {
+          "id": "drb-fair-for-life",
+          "titel": "Dr. Bronner Support: Fair for Life",
+          "url": "https://drbronner.gorgias.help/en-US/fair-for-life-445951",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fair-for-life",
+            "hauptrohstoffe"
+          ]
+        },
+        {
+          "id": "drb-regenerative-organic",
+          "titel": "Dr. Bronner Support: Regenerative Organic Certified",
+          "url": "https://drbronner.gorgias.help/en-US/regenerative-organic-certified-445988",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "regenerative-praktiken",
+            "roc"
+          ]
+        },
+        {
+          "id": "drb-palm-ellen-macarthur",
+          "titel": "Ellen MacArthur Foundation: A regenerative supply chain alternative for palm oil",
+          "url": "https://www.ellenmacarthurfoundation.org/circular-examples/a-regenerative-supply-chain-alternative-for-palm-oil",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "externe-einordnung",
+            "palmprojekt"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Rohstoffkette der Dr. Bronner Stueckseifen fuer den deutschen Markt, nicht die chargengenaue Lieferkette einer einzelnen Seifencharge.",
+      "relevante_siegel": [
+        {
+          "id": "fair-for-life",
+          "rolle": "zentrales Fair-Trade-Signal fuer Hauptrohstoffe",
+          "einordnung": "Der Lieferkettenscore stuetzt sich stark auf die projektbasierte Fair-for-Life-Logik und nicht nur auf ein einzelnes Verpackungssiegel."
+        },
+        {
+          "id": "natrue",
+          "rolle": "optional relevanter Naturkosmetikstandard auf Produktebene",
+          "einordnung": "Nicht der Kern der Bewertung; die Lieferkettenstaerke wird hier primär ueber die Rohstoff- und Projektkette begruendet."
+        }
+      ]
+    }
+  ]
+}

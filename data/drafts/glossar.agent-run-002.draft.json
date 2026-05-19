@@ -1,0 +1,26 @@
+{
+  "version": "2026.2",
+  "typ": "glossar",
+  "sprache": "de",
+  "stand": "2026-05-19",
+  "begriffe": [
+    {
+      "id": "cruelty-free",
+      "begriff": "Cruelty-Free",
+      "kurzdefinition": "Bezeichnung fuer Produkte oder Marken, die ohne Tierversuche entwickelt oder abgesichert werden sollen.",
+      "ausfuehrliche_erklaerung": "Der Begriff ist ohne unabhaengigen Standard unscharf. Verlaesslich wird er erst, wenn ein Programm wie Leaping Bunny konkrete Lieferantenpruefungen, eine fixed cut-off date und laufende Kontrollen verlangt.",
+      "bewertungsrelevanz": "Im Drogeriebereich ist wichtig, ob eine bloeße Werbeaussage vorliegt oder ein unabhaengig kontrollierter Tierversuchsfreiheitsstandard.",
+      "beispiel": "Leaping Bunny ist ein formaler cruelty-free-Standard, waehrend andere Produkte nur eigene Werbeaussagen nutzen.",
+      "kategorie": "Kosmetik und Drogerie"
+    },
+    {
+      "id": "agroforstsystem",
+      "begriff": "Agroforstsystem",
+      "kurzdefinition": "Landwirtschaftliches System, bei dem Nutzpflanzen zusammen mit Baeumen oder Strauchschichten angebaut werden.",
+      "ausfuehrliche_erklaerung": "Agroforstsysteme koennen Biodiversitaet, Bodenfruchtbarkeit, Schattenwirkung und Klimaresilienz verbessern. In Lieferketten ist aber entscheidend, ob ein Agroforstansatz nur genannt oder auch verbindlich geprueft wird.",
+      "bewertungsrelevanz": "Der Begriff ist fuer Rohstoffe wie Bananen, Kakao oder Kaffee relevant, wenn Produktionssysteme ueber Monokultur hinausgehen und Risiken fuer Oekosysteme reduzieren sollen.",
+      "beispiel": "Eine Bananen- oder Kakaolieferkette kann agroforstbasiert organisiert sein und damit oekologisch robuster als reine Monokultur arbeiten.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
+    }
+  ]
+}

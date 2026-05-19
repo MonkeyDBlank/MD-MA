@@ -1,6 +1,6 @@
 # Uebergabedoku App-Team
 
-Stand: 2026-05-12
+Stand: 2026-05-19
 
 ## Zweck
 
@@ -39,7 +39,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 19 aktive Einträge
+- 23 aktive Einträge
 - nur Siegel im Scope Nahrung und Drogerie
 
 Wichtige Felder:
@@ -69,7 +69,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 8 aktive Pilot-Einträge
+- 10 aktive Pilot-Einträge
 - bewusst als belastbare Pilotbasis, noch kein Vollbestand
 
 Wichtige Felder:
@@ -104,7 +104,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 14 relevante Begriffe
+- 16 relevante Begriffe
 - nur Begriffe im Scope Nahrung und Drogerie
 
 Wichtige Begriffe:
@@ -163,6 +163,8 @@ Derzeit enthalten:
 - `gepa-tee-tpi-darjeeling`
 - `followfood-bio-lachs-norwegen`
 - `ferrero-nutella-palmoel`
+- `banafair-bio-bananen-urocal-ecuador`
+- `dr-bronner-reine-naturseife-rohstoffkette`
 
 ## Wichtige Zusatzdokumente
 

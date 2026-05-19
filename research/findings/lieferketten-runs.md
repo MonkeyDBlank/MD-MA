@@ -110,3 +110,41 @@ Ziel: Die Lieferkettenbasis in drei weiteren Clustern verbreitern:
 - `GEPA` bleibt ein Partnerprogramm-Fall und keine chargengenaue Tee-Rueckverfolgung.
 - `followfood Bio-Lachs` ist fuer Aquakultur stark, aber die Futtermittel-Vorstufen bleiben nur teilweise oeffentlich.
 - `Ferrero/Nutella` ist bewusst nur fuer den Palm-Rohstoff und nicht fuer die Gesamtlieferkette aller Nutella-Zutaten bewertet.
+
+## Lauf 004 - Obst und Drogerie-Rohstoffketten
+
+Datum: 2026-05-19
+
+Ziel: Die Pilotbasis um einen belastbaren Obstfall und einen weiteren starken Drogeriefall erweitern.
+
+## Neue Eintraege
+
+- `banafair-bio-bananen-urocal-ecuador`
+- `dr-bronner-reine-naturseife-rohstoffkette`
+
+## Auswahlgrund
+
+- `BanaFair`: klarer Deutschlandbezug, spezialisierte Bananenmarke, langjaehrige Partnerschaft mit UROCAL sowie Bio-/Fairtrade-/Naturland-Einbettung
+- `Dr. Bronner's`: fuer Drogerie ungewoehnlich offene Rohstoffkommunikation zu Palm, Kokos und Olive mit Fair-Trade- und teils regenerativen Projektketten
+
+## Eingesetzte Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e4002-5ae7-7f60-a14f-8fd0f7c7601b` | BanaFair | Neuer Obst-Pilotfall | `banafair-bio-bananen-urocal-ecuador` empfohlen |
+| `019e4002-5bd7-7e41-aaee-200b2890f054` | Dr. Bronner | Neuer Drogerie-Pilotfall | `dr-bronner-reine-naturseife-rohstoffkette` empfohlen |
+
+## Entstandene Dateien
+
+- `data/drafts/lieferketten.agent-run-004.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+## Ergebnis
+
+`data/processed/lieferketten.json` enthaelt jetzt 10 aktive Pilot-Eintraege.
+
+## Methodische Hinweise
+
+- `BanaFair` bleibt bewusst ein Marken-/Produktgruppenfall und nicht die chargengenaue Lieferkette jeder Banane.
+- `Dr. Bronner's` wurde auf Produktlinien- und Kernrohstoffebene aufgenommen, nicht auf Ebene einer einzelnen Seifencharge.

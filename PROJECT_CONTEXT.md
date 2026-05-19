@@ -1,6 +1,6 @@
 # Projektkontext MD&MA
 
-Stand: 2026-05-12
+Stand: 2026-05-19
 
 ## Worum Es Geht
 
@@ -21,6 +21,19 @@ Die App selbst wird nicht gebaut und ist nicht unser Liefergegenstand. Unser Lie
 - `glossar.json`: Begriffserklärungen für Fachbegriffe wie Mass Balance, Chain of Custody, Greenwashing usw.
 
 Das Scan-Szenario dient nur dazu, zu verstehen, wie die Daten später verwendet werden könnten.
+
+## GitHub-First-Status
+
+Seit dem Wechsel weg von Notion wird die laufende Hauptdokumentation im Repo und im GitHub-Wiki gepflegt.
+
+Wichtige Einstiegspunkte:
+
+- `AGENTS.md`
+- `AGENT_START_HERE.md`
+- `context/project-context.snapshot.json`
+- `docs/wiki/Home.md`
+- `docs/wiki/Projektstand.md`
+- `docs/wiki/Projektgeschichte-Zeitstrahl.md`
 
 ## Notion-Kontext
 
@@ -60,17 +73,15 @@ Wichtige Notion-Seiten:
 
 ## Aktueller Befund
 
-Die Qualitätssiegel-Seite ist fachlich fortgeschritten, aber technisch nicht sauber:
+Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Arbeitsbasis ueberfuehrt.
 
-- JSON ist in Notion teilweise kaputt/fragmentiert.
-- Viele Quellen sind nur Platzhalter wie `link`.
-- Einige verwendete Faktoren stehen noch nicht offiziell in der Matrix.
+Aktueller Datenstand:
 
-Die Lieferketten-Seite ist methodisch noch offen:
+- `data/processed/qualitaetssiegel.json`: 23 aktive Eintraege
+- `data/processed/lieferketten.json`: 10 aktive Pilotfaelle
+- `data/processed/glossar.json`: 16 relevante Begriffe
 
-- Es gibt eine gute Lieferkettenmatrix.
-- Es gibt starke Hintergrundrecherche zu Kakao, Kaffee, Palmöl, Soja, Fisch und Lebensmitteleinzelhandel.
-- Die konkrete Lieferketten-JSON-Seite ist aber leer.
+Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
 ## Wichtige Methodische Entscheidung Zu Lieferketten
 
@@ -117,20 +128,18 @@ Keine Scheingenauigkeit. Lieber ehrlich `mittlere Unsicherheit` ausweisen als ei
 
 ## Nächster Sinnvoller Schritt
 
-1. Vorhandene Notion-Siegel in sauberes JSON-Format überführen und Quellen bereinigen.
-2. Bewertungen gegen erweiterte Matrix und Quellen prüfen.
-3. Nur fertige, verlässliche Einträge in `data/processed/qualitaetssiegel.json` übernehmen.
-4. `glossar.json` als dritte eigenständige JSON nur bei relevanten neuen Begriffen erweitern.
+1. Weitere relevante Siegel im Deutschland-/Nahrung-/Drogerie-Scope recherchieren und integrieren.
+2. Lieferkettenbasis um weitere belastbare Warengruppenfaelle erweitern, ohne Scheingenauigkeit auf Einzelproduktebene vorzutaeuschen.
+3. Glossar nur bei klar relevantem Erkenntnisgewinn erweitern.
+4. Repo-Doku und GitHub-Wiki bei jeder inhaltlichen Runde mitziehen.
 
 ## Aktuelle Arbeitsrichtung
 
-Erste Agentenrunde für neue bzw. noch nicht sauber eingepflegte Siegel:
+Agentengestuetzte Erweiterungslaeufe fuer:
 
-- `NATRUE`
-- `COSMOS`
-- `PEFC`
-
-Der Lauf ist dokumentiert in `research/findings/agent-runs.md`.
+- neue relevante Produktsiegel im deutschen Markt
+- weitere belastbare Lieferketten-Pilotfaelle
+- GitHub-first-Dokumentation statt Notion als Hauptablage
 
 ## Aktueller Siegel-Arbeitsstand
 
@@ -157,12 +166,23 @@ Stand nach Lauf 004:
 - 9 Eintraege sind lokal nach `data/drafts/qualitaetssiegel.out-of-scope.archive.json` ausgelagert
 - aktuelle uebergabefaehige Datei: `data/processed/qualitaetssiegel.json`
 
+Stand nach Lauf 005:
+
+- 23 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen:
+  - `deutsches-bio-siegel`
+  - `neuland`
+  - `vegan-trademark-veganblume`
+  - `leaping-bunny`
+
 Stand weitere JSONs:
 
 - aktuelle uebergabefaehige Glossar-Datei: `data/processed/glossar.json`
+- aktueller Zaehler: 16 Begriffe
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
+- aktueller Zaehler: 10 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -186,6 +206,13 @@ Stand Lieferketten nach Lauf 003:
   - `gepa-tee-tpi-darjeeling`
   - `followfood-bio-lachs-norwegen`
   - `ferrero-nutella-palmoel`
+
+Stand Lieferketten nach Lauf 004:
+
+- 10 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen:
+  - `banafair-bio-bananen-urocal-ecuador`
+  - `dr-bronner-reine-naturseife-rohstoffkette`
 
 ## Entscheidungen Vom 2026-05-12
 

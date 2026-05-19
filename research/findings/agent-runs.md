@@ -219,6 +219,48 @@ Ziel: Weitere relevante Siegel bzw. standardnahe Systeme recherchieren und danac
 
 Datum: 2026-05-12
 
+## Lauf 005 - Neue Siegelrunde Deutschland und Drogerie
+
+Datum: 2026-05-19
+
+Ziel: Weitere sinnvolle und fuer den deutschen Markt sichtbare Siegel im aktiven Scope recherchieren und in die finale Siegelbasis uebernehmen.
+
+### Gestartete Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e4002-5968-7fa2-ae07-e9e105636320` | Deutsches Bio-Siegel / NEULAND | Relevanz und Aufnahmeeignung pruefen | `neuland` klar empfohlen, `deutsches-bio-siegel` als marktrelevantes Verpackungszeichen empfohlen |
+| `019e4002-5a0a-7663-a6cd-c1de48b91339` | Veganblume / Leaping Bunny | Drogerie- und Vegan-Siegel pruefen | `vegan-trademark-veganblume` und `leaping-bunny` empfohlen |
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-005.draft.json`
+- `data/drafts/glossar.agent-run-002.draft.json`
+
+### Neue Siegel-Eintraege
+
+- `deutsches-bio-siegel`
+- `neuland`
+- `vegan-trademark-veganblume`
+- `leaping-bunny`
+
+### Neue Glossarbegriffe
+
+- `cruelty-free`
+- `agroforstsystem`
+
+### Methodische Entscheidungen
+
+- `deutsches-bio-siegel` wurde trotz inhaltlicher Naehe zu `eu-bio` aufgenommen, weil es fuer den deutschen Markt ein eigenstaendig sichtbares Verpackungszeichen ist.
+- `neuland` wurde als eigener `Tierwohl-/Haltungsstandard` aufgenommen, weil es klar ueber Handelskennzeichnungen hinausgeht.
+- `vegan-trademark-veganblume` wurde als eigenstaendiges veganes Produktsiegel aufgenommen, obwohl es sich mit `v-label` teilweise ueberschneidet.
+- `leaping-bunny` wurde nur als Drogerie-/Haushaltsstandard eingeordnet, nicht als Lebensmittelsiegel.
+
+### Ergebnis
+
+- `data/processed/qualitaetssiegel.json` enthaelt jetzt 23 aktive Eintraege.
+- `data/processed/glossar.json` enthaelt jetzt 16 relevante Begriffe.
+
 Nach Nutzerhinweis wurde der aktive Scope fuer Qualitätssiegel geschärft:
 
 - nur `Nahrungsmittel`

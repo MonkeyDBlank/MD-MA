@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 19 aktive Eintraege
+- 23 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 8 aktive Pilotfaelle
+- 10 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -58,11 +58,19 @@ Das Glossar ist eine eigenstaendige dritte JSON mit relevanten Begriffen fuer Na
 Aktiver Stand:
 
 - `data/processed/glossar.json`
-- 14 Begriffe
+- 16 Begriffe
 
 ### 6. Agenten-Workflow eingefuehrt
 
 Recherche und Bewertung laufen nicht mehr nur als Einzelausgabe, sondern ueber einen dokumentierten Mehr-Schritt-Prozess mit Agentenrollen fuer Recherche, Quellenpruefung, Bewertung und Konsolidierung.
+
+### 7. GitHub-first-Dokumentation und Wiki
+
+- `docs/wiki/` als versionierbare Dokuquelle aufgebaut
+- GitHub-Wiki mit derselben Grundstruktur befuellt
+- Einstieg fuer neue Agenten in `AGENT_START_HERE.md`
+- kompakter maschinenlesbarer Projektstand in `context/project-context.snapshot.json`
+- zusaetzliche Repo-Root-Datei `AGENTS.md` fuer Agenten, die solche Dateien automatisch oder halbautomatisch als Einstieg nutzen
 
 ## Wichtige methodische Entscheidungen
 
@@ -79,4 +87,3 @@ Recherche und Bewertung laufen nicht mehr nur als Einzelausgabe, sondern ueber e
 - `docs/siegel-lieferketten-abgleich.md`
 - `research/findings/agent-runs.md`
 - `research/findings/lieferketten-runs.md`
-

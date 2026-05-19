@@ -27,19 +27,22 @@ Nicht im aktiven Scope:
 
 ## Einstieg
 
+- `AGENTS.md` und `AGENT_START_HERE.md` im Repo fuer neue Agenten
 - [Projektstand](./Projektstand.md)
+- [Projektgeschichte Zeitstrahl](./Projektgeschichte-Zeitstrahl.md)
 - [Methodik Qualitaetssiegel](./Methodik-Qualitaetssiegel.md)
 - [Methodik Lieferketten](./Methodik-Lieferketten.md)
 - [JSON-Formate](./JSON-Formate.md)
 - [Agenten-Workflow](./Agenten-Workflow.md)
+- [Repo Nutzung und Kontext](./Repo-Nutzung-und-Kontext.md)
 
 ## Status
 
-Stand: `2026-05-12`
+Stand: `2026-05-19`
 
-- `qualitaetssiegel.json`: 19 aktive Eintraege
-- `lieferketten.json`: 8 belastbare Pilotfaelle
-- `glossar.json`: 14 relevante Begriffe
+- `qualitaetssiegel.json`: 23 aktive Eintraege
+- `lieferketten.json`: 10 belastbare Pilotfaelle
+- `glossar.json`: 16 relevante Begriffe
 
 ## Repo-Struktur
 
@@ -49,4 +52,3 @@ Stand: `2026-05-12`
 - `matrices/`: Bewertungslogik
 - `research/findings/`: Recherchelaeufe und Agentenprotokolle
 - `workflows/`: Ablaufbeschreibungen
-

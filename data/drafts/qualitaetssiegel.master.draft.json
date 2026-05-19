@@ -1,7 +1,7 @@
 {
-  "version": "2026.1-draft",
+  "version": "2026.2",
   "typ": "qualitaetssiegel",
-  "stand": "2026-05-12",
+  "stand": "2026-05-19",
   "hinweis": "Konsolidierter interner Master-Draft fuer Nahrungsmittel und Drogerieprodukte. Lokal erstellt, nicht an App-Team uebergeben.",
   "eintraege": [
     {
@@ -623,6 +623,110 @@
       "unsicherheit": "niedrig"
     },
     {
+      "id": "deutsches-bio-siegel",
+      "name": "Deutsches Bio-Siegel",
+      "kategorie": "Gesetzlicher Mindeststandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "staatliches-siegel",
+        "gesetzlicher-mindeststandard",
+        "verpackungskennzeichnung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Bundesministerium fuer Landwirtschaft, Ernaehrung und Heimat (BMLEH) / Bundesanstalt fuer Landwirtschaft und Ernaehrung (BLE); Nutzung auf Basis der EU-Oeko-Regeln",
+      "standardtyp": "staatliches deutsches Verpackungs- und Erkennungszeichen fuer Produkte, die die EU-Oeko-Vorgaben einhalten",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 5,
+        "plus": 2,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Inhaltlich weitgehend deckungsgleich mit EU-Bio; Aufnahme vor allem wegen hoher Sichtbarkeit auf deutschen Verpackungen."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "bio-siegel-bmel",
+            "bio-siegel-faq"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "verbraucherzentrale-bio-siegel"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Das deutsche Bio-Siegel ist fuer den deutschen Markt ein stark sichtbares Verpackungszeichen, fuehrt aber inhaltlich nicht ueber die EU-Bio-Anforderungen hinaus. Der Mehrwert liegt daher in Wiedererkennbarkeit und Verbraucherorientierung, nicht in strengeren Kriterien.",
+      "quellen": [
+        {
+          "id": "bio-siegel-bmel",
+          "titel": "BMLEH: Bio-Siegel",
+          "url": "https://www.bmel.de/DE/themen/landwirtschaft/oekologischer-landbau/bio-siegel.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "kennzeichnung",
+            "bekanntheit"
+          ]
+        },
+        {
+          "id": "bio-siegel-eu-logo-nutzung",
+          "titel": "oekolandbau.de: Nutzung des EU-Bio-Logos",
+          "url": "https://www.oekolandbau.de/bio-zertifizierung/nutzung-des-eu-bio-logos/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eu-oeko-regeln",
+            "kennzeichnung"
+          ]
+        },
+        {
+          "id": "bio-siegel-faq",
+          "titel": "oekolandbau.de: Haeufig gestellte Fragen zum Bio-Siegel",
+          "url": "https://www.oekolandbau.de/bio-zertifizierung/bio-siegel/haeufig-gestellte-fragen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nutzung",
+            "kontrolle"
+          ]
+        },
+        {
+          "id": "bio-siegel-unternehmen",
+          "titel": "oekolandbau.de: Schritte zum Bio-Siegel",
+          "url": "https://www.oekolandbau.de/bio-zertifizierung/bio-siegel/info-fuer-unternehmen/schritte-zum-bio-siegel/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nutzungsanzeige",
+            "unternehmen"
+          ]
+        },
+        {
+          "id": "verbraucherzentrale-bio-siegel",
+          "titel": "Verbraucherzentrale: EU-Bio-Logo und deutsches Bio-Siegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/kennzeichnung-von-bioprodukten-eulogo-deutsches-biosiegel-symbole-von-anbauverbaenden-handelsmarken-13914",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "sichtbarkeit"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
       "id": "eu-bio",
       "name": "EU-Bio",
       "kategorie": "Gesetzlicher Mindeststandard",
@@ -1107,6 +1211,115 @@
       "unsicherheit": "niedrig"
     },
     {
+      "id": "leaping-bunny",
+      "name": "Leaping Bunny",
+      "kategorie": "Tierversuchsfreiheitsstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "kosmetik",
+        "haushalt",
+        "cruelty-free",
+        "tierversuchsfrei"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Koerperpflege",
+        "Haushaltsprodukte",
+        "Reinigungsmittel"
+      ],
+      "traeger": "Cruelty Free International",
+      "standardtyp": "internationales cruelty-free-Programm mit fixed cut-off date, Lieferantenmonitoring und unabhaengiger Auditlogik fuer Kosmetik- und Haushaltsprodukte",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 3,
+        "plus": 2,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Stark fuer den Einzelaspekt Tierversuchsfreiheit, aber kein Naturkosmetik-, Vegan- oder Sozialstandard."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "leaping-bunny-vz"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Lieferantenmonitoring",
+          "wert": 1,
+          "quelle_ids": [
+            "leaping-bunny-what-is",
+            "leaping-bunny-faq"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Leaping Bunny ist fuer Drogerieprodukte ein relevanter Zusatzstandard, weil er Tierversuchsfreiheit entlang der Lieferkette enger absichert als bloße Werbeaussagen. Gleichzeitig deckt das Zeichen nur einen engen ethischen Einzelaspekt ab.",
+      "quellen": [
+        {
+          "id": "leaping-bunny-what-is",
+          "titel": "Cruelty Free International: What is the Leaping Bunny?",
+          "url": "https://crueltyfreeinternational.org/leaping-bunny-programme/what-leaping-bunny",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "programm",
+            "fixed-cut-off-date",
+            "supplier-monitoring"
+          ]
+        },
+        {
+          "id": "leaping-bunny-faq",
+          "titel": "Cruelty Free International: Leaping Bunny FAQs",
+          "url": "https://crueltyfreeinternational.org/leaping-bunny/leaping-bunny-faqs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kriterien",
+            "audits"
+          ]
+        },
+        {
+          "id": "leaping-bunny-corporate-faq",
+          "titel": "Cruelty Free International: Leaping Bunny Corporate FAQs",
+          "url": "https://crueltyfreeinternational.org/leaping-bunny-corporate-faqs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "unternehmensanforderungen",
+            "supplier-monitoring"
+          ]
+        },
+        {
+          "id": "leaping-bunny-eu-context",
+          "titel": "Cruelty Free International: Why Leaping Bunny is still needed in the EU",
+          "url": "https://crueltyfreeinternational.org/leaping-bunny/prohibitions-cosmetics-testing-eu-and-elsewhere",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eu-kontext",
+            "relevanz"
+          ]
+        },
+        {
+          "id": "leaping-bunny-vz",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "drogerierelevanz"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
       "id": "msc",
       "name": "MSC (Marine Stewardship Council)",
       "kategorie": "Forst-/Rohstoffstandard mit CoC",
@@ -1434,6 +1647,127 @@
           "belegt": [
             "externe-validierung",
             "fair-einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "neuland",
+      "name": "NEULAND",
+      "kategorie": "Tierwohl-/Haltungsstandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "tierhaltung",
+        "fleisch",
+        "tierwohl",
+        "haltungsstandard",
+        "kontrollprogramm",
+        "deutschland"
+      ],
+      "produktbereich": [
+        "Fleisch",
+        "Fleischwaren",
+        "Gefluegel",
+        "Eier"
+      ],
+      "traeger": "Landwirtschaftlicher Fachverband NEULAND - Verein fuer tiergerechte und umweltschonende Nutztierhaltung e.V. / NEULAND Fleischvertriebs GmbH",
+      "standardtyp": "privates deutsches Tierwohl- und Haltungsprogramm mit Anforderungen an Haltung, Fuetterung, Transport, Schlachtung und Gesamtbetriebsumstellung",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 0,
+        "final": 9,
+        "anmerkung": "Starker Tierwohlstandard mit externen Kontrollen; kein Voll-Bio-Standard, aber klar oberhalb von Handelskennzeichnungen."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "neuland-qualitaetssicherung",
+            "neuland-richtlinien-2024"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "vz-zahlen-zeichen-siegel",
+            "vz-tierhaltungskennzeichnung"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "NEULAND ist fuer tierische Lebensmittel in Deutschland ein klarer Zusatz zu den bisherigen Eintraegen, weil es deutlich ueber einfache Handelskennzeichnungen hinausgeht und Tierwohl ueber Haltung, Fuetterung, Transport und Schlachtung hinweg reguliert.",
+      "quellen": [
+        {
+          "id": "neuland-richtlinien-ueberblick",
+          "titel": "NEULAND: Richtlinien",
+          "url": "https://www.neuland-fleisch.de/richtlinien/neuland-richtlinien/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tierwohlkriterien",
+            "gesamtumstellung"
+          ]
+        },
+        {
+          "id": "neuland-richtlinien-2024",
+          "titel": "NEULAND Allgemeine Richtlinien, Stand 18.12.2024",
+          "url": "https://www.neuland-fleisch.de/wp-content/uploads/2024/12/Richtlinien-Allgemeine-Richtlinien-aktuell-18.12.24.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "haltung",
+            "fuetterung",
+            "transport",
+            "schlachtung",
+            "kontrollen"
+          ]
+        },
+        {
+          "id": "neuland-qualitaetssicherung",
+          "titel": "NEULAND: Qualitaetssicherung",
+          "url": "https://www.neuland-fleisch.de/neuland-uebersicht/qualitaetssicherung/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kontrollen",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "neuland-markenzeichen",
+          "titel": "NEULAND: Markenzeichen",
+          "url": "https://www.neuland-fleisch.de/neuland-uebersicht/markenzeichen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "profil"
+          ]
+        },
+        {
+          "id": "vz-zahlen-zeichen-siegel",
+          "titel": "Verbraucherzentrale: Lebensmittel - Zahlen, Zeichen, Codes und Siegel",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/lebensmittel-zahlen-zeichen-codes-und-siegel-8382",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "neuland"
+          ]
+        },
+        {
+          "id": "vz-tierhaltungskennzeichnung",
+          "titel": "Verbraucherzentrale: Von Haltungsform bis Tierwohl",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/von-haltungsform-bis-tierwohl-alles-zur-tierhaltungskennzeichnung-25484",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "tierwohlvergleich"
           ]
         }
       ],
@@ -1869,6 +2203,105 @@
         }
       ],
       "unsicherheit": "niedrig"
+    },
+    {
+      "id": "vegan-trademark-veganblume",
+      "name": "Vegan Trademark / Veganblume",
+      "kategorie": "Vegan-/Vegetarischstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "vegan",
+        "drogerie",
+        "lebensmittel",
+        "inhaltsstoffpruefung",
+        "tierversuchsfreiheitsbezug"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Kosmetik",
+        "Koerperpflege",
+        "Haushaltsprodukte",
+        "Nahrungsergaenzungsmittel"
+      ],
+      "traeger": "The Vegan Society",
+      "standardtyp": "internationales veganes Produktzeichen mit Kriterien zu Inhaltsstoffen, Verarbeitung, Kreuzkontamination und unternehmensbezogenen Tierversuchsausschluessen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 1,
+        "minus": 0,
+        "final": 4,
+        "anmerkung": "Nuetzliches veganes Produktsiegel fuer Nahrung und Drogerie, aber kein Umwelt-, Sozial- oder Naturkosmetikstandard."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "vegan-trademark-vz",
+            "vegan-trademark-kosmetik-vz"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Die Veganblume ist fuer den deutschen Markt ein sinnvoller Zusatz zu V-Label, weil sie besonders bei internationalen Marken sowie im Drogerie- und Kosmetikbereich sichtbar ist. Sie liefert aber nur einen engen Produktausschnitt und keine breitere Nachhaltigkeitsbewertung.",
+      "quellen": [
+        {
+          "id": "vegan-trademark-standards",
+          "titel": "The Vegan Society: Vegan Trademark Standards",
+          "url": "https://www.vegansociety.com/trademark/vegan-trademark-standards",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "vegan-kriterien",
+            "cross-contamination",
+            "tierversuchsbezug"
+          ]
+        },
+        {
+          "id": "vegan-trademark-corporate",
+          "titel": "The Vegan Society: Vegan Trademark",
+          "url": "https://www.vegansociety.com/vegan-trademark/corporate-engagement",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "programm"
+          ]
+        },
+        {
+          "id": "vegan-trademark-search",
+          "titel": "The Vegan Society: Trademark Search",
+          "url": "https://www.vegansociety.com/resources/lifestyle/shopping/trademark-search",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "verbreitung"
+          ]
+        },
+        {
+          "id": "vegan-trademark-vz",
+          "titel": "Verbraucherzentrale: Vegetarische und vegane Lebensmittel erkennen",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/gesund-ernaehren/vegetarische-und-vegane-lebensmittel-erkennen-worauf-muss-ich-achten-68457",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "verbraucherorientierung"
+          ]
+        },
+        {
+          "id": "vegan-trademark-kosmetik-vz",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "drogerierelevanz"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
     },
     {
       "id": "vlog-ohne-gentechnik",
