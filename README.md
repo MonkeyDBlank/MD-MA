@@ -1,35 +1,48 @@
 # MD&MA Bewertungsautomation
 
-Lokales Arbeitsprojekt zur Automatisierung der Recherche und Bewertung von Qualitätssiegeln und Lieferketten auf Basis des Notion-Projektstands `MD&MA`.
+Lokales Arbeitsprojekt zur Automatisierung der Recherche und Bewertung von Qualitaetssiegeln und Lieferketten auf Basis des urspruenglichen Notion-Projektstands `MD&MA`.
 
 ## Ziel
 
 Das Projekt soll aus Recherchequellen strukturierte Bewertungen erzeugen:
 
-- Qualitätssiegel: Standard, Träger, Kontrollsystem, Rückverfolgbarkeit, NGO-Bewertung, Kritik, Score.
-- Lieferketten: Unternehmen, Produkt/Rohstoff, Kettentiefe, Herkunftsrisiken, Kontrolltiefe, Monitoring, Score.
-- Jede Bewertung braucht Belege, Unsicherheitsgrad und Review-Status.
+- Qualitaetssiegel: Standard, Traeger, Kontrollsystem, Rueckverfolgbarkeit, NGO-Bewertung, Kritik, Score.
+- Lieferketten: Unternehmen/Marke, Warengruppe/Rohstoff, Lieferkettenmodell, Herkunftsrisiken, Kontrolltiefe, Monitoring, Score.
+- Jede Bewertung braucht Belege und einen Unsicherheitsgrad; interne Review-Stati bleiben in Drafts und werden nicht in finale JSONs geschrieben.
+
+Aktiver fachlicher Scope:
+
+- Nahrungsmittel
+- Drogerieprodukte
+
+Nicht aktiv sind Textilien, rein verpackungsbezogene Forst-/Papiersiegel ohne direkten Produktbezug und reine Unternehmenszertifizierungen ohne klaren Produktbezug.
 
 ## Ordnerstruktur
 
-- `docs/`: Projektstand, Notion-Inventar, Bewertung des aktuellen Stands.
+- `docs/`: Projektstand, Methodik, Uebergabedoku und Wiki-Spiegel.
 - `matrices/`: Bewertungsmatrizen als maschinennahe Regeln.
-- `agents/`: Agentenrollen, Zuständigkeiten und Übergabeformate.
-- `workflows/`: End-to-end-Abläufe für Recherche, Bewertung und Review.
+- `agents/`: Agentenrollen, Zustaendigkeiten und Uebergabeformate.
+- `workflows/`: End-to-end-Ablaeufe fuer Recherche, Bewertung und Review.
 - `data/raw/`: Rohdaten aus Notion oder Web-Recherche.
-- `data/processed/`: bereinigte JSON/CSV-Daten für App oder Auswertung.
+- `data/drafts/`: interne Arbeitsstaende und Agentenlaeufe.
+- `data/processed/`: finale JSON-Daten fuer App oder Auswertung.
 - `research/sources/`: Quellenlisten und Quellenbewertung.
-- `research/findings/`: Einzelfunde, Recherche-Notizen, offene Evidenzfragen.
+- `research/findings/`: Einzelfunde, Recherche-Notizen, offene Evidenzfragen und Laufprotokolle.
+- `context/`: maschinenlesbarer Projektkontext fuer neue Agentenlaeufe.
 
 ## Aktueller Stand in einem Satz
 
-Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 28 aktive Eintraege, `lieferketten.json` 13 belastbare Pilotfaelle und `glossar.json` 19 relevante Begriffe.
+Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 33 aktive Eintraege, `lieferketten.json` 15 belastbare Pilotfaelle und `glossar.json` 21 relevante Begriffe.
+
+Neu im Stand `2026.5` sind unter anderem drogerierelevante Umweltzeichen wie `blauer-engel`, `eu-ecolabel`, `ecogarantie` und `ecocert-ecodetergents` sowie die Lieferkettenfaelle `gepa-schokolade-kakao-cooproagro` und `lidl-way-to-go-schokolade-kakao-ghana`.
 
 ## GitHub-First-Doku
 
-Die laufende Projektdokumentation fuer die Ablösung von Notion liegt unter:
+Die laufende Projektdokumentation fuer die Abloesung von Notion liegt unter:
 
 - `AGENTS.md`
+- `AGENT_START_HERE.md`
+- `PROJECT_CONTEXT.md`
 - `context/project-context.snapshot.json`
 - `docs/wiki/Home.md`
 - `docs/wiki/Projektstand.md`
@@ -39,9 +52,8 @@ Die laufende Projektdokumentation fuer die Ablösung von Notion liegt unter:
 - `docs/wiki/JSON-Formate.md`
 - `docs/wiki/Agenten-Workflow.md`
 - `docs/wiki/Repo-Nutzung-und-Kontext.md`
-- `AGENT_START_HERE.md`
 
-## Kontext fuer neue Agents
+## Kontext Fuer Neue Agents
 
 Neue Personen oder neue Agenten sollen bei einem frischen Clone in dieser Reihenfolge starten:
 
@@ -49,6 +61,8 @@ Neue Personen oder neue Agenten sollen bei einem frischen Clone in dieser Reihen
 2. `AGENT_START_HERE.md`
 3. `context/project-context.snapshot.json`
 4. `PROJECT_CONTEXT.md`
+5. `docs/wiki/Home.md`
+6. `docs/wiki/Projektstand.md`
 
 Der Snapshot kann nach inhaltlichen Aenderungen mit folgendem Befehl aktualisiert werden:
 
