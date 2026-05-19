@@ -16,6 +16,15 @@ Interne Arbeitsstaende liegen getrennt unter:
 
 - `data/drafts/`
 
+## Formatregel
+
+Die Struktur dieser drei JSON-Dateien gilt aktuell als stabiler Uebergabevertrag.
+
+- Inhalte und neue Eintraege werden laufend erweitert.
+- Neue Felder oder Umbenennungen bestehender Felder werden nicht laufend eingebaut.
+
+Grund: Jede Strukturänderung muesste separat an App-Team und Datenbankteam kommuniziert werden.
+
 ## 1. qualitaetssiegel.json
 
 Zweck:
@@ -40,7 +49,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 26 Eintraege
+- 28 Eintraege
 
 ## 2. lieferketten.json
 
@@ -69,7 +78,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 12 Eintraege
+- 13 Eintraege
 
 ## 3. glossar.json
 
@@ -89,7 +98,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 18 Begriffe
+- 19 Begriffe
 
 ## Modellregel
 

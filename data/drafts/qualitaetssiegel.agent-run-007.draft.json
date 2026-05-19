@@ -1,0 +1,270 @@
+{
+  "version": "2026.4",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-05-19",
+  "eintraege": [
+    {
+      "id": "ncp",
+      "name": "NCP (Nature Care Product)",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "haushalt",
+        "reinigungsmittel",
+        "non-food",
+        "umwelt",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Hygieneartikel",
+        "weitere Non-Food-Alltagsprodukte"
+      ],
+      "traeger": "GfaW Gesellschaft fuer angewandte Wirtschaftsethik mbH",
+      "standardtyp": "Produktstandard fuer naturbasierte Non-Food-Produkte wie Wasch- und Reinigungsmittel mit Anforderungen an Inhaltsstoffe, Verpackung und Umweltvertraeglichkeit",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 2,
+        "final": 7,
+        "anmerkung": "Starker Non-Food-Umweltstandard fuer den Drogerie-/Haushaltsbereich. Abzug, weil Sozialdimension schwach und der Scope deutlich breiter ist als klassische Produkt-Siegelsysteme fuer einzelne Warengruppen."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-drittzertifizierung",
+          "name": "Unabhaengige Drittzertifizierung",
+          "wert": 1,
+          "quelle_ids": [
+            "ncp-certification-process",
+            "ncp-external-certifier"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "starke-umwelt-und-inhaltsstoffkriterien",
+          "name": "Starke Umwelt- und Inhaltsstoffkriterien",
+          "wert": 1,
+          "quelle_ids": [
+            "ncp-standard",
+            "ncp-siegelklarheit"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "ncp-siegelklarheit"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "breiter-non-food-scope",
+          "name": "Breiter Non-Food-Scope",
+          "wert": -1,
+          "quelle_ids": [
+            "ncp-product-certification"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "NCP ist fuer den deutschen Drogerie- und Haushaltsbereich relevant, weil der Standard genau die Luecke fuer naturbasierte Non-Food-Produkte wie Wasch- und Reinigungsmittel adressiert. Er ist kein Fair- oder Lebensmittelsiegel, aber als Umwelt- und Produktstandard fuer den Scope methodisch sinnvoll.",
+      "quellen": [
+        {
+          "id": "ncp-product-certification",
+          "titel": "GfaW: NCP - Produktzertifizierung fuer Naturprodukte",
+          "url": "https://gfaw.eu/zertifizierungen/ncp/ncp-produktzertifizierung-fuer-naturprodukte/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "scope",
+            "non-food",
+            "produktgruppen"
+          ]
+        },
+        {
+          "id": "ncp-standard",
+          "titel": "GfaW: NCP-Standard",
+          "url": "https://gfaw.eu/zertifizierungen/ncp/ncp-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "anforderungen",
+            "version-2026"
+          ]
+        },
+        {
+          "id": "ncp-certification-process",
+          "titel": "GfaW: NCP Certification Process",
+          "url": "https://gfaw.eu/en/certifications/ncp/ncp-certification-process/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungsverfahren",
+            "ueberwachungsaudits"
+          ]
+        },
+        {
+          "id": "ncp-external-certifier",
+          "titel": "Pruefgesellschaft Bio: NCP",
+          "url": "https://pruefgesellschaft.bio/ncp/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "externe-zertifizierungsstelle"
+          ]
+        },
+        {
+          "id": "ncp-siegelklarheit",
+          "titel": "Siegelklarheit: Nature Care Products Standard (NCP)",
+          "url": "https://www.siegelklarheit.de/nature-care-products-standard-ncp-55",
+          "quelle_typ": "verbraucherportal",
+          "belegt": [
+            "einordnung",
+            "umweltkriterien",
+            "glaubwuerdigkeit"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ncs",
+      "name": "NCS (Natural Cosmetics Standard)",
+      "kategorie": "Natur-/Biokosmetikstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "naturkosmetik",
+        "drogerie",
+        "kosmetik",
+        "drittzertifizierung",
+        "inhaltsstoffpruefung"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Koerperpflege"
+      ],
+      "traeger": "GfaW Gesellschaft fuer angewandte Wirtschaftsethik mbH",
+      "standardtyp": "Naturkosmetikstandard mit Anforderungen an Rohstoffe, problematische Stoffgruppen, Verpackung, Kennzeichnung und Zertifizierung",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 2,
+        "final": 7,
+        "anmerkung": "Solider Naturkosmetikstandard im deutschen Markt. Unter sehr starken Referenzen wie COSMOS Organic einzuordnen und mit schwacher Sozialdimension."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-drittzertifizierung",
+          "name": "Unabhaengige Drittzertifizierung",
+          "wert": 1,
+          "quelle_ids": [
+            "ncs-certification-process",
+            "ncs-external-certifier"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "klare-naturkosmetikregeln",
+          "name": "Klare Naturkosmetikregeln",
+          "wert": 1,
+          "quelle_ids": [
+            "ncs-standard",
+            "ncs-vz-naturkosmetik"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "ncs-standard"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "unter-cosmos-organic-einzuordnen",
+          "name": "Unter COSMOS Organic einzuordnen",
+          "wert": -1,
+          "quelle_ids": [
+            "ncs-standard",
+            "ncs-vz-kosmetiksiegel"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "NCS passt ohne Formatumbau in die bestehende Naturkosmetiklogik. Fuer den deutschen Drogeriekontext ist das Siegel relevant genug, um neben NATRUE und COSMOS als weiterer Naturkosmetikstandard gefuehrt zu werden, bleibt aber unter den staerksten Bio-Naturkosmetikreferenzen.",
+      "quellen": [
+        {
+          "id": "ncs-product-certification",
+          "titel": "GfaW: NCS - Produktzertifizierung fuer Naturkosmetik",
+          "url": "https://gfaw.eu/zertifizierungen/ncs/ncs-produktzertifizierung/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "positionierung",
+            "naturkosmetikstandard"
+          ]
+        },
+        {
+          "id": "ncs-standard",
+          "titel": "GfaW: NCS-Standard",
+          "url": "https://gfaw.eu/zertifizierungen/ncs/ncs-produktzertifizierung/ncs-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "stoffverbote",
+            "verpackung",
+            "version-2026"
+          ]
+        },
+        {
+          "id": "ncs-certification-process",
+          "titel": "GfaW: NCS-Zertifizierungsverfahren",
+          "url": "https://gfaw.eu/zertifizierungen/ncs/ncs-produktzertifizierung/ncs-zertifizierungsverfahren/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungsverfahren",
+            "ueberwachungsaudits"
+          ]
+        },
+        {
+          "id": "ncs-external-certifier",
+          "titel": "Pruefgesellschaft Bio: NCS",
+          "url": "https://pruefgesellschaft.bio/ncs/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "externe-zertifizierungsstelle"
+          ]
+        },
+        {
+          "id": "ncs-vz-naturkosmetik",
+          "titel": "Verbraucherzentrale: Was ist Naturkosmetik?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-ist-naturkosmetik-26394",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung-naturkosmetiksiegel"
+          ]
+        },
+        {
+          "id": "ncs-vz-kosmetiksiegel",
+          "titel": "Verbraucherzentrale: Was bedeuten die Kosmetiksiegel?",
+          "url": "https://www.verbraucherzentrale.de/wissen/umwelt-haushalt/produkte/was-bedeuten-die-kosmetiksiegel-26387",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung-kosmetiksiegel"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    }
+  ]
+}

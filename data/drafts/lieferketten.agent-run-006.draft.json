@@ -1,0 +1,171 @@
+{
+  "version": "2026.4",
+  "typ": "lieferketten",
+  "stand": "2026-05-19",
+  "eintraege": [
+    {
+      "id": "kaufland-eigenmarken-fisch-ftrace",
+      "unternehmen": "Kaufland",
+      "marke": "K-Blue Bay / K-Classic / K-Bio",
+      "warengruppe": "Fischprodukte der Eigenmarken",
+      "rohstoffe": [
+        "Wildfisch",
+        "Zuchtfisch"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "QR-Code bzw. GTIN/LOT-Eingabe fuer ausgewaehlte Eigenmarken-Fischprodukte",
+          "Rueckverfolgung fuer Fischprodukte der Eigenmarken wie K-BLUE BAY, K-CLASSIC und K-BIO",
+          "Verbraucher koennen Herkunfts- und Verarbeitungsinformationen chargenbezogen abrufen"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "standardgestuetzte-herkunftssicherung",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 5,
+        "plus": 2,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Stark ist die chargenbezogene QR-/LOT-Rueckverfolgbarkeit fuer ausgewaehlte Eigenmarken-Fischprodukte sowie die klar formulierte Zielsetzung bis Fangdatum bzw. Zuchtbetrieb. Kein hoeherer Score, weil die Transparenz retailer- und chargenabhaengig bleibt und nicht fuer das gesamte Sortiment pauschal gilt."
+      },
+      "faktoren": [
+        {
+          "id": "systemische-rueckverfolgbarkeit",
+          "name": "Systemische Rueckverfolgbarkeit",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-rueckverfolgung",
+            "kaufland-fischleitlinie-2023"
+          ],
+          "notiz": "QR-/GTIN-/LOT-basiertes Rueckverfolgungssystem fuer Eigenmarken-Fischprodukte mit Zielsetzung bis Fangdatum bzw. Zuchtbetrieb."
+        },
+        {
+          "id": "produktnaehe-im-handel",
+          "name": "Produktnaehe im Handel",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-rueckverfolgung"
+          ],
+          "notiz": "Endkunden koennen Informationen fuer konkrete Handelsmarkenprodukte abrufen."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "nicht-vollsortimentsweit",
+          "beschreibung": "Die Rueckverfolgung gilt fuer ausgewaehlte Produktverpackungen und gelistete Eigenmarken, nicht pauschal fuer das gesamte Sortiment.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-rueckverfolgung"
+          ]
+        },
+        {
+          "id": "fischsektor-strukturrisiken",
+          "beschreibung": "Der Fischsektor bleibt strukturell risikobehaftet durch Ueberfischung, IUU-Fischerei, problematische Fangmethoden und Risiken in Aquakulturen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-fischleitlinie-2023"
+          ]
+        },
+        {
+          "id": "begrenzte-oeffentliche-vorstufentiefe",
+          "beschreibung": "Ohne konkreten QR-/LOT-Bezug bleibt die oeffentliche Transparenz auf Modell- und Systemebene; nicht jede einzelne Packung ist aus offenen Quellen vollstaendig rekonstruierbar.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-rueckverfolgung"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "qr-und-lot-rueckverfolgung",
+          "beschreibung": "Kaufland bietet fuer Eigenmarken-Fischprodukte eine Rueckverfolgung ueber QR-Code oder GTIN/LOT-Eingabe an.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-rueckverfolgung"
+          ]
+        },
+        {
+          "id": "iuu-und-transshipment-ausschluss",
+          "beschreibung": "Kaufland schliesst laut Leitlinie IUU-Fischerei aus und akzeptiert Transshipment nur, wenn die Rueckverfolgbarkeit gewaehrleistet bleibt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-fischleitlinie-2023"
+          ]
+        },
+        {
+          "id": "zertifizierungs-und-beschaffungsregeln",
+          "beschreibung": "Die Fischleitlinie bevorzugt zertifizierte bzw. nachhaltigere Fischereien und Aquakulturen und nennt bei Aquakultur unter anderem ASC-, Bio- oder vergleichbare Standards als Orientierung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-fischleitlinie-2023"
+          ]
+        }
+      ],
+      "begruendung": "Kaufland ist ein sinnvoller alltagsnaher Pilotfall, weil der Haendler fuer Eigenmarken-Fischprodukte ein konkret nutzbares Rueckverfolgungssystem mit QR-/LOT-Logik oeffentlich beschreibt und dieses mit einer veroeffentlichten Fischleitlinie verbindet. Das ist fuer den deutschen Massenmarkt stark, bleibt aber ehrlicherweise unter direkter oder identity-preserved Lieferkettenoffenlegung.",
+      "quellen": [
+        {
+          "id": "kaufland-rueckverfolgung",
+          "titel": "Kaufland: Rueckverfolgung - Woher stammen Fisch, Fleisch, Wurst und Gefluegel?",
+          "url": "https://filiale.kaufland.de/service/produktinformationen/rueckverfolgung.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "qr-code",
+            "ftrace",
+            "eigenmarken-fisch",
+            "gtin-lot-eingabe",
+            "verbraucherzugang",
+            "ziel-rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "kaufland-fischleitlinie-2023",
+          "titel": "Kaufland Leitlinie Fisch (Stand Dezember 2023)",
+          "url": "https://unternehmen.kaufland.de/content/dam/kaufland/website/corporate/de_DE/download/document/20-mmdu/lieferketten/Kaufland-Leitlinie-Fisch-2023.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rueckverfolgbarkeit",
+            "iuu-ausschluss",
+            "transshipment-regeln",
+            "fangdatum-zuchtbetrieb",
+            "beschaffungsanforderungen"
+          ]
+        },
+        {
+          "id": "kaufland-fisch-sortiment-blog",
+          "titel": "Kaufland Corporate Blog: Nachhaltig frisch gefischt - Das Fisch-Sortiment bei Kaufland",
+          "url": "https://unternehmen.kaufland.de/presse/kaufland-corporate-blog/der-natur-etwas-zurueckgeben-das-demeter-biotop/nachhaltig-frisch-gefischt-das-fisch-sortiment-bei-kaufland",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eigenmarken-fischsortiment",
+            "alltagsrelevanz-im-handel"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Die Aussage ist fuer Eigenmarken-Fischprodukte mit QR-/LOT-Bezug deutlich staerker als fuer das Gesamtsortiment. Ohne konkreten Produktcode sollte die App diese Einordnung als produktliniennahes Rueckverfolgbarkeitsmodell und nicht als einzelpackungsscharfen Vollnachweis darstellen.",
+      "relevante_siegel": [
+        {
+          "id": "msc",
+          "rolle": "relevant fuer Teile des Wildfischsortiments",
+          "einordnung": "Der Lieferkettenscore stuetzt sich nicht nur auf MSC, sondern vor allem auf das Rueckverfolgungsmodell und die Handelsvorgaben von Kaufland."
+        },
+        {
+          "id": "asc",
+          "rolle": "relevant fuer Teile des Aquakultursortiments",
+          "einordnung": "ASC ist fuer Teile des Sortiments relevant, ersetzt aber nicht die Bewertung der konkreten Handels- und Traceability-Architektur."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "relevant fuer Bio-Fischprodukte der Eigenmarken",
+          "einordnung": "Bio kann einzelne Produkte staerken, ist hier aber nicht die primaere Grundlage des Lieferkettenpilotfalls."
+        }
+      ]
+    }
+  ]
+}

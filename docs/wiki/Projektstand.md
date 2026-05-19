@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 26 aktive Eintraege
+- 28 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 12 aktive Pilotfaelle
+- 13 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -58,7 +58,7 @@ Das Glossar ist eine eigenstaendige dritte JSON mit relevanten Begriffen fuer Na
 Aktiver Stand:
 
 - `data/processed/glossar.json`
-- 18 Begriffe
+- 19 Begriffe
 
 ### 6. Agenten-Workflow eingefuehrt
 

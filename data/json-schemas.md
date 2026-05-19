@@ -2,6 +2,16 @@
 
 Arbeitsentwurf für die drei zentralen Datenpakete des Projekts.
 
+## Schema-Stabilitaet
+
+Die aktuell genutzten JSON-Strukturen gelten fuer die laufende Arbeit als stabil.
+
+- Neue Eintraege und neue Werte innerhalb bestehender Felder sind gewuenscht.
+- Neue Felder, Umbenennungen oder das Entfernen bestehender Felder sind nicht der Default.
+- Jede Strukturänderung muesste separat an App-Team und Datenbankteam kommuniziert werden.
+
+Darum wird das bestehende Format im laufenden Ausbau nur erweitert, nicht laufend umgebaut.
+
 ## Qualitätssiegel
 
 Datei: `data/processed/qualitaetssiegel.json`

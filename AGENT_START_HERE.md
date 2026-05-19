@@ -47,6 +47,7 @@ Nicht aktiv:
 - Finale Uebergabedateien liegen nur in `data/processed/`
 - Interne Arbeitsstaende liegen in `data/drafts/`
 - Keine internen Review-Stati in finale JSONs schreiben
+- Keine neuen JSON-Felder ohne explizite Entscheidung, weil jede Strukturänderung an App- und Datenbankteam kommuniziert werden muss
 - Lieferkettenscores nicht mit generischen Siegelscores gleichsetzen
 - Glossar nur erweitern, wenn neue Begriffe wirklich relevant sind
 

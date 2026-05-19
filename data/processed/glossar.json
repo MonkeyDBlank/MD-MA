@@ -1,5 +1,5 @@
 {
-  "version": "2026.3",
+  "version": "2026.4",
   "typ": "glossar",
   "sprache": "de",
   "stand": "2026-05-19",
@@ -84,6 +84,15 @@
       "bewertungsrelevanz": "Fair-Trade-Siegel koennen starke soziale Signale senden, werden aber bei Mass Balance oder schwacher Produktbindung abgewertet.",
       "beispiel": "Fairtrade und Fair for Life sind Fair-Trade-orientierte Standards.",
       "kategorie": "Handel und Soziales"
+    },
+    {
+      "id": "ftrace",
+      "begriff": "fTRACE",
+      "kurzdefinition": "Rueckverfolgbarkeitssystem, mit dem Handelsunternehmen Herkunfts- und Verarbeitungsinformationen zu bestimmten Produkten chargenbezogen abrufbar machen.",
+      "ausfuehrliche_erklaerung": "fTRACE ist ein System zur produkt- oder chargenbezogenen Rueckverfolgung, das insbesondere im Handel fuer Fleisch- und Fischprodukte genutzt wird. Verbraucher erhalten ueber QR-Code oder Trackingdaten Informationen zur Herkunft, Verarbeitung und Wertschopfungskette.",
+      "bewertungsrelevanz": "Der Begriff ist fuer Lieferkettenbewertungen wichtig, weil fTRACE alltagsnahe Handelsfaelle deutlich staerker absichern kann als bloeße Marken- oder Herkunftsclaims.",
+      "beispiel": "Bei Eigenmarken-Fischprodukten von Handelsunternehmen koennen Herkunft und Verarbeitung ueber QR-Code oder GTIN/LOT mit fTRACE nachvollzogen werden.",
+      "kategorie": "Lieferkette und Rueckverfolgbarkeit"
     },
     {
       "id": "herkunftszeichen",

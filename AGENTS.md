@@ -48,6 +48,7 @@ Documentation:
 - Never write internal review states into final JSON files.
 - Start new or changed entries in `data/drafts/` first.
 - Move content to `data/processed/` only after consolidation.
+- Do not add, remove, or rename JSON fields in the final schema unless the user explicitly decides to change the handoff contract with the app/data team.
 - Keep documentation and wiki mirrors aligned with data changes.
 - Use primary sources first and flag uncertainty honestly.
 - Do not treat a generic seal score as identical to a concrete supply-chain score.

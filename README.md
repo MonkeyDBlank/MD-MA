@@ -23,7 +23,7 @@ Das Projekt soll aus Recherchequellen strukturierte Bewertungen erzeugen:
 
 ## Aktueller Stand in einem Satz
 
-Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 26 aktive Eintraege, `lieferketten.json` 12 belastbare Pilotfaelle und `glossar.json` 18 relevante Begriffe.
+Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 28 aktive Eintraege, `lieferketten.json` 13 belastbare Pilotfaelle und `glossar.json` 19 relevante Begriffe.
 
 ## GitHub-First-Doku
 

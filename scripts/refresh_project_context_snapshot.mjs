@@ -71,6 +71,7 @@ const snapshot = {
     "Finale JSON-Dateien liegen nur in data/processed/.",
     "Neue oder geaenderte Eintraege zuerst in data/drafts/ bearbeiten.",
     "Keine internen Review- oder Agentenstati in finale JSON-Dateien schreiben.",
+    "Keine neuen JSON-Felder ohne explizite Abstimmung mit App- und Datenbankteam.",
     "Repo und Wiki bei inhaltlichen Aenderungen synchron halten.",
     "Primaerquellen vor Sekundaerquellen bevorzugen.",
     "Lieferkettenscore und generischer Siegelscore nicht gleichsetzen."

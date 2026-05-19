@@ -326,3 +326,40 @@ Ziel: Sichtbare und methodisch sinnvolle Deutschland-Siegel nachziehen, ohne den
 
 - `data/processed/qualitaetssiegel.json` enthaelt jetzt 26 aktive Eintraege.
 - `data/processed/glossar.json` enthaelt jetzt 18 relevante Begriffe.
+
+## Lauf 007 - Drogerie-Standards ohne Schemaaenderung erweitert
+
+Datum: 2026-05-19
+
+Ziel: Relevante Drogerie-/Haushaltsstandards im bestehenden JSON-Format ergaenzen, ohne neue Felder oder Strukturumbauten einzufuehren.
+
+### Gestartete Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e4046-5fee-7010-88e3-e29ced3a8302` | NCP / NCS | Zwei relevante Drogerie-/Haushaltsstandards im bestehenden Schema bewerten | `ncp` und `ncs` empfohlen |
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-007.draft.json`
+- `data/drafts/glossar.agent-run-004.draft.json`
+
+### Neue Siegel-Eintraege
+
+- `ncp`
+- `ncs`
+
+### Neue Glossarbegriffe
+
+- `ftrace`
+
+### Methodische Entscheidungen
+
+- Das bestehende JSON-Format blieb unveraendert; nur neue Eintraege wurden in die vorhandene Struktur geschrieben.
+- `NCP` wurde als `Umweltzeichen / Produktstandard` eingeordnet, weil der Standard vor allem fuer naturbasierte Non-Food-Produkte wie Wasch- und Reinigungsmittel relevant ist.
+- `NCS` wurde als weiterer `Natur-/Biokosmetikstandard` aufgenommen, ohne dafuer eine neue Unterstruktur einzufuehren.
+
+### Ergebnis
+
+- `data/processed/qualitaetssiegel.json` enthaelt jetzt 28 aktive Eintraege.
+- `data/processed/glossar.json` enthaelt jetzt 19 relevante Begriffe.

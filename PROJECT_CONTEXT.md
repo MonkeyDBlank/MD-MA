@@ -22,6 +22,16 @@ Die App selbst wird nicht gebaut und ist nicht unser Liefergegenstand. Unser Lie
 
 Das Scan-Szenario dient nur dazu, zu verstehen, wie die Daten später verwendet werden könnten.
 
+## Wichtige Formatregel
+
+Die JSON-Formate gelten aktuell als stabiler Uebergabevertrag zum App- und Datenbankteam.
+
+- keine neuen Felder
+- keine Umbenennungen
+- keine Entfernungen bestehender Felder
+
+ohne vorherige explizite Entscheidung, weil jede Strukturänderung separat kommuniziert und abgestimmt werden muss. Laufende Arbeit erweitert daher in erster Linie Inhalte, nicht das Format.
+
 ## GitHub-First-Status
 
 Seit dem Wechsel weg von Notion wird die laufende Hauptdokumentation im Repo und im GitHub-Wiki gepflegt.
@@ -77,9 +87,9 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 26 aktive Eintraege
-- `data/processed/lieferketten.json`: 12 aktive Pilotfaelle
-- `data/processed/glossar.json`: 18 relevante Begriffe
+- `data/processed/qualitaetssiegel.json`: 28 aktive Eintraege
+- `data/processed/lieferketten.json`: 13 aktive Pilotfaelle
+- `data/processed/glossar.json`: 19 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
@@ -183,14 +193,21 @@ Stand nach Lauf 006:
   - `kat`
   - `regionalfenster`
 
+Stand nach Lauf 007:
+
+- 28 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen:
+  - `ncp`
+  - `ncs`
+
 Stand weitere JSONs:
 
 - aktuelle uebergabefaehige Glossar-Datei: `data/processed/glossar.json`
-- aktueller Zaehler: 18 Begriffe
+- aktueller Zaehler: 19 Begriffe
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 12 aktive Pilotfaelle
+- aktueller Zaehler: 13 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -228,6 +245,12 @@ Stand Lieferketten nach Lauf 005:
 - neu hinzugekommen:
   - `eifrisch-schaleneier-kat-deutschland`
   - `sonett-seifen-und-waschmittel-rohstoffkette`
+
+Stand Lieferketten nach Lauf 006:
+
+- 13 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen:
+  - `kaufland-eigenmarken-fisch-ftrace`
 
 ## Entscheidungen Vom 2026-05-12
 

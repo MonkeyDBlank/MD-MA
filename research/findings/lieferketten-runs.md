@@ -186,3 +186,38 @@ Ziel: Den Pilotbestand um einen alltagsnahen Eier-Fall und einen staerkeren Wasc
 
 - `Eifrisch` wird bewusst als `Unternehmen/Marke + Warengruppe + Rueckverfolgbarkeitssystem` gefuehrt, nicht als packungsscharfer Eier-Eintrag ohne Eiercode.
 - `Sonett` bleibt ein produktliniennaher Rohstofffall mit starker Teiltransparenz, aber ohne chargengenaue Offenlegung aller Tensidvorstufen.
+
+## Lauf 006 - Handelsfall Fisch mit bestehendem Schema erweitert
+
+Datum: 2026-05-19
+
+Ziel: Einen alltagsnahen Handelsfall fuer Fischprodukte hinzufuegen, ohne das Lieferkettenformat zu aendern.
+
+## Neue Eintraege
+
+- `kaufland-eigenmarken-fisch-ftrace`
+
+## Auswahlgrund
+
+- `Kaufland`: klarer Verbraucherzugang ueber QR-/GTIN-/LOT-Eingabe, Eigenmarkenbezug und veroeffentlichte Fischleitlinie mit Rueckverfolgbarkeits- und IUU-Regeln
+
+## Eingesetzte Subagents
+
+| Agent-ID | Thema | Aufgabe | Ergebnis |
+|---|---|---|---|
+| `019e4046-6098-79a1-80b7-9a34d0a3d599` | Kaufland / fTRACE | Alltagsnahen Handels-Fischfall im bestehenden Schema ausarbeiten | `kaufland-eigenmarken-fisch-ftrace` empfohlen |
+
+## Entstandene Dateien
+
+- `data/drafts/lieferketten.agent-run-006.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+## Ergebnis
+
+`data/processed/lieferketten.json` enthaelt jetzt 13 aktive Pilot-Eintraege.
+
+## Methodische Hinweise
+
+- `Kaufland` wird als produktliniennaher Handelsfall modelliert, weil die oeffentliche Rueckverfolgbarkeit stark am konkreten QR-/LOT-Bezug haengt.
+- Das bestehende Lieferkettenformat blieb unveraendert; es wurde nur ein weiterer Eintrag im vorhandenen Schema ergaenzt.

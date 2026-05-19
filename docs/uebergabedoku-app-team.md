@@ -39,7 +39,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 26 aktive Einträge
+- 28 aktive Einträge
 - nur Siegel im Scope Nahrung und Drogerie
 
 Wichtige Felder:
@@ -69,7 +69,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 12 aktive Pilot-Einträge
+- 13 aktive Pilot-Einträge
 - bewusst als belastbare Pilotbasis, noch kein Vollbestand
 
 Wichtige Felder:
@@ -104,7 +104,7 @@ Inhalt:
 
 Aktueller Stand:
 
-- 18 relevante Begriffe
+- 19 relevante Begriffe
 - nur Begriffe im Scope Nahrung und Drogerie
 
 Wichtige Begriffe:
@@ -167,6 +167,16 @@ Derzeit enthalten:
 - `dr-bronner-reine-naturseife-rohstoffkette`
 - `eifrisch-schaleneier-kat-deutschland`
 - `sonett-seifen-und-waschmittel-rohstoffkette`
+- `kaufland-eigenmarken-fisch-ftrace`
+
+## Wichtige Formatregel
+
+Die Struktur der drei JSON-Dateien gilt aktuell als stabiler Uebergabevertrag.
+
+- Neue Inhalte und neue Werte innerhalb bestehender Felder sind normal.
+- Neue Felder oder Umbenennungen bestehender Felder werden nicht laufend eingebaut.
+
+Grund: Jede Strukturänderung müsste separat an App-Team und Datenbankteam kommuniziert werden.
 
 ## Wichtige Zusatzdokumente
 
