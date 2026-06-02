@@ -367,3 +367,7 @@ Ziel: Relevante Drogerie-/Haushaltsstandards im bestehenden JSON-Format ergaenze
 ## Lauf 008 - Qualitaetssiegel Nahrung/Drogerie (2026-05-19)
 
 Neue bzw. reaktivierte Eintraege: `bio-suisse-knospe`, `blauer-engel`, `ecogarantie`, `ecocert-ecodetergents`, `eu-ecolabel`. Blauer Engel und EU Ecolabel wurden aus dem Archiv in den aktiven Bestand uebernommen, aber nur mit direktem Drogerie-/Reinigungsproduktbezug. Primaerquellen: Bio Suisse, Umweltbundesamt/Blauer Engel, EU-Kommission, Ecogarantie und Ecocert.
+
+## Lauf 009 - Qualitaetssiegel Nahrung/Drogerie (2026-06-02)
+
+Neue Eintraege: `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score`, `pro-weideland`, `gepruefte-qualitaet-bayern`. Schwerpunkt waren Tierhaltungs-, Naehrwert- und regionale Herkunfts-/Qualitaetszeichen. Transparenzkennzeichnungen wurden bewusst niedriger eingeordnet als echte Verbesserungs- oder Nachhaltigkeitsstandards.

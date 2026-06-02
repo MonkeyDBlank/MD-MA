@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 33 aktive Eintraege
+- 38 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 15 aktive Pilotfaelle
+- 18 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -58,7 +58,7 @@ Das Glossar ist eine eigenstaendige dritte JSON mit relevanten Begriffen fuer Na
 Aktiver Stand:
 
 - `data/processed/glossar.json`
-- 21 Begriffe
+- 24 Begriffe
 
 ### 6. Agenten-Workflow eingefuehrt
 
@@ -100,3 +100,16 @@ Stand nach Lauf 008 / Lieferketten Lauf 007:
 - neu hinzugekommen: `typ-i-umweltzeichen`, `baseline-assessment`
 
 Die Umweltzeichen `blauer-engel` und `eu-ecolabel` wurden nicht pauschal als breite Non-Food-Siegel reaktiviert, sondern auf drogerierelevante Produktgruppen eingegrenzt.
+
+## Aktualisierung 2026-06-02
+
+Stand nach Lauf 009 / Lieferketten Lauf 008:
+
+- 38 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score`, `pro-weideland`, `gepruefte-qualitaet-bayern`
+- 18 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru`, `alnatura-peru-cafe-bio-kaffee`
+- 24 Glossar-Begriffe in `data/processed/glossar.json`
+- neu hinzugekommen: `tierhaltungskennzeichnung`, `naehrwertkennzeichnung`, `weidemilch`
+
+Die neuen Tierhaltungs- und Naehrwertkennzeichnungen wurden bewusst als Transparenz- bzw. Verbraucherinformationen eingeordnet und nicht mit umfassenden Nachhaltigkeitssiegeln gleichgesetzt.

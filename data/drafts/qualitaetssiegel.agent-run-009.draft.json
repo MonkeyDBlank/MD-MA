@@ -1,0 +1,452 @@
+{
+  "version": "2026.6-draft",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-06-02",
+  "eintraege": [
+    {
+      "id": "fuer-mehr-tierschutz",
+      "name": "Fuer Mehr Tierschutz",
+      "kategorie": "Tierwohl-/Haltungsstandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "tierwohl",
+        "lebensmittel",
+        "fleisch",
+        "eier",
+        "milch",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Fleisch",
+        "Fleisch- und Wurstwaren",
+        "Eier",
+        "Milch",
+        "Milchprodukte"
+      ],
+      "traeger": "Deutscher Tierschutzbund e.V.",
+      "standardtyp": "zweistufiges privates Tierschutzlabel mit Anforderungen von Haltung bis Verarbeitung und unabhaengigen Kontrollen",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Starkes Tierwohlzeichen im aktiven Lebensmittel-Scope; kein Bio-, Klima- oder Fairhandelsstandard."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "fmt-startseite",
+            "fmt-richtlinien"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-lieferkettentiefe",
+          "name": "Begrenzte Lieferkettentiefe",
+          "wert": 0,
+          "quelle_ids": [
+            "fmt-startseite",
+            "vz-fuer-mehr-tierschutz"
+          ],
+          "aussage_status": "abgeleitet",
+          "notiz": "Label deckt Haltung bis Verarbeitung ab, ist aber kein Rohstoff- oder Sozialstandard."
+        }
+      ],
+      "begruendung": "Das Label Fuer Mehr Tierschutz ist fuer tierische Lebensmittel im deutschen Markt relevant. Positiv sind oeffentliche Anforderungen, zweistufige Differenzierung, Kettenbezug von Haltung bis Verarbeitung und unabhaengige Zertifizierungsstellen. Die Bewertung bleibt unter sehr breiten Nachhaltigkeitsstandards, weil Umwelt-, Klima- und Sozialdimensionen nur begrenzt adressiert werden.",
+      "quellen": [
+        {
+          "id": "fmt-startseite",
+          "titel": "Tierschutzlabel: Das Tierschutzlabel Fuer Mehr Tierschutz",
+          "url": "https://www.tierschutzlabel.info/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "zweistufiges-label",
+            "haltung-bis-verarbeitung",
+            "unabhaengige-kontrolle"
+          ]
+        },
+        {
+          "id": "fmt-richtlinien",
+          "titel": "Tierschutzlabel: Richtlinien und Anforderungen",
+          "url": "https://www.tierschutzlabel.info/richtlinien",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "anforderungen",
+            "produktbereiche"
+          ]
+        },
+        {
+          "id": "vz-fuer-mehr-tierschutz",
+          "titel": "Verbraucherzentrale: Das Label Fuer Mehr Tierschutz",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/das-label-fuer-mehr-tierschutz-22086",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "externe-einordnung",
+            "tierarten",
+            "grenzen"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "staatliche-tierhaltungskennzeichnung",
+      "name": "Staatliche Tierhaltungskennzeichnung",
+      "kategorie": "Tierhaltungs-/Transparenzkennzeichnung",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "tierhaltung",
+        "lebensmittel",
+        "staatlich",
+        "fleisch",
+        "transparenz",
+        "pflichtkennzeichnung"
+      ],
+      "produktbereich": [
+        "frisches Schweinefleisch aus deutscher Produktion"
+      ],
+      "traeger": "Bundesministerium fuer Landwirtschaft, Ernaehrung und Heimat sowie zustaendige Landesbehoerden",
+      "standardtyp": "gesetzliche Haltungsformkennzeichnung mit fuenf Stufen fuer zunaechst frisches Schweinefleisch",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 1,
+        "minus": 1,
+        "final": 3,
+        "anmerkung": "Transparenzzeichen, kein freiwilliger Verbesserungsstandard. Positiv ist staatliche Kontrolle; negativ ist die vorerst enge Produkt- und Lebensphasenabdeckung."
+      },
+      "faktoren": [
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "bzl-tierhaltungskennzeichnung",
+            "tierhaltkennzg"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-qualitaetsanspruch",
+          "name": "Begrenzter Qualitaetsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "bzl-tierhaltungskennzeichnung"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Die staatliche Tierhaltungskennzeichnung schafft verbindliche Transparenz zur Haltungsform, zunaechst bei frischem Schweinefleisch deutscher Herkunft. Sie ist fuer die App-Logik wichtig, darf aber nicht wie ein Tierwohl- oder Nachhaltigkeitssiegel gelesen werden: Sie beschreibt den Ist-Zustand der Mastphase und setzt nicht automatisch hoehere Anforderungen fuer alle Lebensphasen.",
+      "quellen": [
+        {
+          "id": "bzl-tierhaltungskennzeichnung",
+          "titel": "BZL: Die staatliche Tierhaltungskennzeichnung",
+          "url": "https://www.landwirtschaft.de/einkauf/einkaufstipps/kennzeichnung/die-staatliche-tierhaltungskennzeichnung",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "pflichtkennzeichnung",
+            "fuenf-stufen",
+            "staatliche-kontrolle",
+            "grenzen"
+          ]
+        },
+        {
+          "id": "tierhaltkennzg",
+          "titel": "Bundesgesetzblatt: Tierhaltungskennzeichnungsgesetz",
+          "url": "https://www.recht.bund.de/eli/bund/bgbl-1/2023/220",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "gesetzliche-grundlage"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "nutri-score",
+      "name": "Nutri-Score",
+      "kategorie": "Naehrwert-/Verbraucherkennzeichnung",
+      "region": [
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "naehrwert",
+        "verbraucherinformation",
+        "freiwillig",
+        "front-of-pack"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Getraenke mit Nutri-Score-Zulaessigkeit"
+      ],
+      "traeger": "Nutri-Score-System mit transnationaler Governance; RAL Logo Lizenz als nationaler Regulator fuer Deutschland im Auftrag des BMLEH",
+      "standardtyp": "freiwillige erweiterte Naehrwertkennzeichnung mit A-bis-E-Farbskala zur Vergleichbarkeit innerhalb relevanter Produktgruppen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 1,
+        "minus": 0,
+        "final": 3,
+        "anmerkung": "Nuetzliche Verbraucherinformation, aber kein Nachhaltigkeits-, Herkunfts- oder Lieferkettensiegel."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucherorientierung",
+          "wert": 1,
+          "quelle_ids": [
+            "ral-nutri-score",
+            "sante-nutri-score",
+            "vz-nutri-score"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Nutri-Score ist im Lebensmittel-Scope relevant, weil er auf vielen Produkten sichtbar ist und eine schnelle Naehrwertorientierung bietet. Er bewertet jedoch keine Herkunft, keine Produktionsweise, keine Lieferkette und keine Nachhaltigkeit. Der Score wird daher niedrig, aber nicht wertlos eingeordnet.",
+      "quellen": [
+        {
+          "id": "ral-nutri-score",
+          "titel": "RAL Logo Lizenz: Nutri-Score Registrierung und Nutzung",
+          "url": "https://www.ral.de/ral-logo-lizenz/referenzen/nutri-score/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nationaler-regulator",
+            "deutschland",
+            "registrierung",
+            "marktueberwachung"
+          ]
+        },
+        {
+          "id": "sante-nutri-score",
+          "titel": "Sante publique France: Nutri-Score",
+          "url": "https://www.santepubliquefrance.fr/en/nutrition-and-physical-activity/nutri-score",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "system",
+            "algorithmus",
+            "governance"
+          ]
+        },
+        {
+          "id": "vz-nutri-score",
+          "titel": "Verbraucherzentrale: Nutri-Score - was bedeutet die Kennzeichnung?",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/kennzeichnung-und-inhaltsstoffe/nutriscore-was-bedeutet-die-kennzeichnung-76209",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "einordnung",
+            "grenzen"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "pro-weideland",
+      "name": "PRO WEIDELAND",
+      "kategorie": "Tierwohl-/Haltungsstandard",
+      "region": [
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "weidemilch",
+        "milch",
+        "weidehaltung",
+        "tierwohl",
+        "gentechnikfrei",
+        "rueckverfolgbarkeit"
+      ],
+      "produktbereich": [
+        "Weidemilch",
+        "Milchprodukte",
+        "Weidefleisch"
+      ],
+      "traeger": "PRO WEIDELAND Deutsche Weidecharta GmbH / Gruenlandzentrum Niedersachsen/Bremen e.V. im Ursprungskontext",
+      "standardtyp": "freiwilliger Weidehaltungsstandard fuer Milch- und Fleischprodukte mit definierten Kriterien und Produktflusstrennung",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 5,
+        "plus": 2,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Staerker als ungeschuetzte Weidemilch-Werbung durch Kriterien und Produktflusstrennung, aber kein Bio- oder Volltierwohlstandard."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "pro-weideland-programm",
+            "pro-weideland-produkte"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "transparente-herkunftsangabe",
+          "name": "Transparente Haltungsangabe",
+          "wert": 1,
+          "quelle_ids": [
+            "pro-weideland-kriterien"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "vz-weidemilch"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "PRO WEIDELAND ist relevant, weil Weidemilch sonst oft unscharf beworben wird. Das Label definiert Mindestweidezeiten, Flaechenanforderungen, gentechnikfreie Fuetterung und getrennte Produktfluesse. Es bleibt aber auf Weidehaltung fokussiert und ersetzt weder Bio noch eine umfassende Lieferketten- oder Sozialbewertung.",
+      "quellen": [
+        {
+          "id": "pro-weideland-kriterien",
+          "titel": "PRO WEIDELAND: Kriterien",
+          "url": "https://proweideland.eu/label/kriterien/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "weidehaltung",
+            "kriterien"
+          ]
+        },
+        {
+          "id": "pro-weideland-programm",
+          "titel": "PRO WEIDELAND: Rahmenbedingungen und Kriterien Version 6, 23.06.2025",
+          "url": "https://proweideland.eu/wp-content/uploads/2025/12/Rahmenbedingungen-und-Kriterien-fuer-die-Erzeugung-und-Vermarktung-von-Weideprodukten-_-Version-6_23.06.2025_ohne-Zeichner.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "120-6-regel",
+            "weidetagebuch",
+            "flaechenbindung",
+            "produktflusstrennung"
+          ]
+        },
+        {
+          "id": "pro-weideland-produkte",
+          "titel": "PRO WEIDELAND: Produkte",
+          "url": "https://proweideland.eu/label/produkte/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "deutscher-markt",
+            "weidemilchprodukte"
+          ]
+        },
+        {
+          "id": "vz-weidemilch",
+          "titel": "Verbraucherzentrale: Weidemilch - Werbestrategie oder verlaessliche Bezeichnung?",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/lebensmittelproduktion/weidemilch-werbestrategie-oder-verlaessliche-bezeichnung-35574",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "grenzen",
+            "weidemilch-einordnung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "gepruefte-qualitaet-bayern",
+      "name": "Gepruefte Qualitaet - Bayern",
+      "kategorie": "Regionales Qualitaets- und Herkunftszeichen",
+      "region": [
+        "Deutschland",
+        "Bayern"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "regional",
+        "herkunft",
+        "qualitaet",
+        "staatliches-siegel",
+        "rueckverfolgbarkeit"
+      ],
+      "produktbereich": [
+        "landwirtschaftliche Erzeugnisse",
+        "Lebensmittel aus Bayern"
+      ],
+      "traeger": "Bayerisches Staatsministerium fuer Ernaehrung, Landwirtschaft, Forsten und Tourismus",
+      "standardtyp": "staatliches bayerisches Qualitaets- und Herkunftssicherungsprogramm mit stufenuebergreifender Kontrolle",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 1,
+        "final": 8,
+        "anmerkung": "Stark fuer regionale Herkunfts- und Qualitaetssicherung, aber kein Bio- oder Fairhandelsstandard."
+      },
+      "faktoren": [
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "gq-bayern-stmelf",
+            "gq-bayern-lfl"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Rueckverfolgbarkeit und Herkunftssicherung",
+          "wert": 1,
+          "quelle_ids": [
+            "gq-bayern-stmelf",
+            "gq-bayern-lfl"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "gq-bayern-stmelf"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Gepruefte Qualitaet - Bayern ist ein relevantes Lebensmittelzeichen, weil es regionale Herkunft, Qualitaetskriterien und stufenuebergreifende Kontrollen kombiniert. Die staatliche Systemkontrolle und Herkunftssicherung sind stark. Die Bewertung bleibt unter Premium-Bio- und Fairhandelsstandards, weil die Sozial- und Oekodimension begrenzt ist.",
+      "quellen": [
+        {
+          "id": "gq-bayern-stmelf",
+          "titel": "StMELF: Gepruefte Qualitaet - Bayern",
+          "url": "https://www.stmelf.bayern.de/ernaehrung/markt/gepruefte-qualitaet-bayern/index.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "qualitaetskriterien",
+            "herkunftsnachweis",
+            "dreistufiges-kontrollsystem"
+          ]
+        },
+        {
+          "id": "gq-bayern-lfl",
+          "titel": "LfL: Systemkontrolle Gepruefte Qualitaet - Bayern",
+          "url": "https://www.lfl.bayern.de/iem/qualitaetssicherung/145186/index.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "systemkontrolle",
+            "unabhaengigkeit",
+            "mengenabgleich",
+            "rueckverfolgbarkeit"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    }
+  ]
+}

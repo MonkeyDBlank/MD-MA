@@ -38,11 +38,11 @@ Nicht im aktiven Scope:
 
 ## Status
 
-Stand: `2026-05-19`
+Stand: `2026-06-02`
 
-- `qualitaetssiegel.json`: 33 aktive Eintraege
-- `lieferketten.json`: 15 belastbare Pilotfaelle
-- `glossar.json`: 21 relevante Begriffe
+- `qualitaetssiegel.json`: 38 aktive Eintraege
+- `lieferketten.json`: 18 belastbare Pilotfaelle
+- `glossar.json`: 24 relevante Begriffe
 
 ## Repo-Struktur
 

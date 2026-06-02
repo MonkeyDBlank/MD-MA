@@ -1,0 +1,35 @@
+{
+  "version": "2026.6-draft",
+  "typ": "glossar",
+  "sprache": "de",
+  "stand": "2026-06-02",
+  "begriffe": [
+    {
+      "id": "tierhaltungskennzeichnung",
+      "begriff": "Tierhaltungskennzeichnung",
+      "kurzdefinition": "Kennzeichnung, die sichtbar macht, in welcher Haltungsform Tiere fuer ein Lebensmittel gehalten wurden.",
+      "ausfuehrliche_erklaerung": "Tierhaltungskennzeichnungen koennen staatlich verpflichtend oder privat freiwillig sein. Sie schaffen Transparenz ueber Stall-, Auslauf-, Weide- oder Bio-Haltung, ersetzen aber nicht automatisch eine umfassende Tierwohlbewertung.",
+      "bewertungsrelevanz": "Der Begriff ist wichtig, um staatliche Haltungsinformationen von echten Verbesserungsstandards wie Fuer Mehr Tierschutz, NEULAND oder Bio zu unterscheiden.",
+      "beispiel": "Die staatliche Tierhaltungskennzeichnung fuer frisches Schweinefleisch nennt die Haltungsform, setzt aber nicht fuer alle Lebensphasen neue Anforderungen.",
+      "kategorie": "Fisch und Tierhaltung"
+    },
+    {
+      "id": "naehrwertkennzeichnung",
+      "begriff": "Naehrwertkennzeichnung",
+      "kurzdefinition": "Kennzeichnung, die Naehrwerte oder die ernaehrungsphysiologische Einordnung eines Lebensmittels sichtbar macht.",
+      "ausfuehrliche_erklaerung": "Naehrwertkennzeichnungen wie der Nutri-Score helfen beim Vergleich aehnlicher Lebensmittel. Sie bewerten aber keine Herkunft, Lieferkette, Umweltwirkung oder Sozialstandards.",
+      "bewertungsrelevanz": "Der Begriff verhindert, dass eine Naehrwertampel faelschlich als Nachhaltigkeits- oder Qualitaetssiegel im breiten Sinn interpretiert wird.",
+      "beispiel": "Nutri-Score kann zwei Mueslis vergleichen, sagt aber nichts ueber Bio-Anbau oder faire Kaffee-/Kakaolieferketten aus.",
+      "kategorie": "Kennzeichnung und Verbraucherinformation"
+    },
+    {
+      "id": "weidemilch",
+      "begriff": "Weidemilch",
+      "kurzdefinition": "Milch von Kuehen, die in einer definierten Weideperiode regelmaessig Zugang zur Weide haben sollen.",
+      "ausfuehrliche_erklaerung": "Der Begriff Weidemilch ist ohne klares Label nicht automatisch einheitlich. Bewertungsrelevant wird er erst, wenn Kriterien wie Mindestweidetage, Weidestunden, Flaechenbindung, Fuetterung und Kontrollen transparent geregelt sind.",
+      "bewertungsrelevanz": "Bei Milchprodukten hilft der Begriff, ungeschuetzte Weidewerbung von kontrollierten Standards wie PRO WEIDELAND zu unterscheiden.",
+      "beispiel": "PRO WEIDELAND verlangt fuer klassische Weidemilch mindestens 120 Weidetage mit jeweils mindestens sechs Stunden oder eine entsprechende Stundenregel.",
+      "kategorie": "Fisch und Tierhaltung"
+    }
+  ]
+}

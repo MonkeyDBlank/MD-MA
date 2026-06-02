@@ -32,9 +32,9 @@ Nicht aktiv sind Textilien, rein verpackungsbezogene Forst-/Papiersiegel ohne di
 
 ## Aktueller Stand in einem Satz
 
-Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 33 aktive Eintraege, `lieferketten.json` 15 belastbare Pilotfaelle und `glossar.json` 21 relevante Begriffe.
+Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 38 aktive Eintraege, `lieferketten.json` 18 belastbare Pilotfaelle und `glossar.json` 24 relevante Begriffe.
 
-Neu im Stand `2026.5` sind unter anderem drogerierelevante Umweltzeichen wie `blauer-engel`, `eu-ecolabel`, `ecogarantie` und `ecocert-ecodetergents` sowie die Lieferkettenfaelle `gepa-schokolade-kakao-cooproagro` und `lidl-way-to-go-schokolade-kakao-ghana`.
+Neu im Stand `2026.6` sind unter anderem Tierhaltungs- und Verbraucherkennzeichnungen wie `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score` und `pro-weideland` sowie die Lieferkettenfaelle `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru` und `alnatura-peru-cafe-bio-kaffee`.
 
 ## GitHub-First-Doku
 

@@ -225,3 +225,7 @@ Ziel: Einen alltagsnahen Handelsfall fuer Fischprodukte hinzufuegen, ohne das Li
 ## Lauf 007 - Lieferketten Kakao/Schokolade (2026-05-19)
 
 Neue Eintraege: `gepa-schokolade-kakao-cooproagro` und `lidl-way-to-go-schokolade-kakao-ghana`. GEPA wurde wegen physischer Rueckverfolgbarkeit und Verzicht auf Mengenausgleich fuer Schokolade/Gebaeck hoch bewertet; Trinkschokolade ist wegen kommunizierter Ausnahme ausgeklammert. Lidl wurde als Discount-Pilotfall mit Fairtrade-, Way-To-Go- und Living-Income-Programm aufgenommen, aber wegen programmbezogener statt chargengenauer Transparenz unter GEPA/Tony's eingeordnet.
+
+## Lauf 008 - Lieferketten Kakao/Kaffee (2026-06-02)
+
+Neue Eintraege: `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru`, `alnatura-peru-cafe-bio-kaffee`. Die Bewertungen bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt; keine chargengenaue Herkunft wird behauptet, wenn sie nicht oeffentlich belegt ist.

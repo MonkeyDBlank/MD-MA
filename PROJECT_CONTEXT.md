@@ -1,6 +1,6 @@
 # Projektkontext MD&MA
 
-Stand: 2026-05-19
+Stand: 2026-06-02
 
 ## Worum Es Geht
 
@@ -87,9 +87,9 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 33 aktive Eintraege
-- `data/processed/lieferketten.json`: 15 aktive Pilotfaelle
-- `data/processed/glossar.json`: 21 relevante Begriffe
+- `data/processed/qualitaetssiegel.json`: 38 aktive Eintraege
+- `data/processed/lieferketten.json`: 18 aktive Pilotfaelle
+- `data/processed/glossar.json`: 24 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
@@ -203,11 +203,11 @@ Stand nach Lauf 007:
 Stand weitere JSONs:
 
 - aktuelle uebergabefaehige Glossar-Datei: `data/processed/glossar.json`
-- aktueller Zaehler: 21 Begriffe
+- aktueller Zaehler: 24 Begriffe
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 15 aktive Pilotfaelle
+- aktueller Zaehler: 18 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -269,3 +269,12 @@ Stand nach Lauf 008 / Lieferketten Lauf 007:
 - neu hinzugekommen: `gepa-schokolade-kakao-cooproagro`, `lidl-way-to-go-schokolade-kakao-ghana`
 - 21 Glossar-Begriffe in `data/processed/glossar.json`
 - neu hinzugekommen: `typ-i-umweltzeichen`, `baseline-assessment`
+
+Stand nach Lauf 009 / Lieferketten Lauf 008:
+
+- 38 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score`, `pro-weideland`, `gepruefte-qualitaet-bayern`
+- 18 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru`, `alnatura-peru-cafe-bio-kaffee`
+- 24 Glossar-Begriffe in `data/processed/glossar.json`
+- neu hinzugekommen: `tierhaltungskennzeichnung`, `naehrwertkennzeichnung`, `weidemilch`

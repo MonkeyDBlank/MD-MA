@@ -1,8 +1,142 @@
 {
-  "version": "2026.5",
+  "version": "2026.6",
   "typ": "lieferketten",
-  "stand": "2026-05-19",
+  "stand": "2026-06-02",
   "eintraege": [
+    {
+      "id": "alnatura-peru-cafe-bio-kaffee",
+      "unternehmen": "Alnatura Produktions- und Handels GmbH",
+      "marke": "Alnatura",
+      "warengruppe": "Bio-Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Alnatura Peru Cafe",
+          "Bio-Kaffee aus verschiedenen Kaffeeregionen Perus",
+          "faire Partnerschaften",
+          "Projektbeitrag fuer Bildungsprojekte in Peru"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "projektpartnerschaften-drittzertifiziert",
+      "kettentyp": "Projektkette",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Guter Kaffee-Pilotfall mit Bio, fairen Partnerschaften und Projektbeitrag; niedriger als REWE Cafe Mujer, weil Kooperativen- und Chargentransparenz oeffentlich weniger konkret ist."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften",
+            "alnatura-we-care-beispiele"
+          ],
+          "notiz": "Alnatura verknuepft Kaffeeabsatz mit fairen Partnerschaften und einem Bildungsprojekt in Peru."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-klima-und-einkommen",
+          "beschreibung": "Alnatura verweist selbst auf Klimawandelrisiken in Peru; Kaffee bleibt zugleich einkommens- und arbeitsrechtsrelevant.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften",
+            "fairtrade-kaffee"
+          ]
+        },
+        {
+          "id": "begrenzte-partnertransparenz",
+          "beschreibung": "Die oeffentlichen Angaben nennen Peru und faire Partnerschaften, aber keine vollstaendige chargengenaue Lieferkette.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "faire-partnerschaften",
+          "beschreibung": "Alnatura beschreibt fuer alle Kaffeesorten Bio-Landbau und faire langfristige Partnerschaften mit Kleinbauern und Farmen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften"
+          ]
+        },
+        {
+          "id": "peru-cafe-bildungsbeitrag",
+          "beschreibung": "Beim Peru Cafe fliesst nach Alnatura-Angaben ein Beitrag je Packung in Bildungsprojekte in Peru.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften",
+            "alnatura-we-care-beispiele"
+          ]
+        },
+        {
+          "id": "bio-anbau-peru",
+          "beschreibung": "Der Peru Cafe wird nach Alnatura-Angaben in verschiedenen Kaffeeregionen Perus nach Bio-Richtlinien angebaut.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-kaffee-partnerschaften"
+          ]
+        }
+      ],
+      "begruendung": "Alnatura Peru Cafe erweitert die Kaffee-Pilotfaelle um einen Bio- und Projektkaffee mit konkretem Herkunftsland und sozialem Projektbezug. Die Bewertung ist positiv, aber bewusst nicht im oberen Bereich, weil die oeffentlichen Informationen weniger kooperativen- oder chargengenau sind als bei REWE Cafe Mujer oder Rapunzel Cafe Capitan.",
+      "quellen": [
+        {
+          "id": "alnatura-kaffee-partnerschaften",
+          "titel": "Alnatura: Kaffee aus fairen Partnerschaften",
+          "url": "https://www.alnatura.de/de-de/ueber-uns/alnatura-initiativen/alnatura-kaffee-faire-partnerschaften/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-kaffee",
+            "faire-partnerschaften",
+            "peru-cafe",
+            "bildungsprojekt"
+          ]
+        },
+        {
+          "id": "alnatura-we-care-beispiele",
+          "titel": "Alnatura: We Care Beispiele entlang der Lieferkette",
+          "url": "https://www.alnatura.de/de-de/ueber-uns/alnatura-we-care/alnatura-we-care-beispiele/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "peru-cafe",
+            "projektbeitrag",
+            "lieferkettenverantwortung"
+          ]
+        },
+        {
+          "id": "fairtrade-kaffee",
+          "titel": "Fairtrade Deutschland: Kaffee",
+          "url": "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Kaffee.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "sektorrisiken",
+            "kaffee-kontext"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird Alnatura Peru Cafe bzw. Alnatura-Kaffee aus fairen Partnerschaften, nicht jede Alnatura-Ware.",
+      "relevante_siegel": [
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Mindeststandard fuer Kaffeeanbau",
+          "einordnung": "Bio ist wichtig, reicht aber nicht allein fuer die Lieferkettenbewertung."
+        }
+      ]
+    },
     {
       "id": "andechser-bio-weidemilch-38",
       "unternehmen": "Andechser Molkerei Scheitz",
@@ -2057,6 +2191,309 @@
           "id": "fair-for-life",
           "rolle": "Methodischer Vergleichsrahmen zu physischer Rueckverfolgbarkeit und fairer Handelsbeziehung",
           "einordnung": "Der Fall nutzt Rapunzels eigenes HAND-IN-HAND-Programm. Der hohe Lieferkettenscore stuetzt sich auf direkte Handelsbeziehungen und physische Rueckverfolgbarkeit, nicht auf ein externes Standardsiegel wie Fair for Life."
+        }
+      ]
+    },
+    {
+      "id": "rewe-bio-cafe-mujer-kaffee-peru",
+      "unternehmen": "REWE Group",
+      "marke": "REWE Bio / Cafe Mujer",
+      "warengruppe": "Bio-Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "REWE Bio Caffe Crema Pads",
+          "Cafe Mujer Projekt",
+          "Fairtrade-zertifizierte Kooperative Valle de Ubiriki in Peru",
+          "Bio-Anbau"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "direktimport-kooperative",
+      "kettentyp": "Kooperativenbezug",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Starker Kaffee-Pilotfall wegen konkret benannter Kooperative, Frauenprojekt, Fairtrade/Bio und zugesagter Abnahme; nicht hoeher, weil keine chargengenaue Verbraucher-Rueckverfolgung vorliegt."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ],
+          "notiz": "REWE nutzt Eigenmarkenreichweite fuer ein spezifisches Frauenprojekt in der Kaffee-Lieferkette."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ],
+          "notiz": "Kooperative, Region und Zielgruppe sind konkret benannt."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-einkommen-und-klima",
+          "beschreibung": "Kaffee bleibt ein Risikosektor fuer niedrige Einkommen, Klimawirkungen und Arbeitsbelastungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-kaffee",
+            "rewe-cafe-mujer"
+          ]
+        },
+        {
+          "id": "geschlechterungleichheit",
+          "beschreibung": "REWE begruendet das Projekt mit struktureller Benachteiligung von Frauen im Globalen Sueden.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "frauenkooperative-valle-de-ubiriki",
+          "beschreibung": "Die Bohnen stammen nach REWE-Angaben von Frauen der Fairtrade-zertifizierten Kooperative Valle de Ubiriki.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ]
+        },
+        {
+          "id": "komplette-abnahme-und-fairtrade-preis",
+          "beschreibung": "REWE garantiert den beteiligten Frauen die komplette Abnahme der Jahresproduktion zum Fairtrade-Mindestpreis plus Fairtrade-Praemie.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ]
+        },
+        {
+          "id": "bio-und-fairtrade",
+          "beschreibung": "Die Arabica-Bohnen sind Fairtrade-zertifiziert und stammen aus Bio-Anbau.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-cafe-mujer"
+          ]
+        }
+      ],
+      "begruendung": "REWE Bio Cafe Mujer ist ein belastbarer Kaffee-Pilotfall, weil Produkt, Kooperative, Region und Projektziel klar benannt sind. Besonders stark sind die Verbindung von Bio, Fairtrade, vollstaendiger Abnahmezusage und Fokus auf wirtschaftliche Teilhabe von Kaffeebaeuerinnen. Die Bewertung bleibt unter Maximalniveau, weil keine oeffentliche Chargenverfolgung fuer einzelne Packungen vorliegt.",
+      "quellen": [
+        {
+          "id": "rewe-cafe-mujer",
+          "titel": "REWE Group: Reine Frauensache - REWE staerkt Frauen im Kaffeeanbau",
+          "url": "https://www.rewe-group.com/de/presse-und-medien/newsroom/stories/reine-frauensache-rewe-staerkt-frauen-im-kaffeeanbau/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "valle-de-ubiriki",
+            "fairtrade",
+            "bio",
+            "abnahmegarantie",
+            "frauenprojekt"
+          ]
+        },
+        {
+          "id": "fairtrade-kaffee",
+          "titel": "Fairtrade Deutschland: Kaffee",
+          "url": "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Kaffee.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "sektorrisiken",
+            "fairtrade-kontext"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird der konkret benannte REWE-Bio-Cafe-Mujer-Kaffee, nicht pauschal das gesamte REWE-Kaffeesortiment.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Sozial- und Handelsstandard im Kaffeeprojekt",
+          "einordnung": "Der Lieferkettenscore wird durch die konkret benannte Kooperative und Abnahmezusage erhoeht, nicht durch Fairtrade allein."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Mindeststandard fuer Kaffeeanbau",
+          "einordnung": "Bio stuetzt die oekologische Produktionsseite, ersetzt aber nicht die Lieferkettenbewertung."
+        }
+      ]
+    },
+    {
+      "id": "ritter-sport-schokolade-kakao-el-cacao-nicaragua",
+      "unternehmen": "Alfred Ritter GmbH & Co. KG",
+      "marke": "Ritter Sport",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Ritter Sport Schokolade",
+          "eigene Kakaofarm El Cacao in Nicaragua",
+          "90 Prozent Kakao aus Programmen in langfristigen Partnerschaften laut Stand 2025"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "projektpartnerschaften-drittzertifiziert",
+      "kettentyp": "Mehrstufige Projektkette",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 1,
+        "final": 8,
+        "anmerkung": "Stark durch eigene Farm, Kakaoprogramme und langfristige Partnerschaften; unter Topfaellen, weil nicht jede Tafel chargengenau bis Farm oeffentlich nachvollziehbar ist und ein Teil des Kakaos aus breiteren Programmen stammt."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-nachhaltigkeit",
+            "ritter-kakaoreport-2023"
+          ],
+          "notiz": "Ritter Sport investiert in eigene Farm und Kakaoprogramme in mehreren Ursprungslaendern."
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-el-cacao",
+            "ritter-kakaoreport-2023"
+          ],
+          "notiz": "Die eigene Farm El Cacao in Nicaragua schafft direkte Ursprungspraesenz."
+        },
+        {
+          "id": "nicht-vollstaendig-chargenscharf",
+          "name": "Nicht vollstaendig chargenscharf",
+          "wert": -1,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ritter-nachhaltigkeit"
+          ],
+          "notiz": "Oeffentliche Angaben beziehen sich auf Programme und Farm, nicht auf eine App-faehige Chargenverfolgung jeder Tafel."
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao bleibt strukturell riskant fuer Einkommen, Kinderarbeit und Entwaldung, insbesondere bei Beschaffung aus Westafrika.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ritter-nachhaltigkeit",
+            "ritter-kakaoreport-2023"
+          ]
+        },
+        {
+          "id": "programmanteil-statt-vollstaendige-farmtransparenz",
+          "beschreibung": "Ritter Sport nennt hohe Programmanteile, aber keine vollstaendige produkt- oder chargengenaue Farmtransparenz fuer das gesamte Sortiment.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-nachhaltigkeit"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "eigene-kakaofarm-el-cacao",
+          "beschreibung": "Ritter Sport betreibt die Farm El Cacao in Nicaragua mit geschuetzter Waldflaeche und eigener Kakaoproduktion.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-el-cacao"
+          ]
+        },
+        {
+          "id": "langfristige-kakaoprogramme",
+          "beschreibung": "Ritter Sport gibt an, dass 90 Prozent des Kakaos aus Kakaoprogrammen in langfristigen Partnerschaften stammen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "agroforst-und-integrierte-landwirtschaft",
+          "beschreibung": "Ritter Sport beschreibt fuer El Cacao nachhaltigen Kakaoanbau im Agroforstsystem und nach Grundsaetzen integrierter Landwirtschaft.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ritter-blog-resilienz"
+          ]
+        }
+      ],
+      "begruendung": "Ritter Sport ist ein sinnvoller Kakao-Pilotfall zwischen klassischer Zertifizierung und Direktmodell. Die eigene Farm El Cacao und langfristige Kakaoprogramme sprechen fuer mehr Ursprungskontrolle als bei vielen Schokoladenmarken. Gleichzeitig bleibt die Bewertung unter Tony's oder GEPA, weil die oeffentliche Transparenz nicht fuer jede Tafel chargengenau ist und nicht der gesamte Kakao aus der eigenen Farm stammt.",
+      "quellen": [
+        {
+          "id": "ritter-el-cacao",
+          "titel": "Ritter Sport: Unsere Farm El Cacao",
+          "url": "https://www.ritter-sport.com/de/unsere-farm-el-cacao",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eigene-farm",
+            "nicaragua",
+            "waldschutz",
+            "kakaoanbau"
+          ]
+        },
+        {
+          "id": "ritter-nachhaltigkeit",
+          "titel": "Ritter Sport: Nachhaltigkeit",
+          "url": "https://www.ritter-sport.com/de/nachhaltigkeit",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "90-prozent-kakaoprogramme",
+            "langfristige-partnerschaften",
+            "nachhaltigkeitsbericht"
+          ]
+        },
+        {
+          "id": "ritter-kakaoreport-2023",
+          "titel": "Ritter Sport: Kakaoreport 2023",
+          "url": "https://blog.ritter-sport.de/wp-content/uploads/2025/07/2023_RS_Kakaoreport-24-2_D_6-print.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakaoprogramme",
+            "el-cacao",
+            "ursprungsarbeit"
+          ]
+        },
+        {
+          "id": "ritter-blog-resilienz",
+          "titel": "Ritter Sport Blog: Nachhaltige Anbaumethoden fuer mehr Resilienz",
+          "url": "https://blog.ritter-sport.de/2025/10/27/nachhaltige-anbaumethoden-fuer-mehr-resilienz/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "agroforst",
+            "integrierte-landwirtschaft",
+            "ursprungstransparenz"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Ritter-Sport-Kakaostrategie auf Marken- und Warengruppenebene, nicht die chargengenaue Herkunft jeder einzelnen Tafel.",
+      "relevante_siegel": [
+        {
+          "id": "rainforest-alliance",
+          "rolle": "teilweise externer Standard im Kakao-Kontext",
+          "einordnung": "Der Lieferkettenscore entsteht nicht allein durch Zertifizierung, sondern durch eigene Farm und Kakaoprogramme."
         }
       ]
     },
