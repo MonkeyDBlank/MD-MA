@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 38 aktive Eintraege
+- 50 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 18 aktive Pilotfaelle
+- 35 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -113,3 +113,15 @@ Stand nach Lauf 009 / Lieferketten Lauf 008:
 - neu hinzugekommen: `tierhaltungskennzeichnung`, `naehrwertkennzeichnung`, `weidemilch`
 
 Die neuen Tierhaltungs- und Naehrwertkennzeichnungen wurden bewusst als Transparenz- bzw. Verbraucherinformationen eingeordnet und nicht mit umfassenden Nachhaltigkeitssiegeln gleichgesetzt.
+
+## Aktualisierung 2026-06-22
+
+Stand nach Lauf 010 / Lieferketten Lauf 009:
+
+- 50 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `aoecs-crossed-grain`, `bdih-kontrollierte-naturkosmetik`, `bio-zeichen-baden-wuerttemberg`, `biopark`, `donausoja-europe-soya`, `ecoland`, `fair-rubber`, `fairwild`, `friend-of-the-sea`, `gaea`, `qualitaetszeichen-bw`, `uebt-certified`
+- 35 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `aldi-nord-eigenmarken-kaffee-kakao-tee-zertifiziert`, `aldi-sued-choceur-choco-changer-kakao`, `dm-denkmit-spuelmittel-tenside-circular-feedstock`, `dmbio-kaffee-bio-fairtrade`, `edeka-eigenmarken-fisch-ftrace`, `fair-rubber-kondome-naturkautschuk`, `kaufland-fleisch-eigenmarke-ftrace`, `lavera-naturkosmetik-palmoel-derivate`, `lebensbaum-tee-gewuerze-we-care`, `lidl-bananen-living-wage-kolumbien`, `lidl-eigenmarken-palmoel-rspo`, `pukka-kraeutertee-fairwild`, `rewe-bananen-pro-planet-qr`, `rewe-pro-planet-ananas`, `rossmann-alterra-palmoel-derivate`, `teekampagne-darjeeling-tee`, `voelkel-direktsaft-streuobst`
+- 24 Glossar-Begriffe in `data/processed/glossar.json`
+
+Der Ausbau nutzt die vorhandenen Agentenrollen als Discovery-, Research-, Source-Audit-, Scoring-, Review- und Output-Pipeline. Bei Lieferketten bleiben die neuen Eintraege bewusst auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt; es wird keine chargengenaue Produktherkunft behauptet, wenn sie nicht oeffentlich belegt ist.

@@ -1,8 +1,75 @@
 {
-  "version": "2026.6",
+  "version": "2026.7",
   "typ": "qualitaetssiegel",
-  "stand": "2026-06-02",
+  "stand": "2026-06-22",
   "eintraege": [
+    {
+      "id": "aoecs-crossed-grain",
+      "name": "Crossed Grain Trademark / AOECS",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": [
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "glutenfrei",
+        "gesundheitskennzeichnung",
+        "prozessstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "glutenfreie Lebensmittel"
+      ],
+      "traeger": "Association of European Coeliac Societies (AOECS) und nationale Zoeliakiegesellschaften",
+      "standardtyp": "freiwilliges Produktsicherheits- und Prozesszeichen fuer glutenfreie Lebensmittel nach AOECS-Standard",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 1,
+        "minus": 0,
+        "final": 3,
+        "anmerkung": "Enger Gesundheits- und Allergenfokus; kein Nachhaltigkeits-, Bio- oder Sozialstandard."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "aoecs-licensed-products",
+            "sgs-aoecs-standard"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Das Crossed-Grain-Zeichen ist fuer glutenfreie Lebensmittel relevant, weil es eine standardisierte Lizenzierung und Kontrolle fuer einen gesundheitlich wichtigen Produktausschnitt bietet. Es wird niedrig bewertet, weil der Anspruch eng auf Glutenfreiheit begrenzt ist und keine Umwelt- oder Sozialleistung behauptet.",
+      "quellen": [
+        {
+          "id": "aoecs-licensed-products",
+          "titel": "AOECS: Licensed Products",
+          "url": "https://www.aoecs.org/working-with-food/licensed-products/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "lizenzierung",
+            "produktstandard",
+            "glutenfrei"
+          ]
+        },
+        {
+          "id": "sgs-aoecs-standard",
+          "titel": "SGS: AOECS Standard for Gluten-Free Foods",
+          "url": "https://www.sgs.com/en-us/services/aoecs-standard-for-gluten-free-foods",
+          "quelle_typ": "zertifizierer",
+          "belegt": [
+            "audit",
+            "zertifizierung",
+            "standard"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
     {
       "id": "asc",
       "name": "ASC (Aquaculture Stewardship Council)",
@@ -227,6 +294,72 @@
       "unsicherheit": "mittel"
     },
     {
+      "id": "bdih-kontrollierte-naturkosmetik",
+      "name": "BDIH Kontrollierte Naturkosmetik",
+      "kategorie": "Natur-/Biokosmetikstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "naturkosmetik",
+        "drogerie",
+        "kosmetik",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Koerperpflege"
+      ],
+      "traeger": "BDIH e.V. / IONC GmbH als Kontroll- und Zertifizierungsumfeld",
+      "standardtyp": "freiwilliger Naturkosmetikstandard mit Anforderungen an Rohstoffe, Verarbeitung und Kontrolle",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 0,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Solider, historisch wichtiger Naturkosmetikstandard; heute teilweise von COSMOS/NATRUE ueberlagert."
+      },
+      "faktoren": [
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "bdih-controlled-natural-cosmetics"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "BDIH Kontrollierte Naturkosmetik ist im deutschen Drogerie- und Kosmetikmarkt relevant und setzt Anforderungen an naturnahe Inhaltsstoffe und Verarbeitung. Gegenueber neueren, breiter dokumentierten Standards ist die oeffentliche Detailtiefe begrenzter; deshalb bleibt die Bewertung moderat.",
+      "quellen": [
+        {
+          "id": "bdih-controlled-natural-cosmetics",
+          "titel": "BDIH: Controlled Natural Cosmetics",
+          "url": "https://www.kontrollierte-naturkosmetik.de/e/index_e.htm",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "naturkosmetik",
+            "kontrolle"
+          ]
+        },
+        {
+          "id": "bdih-ionc-natural-cosmetics",
+          "titel": "IONC: Natural Cosmetics Certification",
+          "url": "https://ionc.info/en/certification/natural-cosmetics/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "kontrollsystem"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "bio-suisse-knospe",
       "name": "Bio Suisse Knospe",
       "kategorie": "Premium-Oeko & Sozial",
@@ -313,6 +446,82 @@
           "belegt": [
             "marke",
             "traeger"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "bio-zeichen-baden-wuerttemberg",
+      "name": "Bio-Zeichen Baden-Wuerttemberg",
+      "kategorie": "Regionales Bio-Qualitaetszeichen",
+      "region": [
+        "Deutschland",
+        "Baden-Wuerttemberg"
+      ],
+      "typ_tags": [
+        "bio",
+        "regional",
+        "staatliches-siegel",
+        "lebensmittel",
+        "qualitaetszeichen"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Ministerium fuer Ernaehrung, Laendlichen Raum und Verbraucherschutz Baden-Wuerttemberg",
+      "standardtyp": "regionales Bio-Zeichen auf EU-Bio-Basis mit Herkunfts- und Zusatzanforderungen",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 1,
+        "final": 7,
+        "anmerkung": "Regionaler Bio-Zusatznutzen, aber kein umfassender Sozial- oder Fair-Trade-Standard."
+      },
+      "faktoren": [
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "biozeichen-bw-service",
+            "biozeichen-bw-branche"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "biozeichen-bw-service"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Das Bio-Zeichen Baden-Wuerttemberg ergaenzt EU-Bio um einen regionalen Herkunfts- und Qualitaetsrahmen. Es ist fuer den deutschen Lebensmittelmarkt sinnvoll, bleibt aber methodisch unter privaten Premium-Bioverbaenden mit breiterer Richtlinientiefe.",
+      "quellen": [
+        {
+          "id": "biozeichen-bw-service",
+          "titel": "Bio-Zeichen Baden-Wuerttemberg",
+          "url": "https://bio-aus-bw.de/%2CLde/Startseite/Service/Bio_Zeichen%2BBaden_Wuerttemberg",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "bio-zeichen",
+            "regionalbezug"
+          ]
+        },
+        {
+          "id": "biozeichen-bw-branche",
+          "titel": "Bio aus Baden-Wuerttemberg: Bio-Branche im Land",
+          "url": "https://bio-aus-bw.de/%2CLde/Startseite/Service/Bio_Branche%2Bim%2BLand",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "landesprogramm",
+            "bio-kontext"
           ]
         }
       ],
@@ -512,6 +721,94 @@
         }
       ],
       "unsicherheit": "niedrig"
+    },
+    {
+      "id": "biopark",
+      "name": "Biopark",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "Biopark e.V.",
+      "standardtyp": "privater Bio-Verbandsstandard mit Erzeuger- und Verarbeitungsrichtlinien ueber EU-Bio hinaus",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 1,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; Sozialdimension oeffentlich weniger stark als bei Fair-Trade-Systemen."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "biopark-erzeuger-richtlinie",
+            "biopark-verarbeiter-richtlinie"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "biopark-erzeuger-richtlinie"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Biopark ist ein deutscher Bio-Verband mit eigenen Richtlinien fuer Erzeugung und Verarbeitung. Die Bewertung ist hoch, weil der Standard deutlich ueber einen reinen Mindeststandard hinausgeht; ein separater Fair- oder Living-Wage-Anspruch ist jedoch nicht der Kern.",
+      "quellen": [
+        {
+          "id": "biopark-home",
+          "titel": "Biopark e.V.",
+          "url": "https://www.biopark.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "verband"
+          ]
+        },
+        {
+          "id": "biopark-erzeuger-richtlinie",
+          "titel": "Biopark: Erzeuger-Richtlinie",
+          "url": "https://www.biopark.de/wp-content/uploads/2021/07/Erzeuger_Richtlinie_Biopark.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "erzeugung",
+            "kontrolle",
+            "bio-standard"
+          ]
+        },
+        {
+          "id": "biopark-verarbeiter-richtlinie",
+          "titel": "Biopark: Verarbeiter-Richtlinien",
+          "url": "https://biopark.de/wp-content/uploads/2021/07/Verarbeiter_Richtlinien.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "verarbeitung",
+            "warenfluss",
+            "kennzeichnung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
     },
     {
       "id": "blauer-engel",
@@ -1042,6 +1339,86 @@
       "unsicherheit": "niedrig"
     },
     {
+      "id": "donausoja-europe-soya",
+      "name": "Donau Soja / Europe Soya",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "EU",
+        "Europa",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "soja",
+        "rohstoff",
+        "lebensmittel",
+        "futtermittel",
+        "gentechnikfrei",
+        "chain-of-custody"
+      ],
+      "produktbereich": [
+        "Soja",
+        "Sojaprodukte",
+        "Futtermittel fuer tierische Lebensmittel"
+      ],
+      "traeger": "Donau Soja Organisation",
+      "standardtyp": "europaeischer Soja-Rohstoffstandard mit gentechnikfreiem Anbau, Herkunftsanforderungen und Kontrollsystem",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Rohstoffstandard mit Relevanz fuer Lebensmittel und Futtermittel; Endproduktbezug oft indirekt."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "donausoja-standards",
+            "donausoja-guidelines"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "donausoja-standards"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Donau Soja und Europe Soya sind fuer Soja in Lebensmitteln und Futtermitteln relevant, weil sie europaeische Herkunft, Gentechnikfreiheit und ein kontrolliertes Rohstoffsystem adressieren. Fuer Verbraucherprodukte ist der Bezug haeufig indirekt, daher keine Premium-Bewertung.",
+      "quellen": [
+        {
+          "id": "donausoja-standards",
+          "titel": "Donau Soja: Standards",
+          "url": "https://www.donausoja.org/standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "donau-soja",
+            "europe-soya"
+          ]
+        },
+        {
+          "id": "donausoja-guidelines",
+          "titel": "Donau Soja: Guidelines and Documents",
+          "url": "https://www.donausoja.org/downloads/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "richtlinien",
+            "kontrollsystem",
+            "chain-of-custody"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "ecocert-ecodetergents",
       "name": "Ecocert Ecodetergents",
       "kategorie": "Umweltzeichen / Produktstandard",
@@ -1205,6 +1582,84 @@
           "belegt": [
             "kosmetik",
             "wasch-und-reinigungsprodukte"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ecoland",
+      "name": "Ecoland",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Deutschland",
+        "global"
+      ],
+      "typ_tags": [
+        "bio",
+        "fair",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "Ecoland e.V.",
+      "standardtyp": "privater Bio-Verbandsstandard mit zusaetzlichem ECO-FAIR-Bezug",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; hoher Anspruch, aber geringere Marktsichtbarkeit als grosse Bio-Verbaende."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "ecoland-richtlinien",
+            "ecoland-eco-fair"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Ecoland ist ein kleinerer, aber fachlich relevanter Bio-Verband mit Richtlinien fuer Erzeugung, Verarbeitung und Handel sowie ECO-FAIR-Bezug. Wegen des kombinierten Bio- und Fair-Ansatzes wird der Standard hoch eingeordnet.",
+      "quellen": [
+        {
+          "id": "ecoland-home",
+          "titel": "Ecoland",
+          "url": "https://ecoland.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "profil"
+          ]
+        },
+        {
+          "id": "ecoland-richtlinien",
+          "titel": "Ecoland: Richtlinien 2024",
+          "url": "https://ecoland.de/images/pdf/2024_01_Ecoland_Richtlinien.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-standard",
+            "richtlinien",
+            "kontrolle"
+          ]
+        },
+        {
+          "id": "ecoland-eco-fair",
+          "titel": "Ecoland: ECO-FAIR Richtlinien",
+          "url": "https://ecoland.de/images/pdf/2022-05%20ECO-FAIR_dt.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fair-anspruch",
+            "sozialbezug"
           ]
         }
       ],
@@ -1547,6 +2002,84 @@
       "unsicherheit": "mittel"
     },
     {
+      "id": "fair-rubber",
+      "name": "Fair Rubber",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": [
+        "global",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "fairtrade",
+        "naturkautschuk",
+        "drogerie",
+        "rohstoff",
+        "sozial"
+      ],
+      "produktbereich": [
+        "Kondome",
+        "Handschuhe",
+        "Naturkautschukprodukte"
+      ],
+      "traeger": "Fair Rubber e.V.",
+      "standardtyp": "freiwilliger Fair-Trade-Rohstoffstandard fuer Naturkautschuk mit Praemienmodell und Kontrollen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": 1,
+        "final": 7,
+        "anmerkung": "Starker sozialer Rohstoffbezug, aber enger Produkt- und Rohstoffausschnitt."
+      },
+      "faktoren": [
+        {
+          "id": "existenzsichernde-einkommen",
+          "name": "Existenzsichernde Einkommen",
+          "wert": 1,
+          "quelle_ids": [
+            "fair-rubber-criteria",
+            "fair-rubber-about"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbereich",
+          "name": "Begrenzter Produktbereich",
+          "wert": -1,
+          "quelle_ids": [
+            "fair-rubber-about"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Fair Rubber ist fuer Drogerieprodukte mit Naturkautschuk relevant, etwa Kondome oder Handschuhe. Der Standard adressiert faire Bezahlung und Praemien, ist aber kein breiter Umwelt- oder Produktsicherheitsstandard.",
+      "quellen": [
+        {
+          "id": "fair-rubber-about",
+          "titel": "Fair Rubber: About",
+          "url": "https://fairrubber.org/about/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "rohstoff",
+            "fairer-handel"
+          ]
+        },
+        {
+          "id": "fair-rubber-criteria",
+          "titel": "Fair Rubber: Criteria",
+          "url": "https://fairrubber.org/about/criteria/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kriterien",
+            "praemie",
+            "kontrolle"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "fairtrade",
       "name": "Fairtrade",
       "kategorie": "Hoher Standard / Fairer Handel",
@@ -1632,6 +2165,176 @@
           "quelle_typ": "verbraucherorganisation",
           "belegt": [
             "externe-validierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "fairwild",
+      "name": "FairWild",
+      "kategorie": "Hoher Standard / Fairer Handel",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "wildpflanzen",
+        "kraeuter",
+        "tee",
+        "drogerie",
+        "biodiversitaet",
+        "fairtrade"
+      ],
+      "produktbereich": [
+        "Kraeutertee",
+        "Gewuerze",
+        "Naturkosmetik-Inhaltsstoffe",
+        "botanische Rohstoffe"
+      ],
+      "traeger": "FairWild Foundation",
+      "standardtyp": "freiwilliger Standard fuer nachhaltige Wildsammlung und fairen Handel mit Wildpflanzen",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": 0,
+        "final": 9,
+        "anmerkung": "Starker Nischenstandard fuer Wildpflanzen mit Umwelt- und Sozialbezug."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "fairwild-certification",
+            "fairwild-standard"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "existenzsichernde-einkommen",
+          "name": "Existenzsichernde Einkommen",
+          "wert": 1,
+          "quelle_ids": [
+            "fairwild-standard"
+          ],
+          "aussage_status": "belegt_mit_einschraenkung"
+        }
+      ],
+      "begruendung": "FairWild ist fuer Kraeuter, Gewuerze und botanische Drogerierohstoffe besonders relevant, weil Wildsammlung, Biodiversitaet und faire Handelsbedingungen gemeinsam bewertet werden. Der Standard ist nischig, aber fachlich stark.",
+      "quellen": [
+        {
+          "id": "fairwild-home",
+          "titel": "FairWild Foundation",
+          "url": "https://www.fairwild.org/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "standardprofil"
+          ]
+        },
+        {
+          "id": "fairwild-certification",
+          "titel": "FairWild: Certification",
+          "url": "https://www.fairwild.org/fairwild-certification",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "wildsammlung",
+            "produktbezug"
+          ]
+        },
+        {
+          "id": "fairwild-standard",
+          "titel": "FairWild Standard",
+          "url": "https://www.fairwild.org/fairwild-standard",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "sozialkriterien",
+            "biodiversitaet"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "friend-of-the-sea",
+      "name": "Friend of the Sea",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "fisch",
+        "seafood",
+        "aquakultur",
+        "wildfang",
+        "chain-of-custody",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Fisch",
+        "Meeresfruechte",
+        "Aquakulturprodukte"
+      ],
+      "traeger": "World Sustainability Organization / Friend of the Sea",
+      "standardtyp": "freiwilliges Zertifizierungsprogramm fuer Wildfang, Aquakultur und Meeresprodukte",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 2,
+        "final": 5,
+        "anmerkung": "Relevantes Seafood-Zeichen, aber geringere unabhaengige Einordnung und weniger klare Verbraucherbekanntheit als MSC/ASC."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "fos-fisheries",
+            "fos-chain-of-custody"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-unabhaengige-validierung",
+          "name": "Begrenzte unabhaengige Validierung",
+          "wert": -2,
+          "quelle_ids": [
+            "fos-fisheries"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Friend of the Sea ist im Fisch- und Seafoodbereich relevant, aber im Projektkontext vorsichtiger zu bewerten als stark etablierte Vergleichssysteme. Positiv ist der formale Zertifizierungs- und CoC-Bezug; unsicher bleibt die externe Wirkungseinordnung.",
+      "quellen": [
+        {
+          "id": "fos-fisheries",
+          "titel": "Friend of the Sea: Sustainable Fisheries and Fleets",
+          "url": "https://friendofthesea.org/sustainable-standards-and-certifications/sustainable-fisheries-and-fleets/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fischerei",
+            "standard",
+            "zertifizierung"
+          ]
+        },
+        {
+          "id": "fos-chain-of-custody",
+          "titel": "Friend of the Sea: Chain of Custody",
+          "url": "https://friendofthesea.org/sustainable-standards-and-certifications/chain-of-custody/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "chain-of-custody",
+            "rueckverfolgbarkeit"
           ]
         }
       ],
@@ -1729,6 +2432,82 @@
         }
       ],
       "unsicherheit": "niedrig"
+    },
+    {
+      "id": "gaea",
+      "name": "Gaea",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "Gaea e.V. - Vereinigung oekologischer Landbau",
+      "standardtyp": "privater Bio-Verbandsstandard mit Richtlinien ueber EU-Bio hinaus",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 1,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; starker Bio-Verband, aber begrenzte eigenstaendige Sozialdimension."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "gaea-richtlinien-2025"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "gaea-richtlinien-2025"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Gaea ist ein deutscher Bio-Anbauverband und ergaenzt die vorhandenen Premium-Bio-Verbaende sinnvoll. Die Richtlinien gehen ueber EU-Bio hinaus; als reiner Bio-Verband wird aber kein separater Fair-Trade-Score vergeben.",
+      "quellen": [
+        {
+          "id": "gaea-downloads",
+          "titel": "Gaea: Downloads",
+          "url": "https://www.gaea.de/downloads.php",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "richtlinien",
+            "verband"
+          ]
+        },
+        {
+          "id": "gaea-richtlinien-2025",
+          "titel": "Gaea-Richtlinien 03/2025",
+          "url": "https://www.gaea.de/upload/homepage/richtlinien/gaea-richtlinien_03.2025_einseitig.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-standard",
+            "kontrolle",
+            "warenfluss"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
     },
     {
       "id": "gepruefte-qualitaet-bayern",
@@ -3229,6 +4008,92 @@
       "unsicherheit": "mittel"
     },
     {
+      "id": "qualitaetszeichen-bw",
+      "name": "Qualitaetszeichen Baden-Wuerttemberg",
+      "kategorie": "Regional-/Herkunftszeichen",
+      "region": [
+        "Deutschland",
+        "Baden-Wuerttemberg"
+      ],
+      "typ_tags": [
+        "regional",
+        "lebensmittel",
+        "herkunft",
+        "qualitaetszeichen",
+        "staatlich"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "MBW Marketinggesellschaft mbH im Auftrag des Landes Baden-Wuerttemberg",
+      "standardtyp": "regionales Herkunfts- und Qualitaetszeichen mit definierten Anforderungen und Kontrollen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 2,
+        "minus": 1,
+        "final": 4,
+        "anmerkung": "Nuetzliche Herkunfts- und Qualitaetsinformation, aber kein umfassender Nachhaltigkeitsstandard."
+      },
+      "faktoren": [
+        {
+          "id": "transparente-herkunftsangabe",
+          "name": "Transparente Herkunftsangabe",
+          "wert": 1,
+          "quelle_ids": [
+            "qzbw-info",
+            "qzbw-fachinformation"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "qzbw-info"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "qzbw-fachinformation"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Das Qualitaetszeichen Baden-Wuerttemberg ist als regionales Herkunfts- und Qualitaetszeichen fuer Lebensmittel relevant. Es ist hilfreich fuer Transparenz, darf aber nicht mit einem Bio-, Fair- oder Nachhaltigkeitssiegel gleichgesetzt werden.",
+      "quellen": [
+        {
+          "id": "qzbw-info",
+          "titel": "Qualitaetszeichen Baden-Wuerttemberg",
+          "url": "https://www.gemeinschaftsmarketing-bw.de/qualitaetszeichen-bw/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zeichen",
+            "traeger",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "qzbw-fachinformation",
+          "titel": "QZBW Fachinformation",
+          "url": "https://www.gemeinschaftsmarketing-bw.de/wp-content/themes/mbw-barrierefrei/img/QZBW_Fachinformation.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "anforderungen",
+            "kontrolle",
+            "qualitaet"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
       "id": "rainforest-alliance",
       "name": "Rainforest Alliance",
       "kategorie": "Forst-/Rohstoffstandard mit CoC",
@@ -3662,6 +4527,87 @@
           "quelle_typ": "primaer",
           "belegt": [
             "gesetzliche-grundlage"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "uebt-certified",
+      "name": "UEBT Certified",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "biodiversitaet",
+        "natuerliche-inhaltsstoffe",
+        "drogerie",
+        "kosmetik",
+        "rohstoff",
+        "fair"
+      ],
+      "produktbereich": [
+        "Naturkosmetik",
+        "Koerperpflege",
+        "botanische Rohstoffe",
+        "Kraeuter"
+      ],
+      "traeger": "Union for Ethical BioTrade (UEBT)",
+      "standardtyp": "Standard fuer ethische Beschaffung natuerlicher Inhaltsstoffe mit Biodiversitaets- und Fairnessbezug",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Wichtig fuer Naturrohstoffe, aber haeufig auf Ingredient-Sourcing und Unternehmenspraktiken statt auf das ganze Endprodukt bezogen."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "uebt-label",
+            "uebt-using-mark"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "uebt-using-mark"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "UEBT Certified ist fuer Naturkosmetik und botanische Rohstoffe relevant, weil Biodiversitaet, faire Beschaffung und natuerliche Inhaltsstoffe adressiert werden. Die Bewertung bleibt vorsichtig, weil das Zeichen nicht immer die gesamte Produktlieferkette gleich stark abdeckt.",
+      "quellen": [
+        {
+          "id": "uebt-label",
+          "titel": "UEBT: Our Label",
+          "url": "https://uebt.org/our-label",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "label",
+            "biodiversitaet",
+            "sourcing"
+          ]
+        },
+        {
+          "id": "uebt-using-mark",
+          "titel": "UEBT: Using our mark",
+          "url": "https://uebt.org/using-our-mark",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktbezug",
+            "markennutzung",
+            "claims"
           ]
         }
       ],

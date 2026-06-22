@@ -1,6 +1,6 @@
 # Projektkontext MD&MA
 
-Stand: 2026-06-02
+Stand: 2026-06-22
 
 ## Worum Es Geht
 
@@ -87,8 +87,8 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 38 aktive Eintraege
-- `data/processed/lieferketten.json`: 18 aktive Pilotfaelle
+- `data/processed/qualitaetssiegel.json`: 50 aktive Eintraege
+- `data/processed/lieferketten.json`: 35 aktive Pilotfaelle
 - `data/processed/glossar.json`: 24 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
@@ -207,7 +207,7 @@ Stand weitere JSONs:
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 18 aktive Pilotfaelle
+- aktueller Zaehler: 35 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -278,3 +278,11 @@ Stand nach Lauf 009 / Lieferketten Lauf 008:
 - neu hinzugekommen: `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru`, `alnatura-peru-cafe-bio-kaffee`
 - 24 Glossar-Begriffe in `data/processed/glossar.json`
 - neu hinzugekommen: `tierhaltungskennzeichnung`, `naehrwertkennzeichnung`, `weidemilch`
+
+Stand nach Lauf 010 / Lieferketten Lauf 009:
+
+- 50 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `aoecs-crossed-grain`, `bdih-kontrollierte-naturkosmetik`, `bio-zeichen-baden-wuerttemberg`, `biopark`, `donausoja-europe-soya`, `ecoland`, `fair-rubber`, `fairwild`, `friend-of-the-sea`, `gaea`, `qualitaetszeichen-bw`, `uebt-certified`
+- 35 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `aldi-nord-eigenmarken-kaffee-kakao-tee-zertifiziert`, `aldi-sued-choceur-choco-changer-kakao`, `dm-denkmit-spuelmittel-tenside-circular-feedstock`, `dmbio-kaffee-bio-fairtrade`, `edeka-eigenmarken-fisch-ftrace`, `fair-rubber-kondome-naturkautschuk`, `kaufland-fleisch-eigenmarke-ftrace`, `lavera-naturkosmetik-palmoel-derivate`, `lebensbaum-tee-gewuerze-we-care`, `lidl-bananen-living-wage-kolumbien`, `lidl-eigenmarken-palmoel-rspo`, `pukka-kraeutertee-fairwild`, `rewe-bananen-pro-planet-qr`, `rewe-pro-planet-ananas`, `rossmann-alterra-palmoel-derivate`, `teekampagne-darjeeling-tee`, `voelkel-direktsaft-streuobst`
+- Glossar unveraendert bei 24 Begriffen

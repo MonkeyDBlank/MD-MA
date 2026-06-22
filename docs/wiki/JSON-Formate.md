@@ -49,7 +49,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 38 Eintraege
+- 50 Eintraege
 
 ## 2. lieferketten.json
 
@@ -78,7 +78,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 18 Eintraege
+- 35 Eintraege
 
 ## 3. glossar.json
 

@@ -371,3 +371,43 @@ Neue bzw. reaktivierte Eintraege: `bio-suisse-knospe`, `blauer-engel`, `ecogaran
 ## Lauf 009 - Qualitaetssiegel Nahrung/Drogerie (2026-06-02)
 
 Neue Eintraege: `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score`, `pro-weideland`, `gepruefte-qualitaet-bayern`. Schwerpunkt waren Tierhaltungs-, Naehrwert- und regionale Herkunfts-/Qualitaetszeichen. Transparenzkennzeichnungen wurden bewusst niedriger eingeordnet als echte Verbesserungs- oder Nachhaltigkeitsstandards.
+
+## Lauf 010 - Qualitaetssiegel Nahrung/Drogerie (2026-06-22)
+
+Ziel: Den aktiven Siegelbestand im Scope Nahrung/Drogerie von 38 auf 50 Eintraege erweitern.
+
+### Eingesetzte Agentenlogik
+
+- `discovery-agent`: Kandidaten gegen bestehende IDs und Scope geprueft
+- `research-agent`: Primaerquellen und Standardseiten gesammelt
+- `source-audit-agent`: Quellennaehe und Belegkraft eingeordnet
+- `scoring-agent`: Matrixkategorien und Faktoren angewendet
+- `review-agent`: Grenzfaelle gegen Scope und Scheingenauigkeit geprueft
+- `output-agent`: Draft und finale JSONs im bestehenden Schema vorbereitet
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-010.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+
+### Neue Eintraege
+
+- `aoecs-crossed-grain`
+- `bdih-kontrollierte-naturkosmetik`
+- `bio-zeichen-baden-wuerttemberg`
+- `biopark`
+- `donausoja-europe-soya`
+- `ecoland`
+- `fair-rubber`
+- `fairwild`
+- `friend-of-the-sea`
+- `gaea`
+- `qualitaetszeichen-bw`
+- `uebt-certified`
+
+### Methodische Hinweise
+
+- Regionale Bio- und Qualitaetszeichen wurden nicht mit Premium-Bio- oder Fair-Trade-Standards gleichgesetzt.
+- Enge Verbraucher- oder Prozesslabels wie `aoecs-crossed-grain` wurden bewusst niedrig eingeordnet, obwohl sie fuer Betroffene nuetzlich sind.
+- Rohstoff- und Ingredient-Standards wie `uebt-certified`, `fairwild`, `fair-rubber` und `donausoja-europe-soya` wurden nur aufgenommen, wenn ein klarer Produktbezug zu Nahrung oder Drogerie besteht.

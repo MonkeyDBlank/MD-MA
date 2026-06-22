@@ -2,7 +2,7 @@
   "project": {
     "name": "MD&MA",
     "type": "study-project",
-    "last_updated": "2026-06-02",
+    "last_updated": "2026-06-22",
     "documentation_mode": "github-first"
   },
   "scope": {
@@ -24,15 +24,15 @@
   "data_status": {
     "qualitaetssiegel": {
       "path": "data/processed/qualitaetssiegel.json",
-      "version": "2026.6",
-      "stand": "2026-06-02",
-      "count": 38
+      "version": "2026.7",
+      "stand": "2026-06-22",
+      "count": 50
     },
     "lieferketten": {
       "path": "data/processed/lieferketten.json",
-      "version": "2026.6",
-      "stand": "2026-06-02",
-      "count": 18
+      "version": "2026.7",
+      "stand": "2026-06-22",
+      "count": 35
     },
     "glossar": {
       "path": "data/processed/glossar.json",

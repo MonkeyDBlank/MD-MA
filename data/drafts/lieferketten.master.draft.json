@@ -1,9 +1,267 @@
 {
-  "version": "2026.6-draft",
+  "version": "2026.7",
   "typ": "lieferketten",
-  "stand": "2026-06-02",
+  "stand": "2026-06-22",
   "hinweis": "Interner Arbeitsstand fuer Lieferketten im Scope Nahrung und Drogerieprodukte.",
   "eintraege": [
+    {
+      "id": "aldi-nord-eigenmarken-kaffee-kakao-tee-zertifiziert",
+      "unternehmen": "ALDI Nord",
+      "marke": "ALDI Nord Eigenmarken",
+      "warengruppe": "Kaffee, Kakao und Tee",
+      "rohstoffe": [
+        "Kaffee",
+        "Kakao",
+        "Tee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "ALDI Nord Eigenmarkenstrategie fuer zertifizierte Kaffee-, Kakao- und Tee-Rohstoffe"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifizierte-warengruppenbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 2,
+        "final": 3,
+        "anmerkung": "Breite Warengruppenpolitik, aber ohne produktscharfe Lieferkettenoffenlegung."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-nord-cr-programme",
+            "aldi-nord-coffee-cocoa-tea"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa",
+            "fairtrade-riskmap-coffee"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-und-kaffee-hochrisiko",
+          "beschreibung": "Kakao und Kaffee bleiben strukturell risikobehaftet fuer Einkommen, Kinderarbeit und Klima.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa",
+            "fairtrade-riskmap-coffee"
+          ]
+        },
+        {
+          "id": "fehlende-chargentransparenz",
+          "beschreibung": "Oeffentlich werden Warengruppenziele, aber keine chargengenauen Lieferketten genannt.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "aldi-nord-cr-programme"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "zertifizierte-rohstoffe",
+          "beschreibung": "ALDI Nord beschreibt Zertifizierungs- und Nachhaltigkeitsanforderungen fuer Kaffee, Kakao und Tee.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-nord-coffee-cocoa-tea"
+          ]
+        }
+      ],
+      "begruendung": "Der Fall ist als Handels- und Warengruppenpilot geeignet, aber bewusst niedrig bis mittel bewertet: Zertifizierte Beschaffungsziele erzeugen Hebelwirkung, ersetzen aber keine produktscharfe Transparenz fuer Hochrisikorohstoffe.",
+      "quellen": [
+        {
+          "id": "aldi-nord-cr-programme",
+          "titel": "ALDI Nord: CR-Programme and Policies",
+          "url": "https://www.aldi-nord.de/unternehmen/verantwortung/downloads.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "unternehmenspolitik",
+            "rohstoffleitlinien"
+          ]
+        },
+        {
+          "id": "aldi-nord-coffee-cocoa-tea",
+          "titel": "ALDI Nord: Sustainable Coffee, Cocoa and Tea",
+          "url": "https://www.aldi-nord.de/unternehmen/verantwortung/lieferkette/rohstoffe.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee",
+            "kakao",
+            "tee",
+            "zertifizierung"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-coffee",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Warengruppenpolitik, nicht eine konkrete ALDI-Packung.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "moeglicher Rohstoffstandard",
+          "einordnung": "Zertifizierungen verbessern Mindestanforderungen, ersetzen aber keine konkrete Lieferkettentransparenz."
+        },
+        {
+          "id": "rainforest-alliance",
+          "rolle": "moeglicher Rohstoffstandard",
+          "einordnung": "Relevant fuer Kaffee, Kakao und Tee, aber generische Siegelbewertung bleibt getrennt."
+        }
+      ]
+    },
+    {
+      "id": "aldi-sued-choceur-choco-changer-kakao",
+      "unternehmen": "ALDI Sued",
+      "marke": "Choceur Choco Changer",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Choco Changer Schokolade",
+          "Kakaobeschaffung ueber Tony's Open Chain"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "open-chain-partnerprogramm",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 2,
+        "final": 6,
+        "anmerkung": "Starkes Programm fuer Discount-Schokolade, aber nicht chargengenau und Kakao bleibt Hochrisikorohstoff."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-sued-choco-changer",
+            "tonys-open-chain-principles"
+          ]
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tonys-open-chain-principles"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-kinderarbeit-und-einkommen",
+          "beschreibung": "Kakao aus Westafrika ist strukturell risikobehaftet fuer Kinderarbeit und existenzsichernde Einkommen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "open-chain",
+          "beschreibung": "Die Produktlinie nutzt Tony's Open Chain als Verbesserungsprogramm mit Sourcing-Prinzipien.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-sued-choco-changer",
+            "tonys-open-chain-principles"
+          ]
+        }
+      ],
+      "begruendung": "Choco Changer ist ein guter Discount-Pilotfall, weil ALDI Sued ueber eine konkrete Produktlinie an Tony's Open Chain anknuepft. Die Bewertung bleibt unter den staerksten Kakao-Faellen, weil Verbraucher keine chargengenaue Herkunft sehen und Kakao ein Hochrisikorohstoff bleibt.",
+      "quellen": [
+        {
+          "id": "aldi-sued-choco-changer",
+          "titel": "ALDI Sued: Choceur Choco Changer",
+          "url": "https://www.aldi-sued.de/de/produkte/produktsortiment/suessigkeiten-snacks/choco-changer.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktlinie",
+            "tonys-open-chain"
+          ]
+        },
+        {
+          "id": "tonys-open-chain-principles",
+          "titel": "Tony's Open Chain: 5 Sourcing Principles",
+          "url": "https://www.tonysopenchain.com/the-5-sourcing-principles",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "open-chain",
+            "langfristige-beziehungen",
+            "traceability"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Choco-Changer-Produktlinie mit Kakao-Bezug, nicht alle Choceur-Produkte.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Kontextstandard fuer Kakao",
+          "einordnung": "Open Chain ist hier fuer den Lieferkettenscore wichtiger als ein generisches Siegel."
+        }
+      ]
+    },
     {
       "id": "alnatura-peru-cafe-bio-kaffee",
       "unternehmen": "Alnatura Produktions- und Handels GmbH",
@@ -489,6 +747,232 @@
       ]
     },
     {
+      "id": "dm-denkmit-spuelmittel-tenside-circular-feedstock",
+      "unternehmen": "dm-drogerie markt GmbH + Co. KG",
+      "marke": "Denkmit",
+      "warengruppe": "Spuel- und Reinigungsmittel",
+      "rohstoffe": [
+        "Tenside",
+        "pflanzliche Oele",
+        "recycelter Kohlenstoff"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Denkmit Reinigungsprodukte mit Carbon-Capture- bzw. Recycling-Ansatz bei Tensiden"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "massenbilanzierter-innovationsansatz",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 3,
+        "final": 2,
+        "anmerkung": "Innovativer Rohstoffansatz, aber massenbilanzierter und nur begrenzt lieferkettentransparenter Produktbezug."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-denkmit-carbon-capture",
+            "dm-nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-denkmit-carbon-capture"
+          ]
+        },
+        {
+          "id": "mangelnde-kontrolltiefe",
+          "name": "Mangelnde Kontrolltiefe",
+          "wert": -2,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "dm-denkmit-carbon-capture"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "drogerie-tensidvorstufen",
+          "beschreibung": "Tensidvorstufen sind fuer Verbraucher meist nicht physisch bis zum Ursprung rueckverfolgbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "dm-denkmit-carbon-capture"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "rohstoffinnovation",
+          "beschreibung": "dm beschreibt fuer Denkmit den Einsatz alternativer Kohlenstoffquellen in Reinigungsmitteln.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-denkmit-carbon-capture"
+          ]
+        }
+      ],
+      "begruendung": "Der Denkmit-Fall ist als Drogerie-Experiment interessant, wird aber niedrig bewertet: Er zeigt einen innovativen Ansatz bei Rohstoffsubstitution, liefert jedoch keine belastbare, physische Lieferkettenoffenlegung.",
+      "quellen": [
+        {
+          "id": "dm-denkmit-carbon-capture",
+          "titel": "dm: Denkmit Produkte mit Carbon-Capture-Technologie",
+          "url": "https://www.dm.de/unternehmen/nachhaltigkeit/denkmit-carbon-capture-1824688",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktlinie",
+            "rohstoffinnovation",
+            "massenbilanz"
+          ]
+        },
+        {
+          "id": "dm-nachhaltigkeit",
+          "titel": "dm: Nachhaltigkeit",
+          "url": "https://www.dm.de/unternehmen/nachhaltigkeit",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "unternehmenskontext"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "hoch",
+      "hinweis_fuer_app": "Niedrig bewerteter Innovationsfall; nicht als transparente Ursprungslieferkette anzeigen.",
+      "relevante_siegel": [
+        {
+          "id": "blauer-engel",
+          "rolle": "moeglicher Produktvergleich",
+          "einordnung": "Produktbezogene Umweltzeichen sind fuer Verbraucher klarer als der hier bewertete Rohstoffinnovationsansatz."
+        }
+      ]
+    },
+    {
+      "id": "dmbio-kaffee-bio-fairtrade",
+      "unternehmen": "dm-drogerie markt GmbH + Co. KG",
+      "marke": "dmBio",
+      "warengruppe": "Bio-Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "dmBio Kaffeeprodukte mit Bio- und Fairtrade-Bezug"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "drittzertifizierte-warengruppenbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 2,
+        "final": 3,
+        "anmerkung": "Gute Siegelbasis, aber oeffentlich nicht kooperativen- oder chargengenau."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-bio-kaffee",
+            "fairtrade-kaffee"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-coffee"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-einkommen-und-klima",
+          "beschreibung": "Kaffee ist risikobehaftet fuer Einkommen, Preisschwankungen und Klimawandel.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-coffee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "bio-fairtrade-beschaffung",
+          "beschreibung": "dmBio Kaffee nutzt Bio- und Fairtrade-Kontexte, ohne die oeffentliche Lieferkette vollstaendig offenzulegen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-bio-kaffee",
+            "fairtrade-kaffee"
+          ]
+        }
+      ],
+      "begruendung": "dmBio Kaffee ist ein alltagsnaher Handelsfall. Die Siegelbasis ist positiv, aber fuer eine Lieferkettenbewertung reicht sie nicht fuer hohe Scores, weil konkrete Kooperativen, Chargen oder Herkunftsstufen oeffentlich kaum sichtbar sind.",
+      "quellen": [
+        {
+          "id": "dm-bio-kaffee",
+          "titel": "dm: dmBio Kaffee",
+          "url": "https://www.dm.de/search?query=dmBio%20Kaffee",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktgruppe",
+            "bio-kaffee"
+          ]
+        },
+        {
+          "id": "fairtrade-kaffee",
+          "titel": "Fairtrade: Kaffee",
+          "url": "https://www.fairtrade.net/de-de/produkte/fairtrade_produkte/Kaffee.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee",
+            "standardkontext"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-coffee",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Warengruppe dmBio Kaffee, nicht ein konkreter Kaffee mit chargengenauer Herkunft.",
+      "relevante_siegel": [
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Mindeststandard",
+          "einordnung": "Bio verbessert Produktionsanforderungen, erklaert aber die Lieferkette nicht allein."
+        },
+        {
+          "id": "fairtrade",
+          "rolle": "Sozialstandard fuer Kaffee",
+          "einordnung": "Fairtrade ist relevant, der Lieferkettenscore bleibt aber wegen geringer Produktschaerfe begrenzt."
+        }
+      ]
+    },
+    {
       "id": "dr-bronner-reine-naturseife-rohstoffkette",
       "unternehmen": "Dr. Bronner's",
       "marke": "Dr. Bronner's",
@@ -701,6 +1185,115 @@
       ]
     },
     {
+      "id": "edeka-eigenmarken-fisch-ftrace",
+      "unternehmen": "EDEKA Zentrale Stiftung & Co. KG",
+      "marke": "EDEKA Eigenmarken",
+      "warengruppe": "Fisch",
+      "rohstoffe": [
+        "Fisch",
+        "Meeresfruechte"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "EDEKA Fischprodukte mit fTRACE-/Tracking-Bezug"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "ftrace-chain-of-custody",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Alltagsnaher Tracking-Fall; konkrete Aussage haengt vom jeweiligen Code ab."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "edeka-fisch-rueckverfolgung",
+            "ftrace-fish"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "fischerei-ueberfischung",
+          "beschreibung": "Fischlieferketten bleiben risikobehaftet fuer Ueberfischung, IUU-Fischerei und Beifang.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-fish-guide"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "ftrace-tracking",
+          "beschreibung": "fTRACE kann Herkunfts- und Chargeninformationen fuer Fischprodukte sichtbar machen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ftrace-fish"
+          ]
+        }
+      ],
+      "begruendung": "EDEKA erweitert die alltagsnahen Fisch-Trackingfaelle. Positiv ist der konkrete Verbraucherzugang ueber Tracking-Informationen; die Bewertung bleibt auf produktliniennaher Ebene, weil Details vom jeweiligen Produktcode abhaengen.",
+      "quellen": [
+        {
+          "id": "edeka-fisch-rueckverfolgung",
+          "titel": "EDEKA: Fisch und Rueckverfolgbarkeit",
+          "url": "https://www.edeka.de/nachhaltigkeit/unsere-wwf-partnerschaft/fisch.jsp",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fisch",
+            "nachhaltigkeit",
+            "eigenmarken"
+          ]
+        },
+        {
+          "id": "ftrace-fish",
+          "titel": "fTRACE: Fish",
+          "url": "https://www.ftrace.com/en/consumer/fish",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking",
+            "fisch",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "wwf-fish-guide",
+          "titel": "WWF: Fish Guide",
+          "url": "https://fischratgeber.wwf.de/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "fischrisiken",
+            "artenbewertung"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Gute Tracking-Aussage nur, wenn ein konkreter fTRACE-Code vorliegt.",
+      "relevante_siegel": [
+        {
+          "id": "msc",
+          "rolle": "Vergleichsrahmen fuer Wildfang",
+          "einordnung": "Tracking und Siegel sollten getrennt bewertet werden."
+        },
+        {
+          "id": "asc",
+          "rolle": "Vergleichsrahmen fuer Aquakultur",
+          "einordnung": "ASC erklaert Zertifizierungslogik, nicht automatisch die konkrete EDEKA-Kette."
+        }
+      ]
+    },
+    {
       "id": "eifrisch-schaleneier-kat-deutschland",
       "unternehmen": "Eifrisch",
       "marke": "Eifrisch",
@@ -902,6 +1495,108 @@
           "id": "eu-bio",
           "rolle": "relevant fuer den Bio-Teil des Sortiments",
           "einordnung": "Der Bio-Bezug gilt nur fuer den Teil der Eier, die als Bio vermarktet werden."
+        }
+      ]
+    },
+    {
+      "id": "fair-rubber-kondome-naturkautschuk",
+      "unternehmen": "Fair Rubber e.V. / lizenzierte Marken",
+      "marke": "Fair Rubber",
+      "warengruppe": "Kondome und Naturkautschukprodukte",
+      "rohstoffe": [
+        "Naturkautschuk"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Fair-Rubber-zertifizierte Naturkautschukprodukte wie Kondome oder Handschuhe"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "fair-trade-rohstoffprogramm",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Starker Nischenfall fuer Drogerieprodukte mit Naturkautschukbezug."
+      },
+      "faktoren": [
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fair-rubber-members",
+            "fair-rubber-criteria"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "naturkautschuk-einkommen",
+          "beschreibung": "Naturkautschuk-Lieferketten sind fuer Kleinbaeuerinnen und Kleinbauern einkommens- und preissensibel.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "fair-rubber-about"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "fair-rubber-premium",
+          "beschreibung": "Fair Rubber arbeitet mit Fair-Trade-Praemien fuer Naturkautschuklieferanten.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fair-rubber-criteria"
+          ]
+        }
+      ],
+      "begruendung": "Der Naturkautschukfall ergaenzt Drogerieprodukte jenseits von Kosmetik. Die Lieferkette ist nicht chargengenau, aber der Fair-Rubber-Ansatz macht einen spezifischen Rohstoff- und Praemienmechanismus sichtbar.",
+      "quellen": [
+        {
+          "id": "fair-rubber-about",
+          "titel": "Fair Rubber: About",
+          "url": "https://fairrubber.org/about/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "naturkautschuk",
+            "fairer-handel"
+          ]
+        },
+        {
+          "id": "fair-rubber-criteria",
+          "titel": "Fair Rubber: Criteria",
+          "url": "https://fairrubber.org/about/criteria/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "praemie",
+            "kriterien",
+            "kontrolle"
+          ]
+        },
+        {
+          "id": "fair-rubber-members",
+          "titel": "Fair Rubber: Members and Products",
+          "url": "https://fairrubber.org/members-products/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkte",
+            "lizenznehmer"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird der zertifizierte Naturkautschuk-Rohstoffansatz, nicht jede einzelne Kondom- oder Handschuhcharge.",
+      "relevante_siegel": [
+        {
+          "id": "fair-rubber",
+          "rolle": "direkter Rohstoffstandard",
+          "einordnung": "Hier ist das Siegel zugleich Kern des Lieferkettenmodells."
         }
       ]
     },
@@ -1855,6 +2550,618 @@
       ]
     },
     {
+      "id": "kaufland-fleisch-eigenmarke-ftrace",
+      "unternehmen": "Kaufland",
+      "marke": "Kaufland Eigenmarken",
+      "warengruppe": "Fleisch und Fleischwaren",
+      "rohstoffe": [
+        "Rindfleisch",
+        "Schweinefleisch",
+        "Gefluegel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Kaufland Check your Product / fTRACE fuer Fleischprodukte"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "ftrace-herkunftssystem",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 2,
+        "final": 5,
+        "anmerkung": "Herkunftstransparenz gut, aber Tierprodukte bleiben risikobehaftet und Tracking ist nicht gleich Tierwohl."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-check-product",
+            "ftrace-meat"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "bmel-tierwohl"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tierwohl-und-futter",
+          "beschreibung": "Fleischlieferketten bleiben risikobehaftet durch Tierwohl, Futtermittel, Klima und Schlachtung.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "bmel-tierwohl"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "ftrace-tracking",
+          "beschreibung": "Kaufland bietet fuer bestimmte Produkte einen Verbraucherzugang zu Herkunftsinformationen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaufland-check-product",
+            "ftrace-meat"
+          ]
+        }
+      ],
+      "begruendung": "Kaufland Fleisch mit fTRACE ist alltagsnah und fuer eine App besonders relevant. Der Score bleibt mittel, weil Herkunftstracking allein keine umfassende Tierwohl- oder Nachhaltigkeitsbewertung ersetzt.",
+      "quellen": [
+        {
+          "id": "kaufland-check-product",
+          "titel": "Kaufland: Check your product",
+          "url": "https://check-your-product.com/kaufland",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking",
+            "verbraucherzugang"
+          ]
+        },
+        {
+          "id": "ftrace-meat",
+          "titel": "fTRACE: Meat",
+          "url": "https://www.ftrace.com/en/consumer/meat",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fleisch",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "bmel-tierwohl",
+          "titel": "BMEL: Tierwohl",
+          "url": "https://www.bmel.de/DE/themen/tiere/tierschutz/tierwohl.html",
+          "quelle_typ": "behoerde",
+          "belegt": [
+            "tierwohl-kontext"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Tracking-Code erforderlich; nicht mit einem Tierwohlscore gleichsetzen.",
+      "relevante_siegel": [
+        {
+          "id": "staatliche-tierhaltungskennzeichnung",
+          "rolle": "Transparenzkontext",
+          "einordnung": "Haltungskennzeichnung und fTRACE beantworten unterschiedliche Fragen."
+        }
+      ]
+    },
+    {
+      "id": "lavera-naturkosmetik-palmoel-derivate",
+      "unternehmen": "Laverana GmbH & Co. KG",
+      "marke": "Lavera",
+      "warengruppe": "Naturkosmetik",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "Naturkosmetik mit palmbasierten Derivaten",
+          "RSPO-/FONAP-Bezug"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "mass_balance",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 3,
+        "final": 4,
+        "anmerkung": "Offene Palmkommunikation, aber Derivate und Mass Balance begrenzen physische Transparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lavera-palmoel",
+            "fonap-lavera"
+          ]
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lavera-palmoel"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung",
+          "beschreibung": "Palmrohstoffe bleiben risikobehaftet fuer Entwaldung, Biodiversitaet und Landrechte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "fonap-rspo",
+          "beschreibung": "Lavera kommuniziert Palmbezug und verweist auf FONAP/RSPO-orientierte Beschaffung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lavera-palmoel",
+            "fonap-lavera"
+          ]
+        }
+      ],
+      "begruendung": "Lavera ist als Drogerie- und Naturkosmetikfall relevant. Die Transparenz zur Palmproblematik ist positiv, aber wegen Derivaten und Mass-Balance-Modellen bleibt die Lieferkettenbewertung deutlich begrenzt.",
+      "quellen": [
+        {
+          "id": "lavera-palmoel",
+          "titel": "Lavera: Palmoel und Nachhaltigkeit",
+          "url": "https://www.lavera.de/nachhaltigkeit/palmoel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm",
+            "derivate",
+            "rspo"
+          ]
+        },
+        {
+          "id": "fonap-lavera",
+          "titel": "FONAP: Mitglieder und Partner",
+          "url": "https://www.forumpalmoel.org/mitglieder",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fonap",
+            "mitgliedschaft"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil",
+          "titel": "WWF: Palm Oil",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "palm-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird Lavera auf Unternehmens-/Warengruppenebene, nicht ein einzelnes Produkt.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "RSPO-Nutzung verbessert Beschaffung, Mass Balance begrenzt aber physische Aussage."
+        },
+        {
+          "id": "natrue",
+          "rolle": "Produktstandard",
+          "einordnung": "Naturkosmetikstandard und Palm-Lieferkette getrennt bewerten."
+        }
+      ]
+    },
+    {
+      "id": "lebensbaum-tee-gewuerze-we-care",
+      "unternehmen": "Ulrich Walter GmbH",
+      "marke": "Lebensbaum",
+      "warengruppe": "Tee, Kaffee und Gewuerze",
+      "rohstoffe": [
+        "Tee",
+        "Kaffee",
+        "Gewuerze",
+        "Kraeuter"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Tee, Bio-Kaffee und Bio-Gewuerze",
+          "We-Care-/Nachhaltigkeitsmanagement"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-direktpartnerschaften-und-managementstandard",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 1,
+        "final": 6,
+        "anmerkung": "Gute Bio- und Managementbasis, aber nicht chargengenau fuer jede Zutat."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lebensbaum-nachhaltigkeit",
+            "we-care-standard"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -1,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "fairwild-standard"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kraeuter-und-gewuerze-viele-herkuenfte",
+          "beschreibung": "Tee-, Kraeuter- und Gewuerzsortimente enthalten viele Ursprungsketten und sind selten chargenoffen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "lebensbaum-nachhaltigkeit"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "bio-und-we-care",
+          "beschreibung": "Lebensbaum verbindet Bio-Sortimente mit Nachhaltigkeitsmanagement und Lieferantenanforderungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lebensbaum-nachhaltigkeit",
+            "we-care-standard"
+          ]
+        }
+      ],
+      "begruendung": "Lebensbaum ist ein sinnvoller Pilotfall fuer Tee, Kraeuter und Gewuerze: Das Unternehmen ist stark im Bio-Fachhandel und nutzt strukturierte Nachhaltigkeitsanforderungen. Die Bewertung bleibt mittel, weil einzelne Rohstoffketten nicht fuer jede Packung transparent sind.",
+      "quellen": [
+        {
+          "id": "lebensbaum-nachhaltigkeit",
+          "titel": "Lebensbaum: Nachhaltigkeit",
+          "url": "https://www.lebensbaum.com/de/nachhaltigkeit",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "lieferanten",
+            "nachhaltigkeitsmanagement"
+          ]
+        },
+        {
+          "id": "we-care-standard",
+          "titel": "FiBL: We Care Standard",
+          "url": "https://www.we-care-siegel.org/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "managementstandard",
+            "lieferkette"
+          ]
+        },
+        {
+          "id": "fairwild-standard",
+          "titel": "FairWild Standard",
+          "url": "https://www.fairwild.org/fairwild-standard",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "wildpflanzen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Unternehmens-/Warengruppenlogik, nicht die Herkunft jeder einzelnen Teemischung.",
+      "relevante_siegel": [
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Basis",
+          "einordnung": "Bio ist zentral, aber nicht gleichbedeutend mit vollstaendiger Lieferkettentransparenz."
+        }
+      ]
+    },
+    {
+      "id": "lidl-bananen-living-wage-kolumbien",
+      "unternehmen": "Lidl Stiftung & Co. KG",
+      "marke": "Lidl Eigenmarken",
+      "warengruppe": "Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Living-Wage-Projekt fuer Bananenlieferketten",
+          "Kolumbien als Pilotkontext"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "branchenprogramm-living-wage",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 2,
+        "final": 6,
+        "anmerkung": "Starkes Sozialprogramm, aber ohne chargengenaue Einzelprodukttransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-banana-living-wage",
+            "lidl-human-rights"
+          ]
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-banana-living-wage"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "bananen-loehne-und-preisdruck",
+          "beschreibung": "Bananenlieferketten sind durch Preisdruck und Lohnrisiken gepraegt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "living-wage-programm",
+          "beschreibung": "Lidl arbeitet an Living-Wage-Ansatz und Menschenrechtsmassnahmen in der Bananenlieferkette.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-banana-living-wage",
+            "lidl-human-rights"
+          ]
+        }
+      ],
+      "begruendung": "Lidl Bananen sind als Discount- und Sozialrisiko-Fall relevant. Das Living-Wage-Programm ist ein deutlicher Pluspunkt, ersetzt aber keine vollstaendige, produktscharfe Transparenz fuer einzelne Bananen.",
+      "quellen": [
+        {
+          "id": "lidl-banana-living-wage",
+          "titel": "Lidl: Living Wage in banana supply chains",
+          "url": "https://unternehmen.lidl.de/verantwortung/mensch/lieferketten/bananen",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bananen",
+            "living-wage",
+            "lieferkette"
+          ]
+        },
+        {
+          "id": "lidl-human-rights",
+          "titel": "Lidl: Human rights in supply chains",
+          "url": "https://unternehmen.lidl.de/verantwortung/mensch/menschenrechte",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "menschenrechte",
+            "risikomanagement"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-banana",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "bananen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Programmfall fuer Warengruppe Bananen, keine Chargenrueckverfolgung.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Sozialstandard im Sektor",
+          "einordnung": "Living-Wage-Programme muessen getrennt von generischen Siegelclaims bewertet werden."
+        },
+        {
+          "id": "rainforest-alliance",
+          "rolle": "moeglicher Plantagenstandard",
+          "einordnung": "Relevant fuer Bananen, aber nicht automatisch Lieferkettentransparenz."
+        }
+      ]
+    },
+    {
+      "id": "lidl-eigenmarken-palmoel-rspo",
+      "unternehmen": "Lidl Stiftung & Co. KG",
+      "marke": "Lidl Eigenmarken",
+      "warengruppe": "Lebensmittel und Drogerieprodukte mit Palmbezug",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Palmrohstoffstrategie fuer Eigenmarken"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rspo-warengruppenstrategie",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 3,
+        "final": 2,
+        "anmerkung": "Breite Palmstrategie, aber Derivate und Mass-Balance-Modelle begrenzen Produktschaerfe stark."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-palm-oil",
+            "lidl-raw-materials"
+          ]
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rspo-supply-chain"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palm-entwaldung-und-landrechte",
+          "beschreibung": "Palmrohstoffe sind strukturell risikobehaftet fuer Entwaldung, Landrechte und Biodiversitaet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "palm-strategie",
+          "beschreibung": "Lidl formuliert Rohstoffanforderungen und Palmziele fuer Eigenmarken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lidl-palm-oil",
+            "lidl-raw-materials"
+          ]
+        }
+      ],
+      "begruendung": "Lidl Palm ist als breiter Handelsfall wichtig, wird aber niedrig bewertet: Eine Rohstoffpolitik mit RSPO-Bezug ist besser als keine Massnahme, doch sie bleibt weit von einer produktscharfen, physischen Ursprungskette entfernt.",
+      "quellen": [
+        {
+          "id": "lidl-palm-oil",
+          "titel": "Lidl: Palm oil",
+          "url": "https://unternehmen.lidl.de/verantwortung/umwelt/rohstoffe/palmoel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm",
+            "eigenmarken",
+            "strategie"
+          ]
+        },
+        {
+          "id": "lidl-raw-materials",
+          "titel": "Lidl: Raw materials",
+          "url": "https://unternehmen.lidl.de/verantwortung/umwelt/rohstoffe",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rohstoffstrategie"
+          ]
+        },
+        {
+          "id": "rspo-supply-chain",
+          "titel": "RSPO: Supply Chain Certification",
+          "url": "https://rspo.org/as-an-organisation/certification/supply-chains/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rspo-modelle",
+            "mass-balance"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil",
+          "titel": "WWF: Palm Oil",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "palm-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird eine Warengruppenstrategie, nicht der Palmanteil eines konkreten Produkts.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "Der generische RSPO-Score ist nicht identisch mit der Lidl-Warengruppenbewertung."
+        }
+      ]
+    },
+    {
       "id": "lidl-way-to-go-schokolade-kakao-ghana",
       "unternehmen": "Lidl Deutschland",
       "marke": "Way To Go / Fairglobe / Fin Carre Eigenmarken",
@@ -2017,6 +3324,137 @@
           "id": "eu-bio",
           "rolle": "teilweise Produktbezug bei Bio-Schokolade",
           "einordnung": "Bio ist fuer einzelne Fairglobe-Produkte relevant, aber nicht die Grundlage des Lieferkettenscores."
+        }
+      ]
+    },
+    {
+      "id": "pukka-kraeutertee-fairwild",
+      "unternehmen": "Pukka Herbs / ekaterra",
+      "marke": "Pukka",
+      "warengruppe": "Kraeutertee",
+      "rohstoffe": [
+        "Kraeuter",
+        "Wildpflanzen",
+        "Gewuerze"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Kraeutertees",
+          "FairWild-Bezug fuer ausgewiesene Wildpflanzen"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifizierte-botanische-rohstoffketten",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 1,
+        "final": 7,
+        "anmerkung": "Starker botanischer Rohstofffall, aber komplexe Multi-Ingredient-Produkte bleiben nur begrenzt chargentransparent."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "pukka-sustainability",
+            "fairwild-standard"
+          ]
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "pukka-sourcing"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -1,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "fairwild-standard"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "wildsammlung-und-kleinlieferanten",
+          "beschreibung": "Botanische Rohstoffe und Wildpflanzen brauchen Schutz vor Uebernutzung und faire Sammelbedingungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairwild-standard"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "fairwild-und-bio",
+          "beschreibung": "Pukka kommuniziert Bio- und FairWild-nahe Beschaffung fuer botanische Rohstoffe.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "pukka-sustainability",
+            "fairwild-standard"
+          ]
+        }
+      ],
+      "begruendung": "Pukka ergaenzt die Lieferkettenbasis um Kraeutertee und botanische Rohstoffe. FairWild/Bio-Bezug und Rohstoffkommunikation sind stark, aber Mischprodukte mit vielen Zutaten bleiben nicht vollstaendig produktscharf.",
+      "quellen": [
+        {
+          "id": "pukka-sustainability",
+          "titel": "Pukka: Sustainability",
+          "url": "https://www.pukkaherbs.com/uk/en/sustainability",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit",
+            "bio",
+            "kraeuter"
+          ]
+        },
+        {
+          "id": "pukka-sourcing",
+          "titel": "Pukka: Sourcing herbs",
+          "url": "https://www.pukkaherbs.com/uk/en/wellbeing-articles/how-we-source-our-herbs",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "sourcing",
+            "kraeuter",
+            "lieferanten"
+          ]
+        },
+        {
+          "id": "fairwild-standard",
+          "titel": "FairWild Standard",
+          "url": "https://www.fairwild.org/fairwild-standard",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "wildpflanzen",
+            "biodiversitaet",
+            "fair"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die botanische Rohstoff- und Warengruppenlogik, nicht jede einzelne Teemischung.",
+      "relevante_siegel": [
+        {
+          "id": "fairwild",
+          "rolle": "Rohstoffstandard fuer Wildpflanzen",
+          "einordnung": "FairWild ist im konkreten Fall ein starker, aber zutatenbezogener Baustein."
+        },
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Basis",
+          "einordnung": "Bio deckt Anbaupraxis, nicht automatisch faire Wildsammlung."
         }
       ]
     },
@@ -2196,6 +3634,122 @@
       ]
     },
     {
+      "id": "rewe-bananen-pro-planet-qr",
+      "unternehmen": "REWE Group",
+      "marke": "REWE Beste Wahl / REWE Eigenmarken",
+      "warengruppe": "Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Bananen mit QR-/Erzeugerbetrieb- bzw. Pro-Planet-Bezug"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "qr-gestuetzte-herkunftstransparenz",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 2,
+        "final": 5,
+        "anmerkung": "Herkunftstransparenz besser als Branchendurchschnitt, aber Bananenrisiken bleiben hoch."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-bananen",
+            "rewe-leitlinie-obst-gemuese"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "bananen-loehne-pestizide-klima",
+          "beschreibung": "Bananen sind risikobehaftet durch Preisdruck, Lohnfragen, Pestizide und Klimarisiken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "qr-transparenz",
+          "beschreibung": "REWE nutzt fuer bestimmte Bananen einen Verbraucherzugang zu Erzeuger- und Herkunftsinformationen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-bananen"
+          ]
+        }
+      ],
+      "begruendung": "REWE Bananen sind ein alltagsnaher Obstfall. Der QR-/Herkunftsbezug verbessert die Transparenz, die Bewertung bleibt aber mittel, weil Herkunftsinfo nicht automatisch faire Loehne oder vollstaendige Sozialkontrolle bedeutet.",
+      "quellen": [
+        {
+          "id": "rewe-bananen",
+          "titel": "REWE: Bananen und Herkunftsinformationen",
+          "url": "https://www.rewe.de/nachhaltigkeit/bessere-bananen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bananen",
+            "qr",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "rewe-leitlinie-obst-gemuese",
+          "titel": "REWE Group: Leitlinie Obst und Gemuese",
+          "url": "https://www.rewe-group.com/de/nachhaltigkeit/gruene-produkte/leitlinien/leitlinie-obst-und-gemuese/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "obst",
+            "lieferkette",
+            "anforderungen"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-banana",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "bananen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Nur bei konkretem QR-/Produktbezug als staerker transparente Kette anzeigen.",
+      "relevante_siegel": [
+        {
+          "id": "rainforest-alliance",
+          "rolle": "haeufiger Plantagenstandard",
+          "einordnung": "Zertifizierung und QR-Herkunft sind getrennte Informationsarten."
+        },
+        {
+          "id": "fairtrade",
+          "rolle": "Sozialstandard im Sektor",
+          "einordnung": "Nicht jede REWE-Banane ist Fairtrade; Produktbezug pruefen."
+        }
+      ]
+    },
+    {
       "id": "rewe-bio-cafe-mujer-kaffee-peru",
       "unternehmen": "REWE Group",
       "marke": "REWE Bio / Cafe Mujer",
@@ -2330,6 +3884,117 @@
           "id": "eu-bio",
           "rolle": "Bio-Mindeststandard fuer Kaffeeanbau",
           "einordnung": "Bio stuetzt die oekologische Produktionsseite, ersetzt aber nicht die Lieferkettenbewertung."
+        }
+      ]
+    },
+    {
+      "id": "rewe-pro-planet-ananas",
+      "unternehmen": "REWE Group",
+      "marke": "REWE Beste Wahl / REWE Eigenmarken",
+      "warengruppe": "Ananas",
+      "rohstoffe": [
+        "Ananas"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Pro-Planet-/Eigenmarken-Ananas im Frischebereich"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "programmgestuetzte-obstlieferkette",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 2,
+        "final": 3,
+        "anmerkung": "Programm- und Leitlinienfall, aber weniger konkret als Bananen-QR oder Fairhandelsketten."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-pro-planet",
+            "rewe-leitlinie-obst-gemuese"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tropenfrucht-arbeitsbedingungen",
+          "beschreibung": "Tropenfruchtlieferketten sind fuer Arbeitsbedingungen, Pestizide und Preisdruck risikobehaftet.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rewe-leitlinie-obst-gemuese"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "pro-planet-leitlinie",
+          "beschreibung": "REWE setzt fuer Obst und Gemuese Leitlinien und Pro-Planet-Kontexte ein.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-pro-planet",
+            "rewe-leitlinie-obst-gemuese"
+          ]
+        }
+      ],
+      "begruendung": "REWE Ananas ist ein nuetzlicher Vergleichsfall zu Bananen: Es gibt Programm- und Leitlinienbezug, aber weniger konkrete oeffentliche Lieferkettentransparenz. Deshalb bleibt der Score niedrig bis mittel.",
+      "quellen": [
+        {
+          "id": "rewe-pro-planet",
+          "titel": "REWE: PRO PLANET",
+          "url": "https://www.rewe.de/nachhaltigkeit/pro-planet/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "pro-planet",
+            "eigenmarken"
+          ]
+        },
+        {
+          "id": "rewe-leitlinie-obst-gemuese",
+          "titel": "REWE Group: Leitlinie Obst und Gemuese",
+          "url": "https://www.rewe-group.com/de/nachhaltigkeit/gruene-produkte/leitlinien/leitlinie-obst-und-gemuese/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "obst",
+            "lieferkette",
+            "anforderungen"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-banana",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "tropenfrucht-vergleichsrisiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "hoch",
+      "hinweis_fuer_app": "Programmfall ohne chargengenaue Herkunft; niedriger als QR- oder Direktbezugsketten.",
+      "relevante_siegel": [
+        {
+          "id": "regionalfenster",
+          "rolle": "nicht einschlaegig",
+          "einordnung": "Dieser Importfall zeigt, warum Herkunftszeichen und globale Obstketten getrennt behandelt werden muessen."
         }
       ]
     },
@@ -2495,6 +4160,144 @@
           "id": "rainforest-alliance",
           "rolle": "teilweise externer Standard im Kakao-Kontext",
           "einordnung": "Der Lieferkettenscore entsteht nicht allein durch Zertifizierung, sondern durch eigene Farm und Kakaoprogramme."
+        }
+      ]
+    },
+    {
+      "id": "rossmann-alterra-palmoel-derivate",
+      "unternehmen": "Dirk Rossmann GmbH",
+      "marke": "Alterra",
+      "warengruppe": "Naturkosmetik",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "Alterra Naturkosmetik",
+          "Palmrohstoff- und RSPO-/FONAP-Bezug"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rspo-fonap-warengruppenstrategie",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 3,
+        "final": 2,
+        "anmerkung": "Palmstrategie vorhanden, aber Drogerie-Derivate bleiben schwer physisch rueckverfolgbar."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rossmann-palmoel",
+            "fonap-rossmann"
+          ]
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rspo-supply-chain"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palmdrivate-transparenz",
+          "beschreibung": "Palmderivate in Kosmetik sind in der Vorstufe oft nur begrenzt physisch rueckverfolgbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rspo-supply-chain"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "palm-strategie",
+          "beschreibung": "Rossmann kommuniziert Nachhaltigkeitsmassnahmen zu Palmrohstoffen und ist im FONAP-Kontext sichtbar.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rossmann-palmoel",
+            "fonap-rossmann"
+          ]
+        }
+      ],
+      "begruendung": "Alterra/Rossmann ist als Drogerie-Handelsfall wichtig, wird aber niedriger bewertet als transparentere Spezialmarken. Die oeffentliche Ebene bleibt eher Strategie- als Produktketteninformation.",
+      "quellen": [
+        {
+          "id": "rossmann-palmoel",
+          "titel": "ROSSMANN: Palmoel",
+          "url": "https://www.rossmann.de/de/nachhaltigkeit-palmoel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm",
+            "drogerie",
+            "strategie"
+          ]
+        },
+        {
+          "id": "fonap-rossmann",
+          "titel": "FONAP: Mitglieder und Partner",
+          "url": "https://www.forumpalmoel.org/mitglieder",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fonap",
+            "mitgliedschaft"
+          ]
+        },
+        {
+          "id": "rspo-supply-chain",
+          "titel": "RSPO: Supply Chain Certification",
+          "url": "https://rspo.org/as-an-organisation/certification/supply-chains/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "mass-balance",
+            "supply-chain-modelle"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil",
+          "titel": "WWF: Palm Oil",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "palm-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertung auf Unternehmens-/Warengruppenebene, keine Einzelproduktkette.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "Relevant, aber wegen Derivaten und Mass Balance nur begrenzt produktscharf."
+        },
+        {
+          "id": "natrue",
+          "rolle": "Naturkosmetikstandard",
+          "einordnung": "Produktstandard und Palmrohstoffstrategie bleiben getrennte Bewertungsebenen."
         }
       ]
     },
@@ -2704,6 +4507,118 @@
       ]
     },
     {
+      "id": "teekampagne-darjeeling-tee",
+      "unternehmen": "Projektwerkstatt GmbH",
+      "marke": "Teekampagne",
+      "warengruppe": "Darjeeling-Tee",
+      "rohstoffe": [
+        "Schwarztee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Direktimport von Darjeeling-Tee",
+          "reduziertes Sortiment",
+          "Herkunfts- und Plantagenbezug"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "direktimport-spezialisierte-herkunft",
+      "kettentyp": "Direktbezug",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 2,
+        "final": 9,
+        "anmerkung": "Sehr transparenter Spezialfall, aber Tee aus Darjeeling bleibt arbeitsrechtlich und klimatisch risikobehaftet."
+      },
+      "faktoren": [
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "teekampagne-prinzip",
+            "teekampagne-nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "fairtrade-riskmap-tea"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tee-arbeitsbedingungen",
+          "beschreibung": "Teeproduktion ist weltweit risikobehaftet fuer Arbeitsbedingungen, Loehne und Klima.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-tea"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "direktimport",
+          "beschreibung": "Teekampagne beschreibt ein spezialisiertes Direktimportmodell mit Fokus auf Darjeeling.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "teekampagne-prinzip"
+          ]
+        }
+      ],
+      "begruendung": "Teekampagne ist ein starker Tee-Pilotfall, weil das Geschaeftsmodell stark auf Herkunft, Direktimport und reduzierte Sortimentskomplexitaet ausgerichtet ist. Die Abwertung reflektiert die strukturellen Risiken im Teesektor.",
+      "quellen": [
+        {
+          "id": "teekampagne-prinzip",
+          "titel": "Teekampagne: Das Prinzip",
+          "url": "https://www.teekampagne.de/das-prinzip",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "direktimport",
+            "sortiment",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "teekampagne-nachhaltigkeit",
+          "titel": "Teekampagne: Nachhaltigkeit",
+          "url": "https://www.teekampagne.de/nachhaltigkeit",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit",
+            "darjeeling"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-tea",
+          "titel": "Fairtrade Risk Map: Tea",
+          "url": "https://riskmap.fairtrade.net/commodities/tea",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "tee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Starker Warengruppenfall, aber nicht chargengenau fuer jede Packung.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Vergleichsstandard fuer Tee",
+          "einordnung": "Die Teekampagne-Bewertung basiert primaer auf Direktimport und Herkunftsmodell, nicht auf Fairtrade."
+        }
+      ]
+    },
+    {
       "id": "tonys-chocolonely-schokolade-kakao",
       "unternehmen": "Tony's Chocolonely",
       "marke": "Tony's Chocolonely",
@@ -2879,6 +4794,103 @@
           "id": "fairtrade",
           "rolle": "Rohstoff- und Sozialstandard im Kakaoeinkauf",
           "einordnung": "Der hohe Lieferkettenscore entsteht nicht durch das generische Fairtrade-Siegel allein, sondern durch zusaetzliche Open-Chain-Elemente wie Bean Tracker, Living-Income-Preis, CLMRS und Farmmapping."
+        }
+      ]
+    },
+    {
+      "id": "voelkel-direktsaft-streuobst",
+      "unternehmen": "Voelkel GmbH",
+      "marke": "Voelkel",
+      "warengruppe": "Bio-Saft",
+      "rohstoffe": [
+        "Aepfel",
+        "Streuobst",
+        "Fruechte"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bio-Saft und Streuobstbezug",
+          "Herstellerkommunikation zu Rohstoffpartnerschaften"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "regionale-und-bio-rohstoffpartnerschaften",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7,
+        "anmerkung": "Guter Obst-/Saftfall mit Bio- und Streuobstbezug, aber nicht chargengenau."
+      },
+      "faktoren": [
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "voelkel-nachhaltigkeit",
+            "voelkel-streuobst"
+          ]
+        }
+      ],
+      "risiken": [
+        {
+          "id": "obst-rohstoffschwankungen",
+          "beschreibung": "Obstsaftlieferketten bleiben abhaengig von Ernte, Herkunft und Mischungen verschiedener Rohstoffe.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "voelkel-nachhaltigkeit"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "bio-und-streuobst",
+          "beschreibung": "Voelkel kommuniziert Bio-Rohstoffe, Streuobst und langfristige Rohstoffbeziehungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "voelkel-nachhaltigkeit",
+            "voelkel-streuobst"
+          ]
+        }
+      ],
+      "begruendung": "Voelkel ergaenzt die Datenbasis um Saft und regionale/bio-basierte Obstketten. Die Bewertung ist positiv, weil Rohstoffpartnerschaften und Streuobstbezug transparent kommuniziert werden, aber nicht als chargengenaue Ursprungskette.",
+      "quellen": [
+        {
+          "id": "voelkel-nachhaltigkeit",
+          "titel": "Voelkel: Nachhaltigkeit",
+          "url": "https://voelkeljuice.de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "rohstoffe",
+            "partnerschaften"
+          ]
+        },
+        {
+          "id": "voelkel-streuobst",
+          "titel": "Voelkel: Streuobst",
+          "url": "https://voelkeljuice.de/nachhaltigkeit/streuobst/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "streuobst",
+            "biodiversitaet",
+            "regional"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Warengruppe Saft/Streuobst, nicht eine konkrete Charge.",
+      "relevante_siegel": [
+        {
+          "id": "eu-bio",
+          "rolle": "Bio-Basis",
+          "einordnung": "Bio ist relevant, die Lieferkettenbewertung stuetzt sich aber auch auf Rohstoffpartnerschaften."
         }
       ]
     },

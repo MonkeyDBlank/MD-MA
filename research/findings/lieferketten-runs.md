@@ -229,3 +229,48 @@ Neue Eintraege: `gepa-schokolade-kakao-cooproagro` und `lidl-way-to-go-schokolad
 ## Lauf 008 - Lieferketten Kakao/Kaffee (2026-06-02)
 
 Neue Eintraege: `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru`, `alnatura-peru-cafe-bio-kaffee`. Die Bewertungen bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt; keine chargengenaue Herkunft wird behauptet, wenn sie nicht oeffentlich belegt ist.
+
+## Lauf 009 - Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Die Lieferkettenbasis von 18 auf 35 aktive Pilotfaelle erweitern.
+
+### Eingesetzte Agentenlogik
+
+- `discovery-agent`: neue Pilotfaelle gegen bestehende IDs und Scope abgeglichen
+- `research-agent`: Primaerquellen, Unternehmensseiten, Standards und Risikokontexte gesammelt
+- `source-audit-agent`: zwischen Unternehmensangaben, Standardquellen und unabhaengigem Risikokontext unterschieden
+- `scoring-agent`: Lieferkettenmatrix angewendet
+- `review-agent`: keine produktscharfe Aussage zugelassen, wenn nur Warengruppen- oder Unternehmensdaten belegt sind
+- `output-agent`: Draft und finale JSONs im bestehenden Schema erstellt
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-009.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Neue Eintraege
+
+- `aldi-nord-eigenmarken-kaffee-kakao-tee-zertifiziert`
+- `aldi-sued-choceur-choco-changer-kakao`
+- `dm-denkmit-spuelmittel-tenside-circular-feedstock`
+- `dmbio-kaffee-bio-fairtrade`
+- `edeka-eigenmarken-fisch-ftrace`
+- `fair-rubber-kondome-naturkautschuk`
+- `kaufland-fleisch-eigenmarke-ftrace`
+- `lavera-naturkosmetik-palmoel-derivate`
+- `lebensbaum-tee-gewuerze-we-care`
+- `lidl-bananen-living-wage-kolumbien`
+- `lidl-eigenmarken-palmoel-rspo`
+- `pukka-kraeutertee-fairwild`
+- `rewe-bananen-pro-planet-qr`
+- `rewe-pro-planet-ananas`
+- `rossmann-alterra-palmoel-derivate`
+- `teekampagne-darjeeling-tee`
+- `voelkel-direktsaft-streuobst`
+
+### Methodische Hinweise
+
+- Neue Handelsfaelle mit Tracking oder Warengruppenprogrammen wurden niedriger bewertet als Direktbezug oder chargennahe Systeme.
+- Palm- und Tensidfaelle in Drogerieprodukten bleiben wegen Derivaten, Mass-Balance-Modellen und begrenzter Produktschaerfe bewusst im niedrigen bis mittleren Bereich.
+- Kakao-, Kaffee-, Tee- und Bananenfaelle enthalten Rohstoffrisiko-Abzuege, wenn keine starke Sonderlogik die Risiken ausreichend adressiert.
