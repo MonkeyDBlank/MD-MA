@@ -49,7 +49,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 50 Eintraege
+- 569 Eintraege
 
 ## 2. lieferketten.json
 
@@ -78,7 +78,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 35 Eintraege
+- 200 Eintraege
 
 ## 3. glossar.json
 
@@ -98,7 +98,7 @@ Kernelemente:
 
 Aktiver Stand:
 
-- 24 Begriffe
+- 112 Begriffe
 
 ## Modellregel
 

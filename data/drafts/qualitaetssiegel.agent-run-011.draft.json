@@ -1,0 +1,1490 @@
+{
+  "version": "2026.8",
+  "typ": "qualitaetssiegel",
+  "stand": "2026-06-22",
+  "eintraege": [
+    {
+      "id": "ama-biosiegel",
+      "name": "AMA-Biosiegel",
+      "kategorie": "Regionales Bio-Qualitaetszeichen",
+      "region": [
+        "Oesterreich",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "regional",
+        "staatlich-anerkannt",
+        "qualitaetszeichen"
+      ],
+      "produktbereich": [
+        "Bio-Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "AMA-Marketing GesmbH",
+      "standardtyp": "staatlich anerkanntes oesterreichisches Bio-Qualitaetszeichen auf EU-Bio-Basis mit Zusatzanforderungen",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 7,
+        "plus": 2,
+        "minus": -1,
+        "final": 8,
+        "anmerkung": "Regionaler Bio-Zusatznutzen, aber kein umfassender Fair-Trade-Standard."
+      },
+      "faktoren": [
+        {
+          "id": "staatliche-systemkontrolle",
+          "name": "Staatliche Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "ama-bio-info",
+            "ama-bio-richtlinie"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "transparente-herkunftsangabe",
+          "name": "Transparente Herkunftsangabe",
+          "wert": 1,
+          "quelle_ids": [
+            "ama-bio-info"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "ama-bio-richtlinie"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Das AMA-Biosiegel ist fuer Lebensmittel im deutschsprachigen Markt relevant. Es baut auf EU-Bio auf und ergaenzt Herkunfts-, Qualitaets- und Kontrollanforderungen, bleibt aber methodisch ein Bio-/Qualitaetszeichen und kein Sozialstandard.",
+      "quellen": [
+        {
+          "id": "ama-bio-info",
+          "titel": "AMA: Wofuer steht das AMA-Biosiegel?",
+          "url": "https://b2b.amainfo.at/de-at/richtlinien-teilnahme/qualitaets-und-guetezeichen/ama-biosiegel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "bio",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "ama-bio-richtlinie",
+          "titel": "AMA-Biosiegel-Richtlinie",
+          "url": "https://media.hendriks.amainfo.at/662a432430545b7f0ef90cef/AMA-Biosiegel-Richtlinie.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "richtlinie",
+            "kontrolle",
+            "qualitaet"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ama-guetesiegel",
+      "name": "AMA-Guetesiegel",
+      "kategorie": "Regional-/Herkunftszeichen",
+      "region": [
+        "Oesterreich",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "regional",
+        "herkunft",
+        "qualitaetszeichen",
+        "kontrolle"
+      ],
+      "produktbereich": [
+        "Fleisch",
+        "Milch",
+        "Eier",
+        "Obst",
+        "Gemuese",
+        "verarbeitete Lebensmittel"
+      ],
+      "traeger": "AMA-Marketing GesmbH",
+      "standardtyp": "oesterreichisches Herkunfts- und Qualitaetszeichen mit produktgruppenspezifischen Richtlinien und Kontrollen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 2,
+        "minus": -1,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "transparente-herkunftsangabe",
+          "name": "Transparente Herkunftsangabe",
+          "wert": 1,
+          "quelle_ids": [
+            "ama-guete-info"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "ama-guete-info",
+            "ama-guete-obst"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "ama-guete-info"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Das AMA-Guetesiegel ist fuer Herkunft und gepruefte Qualitaet nuetzlich, aber kein umfassendes Nachhaltigkeits- oder Fair-Trade-Siegel. Die Bewertung bleibt deshalb moderat.",
+      "quellen": [
+        {
+          "id": "ama-guete-info",
+          "titel": "AMA: AMA-Guetesiegel",
+          "url": "https://amainfo.at/de-at/siegel/ama-guetesiegel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "herkunft",
+            "qualitaet",
+            "kontrollen"
+          ]
+        },
+        {
+          "id": "ama-guete-obst",
+          "titel": "AMA-Guetesiegel: Obst, Gemuese und Speiseerdaepfel",
+          "url": "https://b2b.amainfo.at/de-at/richtlinien-teilnahme/landwirtschaft/obst-gemuese-speiseerdaepfel",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "lieferkette",
+            "kontrollsystem"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "bio-austria",
+      "name": "BIO AUSTRIA",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Oesterreich",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "verbandssiegel",
+        "produktstandard"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "BIO AUSTRIA",
+      "standardtyp": "oesterreichischer Bio-Verbandsstandard mit eigenen Richtlinien",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": -1,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; Deutschlandbezug vor allem ueber Import- und Handelssichtbarkeit."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "bio-austria-richtlinien"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "bio-austria-home"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "BIO AUSTRIA ist ein strenger Bio-Verband im deutschsprachigen Raum. Die Aufnahme ist sinnvoll fuer importierte oder sichtbare oesterreichische Bio-Lebensmittel, aber der deutsche Marktbezug ist geringer als bei deutschen Verbandssiegeln.",
+      "quellen": [
+        {
+          "id": "bio-austria-home",
+          "titel": "BIO AUSTRIA",
+          "url": "https://www.bio-austria.at/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "bio-verband"
+          ]
+        },
+        {
+          "id": "bio-austria-richtlinien",
+          "titel": "BIO AUSTRIA: Richtlinien",
+          "url": "https://www.bio-austria.at/bio-bauern/beratung/richtlinien/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "richtlinien",
+            "bio-standard"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "best-aquaculture-practices",
+      "name": "Best Aquaculture Practices (BAP)",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "aquakultur",
+        "fisch",
+        "seafood",
+        "chain-of-custody",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Zuchtfisch",
+        "Meeresfruechte aus Aquakultur"
+      ],
+      "traeger": "Global Seafood Alliance",
+      "standardtyp": "freiwilliges Aquakultur-Zertifizierungsprogramm fuer mehrere Stufen der Produktionskette",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -1,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "systemische-rueckverfolgbarkeit",
+          "name": "Systemische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "bap-standards",
+            "bap-what-we-do"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzte-externe-validierung",
+          "name": "Begrenzte externe Validierung",
+          "wert": -1,
+          "quelle_ids": [
+            "bap-standards"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "BAP ist ein relevanter globaler Aquakulturstandard mit Stufenbezug ueber Verarbeitung, Farm, Hatchery und Futtermuehle. Im deutschen Kontext wird er vorsichtig unter ASC eingeordnet, solange konkrete Produkt- und Kritiklage nicht staerker belegt ist.",
+      "quellen": [
+        {
+          "id": "bap-standards",
+          "titel": "BAP: Standards and Guidelines",
+          "url": "https://www.bapcertification.org/Standards",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standards",
+            "produktionskette"
+          ]
+        },
+        {
+          "id": "bap-what-we-do",
+          "titel": "BAP: What We Do",
+          "url": "https://www.bapcertification.org/WhatWeDo",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "aquakultur",
+            "zertifizierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "cse-certified-sustainable-economics",
+      "name": "CSE Certified Sustainable Economics",
+      "kategorie": "Unternehmenszertifizierung / ESG-Impact-Standard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "naturkosmetik",
+        "waschmittel",
+        "unternehmen",
+        "nachhaltigkeitsmanagement"
+      ],
+      "produktbereich": [
+        "Naturkosmetik",
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Drogerieprodukte"
+      ],
+      "traeger": "GfaW Gesellschaft fuer angewandte Wirtschaftsethik",
+      "standardtyp": "Nachhaltigkeitsstandard fuer Unternehmen mit sichtbarem Bezug zu Naturwaren- und Drogeriemarken",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -1,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "cse-standard"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "cse-standard"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "CSE ist kein klassisches Produktsiegel, aber fuer Drogerie- und Naturwarenmarken als Unternehmens- und Nachhaltigkeitsstandard relevant. Wegen des begrenzten Produktbezugs wird es nur vorsichtig aufgenommen.",
+      "quellen": [
+        {
+          "id": "cse-standard",
+          "titel": "GfaW: CSE Certified Sustainable Economics",
+          "url": "https://gfaw.eu/cse-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "unternehmen",
+            "nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "cse-certified-companies",
+          "titel": "GfaW: CSE certified companies",
+          "url": "https://gfaw.eu/en/certified-companies/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierte-unternehmen"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "certified-vegan-vegan-action",
+      "name": "Certified Vegan / Vegan Action",
+      "kategorie": "Vegan-/Vegetarischstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "vegan",
+        "lebensmittel",
+        "drogerie",
+        "inhaltsstoffpruefung",
+        "prozessstandard"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Kosmetik",
+        "Koerperpflege",
+        "Haushaltsprodukte"
+      ],
+      "traeger": "Vegan Awareness Foundation / Vegan Action",
+      "standardtyp": "freiwilliges veganes Produktzeichen fuer Zutaten- und Prozessanforderungen",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 3,
+        "plus": 1,
+        "minus": 0,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucherorientierung",
+          "wert": 1,
+          "quelle_ids": [
+            "certified-vegan-standard",
+            "vz-vegan-labels"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Certified Vegan ist ein international sichtbares veganes Produktzeichen. Es ist hilfreich fuer Zutaten- und Prozessfragen, aber kein Umwelt-, Bio- oder Sozialstandard.",
+      "quellen": [
+        {
+          "id": "certified-vegan-standard",
+          "titel": "Vegan Action: Certified Vegan Standards",
+          "url": "https://vegan.org/certification/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "vegan",
+            "zertifizierung"
+          ]
+        },
+        {
+          "id": "vz-vegan-labels",
+          "titel": "Verbraucherzentrale: Vegetarische und vegane Lebensmittel erkennen",
+          "url": "https://www.verbraucherzentrale.de/wissen/lebensmittel/gesund-ernaehren/vegetarische-und-vegane-lebensmittel-erkennen-worauf-muss-ich-achten-68457",
+          "quelle_typ": "verbraucherorganisation",
+          "belegt": [
+            "verbraucherorientierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ecocert-natural-detergents",
+      "name": "Ecocert Natural Detergents",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "EU",
+        "Deutschland",
+        "global"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "waschmittel",
+        "reinigungsmittel",
+        "naturprodukt",
+        "produktstandard"
+      ],
+      "produktbereich": [
+        "Waschmittel",
+        "Reinigungsmittel",
+        "Spuelmittel"
+      ],
+      "traeger": "Ecocert",
+      "standardtyp": "freiwilliger Standard fuer natuerliche Wasch- und Reinigungsmittel",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 0,
+        "minus": -1,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "ecocert-detergents"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Der Ecocert-Standard fuer natuerliche Wasch- und Reinigungsmittel ergaenzt die Drogerieabdeckung neben Ecocert Ecodetergents. Er adressiert Produktingredienzen und Umweltaspekte, nicht aber eine umfassende Sozial- oder Lieferkettenbewertung.",
+      "quellen": [
+        {
+          "id": "ecocert-detergents",
+          "titel": "Ecocert: Natural detergents certification",
+          "url": "https://www.ecocert.com/en/certification-detail/natural-detergents",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "reinigungsmittel"
+          ]
+        },
+        {
+          "id": "ecocert-homecare",
+          "titel": "Ecocert: Home care certification",
+          "url": "https://www.ecocert.com/en/certification",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "produktstandard"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "equitable-food-initiative",
+      "name": "Equitable Food Initiative (EFI)",
+      "kategorie": "Sozial-/Arbeitsstandard",
+      "region": [
+        "global",
+        "USA",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "obst",
+        "gemuese",
+        "sozialstandard",
+        "arbeitsschutz",
+        "drittzertifizierung"
+      ],
+      "produktbereich": [
+        "Obst",
+        "Gemuese",
+        "Frischeprodukte"
+      ],
+      "traeger": "Equitable Food Initiative",
+      "standardtyp": "freiwilliger Sozial-, Lebensmittelsicherheits- und IPM-Standard fuer Frischeprodukte",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": -1,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "efi-certification",
+            "efi-standards"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "efi-certified-farms"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "EFI ist fuer Frischeprodukte interessant, weil Arbeitsbedingungen, Lebensmittelsicherheit und integrierter Pflanzenschutz gemeinsam adressiert werden. Der direkte Deutschlandbezug ist begrenzt, daher vorsichtige Bewertung.",
+      "quellen": [
+        {
+          "id": "efi-certification",
+          "titel": "EFI: Certification",
+          "url": "https://equitablefood.org/efi-certification/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "arbeitsbedingungen"
+          ]
+        },
+        {
+          "id": "efi-standards",
+          "titel": "EFI: Certification Standards",
+          "url": "https://equitablefood.org/efi-standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standards",
+            "food-safety",
+            "ipm"
+          ]
+        },
+        {
+          "id": "efi-certified-farms",
+          "titel": "EFI: Certified Operations",
+          "url": "https://equitablefood.org/efi-certified-farms/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierte-betriebe"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "flustix-plastikfrei",
+      "name": "Flustix Plastikfrei",
+      "kategorie": "Umweltzeichen / Produktstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "drogerie",
+        "lebensmittel",
+        "plastikfrei",
+        "produktstandard",
+        "verpackung-und-produkt"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Drogerieprodukte",
+        "Lebensmittel mit plastikfreiem Produktclaim"
+      ],
+      "traeger": "Flustix GmbH",
+      "standardtyp": "freiwilliges Zeichen fuer plastikfreie Produkte oder Produktbestandteile mit Pruef- und Lizenzmodell",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 0,
+        "minus": -2,
+        "final": 5
+      },
+      "faktoren": [
+        {
+          "id": "begrenzter-nachhaltigkeitsanspruch",
+          "name": "Begrenzter Nachhaltigkeitsanspruch",
+          "wert": -1,
+          "quelle_ids": [
+            "flustix-standard"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "verpackungsnaehe",
+          "name": "Verpackungsnaehe",
+          "wert": -1,
+          "quelle_ids": [
+            "flustix-standard"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Flustix ist nur dann im Scope relevant, wenn der Claim direkt Produktbestandteile oder drogerie-/lebensmittelnahe Plastikfreiheit betrifft. Es ist kein breites Nachhaltigkeitssiegel und wird deshalb begrenzt bewertet.",
+      "quellen": [
+        {
+          "id": "flustix-standard",
+          "titel": "Flustix: Certification",
+          "url": "https://flustix.com/en/certification/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "plastikfrei",
+            "zertifizierung"
+          ]
+        },
+        {
+          "id": "flustix-home",
+          "titel": "Flustix",
+          "url": "https://flustix.com/en/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zeichen",
+            "produktclaim"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "ggn-label",
+      "name": "GGN Label",
+      "kategorie": "Industrie- & Prozessstandard",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "obst",
+        "gemuese",
+        "aquakultur",
+        "rueckverfolgbarkeit",
+        "globalgap"
+      ],
+      "produktbereich": [
+        "Obst",
+        "Gemuese",
+        "Aquakulturprodukte"
+      ],
+      "traeger": "GLOBALG.A.P. / Agraya",
+      "standardtyp": "verbraucherorientiertes Label fuer zertifizierte verantwortliche Landwirtschaft und Rueckverfolgbarkeit",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 2,
+        "plus": 2,
+        "minus": 0,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "ggn-about"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "systemische-rueckverfolgbarkeit",
+          "name": "Systemische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "ggn-faq"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Das GGN Label macht GLOBALG.A.P.-basierte Erzeugung fuer Verbraucher sichtbarer und beinhaltet Rueckverfolgbarkeit. Es bleibt aber ein Prozess- und Transparenzlabel, kein Premium-Nachhaltigkeitsstandard.",
+      "quellen": [
+        {
+          "id": "ggn-about",
+          "titel": "GGN Label: About",
+          "url": "https://ggn.org/About",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "label",
+            "chain-of-custody",
+            "rueckverfolgbarkeit"
+          ]
+        },
+        {
+          "id": "ggn-faq",
+          "titel": "GGN Label: FAQ",
+          "url": "https://ggn.org/FAQ",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "coc",
+            "transparenz"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "icada-natural",
+      "name": "ICADA Natural",
+      "kategorie": "Natur-/Biokosmetikstandard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "naturkosmetik",
+        "drogerie",
+        "kosmetik",
+        "produktstandard"
+      ],
+      "produktbereich": [
+        "Kosmetik",
+        "Koerperpflege"
+      ],
+      "traeger": "ICADA e.V.",
+      "standardtyp": "freiwilliger Naturkosmetikstandard fuer naturnahe Kosmetikprodukte",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 0,
+        "minus": -1,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "begrenzte-sozialdimension",
+          "name": "Begrenzte Sozialdimension",
+          "wert": -1,
+          "quelle_ids": [
+            "icada-standard"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "ICADA Natural ist als weiterer deutscher Naturkosmetikstandard relevant, aber weniger breit und prominent als NATRUE oder COSMOS. Der Score bleibt daher moderat.",
+      "quellen": [
+        {
+          "id": "icada-standard",
+          "titel": "ICADA: Natural Cosmetics Standard",
+          "url": "https://www.icada.eu/en/natural-cosmetics-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "naturkosmetik"
+          ]
+        },
+        {
+          "id": "icada-home",
+          "titel": "ICADA",
+          "url": "https://www.icada.eu/en/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "zertifizierung"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "krav",
+      "name": "KRAV",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Schweden",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "verbandssiegel",
+        "tierwohl",
+        "klima",
+        "sozial"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Fisch",
+        "landwirtschaftliche Erzeugnisse",
+        "verarbeitete Bio-Lebensmittel"
+      ],
+      "traeger": "KRAV ekonomisk foerening",
+      "standardtyp": "schwedischer Bio- und Nachhaltigkeitsstandard mit Anforderungen ueber EU-Bio hinaus",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": -1,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; Deutschlandbezug vor allem bei Importprodukten."
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "krav-label",
+            "krav-standards"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "krav-label"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "KRAV ist ein starker nordischer Bio- und Nachhaltigkeitsstandard mit Umwelt-, Tierwohl- und Arbeitsaspekten. Im deutschen Projektkontext wird er wegen Import- und Handelssichtbarkeit aufgenommen, aber mit begrenztem Deutschlandbezug.",
+      "quellen": [
+        {
+          "id": "krav-label",
+          "titel": "KRAV: A Label for Organic Food",
+          "url": "https://www.krav.se/en/this-is-krav/a-label-for-organic-food/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "tierwohl",
+            "biodiversitaet"
+          ]
+        },
+        {
+          "id": "krav-standards",
+          "titel": "KRAV: Download the Standards",
+          "url": "https://www.krav.se/en/standards/download-krav-standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standards",
+            "eu-bio-plus"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "marintrust",
+      "name": "MarinTrust",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "fisch",
+        "marine-inhaltsstoffe",
+        "aquakulturfutter",
+        "chain-of-custody",
+        "rohstoff"
+      ],
+      "produktbereich": [
+        "Fischmehl",
+        "Fischoel",
+        "Aquakulturfutter",
+        "Fischprodukte mit marinen Zutaten"
+      ],
+      "traeger": "Marine Ingredients Certifications Ltd.",
+      "standardtyp": "Rohstoff- und Chain-of-Custody-Standard fuer marine Zutaten",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -1,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "marintrust-coc",
+            "marintrust-coc-traceability"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "marintrust-coc"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "MarinTrust ist fuer Fischmehl, Fischoel und Aquakulturfutter wichtig. Fuer Endverbraucherprodukte ist der Bezug oft indirekt, daher keine hohe Produktsiegelbewertung.",
+      "quellen": [
+        {
+          "id": "marintrust-coc",
+          "titel": "MarinTrust: Chain of Custody Standard",
+          "url": "https://www.marin-trust.com/chain-custody-standard",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "chain-of-custody",
+            "marine-zutaten"
+          ]
+        },
+        {
+          "id": "marintrust-coc-traceability",
+          "titel": "MarinTrust: Chain of Custody",
+          "url": "https://www.marin-trust.com/chain-custody-standard/chain-of-custody",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traceability",
+            "integrity"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "naturland-aquakultur",
+      "name": "Naturland Aquakultur",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "aquakultur",
+        "fisch",
+        "verbandssiegel",
+        "tierwohl",
+        "sozial"
+      ],
+      "produktbereich": [
+        "Zuchtfisch",
+        "Meeresfruechte aus Aquakultur"
+      ],
+      "traeger": "Naturland - Verband fuer oekologischen Landbau e.V.",
+      "standardtyp": "Naturland-Standard fuer oekologische Aquakultur",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": 0,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; Spezialstandard innerhalb des Naturland-Systems."
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "naturland-fish",
+            "naturland-aquaculture-pdf"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Naturland Aquakultur ist ein starker Spezialstandard fuer oekologische Fischzucht mit Tierwohl-, Umwelt- und Sozialbezug. Er wird getrennt aufgenommen, weil Fischprodukte in der App eigenstaendig relevant sind.",
+      "quellen": [
+        {
+          "id": "naturland-fish",
+          "titel": "Naturland: Bio-Fisch und Wildfang",
+          "url": "https://www.naturland.de/de/naturland/wofuer-wir-stehen/bio-fisch-wildfang.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "aquakultur",
+            "wildfisch"
+          ]
+        },
+        {
+          "id": "naturland-aquaculture-pdf",
+          "titel": "Naturland: Enjoy Eating Fish Sustainably",
+          "url": "https://www.naturland.de/images/03_partner/publikationen/pdf/Naturland-Enjoy-Eating-Fish-Sustainably-web.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "aquakultur",
+            "tierwohl",
+            "futter"
+          ]
+        }
+      ],
+      "unsicherheit": "niedrig"
+    },
+    {
+      "id": "naturland-wildfisch",
+      "name": "Naturland Wildfisch",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "fisch",
+        "wildfang",
+        "sozial",
+        "oekologie",
+        "chain-of-custody"
+      ],
+      "produktbereich": [
+        "Wildfisch",
+        "Fischprodukte"
+      ],
+      "traeger": "Naturland - Verband fuer oekologischen Landbau e.V.",
+      "standardtyp": "Standard fuer nachhaltige Wildfischerei mit oekologischen und sozialen Anforderungen",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8
+      },
+      "faktoren": [
+        {
+          "id": "externe-verbraucher-validierung",
+          "name": "Externe Verbraucher-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "naturland-fish"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "naturland-fish"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "Naturland Wildfisch ist ein spezialisierter Standard fuer besonders geregelte Fischereien. Er ist enger als MSC, aber in den aufgenommenen Faellen anspruchsvoll und sozial-oekologisch breiter.",
+      "quellen": [
+        {
+          "id": "naturland-fish",
+          "titel": "Naturland: Bio-Fisch und Wildfang",
+          "url": "https://www.naturland.de/de/naturland/wofuer-wir-stehen/bio-fisch-wildfang.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "wildfisch",
+            "standard",
+            "soziale-bedingungen"
+          ]
+        },
+        {
+          "id": "naturland-history-wildfish",
+          "titel": "Naturland: History",
+          "url": "https://www.naturland.de/en/naturland/who-we-are/history.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "wildfisch-standard",
+            "historie"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "proterra",
+      "name": "ProTerra Standard",
+      "kategorie": "Forst-/Rohstoffstandard mit CoC",
+      "region": [
+        "global",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "soja",
+        "rohstoff",
+        "gentechnikfrei",
+        "lebensmittel",
+        "futtermittel",
+        "chain-of-custody"
+      ],
+      "produktbereich": [
+        "Soja",
+        "Sojaprodukte",
+        "Futtermittel",
+        "pflanzliche Proteine"
+      ],
+      "traeger": "ProTerra Foundation",
+      "standardtyp": "Nachhaltigkeits- und Non-GMO-Rohstoffstandard fuer Lebensmittel- und Futtermittelketten",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -1,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "physische-rueckverfolgbarkeit",
+          "name": "Physische Rueckverfolgbarkeit",
+          "wert": 1,
+          "quelle_ids": [
+            "proterra-standard",
+            "proterra-home"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "externe-validierung",
+          "name": "Externe Anerkennung",
+          "wert": 1,
+          "quelle_ids": [
+            "proterra-donau-soja"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "proterra-standard"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "ProTerra ist fuer Soja und pflanzliche Proteinlieferketten relevant, besonders wegen Non-GMO- und Traceability-Anforderungen. Der Endproduktbezug ist oft indirekt, daher mittelhohe Bewertung.",
+      "quellen": [
+        {
+          "id": "proterra-home",
+          "titel": "ProTerra Foundation",
+          "url": "https://www.proterrafoundation.org/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "traceability"
+          ]
+        },
+        {
+          "id": "proterra-standard",
+          "titel": "ProTerra: The ProTerra Standard",
+          "url": "https://www.proterrafoundation.org/the-proterra-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standard",
+            "non-gmo",
+            "supply-chain"
+          ]
+        },
+        {
+          "id": "proterra-donau-soja",
+          "titel": "ProTerra: recognition by Donau Soja",
+          "url": "https://www.proterrafoundation.org/news/recognition-of-proterra-standard-v5-as-an-equivalent-system-of-donau-soja/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "benchmark",
+            "non-gmo"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "rspca-assured",
+      "name": "RSPCA Assured",
+      "kategorie": "Tierwohl-/Haltungsstandard",
+      "region": [
+        "Vereinigtes Koenigreich",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "tierwohl",
+        "lebensmittel",
+        "fleisch",
+        "eier",
+        "milch",
+        "fisch"
+      ],
+      "produktbereich": [
+        "Fleisch",
+        "Eier",
+        "Milch",
+        "Fisch"
+      ],
+      "traeger": "RSPCA Assured",
+      "standardtyp": "Tierwohlstandard fuer landwirtschaftliche Nutztiere und Aquakultur",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 7,
+        "plus": 1,
+        "minus": -1,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "externe-ngo-validierung",
+          "name": "Externe NGO-Validierung",
+          "wert": 1,
+          "quelle_ids": [
+            "rspca-standards"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "rspca-about"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "RSPCA Assured ist ein sichtbarer Tierwohlstandard bei britischen Lebensmitteln und kann bei Importen relevant sein. Wegen des begrenzten deutschen Marktbezugs wird er vorsichtig eingeordnet.",
+      "quellen": [
+        {
+          "id": "rspca-about",
+          "titel": "RSPCA Assured: About",
+          "url": "https://www.rspcaassured.org.uk/about-us/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traeger",
+            "tierwohl"
+          ]
+        },
+        {
+          "id": "rspca-standards",
+          "titel": "RSPCA Assured: Standards",
+          "url": "https://www.rspcaassured.org.uk/farm-animal-welfare/standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standards",
+            "tierwohl"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "soil-association-organic",
+      "name": "Soil Association Organic",
+      "kategorie": "Premium-Oeko & Sozial",
+      "region": [
+        "Vereinigtes Koenigreich",
+        "EU",
+        "Deutschland"
+      ],
+      "typ_tags": [
+        "bio",
+        "lebensmittel",
+        "kosmetik",
+        "verbandssiegel",
+        "produktstandard"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Bio-Kosmetik",
+        "landwirtschaftliche Erzeugnisse"
+      ],
+      "traeger": "Soil Association Certification",
+      "standardtyp": "britischer Bio-Standard und Zertifizierungsrahmen fuer Lebensmittel, Landwirtschaft und Beauty",
+      "vertrauensniveau": "hoch",
+      "scoring": {
+        "basis": 10,
+        "plus": 1,
+        "minus": -1,
+        "final": 10,
+        "anmerkung": "Gedeckelt bei 10; Deutschlandbezug vor allem importbezogen."
+      },
+      "faktoren": [
+        {
+          "id": "unabhaengige-systemkontrolle",
+          "name": "Unabhaengige Systemkontrolle",
+          "wert": 1,
+          "quelle_ids": [
+            "soil-standards",
+            "soil-organic-food"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-deutschlandbezug",
+          "name": "Begrenzter Deutschlandbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "soil-organic-food"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "begruendung": "Soil Association Organic ist ein etablierter Bio-Standard mit Lebensmittel- und Beauty-Bezug. Er ist im deutschen Markt vor allem bei Import- oder Spezialprodukten relevant und wird deshalb mit Hinweis auf begrenzten Deutschlandbezug aufgenommen.",
+      "quellen": [
+        {
+          "id": "soil-standards",
+          "titel": "Soil Association: Organic Standards",
+          "url": "https://www.soilassociation.org/what-we-do/our-standards/soil-association-organic-standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "standards",
+            "food",
+            "beauty"
+          ]
+        },
+        {
+          "id": "soil-organic-food",
+          "titel": "Soil Association: What are organic standards?",
+          "url": "https://www.soilassociation.org/what-we-do/our-standards/what-are-organic-standards/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierung",
+            "bio"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    },
+    {
+      "id": "we-care",
+      "name": "We Care",
+      "kategorie": "Unternehmenszertifizierung / ESG-Impact-Standard",
+      "region": [
+        "Deutschland",
+        "EU"
+      ],
+      "typ_tags": [
+        "lebensmittel",
+        "lieferkette",
+        "nachhaltigkeitsmanagement",
+        "csr",
+        "unternehmen"
+      ],
+      "produktbereich": [
+        "Lebensmittel",
+        "Bio-Fachhandel",
+        "verarbeitete Lebensmittel"
+      ],
+      "traeger": "FiBL Deutschland / We Care Standard",
+      "standardtyp": "Nachhaltigkeitsstandard fuer Lebensmittelunternehmen und deren Lieferketten",
+      "vertrauensniveau": "mittel",
+      "scoring": {
+        "basis": 4,
+        "plus": 2,
+        "minus": -1,
+        "final": 5
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "we-care-label",
+            "we-care-companies"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "lieferkettenmanagement",
+          "name": "Lieferkettenmanagement",
+          "wert": 1,
+          "quelle_ids": [
+            "we-care-consumer"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "begrenzter-produktbezug",
+          "name": "Begrenzter Produktbezug",
+          "wert": -1,
+          "quelle_ids": [
+            "we-care-label"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "begruendung": "We Care ist kein klassisches Produktsiegel, aber fuer Lebensmittelunternehmen mit Lieferkettenmanagement relevant und bei einzelnen Marken sichtbar. Der Produktbezug bleibt begrenzt, daher keine hohe Produktsiegelwertung.",
+      "quellen": [
+        {
+          "id": "we-care-label",
+          "titel": "We Care: The We Care Label",
+          "url": "https://we-care-siegel.org/the-we-care-label/?lang=en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "label",
+            "lieferketten",
+            "csr"
+          ]
+        },
+        {
+          "id": "we-care-consumer",
+          "titel": "We Care: Consumer",
+          "url": "https://we-care-siegel.org/consumer/?lang=en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "verbraucherinfo",
+            "standard"
+          ]
+        },
+        {
+          "id": "we-care-companies",
+          "titel": "We Care-certified companies",
+          "url": "https://we-care-siegel.org/?lang=en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierte-unternehmen"
+          ]
+        }
+      ],
+      "unsicherheit": "mittel"
+    }
+  ]
+}

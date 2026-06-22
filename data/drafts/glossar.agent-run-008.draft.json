@@ -1,0 +1,206 @@
+{
+  "version": "2026.11",
+  "sprache": "de",
+  "typ": "glossar",
+  "stand": "2026-06-22",
+  "begriffe": [
+    {
+      "id": "produktliniennah",
+      "begriff": "Produktliniennah",
+      "kurzdefinition": "Aussage bezieht sich auf eine Produktlinie, nicht zwingend jede einzelne Charge.",
+      "ausfuehrliche_erklaerung": "Produktliniennahe Bewertungen sind genauer als reine Unternehmensaussagen, aber weniger exakt als chargenbasierte Trackingdaten.",
+      "bewertungsrelevanz": "Hilft, Lieferketteninformationen ohne Scheingenauigkeit einzuordnen.",
+      "beispiel": "Eine Schokoladenlinie mit Kakao-Programm.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "warengruppenstrategie",
+      "begriff": "Warengruppenstrategie",
+      "kurzdefinition": "Unternehmensstrategie fuer eine Produkt- oder Rohstoffgruppe.",
+      "ausfuehrliche_erklaerung": "Warengruppenstrategien setzen Regeln fuer mehrere Produkte, liefern aber selten Einzelprodukt-Herkunft.",
+      "bewertungsrelevanz": "Wichtig fuer Handelsfaelle bei Kakao, Kaffee, Palm oder Fleisch.",
+      "beispiel": "Palmstrategie fuer alle Eigenmarkenprodukte.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "rohstoffprogramm",
+      "begriff": "Rohstoffprogramm",
+      "kurzdefinition": "Programm fuer verantwortungsvollere Beschaffung eines bestimmten Rohstoffs.",
+      "ausfuehrliche_erklaerung": "Rohstoffprogramme koennen Trainings, Zertifizierung, Praemien oder Traceability enthalten.",
+      "bewertungsrelevanz": "Relevant fuer Kakao, Kaffee, Palm, Soja, Baumwolle, Sheabutter oder Mica.",
+      "beispiel": "Kakao-Farming-Programm.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "supplier-code-of-conduct",
+      "begriff": "Supplier Code of Conduct",
+      "kurzdefinition": "Verhaltenskodex fuer Lieferanten.",
+      "ausfuehrliche_erklaerung": "Ein Supplier Code legt Mindestanforderungen fest, sagt aber ohne Audit und Abhilfe wenig ueber Umsetzung aus.",
+      "bewertungsrelevanz": "Relevant fuer Kontrolltiefe und Hebelwirkung.",
+      "beispiel": "Lieferantenkodex eines Handelsunternehmens.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "third-party-audit",
+      "begriff": "Third-Party Audit",
+      "kurzdefinition": "Pruefung durch eine externe unabhaengige Stelle.",
+      "ausfuehrliche_erklaerung": "Dritt-Audits koennen Glaubwuerdigkeit erhoehen, sind aber nur so stark wie Standard, Umfang und Follow-up.",
+      "bewertungsrelevanz": "Wichtig fuer Quellen- und Kontrollbewertung.",
+      "beispiel": "Audit einer zertifizierten Farm.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "first-mile-traceability",
+      "begriff": "First-Mile Traceability",
+      "kurzdefinition": "Rueckverfolgbarkeit am Ursprung der Lieferkette.",
+      "ausfuehrliche_erklaerung": "First-Mile-Daten betreffen Farmen, Kooperativen, Sammelstellen oder erste Verarbeiter.",
+      "bewertungsrelevanz": "Zentral fuer Hochrisikorohstoffe wie Kakao und Kaffee.",
+      "beispiel": "Farmmapping bei Kakao.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "last-mile-claim",
+      "begriff": "Last-Mile Claim",
+      "kurzdefinition": "Verbrauchernahe Aussage auf Verpackung oder Produktseite.",
+      "ausfuehrliche_erklaerung": "Last-Mile Claims koennen sichtbar sein, muessen aber mit Lieferkettendaten unterlegt sein.",
+      "bewertungsrelevanz": "Wichtig fuer App-Anzeigen und Claim-Pruefung.",
+      "beispiel": "QR-Code auf Fischverpackung.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "supplier-mapping",
+      "begriff": "Supplier Mapping",
+      "kurzdefinition": "Systematische Erfassung von Lieferanten und Vorlieferanten.",
+      "ausfuehrliche_erklaerung": "Supplier Mapping zeigt, welche Akteure in einer Lieferkette bekannt sind.",
+      "bewertungsrelevanz": "Relevant fuer die Einstufung Tier-1, Tier-2 oder Tier-N.",
+      "beispiel": "Karte von Kakaokooperativen.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "farm-mapping",
+      "begriff": "Farm Mapping",
+      "kurzdefinition": "Erfassung von Farmen, haeufig mit GPS- oder Geodaten.",
+      "ausfuehrliche_erklaerung": "Farm Mapping ist besonders wichtig fuer Entwaldungsfreiheit und Herkunftspruefung.",
+      "bewertungsrelevanz": "Relevant fuer Kakao, Kaffee, Palm und Soja.",
+      "beispiel": "GPS-Polygone von Kakaofarmen.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "deforestation-cutoff-date",
+      "begriff": "Entwaldungs-Stichtag",
+      "kurzdefinition": "Datum, nach dem keine Entwaldung fuer einen Rohstoff erfolgt sein darf.",
+      "ausfuehrliche_erklaerung": "Ein Stichtag macht Entwaldungsclaims pruefbar, wenn Geodaten und Monitoring vorhanden sind.",
+      "bewertungsrelevanz": "Wichtig fuer EUDR-nahe Lieferkettenbewertungen.",
+      "beispiel": "Kein Kakao von nach 2020 entwaldeten Flaechen.",
+      "kategorie": "Landwirtschaft & Umwelt"
+    },
+    {
+      "id": "eudr",
+      "begriff": "EU-Entwaldungsverordnung (EUDR)",
+      "kurzdefinition": "EU-Regelwerk gegen entwaldungsbezogene Produkte.",
+      "ausfuehrliche_erklaerung": "Die EUDR betrifft u. a. Kakao, Kaffee, Soja, Palm, Rind, Holz und Kautschuk.",
+      "bewertungsrelevanz": "Relevant fuer Risikobewertung und Sorgfaltspflichten bei Rohstoffen.",
+      "beispiel": "Kaffeeimport mit Geolokalisierungsdaten.",
+      "kategorie": "Regulierung & Governance"
+    },
+    {
+      "id": "scope-3-emissionen",
+      "begriff": "Scope-3-Emissionen",
+      "kurzdefinition": "Indirekte Emissionen entlang der Wertschöpfungskette.",
+      "ausfuehrliche_erklaerung": "Scope 3 umfasst vorgelagerte Rohstoffe, Transport, Nutzung und Entsorgung.",
+      "bewertungsrelevanz": "Relevant fuer Klimaaussagen bei Lebensmitteln und Drogerieprodukten.",
+      "beispiel": "Emissionen aus Milch- oder Kakaolieferketten.",
+      "kategorie": "Klima & Umwelt"
+    },
+    {
+      "id": "life-cycle-assessment",
+      "begriff": "Life Cycle Assessment",
+      "kurzdefinition": "Oekobilanz eines Produkts ueber Lebensphasen hinweg.",
+      "ausfuehrliche_erklaerung": "LCA betrachtet Rohstoffe, Produktion, Transport, Nutzung und Entsorgung.",
+      "bewertungsrelevanz": "Hilft, Umweltzeichen und Produktclaims einzuordnen.",
+      "beispiel": "Oekobilanz von Waschmittel.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "rezyklatanteil",
+      "begriff": "Rezyklatanteil",
+      "kurzdefinition": "Anteil recycelten Materials in Verpackung oder Produkt.",
+      "ausfuehrliche_erklaerung": "Rezyklatanteile koennen Ressourcenverbrauch senken, betreffen aber oft Verpackung statt Produktinhalt.",
+      "bewertungsrelevanz": "Wichtig bei Drogerieprodukten, aber vom Produktstandard zu trennen.",
+      "beispiel": "Flasche mit 100 Prozent Rezyklat.",
+      "kategorie": "Kreislaufwirtschaft"
+    },
+    {
+      "id": "post-consumer-recycled",
+      "begriff": "Post-Consumer Recycled",
+      "kurzdefinition": "Recyclingmaterial aus Verbraucherabfaellen.",
+      "ausfuehrliche_erklaerung": "PCR unterscheidet sich von Produktionsabfaellen und ist fuer Verpackungsclaims relevant.",
+      "bewertungsrelevanz": "Relevant fuer Drogerie- und Haushaltsproduktverpackungen.",
+      "beispiel": "Waschmittelflasche aus PCR-Kunststoff.",
+      "kategorie": "Kreislaufwirtschaft"
+    },
+    {
+      "id": "biobasiert",
+      "begriff": "Biobasiert",
+      "kurzdefinition": "Material oder Inhaltsstoff basiert ganz oder teilweise auf Biomasse.",
+      "ausfuehrliche_erklaerung": "Biobasiert bedeutet nicht automatisch biologisch abbaubar oder nachhaltig angebaut.",
+      "bewertungsrelevanz": "Wichtig fuer Waschmittel, Verpackungen und Kosmetikclaims.",
+      "beispiel": "Tensid aus Pflanzenoel.",
+      "kategorie": "Kreislaufwirtschaft"
+    },
+    {
+      "id": "biologisch-abbaubar",
+      "begriff": "Biologisch abbaubar",
+      "kurzdefinition": "Stoff kann durch Mikroorganismen abgebaut werden.",
+      "ausfuehrliche_erklaerung": "Abbaubarkeit haengt von Bedingungen, Zeit und Teststandard ab.",
+      "bewertungsrelevanz": "Relevant fuer Reinigungsmittel und Kosmetik, aber claimsensibel.",
+      "beispiel": "Abbaubares Tensid im Waschmittel.",
+      "kategorie": "Klima & Umwelt"
+    },
+    {
+      "id": "mikroplastikfrei",
+      "begriff": "Mikroplastikfrei",
+      "kurzdefinition": "Claim, dass ein Produkt kein oder definiert kein Mikroplastik enthaelt.",
+      "ausfuehrliche_erklaerung": "Definitionen von Mikroplastik unterscheiden sich, daher braucht der Claim klare Kriterien.",
+      "bewertungsrelevanz": "Relevant fuer Kosmetik, Wasch- und Reinigungsmittel.",
+      "beispiel": "Peeling ohne feste Kunststoffpartikel.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "dermatologisch-getestet",
+      "begriff": "Dermatologisch getestet",
+      "kurzdefinition": "Claim, dass ein Produkt unter dermatologischer Kontrolle getestet wurde.",
+      "ausfuehrliche_erklaerung": "Der Claim sagt wenig ueber Umwelt oder Lieferkette aus und variiert in Testtiefe.",
+      "bewertungsrelevanz": "Relevant fuer Kosmetiklabels mit engem Produktsicherheitsanspruch.",
+      "beispiel": "Hautcreme mit dermatologischem Testsiegel.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "sensitiv-label",
+      "begriff": "Sensitiv-Label",
+      "kurzdefinition": "Kennzeichnung fuer Produkte mit besonderem Haut- oder Allergiebezug.",
+      "ausfuehrliche_erklaerung": "Sensitiv-Claims koennen hilfreich sein, brauchen aber klare Kriterien und Pruefung.",
+      "bewertungsrelevanz": "Wichtig fuer Drogerie, aber kein Nachhaltigkeitssiegel.",
+      "beispiel": "Waschmittel fuer sensible Haut.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "fairtrade-praemie",
+      "begriff": "Fairtrade-Praemie",
+      "kurzdefinition": "Zusatzbetrag fuer Produzentenorganisationen in Fair-Trade-Systemen.",
+      "ausfuehrliche_erklaerung": "Praemien werden gemeinschaftlich genutzt und sind vom Produktpreis oder Living Income zu unterscheiden.",
+      "bewertungsrelevanz": "Relevant fuer Sozial- und Lieferkettenbewertungen.",
+      "beispiel": "Praemie fuer Kakaokooperative.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "commodity-risk",
+      "begriff": "Commodity Risk",
+      "kurzdefinition": "Rohstoffbezogenes Risiko, das aus typischen Produktionsbedingungen entsteht.",
+      "ausfuehrliche_erklaerung": "Commodity Risk beschreibt Risiken, die auch bei unbekannter Einzelkette aus Rohstoff und Herkunft plausibel ableitbar sind.",
+      "bewertungsrelevanz": "Wichtig fuer abgeleitete Bewertungen ohne Scheingenauigkeit.",
+      "beispiel": "Kinderarbeitsrisiko bei Kakao.",
+      "kategorie": "Bewertungsmethodik"
+    }
+  ]
+}

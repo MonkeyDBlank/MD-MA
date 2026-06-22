@@ -1,0 +1,185 @@
+{
+  "stand": "2026-06-22",
+  "version": "2026.13",
+  "quelle": "agent-run-016-repeat-expansion",
+  "typ": "glossar-agent-draft",
+  "lauf": "010",
+  "begriffe": [
+    {
+      "id": "produktspezifikation",
+      "begriff": "Produktspezifikation",
+      "kurzdefinition": "Verbindliche Beschreibung, welche Eigenschaften ein Produkt oder ein geschuetztes Herkunftsprodukt erfuellen muss.",
+      "ausfuehrliche_erklaerung": "Produktspezifikationen sind zentral fuer Herkunftszeichen, weil sie den pruefbaren Aussagebereich festlegen.",
+      "bewertungsrelevanz": "Bei g.g.A.-Produkten beschreibt die Spezifikation Herkunft, Herstellungsweise oder besondere Eigenschaften.",
+      "beispiel": "Herkunft und Standards"
+    },
+    {
+      "id": "konsortialstandard",
+      "begriff": "Konsortialstandard",
+      "kurzdefinition": "Standard, der von einem Zusammenschluss mehrerer Marktakteure oder Organisationen getragen wird.",
+      "ausfuehrliche_erklaerung": "Solche Standards koennen breite Marktwirkung haben, brauchen aber klare Governance und unabhaengige Kontrolle.",
+      "bewertungsrelevanz": "Ein Branchenstandard fuer Rohstoffbeschaffung kann als Konsortialstandard organisiert sein.",
+      "beispiel": "Standardtypen"
+    },
+    {
+      "id": "warengruppenrisiko",
+      "begriff": "Warengruppenrisiko",
+      "kurzdefinition": "Typisches Risiko, das nicht nur ein Produkt, sondern eine gesamte Warengruppe betrifft.",
+      "ausfuehrliche_erklaerung": "Warengruppenrisiken helfen bei Lieferkettenbewertungen, wenn produktscharfe Daten fehlen.",
+      "bewertungsrelevanz": "Kakao hat andere Warengruppenrisiken als Hafer oder Waschmittel.",
+      "beispiel": "Lieferketten"
+    },
+    {
+      "id": "chain-of-custody-modell",
+      "begriff": "Chain-of-Custody-Modell",
+      "kurzdefinition": "Regelwerk, wie zertifizierte Materialien entlang der Lieferkette verfolgt oder bilanziert werden.",
+      "ausfuehrliche_erklaerung": "Das Modell beeinflusst, ob ein Claim physisch produktscharf oder nur bilanziell abgesichert ist.",
+      "bewertungsrelevanz": "Segregation und Mass Balance sind unterschiedliche Chain-of-Custody-Modelle.",
+      "beispiel": "Rueckverfolgbarkeit"
+    },
+    {
+      "id": "rohstoffderivat",
+      "begriff": "Rohstoffderivat",
+      "kurzdefinition": "Aus einem Rohstoff chemisch oder technisch abgeleiteter Inhaltsstoff.",
+      "ausfuehrliche_erklaerung": "Derivate erschweren Lieferkettenbewertungen, weil der Ursprung oft weniger sichtbar ist.",
+      "bewertungsrelevanz": "Palmkernbasierte Tenside in Kosmetik sind Rohstoffderivate.",
+      "beispiel": "Drogerie"
+    },
+    {
+      "id": "ingredient-sourcing",
+      "begriff": "Ingredient Sourcing",
+      "kurzdefinition": "Beschaffung einzelner Zutaten oder Inhaltsstoffe.",
+      "ausfuehrliche_erklaerung": "Bei verarbeiteten Lebensmitteln und Kosmetik ist Ingredient Sourcing oft aussagekraeftiger als reine Unternehmenskommunikation.",
+      "bewertungsrelevanz": "Vanille-, Kakao- oder Sheabutterprogramme sind Ingredient-Sourcing-Faelle.",
+      "beispiel": "Lieferketten"
+    },
+    {
+      "id": "rezepturclaim",
+      "begriff": "Rezepturclaim",
+      "kurzdefinition": "Aussage, die sich auf die Zusammensetzung eines Produkts bezieht.",
+      "ausfuehrliche_erklaerung": "Rezepturclaims muessen von Nachhaltigkeits- oder Herkunftsclaims getrennt bewertet werden.",
+      "bewertungsrelevanz": "Gelatinefrei oder ohne Mikroplastik sind Rezepturclaims.",
+      "beispiel": "Claims"
+    },
+    {
+      "id": "produktgruppenprogramm",
+      "begriff": "Produktgruppenprogramm",
+      "kurzdefinition": "Programm, das fuer eine Gruppe aehnlicher Produkte gilt, nicht zwingend fuer jedes Einzelprodukt einzeln.",
+      "ausfuehrliche_erklaerung": "Viele Lieferkettenangaben liegen auf Produktgruppenebene vor und duerfen nicht als chargenscharf gelesen werden.",
+      "bewertungsrelevanz": "Ein Fischprogramm fuer Eigenmarken ist ein Produktgruppenprogramm.",
+      "beispiel": "Lieferketten"
+    },
+    {
+      "id": "chargenrueckverfolgung",
+      "begriff": "Chargenrueckverfolgung",
+      "kurzdefinition": "Rueckverfolgung eines Produkts bis zu einer Produktions- oder Liefercharge.",
+      "ausfuehrliche_erklaerung": "Chargenrueckverfolgung ist staerker als allgemeine Warengruppenkommunikation.",
+      "bewertungsrelevanz": "Ein Code auf einer Packung kann chargennahe Herkunftsinformationen liefern.",
+      "beispiel": "Rueckverfolgbarkeit"
+    },
+    {
+      "id": "lieferantenkodex",
+      "begriff": "Lieferantenkodex",
+      "kurzdefinition": "Regelwerk mit Anforderungen, die ein Unternehmen seinen Lieferanten vorgibt.",
+      "ausfuehrliche_erklaerung": "Ein Kodex ist ein erster Baustein, ersetzt aber keine wirksame Kontrolle oder Transparenz.",
+      "bewertungsrelevanz": "Ein Supplier Code of Conduct kann Sozial- und Umweltanforderungen enthalten.",
+      "beispiel": "Sorgfaltspflichten"
+    },
+    {
+      "id": "risikorohstoff",
+      "begriff": "Risikorohstoff",
+      "kurzdefinition": "Rohstoff mit erhoehten sozialen, oekologischen oder menschenrechtlichen Risiken.",
+      "ausfuehrliche_erklaerung": "Risikorohstoffe brauchen strengere Bewertung und bessere Quellenlage.",
+      "bewertungsrelevanz": "Kakao, Palmöl, Kaffee, Fisch oder Naturkautschuk gelten haeufig als Risikorohstoffe.",
+      "beispiel": "Rohstoffe"
+    },
+    {
+      "id": "verpackungsrohstoff",
+      "begriff": "Verpackungsrohstoff",
+      "kurzdefinition": "Material, das fuer Produktverpackungen eingesetzt wird.",
+      "ausfuehrliche_erklaerung": "Verpackungsrohstoffe gehoeren nur dann in die Bewertung, wenn sie fuer Produkt- oder Lieferkettenclaims relevant sind.",
+      "bewertungsrelevanz": "PET, Glas, Papier oder Aluminium koennen Verpackungsrohstoffe sein.",
+      "beispiel": "Verpackung"
+    },
+    {
+      "id": "rezyklateinsatz",
+      "begriff": "Rezyklateinsatz",
+      "kurzdefinition": "Verwendung von recyceltem Material in Produkt oder Verpackung.",
+      "ausfuehrliche_erklaerung": "Rezyklateinsatz ist relevant fuer Verpackungsclaims, aber nicht automatisch fuer Rohstofffairness.",
+      "bewertungsrelevanz": "Eine Flasche mit Recycling-PET nutzt Rezyklateinsatz.",
+      "beispiel": "Verpackung"
+    },
+    {
+      "id": "auditintervall",
+      "begriff": "Auditintervall",
+      "kurzdefinition": "Zeitlicher Abstand zwischen Pruefungen oder Audits.",
+      "ausfuehrliche_erklaerung": "Das Auditintervall beeinflusst, wie aktuell Kontrollergebnisse sind.",
+      "bewertungsrelevanz": "Jaehrliche Audits sind anders zu bewerten als einmalige Pruefungen.",
+      "beispiel": "Kontrolle"
+    },
+    {
+      "id": "sanktionsmechanismus",
+      "begriff": "Sanktionsmechanismus",
+      "kurzdefinition": "Regelung, was bei Verstoessen gegen Standard- oder Lieferkettenanforderungen passiert.",
+      "ausfuehrliche_erklaerung": "Ohne Sanktionen bleiben Standards oft schwach durchsetzbar.",
+      "bewertungsrelevanz": "Zertifikatsentzug ist ein Sanktionsmechanismus.",
+      "beispiel": "Kontrolle"
+    },
+    {
+      "id": "beschaffungsvolumen",
+      "begriff": "Beschaffungsvolumen",
+      "kurzdefinition": "Menge oder Anteil eines Rohstoffs, den ein Unternehmen ueber ein bestimmtes Programm bezieht.",
+      "ausfuehrliche_erklaerung": "Beschaffungsvolumen hilft einzuschaetzen, ob ein Programm relevant oder nur randstaendig ist.",
+      "bewertungsrelevanz": "100 Prozent zertifizierter Kakao ist anders zu bewerten als ein Pilotanteil.",
+      "beispiel": "Lieferketten"
+    },
+    {
+      "id": "pilotprogramm",
+      "begriff": "Pilotprogramm",
+      "kurzdefinition": "Begrenzter Testlauf fuer neue Lieferketten-, Nachhaltigkeits- oder Transparenzansaetze.",
+      "ausfuehrliche_erklaerung": "Pilotprogramme zeigen Fortschritt, duerfen aber nicht als Flaechendeckung bewertet werden.",
+      "bewertungsrelevanz": "Ein Living-Income-Pilot in einer Kakaoregion ist ein Pilotprogramm.",
+      "beispiel": "Lieferketten"
+    },
+    {
+      "id": "kontrolltiefe",
+      "begriff": "Kontrolltiefe",
+      "kurzdefinition": "Grad, bis zu welcher Stufe einer Lieferkette Anforderungen geprueft werden.",
+      "ausfuehrliche_erklaerung": "Kontrolltiefe unterscheidet einfache Lieferantenerklaerungen von mehrstufiger Rueckverfolgung.",
+      "bewertungsrelevanz": "Kontrolle bis Farmebene ist tiefer als Kontrolle nur beim Importeur.",
+      "beispiel": "Kontrolle"
+    },
+    {
+      "id": "farmgate-preis",
+      "begriff": "Farmgate-Preis",
+      "kurzdefinition": "Preis, der auf Ebene der Farm oder Erzeugerorganisation gezahlt wird.",
+      "ausfuehrliche_erklaerung": "Farmgate-Preise sind wichtig, um Fairness- und Einkommensclaims einzuordnen.",
+      "bewertungsrelevanz": "Bei Kakao ist der Farmgate-Preis ein zentraler Vergleichspunkt.",
+      "beispiel": "Fairness"
+    },
+    {
+      "id": "entwaldungsrisiko",
+      "begriff": "Entwaldungsrisiko",
+      "kurzdefinition": "Risiko, dass ein Rohstoff mit Waldverlust oder Umwandlung natuerlicher Oekosysteme verbunden ist.",
+      "ausfuehrliche_erklaerung": "Entwaldungsrisiko ist fuer EUDR-relevante Rohstoffe und Lieferketten zentral.",
+      "bewertungsrelevanz": "Kakao, Kaffee, Palmöl, Soja und Kautschuk koennen Entwaldungsrisiken tragen.",
+      "beispiel": "Rohstoffe"
+    },
+    {
+      "id": "landnutzungsaenderung",
+      "begriff": "Landnutzungsaenderung",
+      "kurzdefinition": "Umwandlung einer Flaeche, etwa von Wald oder Gruenland in Landwirtschaft.",
+      "ausfuehrliche_erklaerung": "Landnutzungsaenderungen beeinflussen Klima-, Biodiversitaets- und Herkunftsbewertungen.",
+      "bewertungsrelevanz": "Neue Plantagen koennen mit Landnutzungsaenderungen verbunden sein.",
+      "beispiel": "Umwelt"
+    },
+    {
+      "id": "herkunftsregister",
+      "begriff": "Herkunftsregister",
+      "kurzdefinition": "Oeffentliches oder behoerdliches Register, in dem geschuetzte Herkunftsangaben oder Standards nachgeschlagen werden koennen.",
+      "ausfuehrliche_erklaerung": "Herkunftsregister helfen, Produktclaims gegen offizielle Eintraege zu pruefen.",
+      "bewertungsrelevanz": "eAmbrosia ist ein Register fuer EU-Herkunftsangaben.",
+      "beispiel": "Herkunft und Standards"
+    }
+  ]
+}

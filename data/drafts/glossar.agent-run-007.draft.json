@@ -1,0 +1,206 @@
+{
+  "version": "2026.10",
+  "sprache": "de",
+  "typ": "glossar",
+  "stand": "2026-06-22",
+  "begriffe": [
+    {
+      "id": "geschuetzte-geografische-angabe",
+      "begriff": "Geschuetzte geografische Angabe (g.g.A.)",
+      "kurzdefinition": "EU-Herkunftszeichen, bei dem mindestens eine Produktionsstufe in der genannten Region erfolgen muss.",
+      "ausfuehrliche_erklaerung": "Die g.g.A. schuetzt regionale Produktnamen und Rezeptur- oder Herstellungsbezug, ist aber kein Nachhaltigkeitssiegel.",
+      "bewertungsrelevanz": "Wichtig, um Herkunftsschutz nicht mit Bio, Fair Trade oder Lieferkettentransparenz zu verwechseln.",
+      "beispiel": "Spreewaelder Gurken g.g.A.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "geschuetzte-ursprungsbezeichnung",
+      "begriff": "Geschuetzte Ursprungsbezeichnung (g.U.)",
+      "kurzdefinition": "EU-Herkunftszeichen mit engerem Regionsbezug als g.g.A.",
+      "ausfuehrliche_erklaerung": "Bei g.U. muessen Erzeugung, Verarbeitung und Herstellung grundsaetzlich in der definierten Region erfolgen.",
+      "bewertungsrelevanz": "Hilft bei der Unterscheidung von starkem Herkunftsschutz und breiter Nachhaltigkeitsbewertung.",
+      "beispiel": "Allgaeuer Bergkaese g.U.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "garantiert-traditionelle-spezialitaet",
+      "begriff": "Garantiert traditionelle Spezialitaet (g.t.S.)",
+      "kurzdefinition": "EU-Zeichen fuer traditionelle Zusammensetzung oder Herstellungsweise.",
+      "ausfuehrliche_erklaerung": "g.t.S. schuetzt Tradition oder Rezeptur, nicht zwingend eine bestimmte geografische Herkunft.",
+      "bewertungsrelevanz": "Verhindert, dass Traditionsschutz als Regional- oder Nachhaltigkeitsleistung ueberinterpretiert wird.",
+      "beispiel": "Jamón Serrano g.t.S.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "halal-zertifizierung",
+      "begriff": "Halal-Zertifizierung",
+      "kurzdefinition": "Zertifizierung, dass ein Produkt bestimmte islamische Speise- oder Herstellungsregeln erfuellt.",
+      "ausfuehrliche_erklaerung": "Halal betrifft Zutaten, Verarbeitung, Trennung und Kontrolle, sagt aber meist wenig ueber Umwelt- oder Sozialstandards aus.",
+      "bewertungsrelevanz": "Wichtig fuer enge Prozesslabels mit hohem Verbrauchernutzen, aber begrenztem Nachhaltigkeitsanspruch.",
+      "beispiel": "Halal-zertifizierte Gelatine oder Suesswaren.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "koscher-zertifizierung",
+      "begriff": "Koscher-Zertifizierung",
+      "kurzdefinition": "Zertifizierung nach juedischen Speisegesetzen.",
+      "ausfuehrliche_erklaerung": "Koscher-Standards betreffen Zutaten, Anlagen, Trennung und rabbinische Kontrolle.",
+      "bewertungsrelevanz": "Wichtig, weil Koscher-Labels Produktsicherheit und Religionskonformitaet adressieren, aber keine Lieferkette bewerten.",
+      "beispiel": "OU Kosher auf verarbeiteten Lebensmitteln.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "glutenfrei-zertifizierung",
+      "begriff": "Glutenfrei-Zertifizierung",
+      "kurzdefinition": "Zertifizierung fuer Produkte mit kontrolliert niedrigem Glutengehalt.",
+      "ausfuehrliche_erklaerung": "Glutenfrei-Labels schuetzen insbesondere Menschen mit Zoeliakie und setzen Grenzwerte sowie Kontrollprozesse voraus.",
+      "bewertungsrelevanz": "Hoch relevant fuer Verbraucher, aber kein Nachhaltigkeits- oder Herkunftsnachweis.",
+      "beispiel": "Crossed Grain oder GFCO auf Backwaren.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "allergenmanagement",
+      "begriff": "Allergenmanagement",
+      "kurzdefinition": "Systematischer Umgang mit allergenen Zutaten und Kreuzkontaminationen.",
+      "ausfuehrliche_erklaerung": "Allergenmanagement umfasst Risikoanalyse, Trennung, Reinigung, Kennzeichnung und Kontrollen.",
+      "bewertungsrelevanz": "Relevant fuer Prozesslabels und Produktsicherheit, aber von Nachhaltigkeitsbewertungen zu trennen.",
+      "beispiel": "Milchfrei- oder nussfrei kontrollierte Produktionslinien.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "protected-geographical-indication",
+      "begriff": "Protected Geographical Indication (PGI)",
+      "kurzdefinition": "Englische Bezeichnung fuer g.g.A.",
+      "ausfuehrliche_erklaerung": "PGI wird in EU-Registern und internationalen Quellen fuer geschuetzte geografische Angaben verwendet.",
+      "bewertungsrelevanz": "Hilft beim Abgleich internationaler Quellen mit deutschen JSON-Begriffen.",
+      "beispiel": "Spreewald gherkins PGI.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "protected-designation-of-origin",
+      "begriff": "Protected Designation of Origin (PDO)",
+      "kurzdefinition": "Englische Bezeichnung fuer g.U.",
+      "ausfuehrliche_erklaerung": "PDO steht fuer Produkte, deren Qualitaet oder Eigenschaften stark an eine Region gebunden sind.",
+      "bewertungsrelevanz": "Relevant fuer EU-Herkunftszeichen im internationalen Quellenmaterial.",
+      "beispiel": "Parmigiano Reggiano PDO.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "traditional-speciality-guaranteed",
+      "begriff": "Traditional Speciality Guaranteed (TSG)",
+      "kurzdefinition": "Englische Bezeichnung fuer g.t.S.",
+      "ausfuehrliche_erklaerung": "TSG beschreibt Traditionsschutz ohne zwingenden engen Herkunftsbezug.",
+      "bewertungsrelevanz": "Relevant, um Traditionszeichen korrekt einzuordnen.",
+      "beispiel": "Jamón Serrano TSG.",
+      "kategorie": "Herkunft & Kennzeichnung"
+    },
+    {
+      "id": "regenerative-landwirtschaft",
+      "begriff": "Regenerative Landwirtschaft",
+      "kurzdefinition": "Ansatz, der Bodenfruchtbarkeit, Biodiversitaet und Oekosystemfunktionen verbessern soll.",
+      "ausfuehrliche_erklaerung": "Regenerative Landwirtschaft ist kein einheitlich geschuetzter Begriff; Standards unterscheiden sich stark.",
+      "bewertungsrelevanz": "Wichtig fuer neue Labels wie Regenified oder Regenerative Organic Certified.",
+      "beispiel": "Bodenaufbauprogramme bei Getreide oder Kaffee.",
+      "kategorie": "Landwirtschaft & Umwelt"
+    },
+    {
+      "id": "outcome-verification",
+      "begriff": "Outcome Verification",
+      "kurzdefinition": "Pruefung anhand gemessener Ergebnisse statt nur anhand vorgeschriebener Praktiken.",
+      "ausfuehrliche_erklaerung": "Outcome-Ansatze bewerten Veraenderungen etwa bei Boden, Biodiversitaet oder Weideflaechen.",
+      "bewertungsrelevanz": "Relevant fuer regenerative Standards, weil sie andere Beleglogik nutzen als klassische Checklisten.",
+      "beispiel": "Ecological Outcome Verification bei Weideland.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "true-cost-accounting",
+      "begriff": "True Cost Accounting",
+      "kurzdefinition": "Ansatz zur Sichtbarmachung externer Umwelt- und Sozialkosten.",
+      "ausfuehrliche_erklaerung": "True Cost Accounting versucht, versteckte Kosten von Produkten rechnerisch sichtbar zu machen.",
+      "bewertungsrelevanz": "Wichtig fuer Handelsfaelle mit Preis- oder Kostenkommunikation, aber nicht automatisch Lieferkettenkontrolle.",
+      "beispiel": "PENNY Wahre Kosten.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "chain-of-custody-standard",
+      "begriff": "Chain-of-Custody-Standard",
+      "kurzdefinition": "Standard fuer die Kontrolle von Warenfluss und Besitz-/Verarbeitungskette.",
+      "ausfuehrliche_erklaerung": "Chain-of-Custody-Regeln bestimmen, wie zertifizierte Ware durch Handel und Verarbeitung verfolgt wird.",
+      "bewertungsrelevanz": "Zentral, um Siegel-Score und konkrete Lieferkettentransparenz zu trennen.",
+      "beispiel": "MSC Chain of Custody.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "verifizierter-claim",
+      "begriff": "Verifizierter Claim",
+      "kurzdefinition": "Produkt- oder Unternehmensaussage, die durch eine Pruefstelle oder ein Programm kontrolliert wird.",
+      "ausfuehrliche_erklaerung": "Verifizierte Claims koennen sehr eng sein, etwa plastikfrei, glutenfrei oder dermatologisch getestet.",
+      "bewertungsrelevanz": "Wichtig, damit enge Claims nicht mit breiten Nachhaltigkeitssiegeln verwechselt werden.",
+      "beispiel": "Dermatest oder Flustix.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "sorgfaltspflichten",
+      "begriff": "Sorgfaltspflichten",
+      "kurzdefinition": "Pflichten von Unternehmen, Risiken in Lieferketten zu erkennen, zu vermeiden und zu mindern.",
+      "ausfuehrliche_erklaerung": "Sorgfaltspflichten umfassen Risikoanalyse, Massnahmen, Beschwerdemechanismen und Berichterstattung.",
+      "bewertungsrelevanz": "Relevant fuer Unternehmens- und Lieferkettenbewertungen, aber nicht identisch mit Produktsiegeln.",
+      "beispiel": "LkSG-bezogene Lieferantenprogramme.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "beschwerdemechanismus",
+      "begriff": "Beschwerdemechanismus",
+      "kurzdefinition": "Kanal, ueber den Betroffene Missstaende melden koennen.",
+      "ausfuehrliche_erklaerung": "Beschwerdemechanismen sind ein Element menschenrechtlicher Sorgfalt und koennen lokal oder unternehmensweit organisiert sein.",
+      "bewertungsrelevanz": "Wichtig fuer Sozial- und Lieferkettenbewertungen, besonders bei Hochrisikorohstoffen.",
+      "beispiel": "Hotline fuer Arbeiterinnen auf Plantagen.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "audit-trail",
+      "begriff": "Audit Trail",
+      "kurzdefinition": "Nachvollziehbare Dokumentationsspur von Pruefungen, Warenbewegungen oder Entscheidungen.",
+      "ausfuehrliche_erklaerung": "Ein Audit Trail zeigt, welche Daten, Belege und Kontrollschritte zu einer Aussage fuehren.",
+      "bewertungsrelevanz": "Relevant fuer Rueckverfolgbarkeit und fuer die Frage, ob Claims pruefbar sind.",
+      "beispiel": "Dokumentierte Warenfluesse vom Verarbeiter bis zum Lieferanten.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "lieferantenliste",
+      "begriff": "Lieferantenliste",
+      "kurzdefinition": "Oeffentliche oder interne Liste von Lieferanten eines Unternehmens.",
+      "ausfuehrliche_erklaerung": "Lieferantenlisten koennen Transparenz erhoehen, sagen aber je nach Tiefe wenig ueber Rohstoffursprung oder Arbeitsbedingungen aus.",
+      "bewertungsrelevanz": "Wichtig fuer die Unterscheidung von Tier-1-Transparenz und tieferen Lieferketteninformationen.",
+      "beispiel": "Liste direkter Textil- oder Rohwarenlieferanten.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "risikomapping",
+      "begriff": "Risikomapping",
+      "kurzdefinition": "Systematische Zuordnung von Risiken nach Rohstoff, Region, Lieferant oder Produktgruppe.",
+      "ausfuehrliche_erklaerung": "Risikomapping hilft, Hochrisikobereiche wie Kakao, Palm, Kaffee oder Fisch gezielt zu bewerten.",
+      "bewertungsrelevanz": "Relevant fuer abgeleitete Lieferkettenbewertungen, wenn keine produktgenaue Kette vorliegt.",
+      "beispiel": "Kakaorisiken nach Herkunftsland und Kooperative.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "entwaldungsfrei",
+      "begriff": "Entwaldungsfrei",
+      "kurzdefinition": "Claim oder Anforderung, dass ein Rohstoff nicht mit Entwaldung verbunden ist.",
+      "ausfuehrliche_erklaerung": "Entwaldungsfreiheit braucht Stichtage, Geodaten, Monitoring und Lieferkettenkontrolle, sonst bleibt der Claim schwach.",
+      "bewertungsrelevanz": "Wichtig fuer Kakao, Kaffee, Soja, Palm und Rindfleisch.",
+      "beispiel": "Satellitenbasiertes Farmmapping bei Kakao.",
+      "kategorie": "Landwirtschaft & Umwelt"
+    },
+    {
+      "id": "living-income-reference-price",
+      "begriff": "Living Income Reference Price",
+      "kurzdefinition": "Referenzpreis, der Produzentinnen und Produzenten ein existenzsicherndes Einkommen ermoeglichen soll.",
+      "ausfuehrliche_erklaerung": "Der Living Income Reference Price wird vor allem bei Kakao und Kaffee als Ziel- oder Vergleichsgroesse genutzt.",
+      "bewertungsrelevanz": "Relevant fuer Fair-Trade- und Kakao-Lieferketten, weil Mindestpreise allein oft nicht reichen.",
+      "beispiel": "Zusatzpreis fuer Kakao in Living-Income-Programmen.",
+      "kategorie": "Soziales & Einkommen"
+    }
+  ]
+}

@@ -87,9 +87,9 @@ Der historische Notion-Stand ist mittlerweile weitgehend in eine GitHub-first-Ar
 
 Aktueller Datenstand:
 
-- `data/processed/qualitaetssiegel.json`: 50 aktive Eintraege
-- `data/processed/lieferketten.json`: 35 aktive Pilotfaelle
-- `data/processed/glossar.json`: 24 relevante Begriffe
+- `data/processed/qualitaetssiegel.json`: 569 aktive Eintraege
+- `data/processed/lieferketten.json`: 200 aktive Pilotfaelle
+- `data/processed/glossar.json`: 112 relevante Begriffe
 
 Der aktuelle Engpass ist nicht mehr die Grundstruktur, sondern die fortlaufende fachliche Erweiterung mit belastbaren Primaerquellen, sauberer Kategorisierung und guter Doku-Synchronisierung zwischen Repo und GitHub-Wiki.
 
@@ -207,7 +207,7 @@ Stand weitere JSONs:
 - lokale Lieferketten-Arbeitsbasis: `data/drafts/lieferketten.master.draft.json`
 - lokale Lieferketten-Priorisierung: `data/drafts/lieferketten.research-queue.json`
 - aktuelle uebergabefaehige Lieferketten-Datei: `data/processed/lieferketten.json`
-- aktueller Zaehler: 35 aktive Pilotfaelle
+- aktueller Zaehler: 200 aktive Pilotfaelle
 - methodischer Abgleich zwischen Siegel- und Lieferkettenlogik: `docs/siegel-lieferketten-abgleich.md`
 
 Stand Lieferketten Pilot 001:
@@ -286,3 +286,55 @@ Stand nach Lauf 010 / Lieferketten Lauf 009:
 - 35 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
 - neu hinzugekommen: `aldi-nord-eigenmarken-kaffee-kakao-tee-zertifiziert`, `aldi-sued-choceur-choco-changer-kakao`, `dm-denkmit-spuelmittel-tenside-circular-feedstock`, `dmbio-kaffee-bio-fairtrade`, `edeka-eigenmarken-fisch-ftrace`, `fair-rubber-kondome-naturkautschuk`, `kaufland-fleisch-eigenmarke-ftrace`, `lavera-naturkosmetik-palmoel-derivate`, `lebensbaum-tee-gewuerze-we-care`, `lidl-bananen-living-wage-kolumbien`, `lidl-eigenmarken-palmoel-rspo`, `pukka-kraeutertee-fairwild`, `rewe-bananen-pro-planet-qr`, `rewe-pro-planet-ananas`, `rossmann-alterra-palmoel-derivate`, `teekampagne-darjeeling-tee`, `voelkel-direktsaft-streuobst`
 - Glossar unveraendert bei 24 Begriffen
+
+Stand nach Lauf 011 / Lieferketten Lauf 010:
+
+- 69 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `ama-biosiegel`, `ama-guetesiegel`, `bio-austria`, `best-aquaculture-practices`, `cse-certified-sustainable-economics`, `certified-vegan-vegan-action`, `ecocert-natural-detergents`, `equitable-food-initiative`, `flustix-plastikfrei`, `ggn-label`, `icada-natural`, `krav`, `marintrust`, `naturland-aquakultur`, `naturland-wildfisch`, `proterra`, `rspca-assured`, `soil-association-organic`, `we-care`
+- 50 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `aldi-sued-bananen-fairtrade-rainforest-alliance`, `alpro-sojadrink-soja-proterra`, `beiersdorf-nivea-palmoel-derivate`, `dmbio-schokolade-sierra-leone-kakao`, `edeka-fleisch-fisch-ftrace`, `edeka-heimatliebe-obst-gemuese-ftrace`, `frosta-wildlachs-lachs-zutatentracker`, `henkel-persil-waschmittel-palmerkern-tenside`, `lindt-schokolade-kakao-farming-program`, `mars-schokolade-kakao-cocoa-for-generations`, `mondelez-milka-schokolade-kakao-cocoa-life`, `oatly-haferdrink-hafer-nachhaltigkeitsprogramm`, `rewe-penny-very-fair-schokolade-kakao-ghana`, `tchibo-kaffee-kaffeeprogramm-joint-forces`, `werner-mertz-frosch-tenside-europaeische-oele`
+- Glossar unveraendert bei 24 Begriffen
+
+Stand nach Lauf 012 / Lieferketten Lauf 011:
+
+- 169 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 neu hinzugekommene Siegel im Massenlauf, mit Schwerpunkt auf EU-Herkunftszeichen, nationalen Bio-/Qualitaetszeichen, Prozess-/Allergen-/Religionslabels, Tierwohl-/Fair-Standards und Drogerie-/Kosmetik-/Umweltzeichen
+- 80 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 neu hinzugekommene Lieferketten-Pilotfaelle zu Kaffee, Kakao, Tee, Bananen, Fisch/Seafood, Bio-Trockenwaren, Pflanzenprotein und Drogerierohstoffen
+- Glossar unveraendert bei 24 Begriffen
+
+Stand nach Lauf 013 / Lieferketten Lauf 012 / Glossar Lauf 007:
+
+- 269 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 weitere Siegel im Lauf, erneut mit Schwerpunkt auf EU-Herkunftszeichen, Prozess-/Sicherheits-/Religionslabels, Tierwohl-/Fair-Standards, regenerative Standards und Drogerie-/Kosmetikzeichen
+- 110 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 weitere Lieferketten-Pilotfaelle zu Handel, Bio-Fachhandel, Kakao, Kaffee, Tee, Pflanzenprotein, Babynahrung, Drogerie und Kosmetikrohstoffen
+- 46 Glossar-Begriffe in `data/processed/glossar.json`
+- 22 neue Glossarbegriffe fuer Herkunftszeichen, Prozesslabels, Rueckverfolgbarkeit, Sorgfaltspflichten und Bewertungsmethodik
+
+Stand nach Lauf 014 / Lieferketten Lauf 013 / Glossar Lauf 008:
+
+- 369 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 weitere Siegel im Lauf, erneut mit Schwerpunkt auf EU-Herkunftszeichen, Prozess-/Sicherheitslabels, Vegan-/Tierversuchsfreiheitslabels, Rohstoffstandards und Drogerie-/Kosmetikzeichen
+- 140 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 weitere Lieferketten-Pilotfaelle zu Handelsmarken, Kakao, Kaffee, Bananen, Drogerie-/Kosmetikrohstoffen, Waschmitteln und Tensiden
+- 68 Glossar-Begriffe in `data/processed/glossar.json`
+- 22 neue Glossarbegriffe fuer Produktlinien, Warengruppenstrategien, Rohstoffprogramme, Farm Mapping, EUDR, LCA, Rezyklat, biobasierte Inhaltsstoffe und Claims wie mikroplastikfrei oder dermatologisch getestet
+
+Stand nach Lauf 015 / Lieferketten Lauf 014 / Glossar Lauf 009:
+
+- 469 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 weitere Siegel im Lauf, erneut mit Schwerpunkt auf EU-Herkunftszeichen, Prozess-/Sicherheitslabels, Claim- und Rohstoffstandards sowie Drogerie-/Kosmetikzeichen
+- 170 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 weitere Lieferketten-Pilotfaelle zu Handel, Kakao, Kaffee, Tee, Fisch, Drogerie-/Kosmetikrohstoffen, Verpackungsrohstoffen und Waschmitteln
+- 90 Glossar-Begriffe in `data/processed/glossar.json`
+- 22 neue Glossarbegriffe fuer Claim-Bewertung, Rohstoff- und Verpackungsprogramme, Due-Diligence-Datenpunkte, Herkunftsrisiken und Bewertungstransparenz
+
+Stand nach Lauf 016 / Lieferketten Lauf 015 / Glossar Lauf 010:
+
+- 569 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 weitere Siegel im Lauf, erneut mit Schwerpunkt auf EU-Herkunftszeichen, Prozess-/Claimlabels, Allergen-/Sensitivlabels und Drogerie-/Kosmetikzeichen
+- 200 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 weitere Lieferketten-Pilotfaelle zu Handel, Bio-Fachhandel, Getraenken, Kakao, Kaffee, Getreide, Fisch, Drogerie-/Kosmetikrohstoffen und Waschmitteln
+- 112 Glossar-Begriffe in `data/processed/glossar.json`
+- 22 neue Glossarbegriffe fuer Produktspezifikationen, Claim Scope, Chain of Custody, Risikorohstoffe, Verpackungsrohstoffe, Kontrolltiefe und Entwaldungsrisiko

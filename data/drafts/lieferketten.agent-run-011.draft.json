@@ -1,0 +1,2915 @@
+{
+  "version": "2026.9",
+  "typ": "lieferketten",
+  "stand": "2026-06-22",
+  "eintraege": [
+    {
+      "id": "aldi-nord-way-to-go-schokolade-kakao",
+      "unternehmen": "ALDI Nord",
+      "marke": "Moser Roth / Way To Go",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Moser Roth / Way To Go",
+          "Schokolade",
+          "way to go kakaoprogramm"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "way-to-go-kakaoprogramm",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "echtzeit-monitoring",
+          "name": "Codebasierte Transparenz",
+          "wert": 2,
+          "quelle_ids": [
+            "aldi-nord-way-to-go-schokolade-kakao-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "aldi-nord-way-to-go-schokolade-kakao-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "ALDI Nord beschreibt Kakao- und Schokoladenprogramme fuer Eigenmarken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-nord-way-to-go-schokolade-kakao-q1"
+          ]
+        }
+      ],
+      "begruendung": "Moser Roth / Way To Go erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "aldi-nord-way-to-go-schokolade-kakao-q1",
+          "titel": "ALDI Nord: Cocoa and chocolate responsibility",
+          "url": "https://www.aldi-nord.de/unternehmen/verantwortung/lieferkette/rohstoffe/kakao.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao"
+          ]
+        },
+        {
+          "id": "aldi-nord-way-to-go-schokolade-kakao-q2",
+          "titel": "Fairtrade: cocoa",
+          "url": "https://www.fairtrade.net/product/cocoa",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "aldi-sued-kaffee-nachhaltige-beschaffung",
+      "unternehmen": "ALDI Sued",
+      "marke": "ALDI Sued Eigenmarken",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "ALDI Sued Eigenmarken",
+          "Kaffee",
+          "zertifizierte kaffeebeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifizierte-kaffeebeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "aldi-sued-kaffee-nachhaltige-beschaffung-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "aldi-sued-kaffee-nachhaltige-beschaffung-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "aldi-sued-kaffee-nachhaltige-beschaffung-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "aldi-sued-kaffee-nachhaltige-beschaffung-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "ALDI Sued beschreibt Nachhaltigkeitsanforderungen fuer Kaffee.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-sued-kaffee-nachhaltige-beschaffung-q1"
+          ]
+        }
+      ],
+      "begruendung": "ALDI Sued Eigenmarken erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "aldi-sued-kaffee-nachhaltige-beschaffung-q1",
+          "titel": "ALDI Sued: Kaffee",
+          "url": "https://www.aldi-sued.de/nachhaltigkeit/lieferkette-anbau/kaffee",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee"
+          ]
+        },
+        {
+          "id": "aldi-sued-kaffee-nachhaltige-beschaffung-q2",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "rewe-group-kaffee-eigenmarken-fairtrade",
+      "unternehmen": "REWE Group",
+      "marke": "REWE Eigenmarken",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "REWE Eigenmarken",
+          "Kaffee",
+          "zertifizierte eigenmarkenbeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifizierte-eigenmarkenbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "rewe-group-kaffee-eigenmarken-fairtrade-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "rewe-group-kaffee-eigenmarken-fairtrade-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rewe-group-kaffee-eigenmarken-fairtrade-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rewe-group-kaffee-eigenmarken-fairtrade-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "REWE nutzt Rohstoffleitlinien und Zertifizierungsansaetze fuer Eigenmarken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-group-kaffee-eigenmarken-fairtrade-q1"
+          ]
+        }
+      ],
+      "begruendung": "REWE Eigenmarken erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "rewe-group-kaffee-eigenmarken-fairtrade-q1",
+          "titel": "REWE Group: Rohstoffe",
+          "url": "https://www.rewe-group.com/de/nachhaltigkeit/gruene-produkte/leitlinien/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "rohstoffleitlinien"
+          ]
+        },
+        {
+          "id": "rewe-group-kaffee-eigenmarken-fairtrade-q2",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "penny-naturgut-bio-bananen",
+      "unternehmen": "PENNY",
+      "marke": "Naturgut",
+      "warengruppe": "Bio-Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Naturgut",
+          "Bio-Bananen",
+          "bio und zertifizierte obstbeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-und-zertifizierte-obstbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "penny-naturgut-bio-bananen-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "penny-naturgut-bio-bananen-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "penny-naturgut-bio-bananen-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "penny-naturgut-bio-bananen-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "PENNY Naturgut steht fuer Bio-/Nachhaltigkeitspositionierung im Discount.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "penny-naturgut-bio-bananen-q1"
+          ]
+        }
+      ],
+      "begruendung": "Naturgut erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "penny-naturgut-bio-bananen-q1",
+          "titel": "PENNY: Nachhaltigkeit Produkte",
+          "url": "https://www.penny.de/nachhaltigkeit/produkte",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "eigenmarken"
+          ]
+        },
+        {
+          "id": "penny-naturgut-bio-bananen-q2",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "bananen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "edeka-bio-kaffee-eigenmarke",
+      "unternehmen": "EDEKA",
+      "marke": "EDEKA Bio",
+      "warengruppe": "Bio-Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "EDEKA Bio",
+          "Bio-Kaffee",
+          "bio zertifizierte warengruppenbeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-zertifizierte-warengruppenbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "edeka-bio-kaffee-eigenmarke-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "edeka-bio-kaffee-eigenmarke-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "edeka-bio-kaffee-eigenmarke-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "edeka-bio-kaffee-eigenmarke-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "EDEKA Bio-Kaffee wird als Handels- und Warengruppenfall bewertet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "edeka-bio-kaffee-eigenmarke-q1"
+          ]
+        }
+      ],
+      "begruendung": "EDEKA Bio erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "edeka-bio-kaffee-eigenmarke-q1",
+          "titel": "EDEKA Bio",
+          "url": "https://www.edeka.de/unsere-marken/edeka-bio.jsp",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio-eigenmarke"
+          ]
+        },
+        {
+          "id": "edeka-bio-kaffee-eigenmarke-q2",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "kaffee-partner-lavazza-tierra",
+      "unternehmen": "Lavazza",
+      "marke": "Lavazza Tierra!",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Lavazza Tierra!",
+          "Kaffee",
+          "projektkaffee und nachhaltigkeitsprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "projektkaffee-und-nachhaltigkeitsprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "kaffee-partner-lavazza-tierra-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "kaffee-partner-lavazza-tierra-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "kaffee-partner-lavazza-tierra-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "kaffee-partner-lavazza-tierra-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Lavazza kommuniziert Tierra als Projekt- und Nachhaltigkeitslinie.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "kaffee-partner-lavazza-tierra-q1"
+          ]
+        }
+      ],
+      "begruendung": "Lavazza Tierra! erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "kaffee-partner-lavazza-tierra-q1",
+          "titel": "Lavazza Tierra!",
+          "url": "https://www.lavazza.com/en/coffee-secrets/lavazza-tierra",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffeeprojekt"
+          ]
+        },
+        {
+          "id": "kaffee-partner-lavazza-tierra-q2",
+          "titel": "Lavazza Sustainability",
+          "url": "https://www.lavazzagroup.com/en/sustainability.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "nescafe-plan-kaffee",
+      "unternehmen": "Nestlé",
+      "marke": "Nescafé",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Nescafé",
+          "Kaffee",
+          "konzernprogramm kaffee"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "konzernprogramm-kaffee",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "nescafe-plan-kaffee-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "nescafe-plan-kaffee-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nescafe-plan-kaffee-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nescafe-plan-kaffee-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Nescafé Plan ist ein grosser Programmfall fuer Kaffee.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nescafe-plan-kaffee-q1"
+          ]
+        }
+      ],
+      "begruendung": "Nescafé erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "nescafe-plan-kaffee-q1",
+          "titel": "Nescafé Plan",
+          "url": "https://www.nescafe.com/our-coffees/nescafe-plan",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffeeprogramm"
+          ]
+        },
+        {
+          "id": "nescafe-plan-kaffee-q2",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "nespresso-aaa-kaffee",
+      "unternehmen": "Nestlé Nespresso",
+      "marke": "Nespresso",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Nespresso",
+          "Kaffee",
+          "aaa sustainable quality program"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "aaa-sustainable-quality-program",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "nespresso-aaa-kaffee-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "nespresso-aaa-kaffee-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nespresso-aaa-kaffee-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nespresso-aaa-kaffee-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Nespresso AAA wird als markenbezogenes Kaffeeprogramm bewertet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nespresso-aaa-kaffee-q1"
+          ]
+        }
+      ],
+      "begruendung": "Nespresso erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "nespresso-aaa-kaffee-q1",
+          "titel": "Nespresso AAA Sustainable Quality Program",
+          "url": "https://www.sustainability.nespresso.com/aaa-sustainable-quality-program",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffeeprogramm"
+          ]
+        },
+        {
+          "id": "nespresso-aaa-kaffee-q2",
+          "titel": "Nespresso Sustainability",
+          "url": "https://www.sustainability.nespresso.com/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "illy-arabica-selection-kaffee",
+      "unternehmen": "illycaffè",
+      "marke": "illy",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "illy",
+          "Kaffee",
+          "qualitaets und lieferantenprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "qualitaets-und-lieferantenprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "illy-arabica-selection-kaffee-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "illy-arabica-selection-kaffee-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "illy-arabica-selection-kaffee-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "illy-arabica-selection-kaffee-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "illy kommuniziert Herkunfts- und Nachhaltigkeitsansaetze fuer Kaffee.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "illy-arabica-selection-kaffee-q1"
+          ]
+        }
+      ],
+      "begruendung": "illy erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "illy-arabica-selection-kaffee-q1",
+          "titel": "illy: Sustainability",
+          "url": "https://www.illy.com/en-ww/company/sustainability",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee"
+          ]
+        },
+        {
+          "id": "illy-arabica-selection-kaffee-q2",
+          "titel": "illy: Arabica Selection",
+          "url": "https://www.illy.com/en-ww/coffee/arabica-selection",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "herkunft"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "jacobs-kaffee-common-grounds",
+      "unternehmen": "JDE Peet's",
+      "marke": "Jacobs",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Jacobs",
+          "Kaffee",
+          "common grounds programm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "common-grounds-programm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "jacobs-kaffee-common-grounds-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "jacobs-kaffee-common-grounds-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "jacobs-kaffee-common-grounds-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "jacobs-kaffee-common-grounds-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Common Grounds ist ein Programmfall fuer Kaffee mit grosser Marktreichweite.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "jacobs-kaffee-common-grounds-q1"
+          ]
+        }
+      ],
+      "begruendung": "Jacobs erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "jacobs-kaffee-common-grounds-q1",
+          "titel": "JDE Peet's: Common Grounds",
+          "url": "https://www.jdepeets.com/sustainability/common-grounds/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffeeprogramm"
+          ]
+        },
+        {
+          "id": "jacobs-kaffee-common-grounds-q2",
+          "titel": "JDE Peet's Sustainability",
+          "url": "https://www.jdepeets.com/sustainability/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "teekanne-tee-rainforest-alliance",
+      "unternehmen": "Teekanne GmbH",
+      "marke": "Teekanne",
+      "warengruppe": "Tee",
+      "rohstoffe": [
+        "Tee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Teekanne",
+          "Tee",
+          "zertifizierte tee beschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifizierte-tee-beschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "teekanne-tee-rainforest-alliance-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "teekanne-tee-rainforest-alliance-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "teekanne-tee-rainforest-alliance-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "teekanne-tee-rainforest-alliance-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Teekanne erweitert die Tee-Massenmarktabdeckung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "teekanne-tee-rainforest-alliance-q1"
+          ]
+        }
+      ],
+      "begruendung": "Teekanne erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "teekanne-tee-rainforest-alliance-q1",
+          "titel": "Teekanne: Nachhaltigkeit",
+          "url": "https://www.teekanne.de/de-de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tee"
+          ]
+        },
+        {
+          "id": "teekanne-tee-rainforest-alliance-q2",
+          "titel": "Rainforest Alliance: Tea",
+          "url": "https://www.rainforest-alliance.org/insights/tea/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tee-standard"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "yogi-tea-kraeuter-gewuerze-bio",
+      "unternehmen": "Yogi Tea GmbH",
+      "marke": "Yogi Tea",
+      "warengruppe": "Kraeutertee und Gewuerze",
+      "rohstoffe": [
+        "Kraeuter",
+        "Gewuerze"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Yogi Tea",
+          "Kraeutertee und Gewuerze",
+          "bio und rohstoffpartnerschaften"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-und-rohstoffpartnerschaften",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "yogi-tea-kraeuter-gewuerze-bio-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "yogi-tea-kraeuter-gewuerze-bio-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Yogi Tea wird als Bio-/Kraeutertee-Markenfall bewertet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "yogi-tea-kraeuter-gewuerze-bio-q1"
+          ]
+        }
+      ],
+      "begruendung": "Yogi Tea erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "yogi-tea-kraeuter-gewuerze-bio-q1",
+          "titel": "Yogi Tea: Sustainability",
+          "url": "https://www.yogitea.com/en/sustainability/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "yogi-tea-kraeuter-gewuerze-bio-q2",
+          "titel": "Yogi Tea",
+          "url": "https://www.yogitea.com/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tee"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "clipper-tea-fairtrade-organic",
+      "unternehmen": "Clipper Teas",
+      "marke": "Clipper",
+      "warengruppe": "Tee",
+      "rohstoffe": [
+        "Tee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Clipper",
+          "Tee",
+          "fairtrade und bio tee"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "fairtrade-und-bio-tee",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "clipper-tea-fairtrade-organic-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "clipper-tea-fairtrade-organic-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "clipper-tea-fairtrade-organic-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "clipper-tea-fairtrade-organic-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Clipper ist ein Tee-Fall mit Bio- und Fairtrade-Positionierung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "clipper-tea-fairtrade-organic-q1"
+          ]
+        }
+      ],
+      "begruendung": "Clipper erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "clipper-tea-fairtrade-organic-q1",
+          "titel": "Clipper: Organic and Fairtrade",
+          "url": "https://www.clipper-teas.com/sustainability/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairtrade",
+            "bio"
+          ]
+        },
+        {
+          "id": "clipper-tea-fairtrade-organic-q2",
+          "titel": "Fairtrade: Tea",
+          "url": "https://www.fairtrade.net/product/tea",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tee"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "ethiquable-schokolade-kakao-kooperativen",
+      "unternehmen": "Ethiquable",
+      "marke": "Ethiquable",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Ethiquable",
+          "Schokolade",
+          "fairtrade kooperativenmodell"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "fairtrade-kooperativenmodell",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "ethiquable-schokolade-kakao-kooperativen-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "ethiquable-schokolade-kakao-kooperativen-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ethiquable-schokolade-kakao-kooperativen-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ethiquable-schokolade-kakao-kooperativen-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Ethiquable ist ein Fairhandelsfall mit Kooperativenbezug.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ethiquable-schokolade-kakao-kooperativen-q1"
+          ]
+        }
+      ],
+      "begruendung": "Ethiquable erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "ethiquable-schokolade-kakao-kooperativen-q1",
+          "titel": "Ethiquable: Cocoa",
+          "url": "https://www.ethiquable.coop/page/cacao",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao"
+          ]
+        },
+        {
+          "id": "ethiquable-schokolade-kakao-kooperativen-q2",
+          "titel": "Ethiquable",
+          "url": "https://www.ethiquable.coop/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairtrade"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "vivani-schokolade-bio-kakao",
+      "unternehmen": "EcoFinia GmbH",
+      "marke": "Vivani",
+      "warengruppe": "Bio-Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Vivani",
+          "Bio-Schokolade",
+          "bio kakao beschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-kakao-beschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "vivani-schokolade-bio-kakao-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "vivani-schokolade-bio-kakao-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "vivani-schokolade-bio-kakao-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "vivani-schokolade-bio-kakao-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Vivani erweitert Bio-Schokoladenfaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "vivani-schokolade-bio-kakao-q1"
+          ]
+        }
+      ],
+      "begruendung": "Vivani erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "vivani-schokolade-bio-kakao-q1",
+          "titel": "Vivani: Sustainability",
+          "url": "https://vivani.de/en/sustainability/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao",
+            "bio"
+          ]
+        },
+        {
+          "id": "vivani-schokolade-bio-kakao-q2",
+          "titel": "Vivani",
+          "url": "https://vivani.de/en/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "schokolade"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "rapunzel-hand-in-hand-palm-oel",
+      "unternehmen": "Rapunzel Naturkost",
+      "marke": "Rapunzel",
+      "warengruppe": "Palmrohstoffe",
+      "rohstoffe": [
+        "Palmoel"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Rapunzel",
+          "Palmrohstoffe",
+          "hand in hand rohstoffprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "hand-in-hand-rohstoffprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-palm-oel-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-palm-oel-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-palm-oel-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-palm-oel-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Rapunzel wird als Bio-/Fair-Rohstofffall fuer Palm ergaenzt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rapunzel-hand-in-hand-palm-oel-q1"
+          ]
+        }
+      ],
+      "begruendung": "Rapunzel erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "rapunzel-hand-in-hand-palm-oel-q1",
+          "titel": "Rapunzel HAND IN HAND",
+          "url": "https://www.rapunzel.de/hand-in-hand.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "hand-in-hand"
+          ]
+        },
+        {
+          "id": "rapunzel-hand-in-hand-palm-oel-q2",
+          "titel": "Rapunzel Palmoel",
+          "url": "https://www.rapunzel.de/palmoel.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "nutiva-kokosoel-philippinen",
+      "unternehmen": "Nutiva",
+      "marke": "Nutiva",
+      "warengruppe": "Kokosoel",
+      "rohstoffe": [
+        "Kokos"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Nutiva",
+          "Kokosoel",
+          "bio fair kokosbeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-fair-kokosbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "nutiva-kokosoel-philippinen-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "nutiva-kokosoel-philippinen-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nutiva-kokosoel-philippinen-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "nutiva-kokosoel-philippinen-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Nutiva ist ein internationaler Kokos-Rohstofffall.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "nutiva-kokosoel-philippinen-q1"
+          ]
+        }
+      ],
+      "begruendung": "Nutiva erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "nutiva-kokosoel-philippinen-q1",
+          "titel": "Nutiva: Coconut",
+          "url": "https://www.nutiva.com/pages/coconut",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kokos"
+          ]
+        },
+        {
+          "id": "nutiva-kokosoel-philippinen-q2",
+          "titel": "Nutiva: Sustainability",
+          "url": "https://www.nutiva.com/pages/sustainability",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "alnatura-schokolade-kakao-fairtrade",
+      "unternehmen": "Alnatura",
+      "marke": "Alnatura",
+      "warengruppe": "Bio-Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Alnatura",
+          "Bio-Schokolade",
+          "bio und fairtrade kakao"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-und-fairtrade-kakao",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "alnatura-schokolade-kakao-fairtrade-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "alnatura-schokolade-kakao-fairtrade-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "alnatura-schokolade-kakao-fairtrade-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "alnatura-schokolade-kakao-fairtrade-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Alnatura-Schokolade erweitert Bio-Handelsfaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alnatura-schokolade-kakao-fairtrade-q1"
+          ]
+        }
+      ],
+      "begruendung": "Alnatura erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "alnatura-schokolade-kakao-fairtrade-q1",
+          "titel": "Alnatura: Schokolade",
+          "url": "https://www.alnatura.de/de-de/produkte/suesswaren/schokolade/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "schokolade"
+          ]
+        },
+        {
+          "id": "alnatura-schokolade-kakao-fairtrade-q2",
+          "titel": "Fairtrade: Cocoa",
+          "url": "https://www.fairtrade.net/product/cocoa",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "dm-bio-bananen-bio-fairtrade",
+      "unternehmen": "dm-drogerie markt",
+      "marke": "dmBio",
+      "warengruppe": "Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "dmBio",
+          "Bananen",
+          "bio fairtrade bananen"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-fairtrade-bananen",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "dm-bio-bananen-bio-fairtrade-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "dm-bio-bananen-bio-fairtrade-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "dm-bio-bananen-bio-fairtrade-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "dm-bio-bananen-bio-fairtrade-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "dmBio-Bananen werden als alltagsnaher Bio-/Fairtrade-Fall gefuehrt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-bio-bananen-bio-fairtrade-q1"
+          ]
+        }
+      ],
+      "begruendung": "dmBio erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "dm-bio-bananen-bio-fairtrade-q1",
+          "titel": "dmBio",
+          "url": "https://www.dm.de/marken/dmbio",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "dmbio"
+          ]
+        },
+        {
+          "id": "dm-bio-bananen-bio-fairtrade-q2",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "bananen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "followfood-garnelen-aquakultur",
+      "unternehmen": "followfood GmbH",
+      "marke": "followfood",
+      "warengruppe": "Garnelen",
+      "rohstoffe": [
+        "Garnelen"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "followfood",
+          "Garnelen",
+          "tracking und aquakulturstandard"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "tracking-und-aquakulturstandard",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -2,
+        "final": 6,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "echtzeit-monitoring",
+          "name": "Codebasierte Transparenz",
+          "wert": 2,
+          "quelle_ids": [
+            "followfood-garnelen-aquakultur-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "followfood-garnelen-aquakultur-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "followfood-garnelen-aquakultur-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "followfood-garnelen-aquakultur-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "followfood-Garnelen erweitern die Seafood-Trackingfaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "followfood-garnelen-aquakultur-q1"
+          ]
+        }
+      ],
+      "begruendung": "followfood erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "followfood-garnelen-aquakultur-q1",
+          "titel": "followfood: Fisch und Meeresfruechte",
+          "url": "https://followfood.de/fisch/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking",
+            "seafood"
+          ]
+        },
+        {
+          "id": "followfood-garnelen-aquakultur-q2",
+          "titel": "ASC: Shrimp",
+          "url": "https://asc-aqua.org/producers/farm-standards/shrimp/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "aquakultur"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "iglo-fisch-msc-wildfang",
+      "unternehmen": "Nomad Foods / iglo",
+      "marke": "iglo",
+      "warengruppe": "Fisch",
+      "rohstoffe": [
+        "Wildfisch"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "iglo",
+          "Fisch",
+          "msc wildfang beschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "msc-wildfang-beschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "iglo-fisch-msc-wildfang-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "iglo-fisch-msc-wildfang-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "iglo-fisch-msc-wildfang-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "iglo-fisch-msc-wildfang-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "iglo ist ein Massenmarkt-Fischfall mit MSC-Bezug.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "iglo-fisch-msc-wildfang-q1"
+          ]
+        }
+      ],
+      "begruendung": "iglo erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "iglo-fisch-msc-wildfang-q1",
+          "titel": "iglo: Nachhaltige Fischerei",
+          "url": "https://www.iglo.de/nachhaltigkeit/fisch",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fisch"
+          ]
+        },
+        {
+          "id": "iglo-fisch-msc-wildfang-q2",
+          "titel": "MSC: What we do",
+          "url": "https://www.msc.org/what-we-are-doing",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "msc"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "deutsche-see-fisch-manufaktur-traceability",
+      "unternehmen": "Deutsche See GmbH",
+      "marke": "Deutsche See",
+      "warengruppe": "Fisch und Seafood",
+      "rohstoffe": [
+        "Fisch",
+        "Meeresfruechte"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Deutsche See",
+          "Fisch und Seafood",
+          "seafood beschaffungsprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "seafood-beschaffungsprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "deutsche-see-fisch-manufaktur-traceability-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "deutsche-see-fisch-manufaktur-traceability-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "deutsche-see-fisch-manufaktur-traceability-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "deutsche-see-fisch-manufaktur-traceability-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Deutsche See wird als Seafood-Grosshandels-/Markenfall ergaenzt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "deutsche-see-fisch-manufaktur-traceability-q1"
+          ]
+        }
+      ],
+      "begruendung": "Deutsche See erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "deutsche-see-fisch-manufaktur-traceability-q1",
+          "titel": "Deutsche See: Nachhaltigkeit",
+          "url": "https://www.deutschesee.de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "seafood"
+          ]
+        },
+        {
+          "id": "deutsche-see-fisch-manufaktur-traceability-q2",
+          "titel": "Deutsche See: Fisch und Meeresfruechte",
+          "url": "https://www.deutschesee.de/shop/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produktbezug"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "bio-verde-olivenoel-mittelmeer",
+      "unternehmen": "Isana Naturfeinkost GmbH",
+      "marke": "bio-verde",
+      "warengruppe": "Olivenoel",
+      "rohstoffe": [
+        "Oliven"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "bio-verde",
+          "Olivenoel",
+          "bio herkunftsrohkette"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-herkunftsrohkette",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "bio-verde-olivenoel-mittelmeer-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "bio-verde-olivenoel-mittelmeer-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "bio-verde erweitert die Bio-Feinkost-Rohstofffaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "bio-verde-olivenoel-mittelmeer-q1"
+          ]
+        }
+      ],
+      "begruendung": "bio-verde erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "bio-verde-olivenoel-mittelmeer-q1",
+          "titel": "bio-verde",
+          "url": "https://www.bio-verde.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio"
+          ]
+        },
+        {
+          "id": "bio-verde-olivenoel-mittelmeer-q2",
+          "titel": "bio-verde: Nachhaltigkeit",
+          "url": "https://www.bio-verde.de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "davert-reis-bio-lieferkette",
+      "unternehmen": "Davert GmbH",
+      "marke": "Davert",
+      "warengruppe": "Bio-Reis und Getreide",
+      "rohstoffe": [
+        "Reis",
+        "Getreide"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Davert",
+          "Bio-Reis und Getreide",
+          "bio rohstoffbeschaffung"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-rohstoffbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "davert-reis-bio-lieferkette-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "davert-reis-bio-lieferkette-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "davert-reis-bio-lieferkette-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "davert-reis-bio-lieferkette-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Davert ergaenzt Trockenwaren und Reis.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "davert-reis-bio-lieferkette-q1"
+          ]
+        }
+      ],
+      "begruendung": "Davert erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "davert-reis-bio-lieferkette-q1",
+          "titel": "Davert: Verantwortung",
+          "url": "https://www.davert.de/verantwortung",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "rohstoffe"
+          ]
+        },
+        {
+          "id": "davert-reis-bio-lieferkette-q2",
+          "titel": "Davert",
+          "url": "https://www.davert.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "marke"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "barnhouse-krunchy-hafer-we-care",
+      "unternehmen": "Barnhouse Naturprodukte GmbH",
+      "marke": "Barnhouse",
+      "warengruppe": "Bio-Muesli und Cerealien",
+      "rohstoffe": [
+        "Hafer",
+        "Getreide"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Barnhouse",
+          "Bio-Muesli und Cerealien",
+          "we care und bio lieferkettenmanagement"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "we-care-und-bio-lieferkettenmanagement",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "barnhouse-krunchy-hafer-we-care-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "barnhouse-krunchy-hafer-we-care-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Barnhouse wird als Bio-Cerealien- und We-Care-Fall aufgenommen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "barnhouse-krunchy-hafer-we-care-q1"
+          ]
+        }
+      ],
+      "begruendung": "Barnhouse erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "barnhouse-krunchy-hafer-we-care-q1",
+          "titel": "Barnhouse: Nachhaltigkeit",
+          "url": "https://www.barnhouse.de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "barnhouse-krunchy-hafer-we-care-q2",
+          "titel": "We Care-certified companies",
+          "url": "https://we-care-siegel.org/?lang=en",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "we-care"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "bauckhof-hafer-getreide-bio",
+      "unternehmen": "Bauck GmbH",
+      "marke": "Bauckhof",
+      "warengruppe": "Bio-Getreideprodukte",
+      "rohstoffe": [
+        "Hafer",
+        "Getreide"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bauckhof",
+          "Bio-Getreideprodukte",
+          "bio regionale rohstoffbasis"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "bio-regionale-rohstoffbasis",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "bauckhof-hafer-getreide-bio-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "bauckhof-hafer-getreide-bio-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Bauckhof erweitert Bio-Getreidefaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "bauckhof-hafer-getreide-bio-q1"
+          ]
+        }
+      ],
+      "begruendung": "Bauckhof erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "bauckhof-hafer-getreide-bio-q1",
+          "titel": "Bauckhof: Bio und Nachhaltigkeit",
+          "url": "https://www.bauckhof.de/bio-nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio"
+          ]
+        },
+        {
+          "id": "bauckhof-hafer-getreide-bio-q2",
+          "titel": "Bauckhof",
+          "url": "https://www.bauckhof.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "marke"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "hofpfisterei-brot-getreide-oeko",
+      "unternehmen": "Ludwig Stocker Hofpfisterei",
+      "marke": "Hofpfisterei",
+      "warengruppe": "Bio-Brot",
+      "rohstoffe": [
+        "Getreide"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Hofpfisterei",
+          "Bio-Brot",
+          "oekologisches baeckereiprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "oekologisches-baeckereiprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "hofpfisterei-brot-getreide-oeko-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "hofpfisterei-brot-getreide-oeko-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Hofpfisterei ergaenzt Brot/Getreide im Bio-Fachkontext.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "hofpfisterei-brot-getreide-oeko-q1"
+          ]
+        }
+      ],
+      "begruendung": "Hofpfisterei erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "hofpfisterei-brot-getreide-oeko-q1",
+          "titel": "Hofpfisterei: Oekologie",
+          "url": "https://www.hofpfisterei.de/oekologie/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bio",
+            "brot"
+          ]
+        },
+        {
+          "id": "hofpfisterei-brot-getreide-oeko-q2",
+          "titel": "Hofpfisterei",
+          "url": "https://www.hofpfisterei.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "marke"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "sodasan-reinigungsmittel-oele-tenside",
+      "unternehmen": "Sodasan",
+      "marke": "Sodasan",
+      "warengruppe": "Wasch- und Reinigungsmittel",
+      "rohstoffe": [
+        "Pflanzliche Oele",
+        "Tenside"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Sodasan",
+          "Wasch- und Reinigungsmittel",
+          "naturbasierte drogerierohstoffe"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "naturbasierte-drogerierohstoffe",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "sodasan-reinigungsmittel-oele-tenside-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "sodasan-reinigungsmittel-oele-tenside-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Sodasan erweitert Drogerie-Rohstofffaelle.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "sodasan-reinigungsmittel-oele-tenside-q1"
+          ]
+        }
+      ],
+      "begruendung": "Sodasan erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "sodasan-reinigungsmittel-oele-tenside-q1",
+          "titel": "Sodasan: Nachhaltigkeit",
+          "url": "https://www.sodasan.com/nachhaltigkeit",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "drogerie"
+          ]
+        },
+        {
+          "id": "sodasan-reinigungsmittel-oele-tenside-q2",
+          "titel": "Sodasan: Zertifizierungen",
+          "url": "https://www.sodasan.com/zertifizierungen",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungen"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "almawin-reinigungsmittel-pflanzliche-tenside",
+      "unternehmen": "AlmaWin Reinigungskonzentrate GmbH",
+      "marke": "AlmaWin",
+      "warengruppe": "Reinigungsmittel",
+      "rohstoffe": [
+        "Tenside",
+        "pflanzliche Rohstoffe"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "AlmaWin",
+          "Reinigungsmittel",
+          "naturbasierte drogerierohstoffe"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "naturbasierte-drogerierohstoffe",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "almawin-reinigungsmittel-pflanzliche-tenside-q1"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "almawin-reinigungsmittel-pflanzliche-tenside-q1"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "AlmaWin wird als Drogerie-Rohstoff- und Zertifizierungsfall ergaenzt.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "almawin-reinigungsmittel-pflanzliche-tenside-q1"
+          ]
+        }
+      ],
+      "begruendung": "AlmaWin erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "almawin-reinigungsmittel-pflanzliche-tenside-q1",
+          "titel": "AlmaWin: Nachhaltigkeit",
+          "url": "https://www.almawin.de/nachhaltigkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "drogerie"
+          ]
+        },
+        {
+          "id": "almawin-reinigungsmittel-pflanzliche-tenside-q2",
+          "titel": "AlmaWin: Zertifizierungen",
+          "url": "https://www.almawin.de/zertifizierungen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zertifizierungen"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "ecover-reinigungsmittel-palm-tenside",
+      "unternehmen": "Ecover",
+      "marke": "Ecover",
+      "warengruppe": "Reinigungsmittel",
+      "rohstoffe": [
+        "Tenside",
+        "Pflanzliche Oele"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Ecover",
+          "Reinigungsmittel",
+          "pflanzliche tenside und palmstrategie"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "pflanzliche-tenside-und-palmstrategie",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3,
+        "anmerkung": "Breitenerfassung: Warengruppen- oder Programmlogik, keine chargengenaue Volltransparenz."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "ecover-reinigungsmittel-palm-tenside-q1"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "ecover-reinigungsmittel-palm-tenside-q2"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "begrenzte-produktschaerfe",
+          "beschreibung": "Die oeffentliche Aussage bleibt auf Programm-, Warengruppen- oder Markenniveau und ist nicht fuer jede Einzelcharge belegbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ecover-reinigungsmittel-palm-tenside-q1"
+          ]
+        },
+        {
+          "id": "rohstoffrisiko",
+          "beschreibung": "Der Rohstoff bzw. die Warengruppe gilt strukturell als risikobehaftet und braucht deshalb Sonderprogramme oder Kontrollmechanismen.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "ecover-reinigungsmittel-palm-tenside-q2"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "programm-oder-transparenzansatz",
+          "beschreibung": "Ecover wird als internationaler Drogerie-Tensidfall aufgenommen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "ecover-reinigungsmittel-palm-tenside-q1"
+          ]
+        }
+      ],
+      "begruendung": "Ecover erweitert die Lieferkettenbasis im aktiven Scope. Bewertet wird Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell, nicht eine vollstaendige Einzelproduktkette.",
+      "quellen": [
+        {
+          "id": "ecover-reinigungsmittel-palm-tenside-q1",
+          "titel": "Ecover: Ingredients",
+          "url": "https://www.ecover.com/ingredient-glossary/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "inhaltsstoffe"
+          ]
+        },
+        {
+          "id": "ecover-reinigungsmittel-palm-tenside-q2",
+          "titel": "Ecover: Sustainability",
+          "url": "https://www.ecover.com/sustainability/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Als Warengruppen- oder Programmfall anzeigen; keine produktscharfe Herkunft behaupten.",
+      "relevante_siegel": []
+    }
+  ]
+}

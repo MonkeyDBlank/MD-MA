@@ -32,7 +32,7 @@ Nicht aktiv sind Textilien, rein verpackungsbezogene Forst-/Papiersiegel ohne di
 
 ## Aktueller Stand in einem Satz
 
-Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 50 aktive Eintraege, `lieferketten.json` 35 belastbare Pilotfaelle und `glossar.json` 24 relevante Begriffe.
+Die GitHub-first-Arbeitsbasis steht: `qualitaetssiegel.json` enthaelt 569 aktive Eintraege, `lieferketten.json` 200 belastbare Pilotfaelle und `glossar.json` 112 relevante Begriffe.
 
 Neu im Stand `2026.6` sind unter anderem Tierhaltungs- und Verbraucherkennzeichnungen wie `fuer-mehr-tierschutz`, `staatliche-tierhaltungskennzeichnung`, `nutri-score` und `pro-weideland` sowie die Lieferkettenfaelle `ritter-sport-schokolade-kakao-el-cacao-nicaragua`, `rewe-bio-cafe-mujer-kaffee-peru` und `alnatura-peru-cafe-bio-kaffee`.
 

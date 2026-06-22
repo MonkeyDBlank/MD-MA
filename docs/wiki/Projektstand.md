@@ -36,7 +36,7 @@ Vorhandene Notion-Siegel wurden in ein konsistentes JSON-Format ueberfuehrt. Dan
 Aktiver Stand:
 
 - `data/processed/qualitaetssiegel.json`
-- 50 aktive Eintraege
+- 569 aktive Eintraege
 
 ### 4. Lieferkettenmodell aufgebaut
 
@@ -49,7 +49,7 @@ Dadurch konnten belastbare Pilotfaelle aufgebaut werden, ohne falsche Produktsch
 Aktiver Stand:
 
 - `data/processed/lieferketten.json`
-- 35 aktive Pilotfaelle
+- 200 aktive Pilotfaelle
 
 ### 5. Glossar als dritte JSON abgegrenzt
 
@@ -58,7 +58,7 @@ Das Glossar ist eine eigenstaendige dritte JSON mit relevanten Begriffen fuer Na
 Aktiver Stand:
 
 - `data/processed/glossar.json`
-- 24 Begriffe
+- 112 Begriffe
 
 ### 6. Agenten-Workflow eingefuehrt
 
@@ -125,3 +125,71 @@ Stand nach Lauf 010 / Lieferketten Lauf 009:
 - 24 Glossar-Begriffe in `data/processed/glossar.json`
 
 Der Ausbau nutzt die vorhandenen Agentenrollen als Discovery-, Research-, Source-Audit-, Scoring-, Review- und Output-Pipeline. Bei Lieferketten bleiben die neuen Eintraege bewusst auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt; es wird keine chargengenaue Produktherkunft behauptet, wenn sie nicht oeffentlich belegt ist.
+
+## Aktualisierung 2026-06-22 - Breiter Ausbau
+
+Stand nach Lauf 011 / Lieferketten Lauf 010:
+
+- 69 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- neu hinzugekommen: `ama-biosiegel`, `ama-guetesiegel`, `bio-austria`, `best-aquaculture-practices`, `cse-certified-sustainable-economics`, `certified-vegan-vegan-action`, `ecocert-natural-detergents`, `equitable-food-initiative`, `flustix-plastikfrei`, `ggn-label`, `icada-natural`, `krav`, `marintrust`, `naturland-aquakultur`, `naturland-wildfisch`, `proterra`, `rspca-assured`, `soil-association-organic`, `we-care`
+- 50 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- neu hinzugekommen: `aldi-sued-bananen-fairtrade-rainforest-alliance`, `alpro-sojadrink-soja-proterra`, `beiersdorf-nivea-palmoel-derivate`, `dmbio-schokolade-sierra-leone-kakao`, `edeka-fleisch-fisch-ftrace`, `edeka-heimatliebe-obst-gemuese-ftrace`, `frosta-wildlachs-lachs-zutatentracker`, `henkel-persil-waschmittel-palmerkern-tenside`, `lindt-schokolade-kakao-farming-program`, `mars-schokolade-kakao-cocoa-for-generations`, `mondelez-milka-schokolade-kakao-cocoa-life`, `oatly-haferdrink-hafer-nachhaltigkeitsprogramm`, `rewe-penny-very-fair-schokolade-kakao-ghana`, `tchibo-kaffee-kaffeeprogramm-joint-forces`, `werner-mertz-frosch-tenside-europaeische-oele`
+- 24 Glossar-Begriffe in `data/processed/glossar.json`
+
+Dieser Ausbau priorisiert Breite, bleibt aber im aktiven Scope Nahrung/Drogerie. Grenzfaelle wie Unternehmens- oder Rohstoffstandards wurden nur aufgenommen, wenn ein plausibler Produkt- oder Warengruppenbezug besteht und die Einordnung im Score sichtbar begrenzt wurde.
+
+## Aktualisierung 2026-06-22 - Massenlauf
+
+Stand nach Lauf 012 / Lieferketten Lauf 011:
+
+- 169 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 100 neue Siegel im Lauf, darunter EU-Herkunftszeichen, nationale Bio-/Qualitaetszeichen, Prozess-/Allergen-/Religionslabels, Tierwohl-/Fair-Standards und Drogerie-/Kosmetik-/Umweltzeichen
+- 80 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 30 neue Lieferketten-Pilotfaelle zu Kaffee, Kakao, Tee, Bananen, Fisch/Seafood, Bio-Trockenwaren, Pflanzenprotein und Drogerierohstoffen
+- 24 Glossar-Begriffe in `data/processed/glossar.json`
+
+Der Massenlauf ist bewusst als breite Abdeckung angelegt. Bei weniger produktscharfen Labels und Lieferketten ist die Unsicherheit entsprechend hoeher und die Begruendung begrenzt den Aussagebereich.
+
+## Aktualisierung 2026-06-22 - Zweiter Massenlauf und Glossar-Ausbau
+
+Stand nach Lauf 013 / Lieferketten Lauf 012 / Glossar Lauf 007:
+
+- 269 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 110 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 46 Glossar-Begriffe in `data/processed/glossar.json`
+- neu im Glossar sind u. a. Begriffe zu g.g.A./g.U./g.t.S., Halal/Koscher/Glutenfrei, Allergenmanagement, regenerativer Landwirtschaft, Outcome Verification, True Cost Accounting, Sorgfaltspflichten und Beschwerdemechanismen
+
+Auch dieser Lauf priorisiert Breite. Die JSON-Struktur bleibt unveraendert; unsichere oder eng begrenzte Labels werden im Score und in der Begruendung entsprechend vorsichtig eingeordnet.
+
+## Aktualisierung 2026-06-22 - Dritter Massenlauf
+
+Stand nach Lauf 014 / Lieferketten Lauf 013 / Glossar Lauf 008:
+
+- 369 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 140 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 68 Glossar-Begriffe in `data/processed/glossar.json`
+- erneut neu hinzugekommen: 100 Siegel, 30 Lieferketten und 22 Glossarbegriffe
+
+Der Lauf erweitert vor allem Herkunftszeichen, Prozess- und Sicherheitslabels, Vegan-/Tierversuchsfreiheitslabels, Rohstoffstandards, Drogerie-/Kosmetikzeichen sowie weitere Handels- und Drogerierohstoff-Lieferketten.
+
+## Aktualisierung 2026-06-22 - Vierter Massenlauf
+
+Stand nach Lauf 015 / Lieferketten Lauf 014 / Glossar Lauf 009:
+
+- 469 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 170 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 90 Glossar-Begriffe in `data/processed/glossar.json`
+- erneut neu hinzugekommen: 100 Siegel, 30 Lieferketten und 22 Glossarbegriffe
+
+Der Lauf erweitert die Breite um weitere Herkunfts-, Prozess-, Claim-, Rohstoff-, Drogerie- und Kosmetikzeichen sowie zusaetzliche Handels-, Fisch-, Kakao-, Kaffee-, Verpackungsrohstoff- und Waschmittel-Lieferketten. Die JSON-Struktur bleibt unveraendert.
+
+## Aktualisierung 2026-06-22 - Fuenfter Massenlauf
+
+Stand nach Lauf 016 / Lieferketten Lauf 015 / Glossar Lauf 010:
+
+- 569 aktive Siegel-Eintraege in `data/processed/qualitaetssiegel.json`
+- 200 aktive Lieferketten-Eintraege in `data/processed/lieferketten.json`
+- 112 Glossar-Begriffe in `data/processed/glossar.json`
+- erneut neu hinzugekommen: 100 Siegel, 30 Lieferketten und 22 Glossarbegriffe
+
+Der Lauf erweitert die Breite vor allem um weitere EU-Herkunftszeichen, Prozess-/Claimlabels, Allergen- und Sensitivlabels sowie weitere Handels-, Bio-Fachhandels-, Getraenke-, Kakao-, Kaffee-, Getreide-, Drogerie- und Kosmetikrohstoff-Lieferketten. Die JSON-Struktur bleibt unveraendert.

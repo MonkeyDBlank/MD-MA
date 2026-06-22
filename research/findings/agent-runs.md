@@ -411,3 +411,176 @@ Ziel: Den aktiven Siegelbestand im Scope Nahrung/Drogerie von 38 auf 50 Eintraeg
 - Regionale Bio- und Qualitaetszeichen wurden nicht mit Premium-Bio- oder Fair-Trade-Standards gleichgesetzt.
 - Enge Verbraucher- oder Prozesslabels wie `aoecs-crossed-grain` wurden bewusst niedrig eingeordnet, obwohl sie fuer Betroffene nuetzlich sind.
 - Rohstoff- und Ingredient-Standards wie `uebt-certified`, `fairwild`, `fair-rubber` und `donausoja-europe-soya` wurden nur aufgenommen, wenn ein klarer Produktbezug zu Nahrung oder Drogerie besteht.
+
+## Lauf 011 - Breiter Qualitaetssiegel-Ausbau Nahrung/Drogerie (2026-06-22)
+
+Ziel: Den aktiven Siegelbestand moeglichst breit erweitern, ohne den Scope Nahrung/Drogerie oder das bestehende JSON-Schema aufzuweichen.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-011.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+
+### Neue Eintraege
+
+- `ama-biosiegel`
+- `ama-guetesiegel`
+- `bio-austria`
+- `best-aquaculture-practices`
+- `cse-certified-sustainable-economics`
+- `certified-vegan-vegan-action`
+- `ecocert-natural-detergents`
+- `equitable-food-initiative`
+- `flustix-plastikfrei`
+- `ggn-label`
+- `icada-natural`
+- `krav`
+- `marintrust`
+- `naturland-aquakultur`
+- `naturland-wildfisch`
+- `proterra`
+- `rspca-assured`
+- `soil-association-organic`
+- `we-care`
+
+### Methodische Hinweise
+
+- Internationale Standards wurden aufgenommen, wenn sie fuer importierte oder im deutschen Markt sichtbare Lebensmittel/Drogerieprodukte plausibel relevant sind.
+- Unternehmens- und Managementstandards wie `we-care` und `cse-certified-sustainable-economics` wurden wegen begrenztem Produktbezug niedriger bewertet.
+- Verpackungsnahe oder enge Claim-Standards wie `flustix-plastikfrei` wurden nur mit direktem Produktbezug und sichtbarer Score-Begrenzung aufgenommen.
+
+## Lauf 012 - Massenlauf Qualitaetssiegel Nahrung/Drogerie (2026-06-22)
+
+Ziel: Mindestens 100 weitere Qualitaetssiegel bzw. siegelartige Produkt-, Herkunfts-, Prozess- und Rohstoffstandards in den aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-012.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+
+### Ergebnis
+
+- 100 neue Siegel-Eintraege in diesem Lauf
+- 169 aktive Eintraege in `data/processed/qualitaetssiegel.json`
+
+### Abdeckungscluster
+
+- EU-Herkunftszeichen und geschuetzte geografische Angaben
+- nationale Bio- und Qualitaetszeichen
+- Prozess-, Allergen-, Glutenfrei-, Halal- und Koscherlabels
+- Tierwohl-, Fair-Trade- und Sozialstandards
+- Drogerie-, Kosmetik-, Reinigungsmittel- und Umweltzeichen
+
+### Methodische Hinweise
+
+- Der Lauf priorisiert Breite und Markt-/Importrelevanz. Nicht jedes Label ist ein umfassendes Nachhaltigkeitssiegel.
+- Eng begrenzte Prozess- oder Herkunftslabels wurden niedriger bewertet und mit Unsicherheit versehen.
+- Das finale JSON-Schema blieb unveraendert.
+
+## Lauf 013 - Zweiter Massenlauf Qualitaetssiegel und Glossar-Ausbau (2026-06-22)
+
+Ziel: Nochmals mindestens 100 weitere Qualitaetssiegel bzw. siegelartige Produkt-, Herkunfts-, Prozess- und Rohstoffstandards aufnehmen und das Glossar passend erweitern.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-013.draft.json`
+- `data/drafts/glossar.agent-run-007.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+- aktualisiert: `data/processed/glossar.json`
+
+### Ergebnis
+
+- 100 neue Siegel-Eintraege in diesem Lauf
+- 269 aktive Eintraege in `data/processed/qualitaetssiegel.json`
+- 22 neue Glossar-Begriffe
+- 46 aktive Begriffe in `data/processed/glossar.json`
+
+### Abdeckungscluster
+
+- weitere EU-Herkunftszeichen und geschuetzte geografische Angaben
+- weitere Prozess-, Sicherheits-, Religions- und Allergenlabels
+- regenerative, Fair-Trade-, Tierwohl- und Biodiversitaetsstandards
+- weitere Drogerie-, Kosmetik-, Hautvertraeglichkeits- und Umweltzeichen
+
+### Methodische Hinweise
+
+- Die zweite Massenrunde erweitert bewusst die Breite; nicht jedes neu aufgenommene Zeichen ist ein Nachhaltigkeitssiegel.
+- Eng begrenzte Labels wurden niedriger bewertet und mit Unsicherheit oder begrenztem Aussagebereich versehen.
+- Das Glossar wurde erweitert, weil durch die starke Breite neue Begriffe zu Herkunftszeichen, Prozesslabels und Rueckverfolgbarkeit relevant wurden.
+
+## Lauf 014 - Dritter Massenlauf Qualitaetssiegel und Glossar-Ausbau (2026-06-22)
+
+Ziel: Nochmals 100 weitere Qualitaetssiegel bzw. siegelartige Produkt-, Herkunfts-, Prozess- und Rohstoffstandards aufnehmen und das Glossar erweitern.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-014.draft.json`
+- `data/drafts/glossar.agent-run-008.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+- aktualisiert: `data/processed/glossar.json`
+
+### Ergebnis
+
+- 100 neue Siegel-Eintraege in diesem Lauf
+- 369 aktive Eintraege in `data/processed/qualitaetssiegel.json`
+- 22 neue Glossar-Begriffe
+- 68 aktive Begriffe in `data/processed/glossar.json`
+
+### Methodische Hinweise
+
+- Wieder starker Fokus auf Breite; viele neue Zeichen sind Herkunfts-, Prozess- oder Claim-Labels und daher niedriger bewertet.
+- Das finale JSON-Schema blieb unveraendert.
+
+## Lauf 015 - Vierter Massenlauf Qualitaetssiegel und Glossar-Ausbau (2026-06-22)
+
+Ziel: Nochmals 100 weitere Qualitaetssiegel bzw. siegelartige Produkt-, Herkunfts-, Prozess- und Rohstoffstandards aufnehmen und das Glossar passend erweitern.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-015.draft.json`
+- `data/drafts/glossar.agent-run-009.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+- aktualisiert: `data/processed/glossar.json`
+
+### Ergebnis
+
+- 100 neue Siegel-Eintraege in diesem Lauf
+- 469 aktive Eintraege in `data/processed/qualitaetssiegel.json`
+- 22 neue Glossar-Begriffe
+- 90 aktive Begriffe in `data/processed/glossar.json`
+
+### Methodische Hinweise
+
+- Der Lauf priorisiert erneut Breite; viele neue Eintraege sind Herkunfts-, Prozess-, Sicherheits-, Claim- oder Rohstofflabels mit begrenztem Aussagebereich.
+- Das Glossar wurde erweitert, um Claim-Bewertung, Rohstoffprogramme, Verpackungsrohstoffe, Due-Diligence-Datenpunkte und Herkunftsrisiken besser abzudecken.
+- Das finale JSON-Schema blieb unveraendert.
+
+## Lauf 016 - Fuenfter Massenlauf Qualitaetssiegel und Glossar-Ausbau (2026-06-22)
+
+Ziel: Nochmals 100 weitere Qualitaetssiegel bzw. siegelartige Produkt-, Herkunfts-, Prozess- und Rohstoffstandards aufnehmen und das Glossar passend erweitern.
+
+### Neue Dateien
+
+- `data/drafts/qualitaetssiegel.agent-run-016.draft.json`
+- `data/drafts/glossar.agent-run-010.draft.json`
+- aktualisiert: `data/drafts/qualitaetssiegel.master.draft.json`
+- aktualisiert: `data/processed/qualitaetssiegel.json`
+- aktualisiert: `data/processed/glossar.json`
+
+### Ergebnis
+
+- 100 neue Siegel-Eintraege in diesem Lauf
+- 569 aktive Eintraege in `data/processed/qualitaetssiegel.json`
+- 22 neue Glossar-Begriffe
+- 112 aktive Begriffe in `data/processed/glossar.json`
+
+### Methodische Hinweise
+
+- Der Lauf priorisiert erneut Breite; viele neue Eintraege sind Herkunfts-, Prozess-, Claim-, Allergen-, Sensitiv- oder Drogerie-/Kosmetiklabels mit begrenztem Aussagebereich.
+- Das Glossar wurde erweitert, um Produktspezifikationen, Claim Scope, Chain-of-Custody-Modelle, Risikorohstoffe, Verpackungsrohstoffe und Kontrolltiefe besser abzudecken.
+- Das finale JSON-Schema blieb unveraendert.

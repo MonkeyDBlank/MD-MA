@@ -274,3 +274,158 @@ Ziel: Die Lieferkettenbasis von 18 auf 35 aktive Pilotfaelle erweitern.
 - Neue Handelsfaelle mit Tracking oder Warengruppenprogrammen wurden niedriger bewertet als Direktbezug oder chargennahe Systeme.
 - Palm- und Tensidfaelle in Drogerieprodukten bleiben wegen Derivaten, Mass-Balance-Modellen und begrenzter Produktschaerfe bewusst im niedrigen bis mittleren Bereich.
 - Kakao-, Kaffee-, Tee- und Bananenfaelle enthalten Rohstoffrisiko-Abzuege, wenn keine starke Sonderlogik die Risiken ausreichend adressiert.
+
+## Lauf 010 - Breiter Lieferketten-Ausbau Nahrung/Drogerie (2026-06-22)
+
+Ziel: Die Lieferkettenbasis moeglichst breit auf weitere Massenmarkt- und Spezialmarkenfaelle erweitern.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-010.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Neue Eintraege
+
+- `aldi-sued-bananen-fairtrade-rainforest-alliance`
+- `alpro-sojadrink-soja-proterra`
+- `beiersdorf-nivea-palmoel-derivate`
+- `dmbio-schokolade-sierra-leone-kakao`
+- `edeka-fleisch-fisch-ftrace`
+- `edeka-heimatliebe-obst-gemuese-ftrace`
+- `frosta-wildlachs-lachs-zutatentracker`
+- `henkel-persil-waschmittel-palmerkern-tenside`
+- `lindt-schokolade-kakao-farming-program`
+- `mars-schokolade-kakao-cocoa-for-generations`
+- `mondelez-milka-schokolade-kakao-cocoa-life`
+- `oatly-haferdrink-hafer-nachhaltigkeitsprogramm`
+- `rewe-penny-very-fair-schokolade-kakao-ghana`
+- `tchibo-kaffee-kaffeeprogramm-joint-forces`
+- `werner-mertz-frosch-tenside-europaeische-oele`
+
+### Methodische Hinweise
+
+- Markenprogramme grosser Hersteller wurden bewusst niedriger eingeordnet als Direktbezug oder chargennahe Tracking-Systeme.
+- Palm- und Tensidfaelle in Drogerieprodukten bleiben wegen Derivaten und Mass-Balance-Logik kritisch begrenzt.
+- Trackingfaelle wie FRoSTA oder EDEKA wurden nur dort staerker bewertet, wo ein konkreter Code- oder Herkunftszugang plausibel ist.
+
+## Lauf 011 - Massenlauf Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Mindestens 30 weitere Lieferketten-Pilotfaelle im aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-011.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Ergebnis
+
+- 30 neue Lieferketten-Eintraege in diesem Lauf
+- 80 aktive Eintraege in `data/processed/lieferketten.json`
+
+### Abdeckungscluster
+
+- Kaffeeprogramme und zertifizierte Kaffeebeschaffung
+- Kakao-/Schokoladenprogramme
+- Tee, Kraeuter und Gewuerze
+- Bananen und weitere Obst-/Regionalfaelle
+- Fisch/Seafood und Trackingfaelle
+- Bio-Trockenwaren, Getreide, Reis und Pflanzenprotein
+- Drogerie- und Kosmetikrohstoffe wie Tenside, Pflanzenoele, Sheabutter und aetherische Oele
+
+### Methodische Hinweise
+
+- Bewertet wird weiterhin Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell.
+- Konzernprogramme und Warengruppenstrategien wurden niedriger bewertet als direkte oder codebasierte Rueckverfolgbarkeit.
+- Keine neue Feldstruktur wurde eingefuehrt.
+
+## Lauf 012 - Zweiter Massenlauf Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Nochmals mindestens 30 weitere Lieferketten-Pilotfaelle im aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-012.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Ergebnis
+
+- 30 neue Lieferketten-Eintraege in diesem Lauf
+- 110 aktive Eintraege in `data/processed/lieferketten.json`
+
+### Abdeckungscluster
+
+- weitere Handelsfaelle zu Regionalitaet, Tierwohl, Bio-Eigenmarken und True-Cost-Kommunikation
+- Kakao, Kaffee, Tee, Gewuerze, Bananen und Pflanzenprotein
+- Babynahrung, Bio-Fachhandel, Fisch/Seafood und Blumen
+- Drogerie- und Kosmetikrohstoffe wie Pflanzenextrakte, Tenside, Sheabutter und Kosmetikrohstoffe
+
+### Methodische Hinweise
+
+- Die Eintraege bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt.
+- Programm- und Warengruppenfaelle wurden niedriger bewertet als chargennahe Trackingfaelle.
+- Das finale JSON-Schema blieb unveraendert.
+
+## Lauf 013 - Dritter Massenlauf Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Nochmals 30 weitere Lieferketten-Pilotfaelle im aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-013.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Ergebnis
+
+- 30 neue Lieferketten-Eintraege in diesem Lauf
+- 140 aktive Eintraege in `data/processed/lieferketten.json`
+
+### Methodische Hinweise
+
+- Schwerpunkt waren weitere Handelsmarken-, Kakao-, Kaffee-, Drogerie-, Kosmetik- und Waschmittelrohstofffaelle.
+- Die Eintraege bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt.
+
+## Lauf 014 - Vierter Massenlauf Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Nochmals 30 weitere Lieferketten-Pilotfaelle im aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-014.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Ergebnis
+
+- 30 neue Lieferketten-Eintraege in diesem Lauf
+- 170 aktive Eintraege in `data/processed/lieferketten.json`
+
+### Methodische Hinweise
+
+- Schwerpunkt waren weitere Handels-, Kakao-, Kaffee-, Tee-, Fisch-, Verpackungsrohstoff-, Waschmittel-, Drogerie- und Kosmetikrohstofffaelle.
+- Die Eintraege bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt.
+- Das finale JSON-Schema blieb unveraendert.
+
+## Lauf 015 - Fuenfter Massenlauf Lieferketten Nahrung/Drogerie (2026-06-22)
+
+Ziel: Nochmals 30 weitere Lieferketten-Pilotfaelle im aktiven Scope aufnehmen.
+
+### Neue Dateien
+
+- `data/drafts/lieferketten.agent-run-015.draft.json`
+- aktualisiert: `data/drafts/lieferketten.master.draft.json`
+- aktualisiert: `data/processed/lieferketten.json`
+
+### Ergebnis
+
+- 30 neue Lieferketten-Eintraege in diesem Lauf
+- 200 aktive Eintraege in `data/processed/lieferketten.json`
+
+### Methodische Hinweise
+
+- Schwerpunkt waren weitere Handels-, Bio-Fachhandels-, Getraenke-, Kakao-, Kaffee-, Getreide-, Drogerie-, Kosmetik- und Waschmittelrohstofffaelle.
+- Die Eintraege bleiben auf Unternehmen/Marke + Warengruppe/Rohstoff + Lieferkettenmodell begrenzt.
+- Das finale JSON-Schema blieb unveraendert.

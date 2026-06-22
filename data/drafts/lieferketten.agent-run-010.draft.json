@@ -1,0 +1,1647 @@
+{
+  "version": "2026.8",
+  "typ": "lieferketten",
+  "stand": "2026-06-22",
+  "eintraege": [
+    {
+      "id": "aldi-sued-bananen-fairtrade-rainforest-alliance",
+      "unternehmen": "ALDI Sued",
+      "marke": "ALDI Sued Eigenmarken",
+      "warengruppe": "Bananen",
+      "rohstoffe": [
+        "Banane"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Bananenanbau-Programm",
+          "Fairtrade- und Rainforest-Alliance-Kontext"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "zertifiziertes-obstprogramm",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -2,
+        "final": 5,
+        "anmerkung": "Warengruppenprogramm mit Zertifizierungshebel, aber ohne chargengenaue Herkunft."
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "aldi-sued-bananen"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "bananen-preisdruck",
+          "beschreibung": "Bananenlieferketten sind durch Preisdruck, Loehne, Pestizide und Klima risikobehaftet.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-banana"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "bananenprogramm",
+          "beschreibung": "ALDI Sued beschreibt Anforderungen und Partnerschaftsansaetze fuer Bananen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "aldi-sued-bananen"
+          ]
+        }
+      ],
+      "begruendung": "Der ALDI-Sued-Bananenfall ergaenzt den Discount-Obstbereich. Positiv ist die programmatische Beschaffung, begrenzt bleibt die fehlende produktscharfe Transparenz.",
+      "quellen": [
+        {
+          "id": "aldi-sued-bananen",
+          "titel": "ALDI Sued: Bananenanbau",
+          "url": "https://www.aldi-sued.de/nachhaltigkeit/lieferkette-anbau/bananenanbau",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bananen",
+            "lieferkette"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-banana",
+          "titel": "Fairtrade Risk Map: Banana",
+          "url": "https://riskmap.fairtrade.net/commodities/banana",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "bananen-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird die Warengruppe ALDI-Sued-Bananen, nicht jede einzelne Banane.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Sozialstandard im Bananensektor",
+          "einordnung": "Siegelbezug verbessert Mindestanforderungen, ersetzt aber keine konkrete Lieferkette."
+        },
+        {
+          "id": "rainforest-alliance",
+          "rolle": "Plantagenstandard",
+          "einordnung": "Relevant fuer Bananen, aber Lieferkettenbewertung bleibt separat."
+        }
+      ]
+    },
+    {
+      "id": "alpro-sojadrink-soja-proterra",
+      "unternehmen": "Danone / Alpro",
+      "marke": "Alpro",
+      "warengruppe": "Sojadrinks",
+      "rohstoffe": [
+        "Soja"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Soja fuer Alpro-Produkte",
+          "Europa/Kanada-Kontext",
+          "Non-GMO- und ProTerra-Bezug"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "non-gmo-soja-programm",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "alpro-soya",
+            "proterra-standard"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "soja-entwaldung",
+          "beschreibung": "Soja ist global entwaldungsrelevant; Alpro grenzt seinen Bezug regional und gentechnikfrei ein.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alpro-soya",
+            "proterra-standard"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "europa-kanada-soja",
+          "beschreibung": "Alpro kommuniziert Soja-Herkunft und Nachhaltigkeitsanforderungen fuer seine Sojaprodukte.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "alpro-soya"
+          ]
+        }
+      ],
+      "begruendung": "Alpro ist ein starker Pflanzenproteinfall, weil Rohstoff, Region und Non-GMO-Kontext vergleichsweise konkret sind. Die Bewertung bleibt unter Direktbezug, weil keine chargengenaue Lieferkette oeffentlich ist.",
+      "quellen": [
+        {
+          "id": "alpro-soya",
+          "titel": "Alpro: Soya",
+          "url": "https://www.alpro.com/egen/ingredient/soya",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "soja",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "alpro-sustainability",
+          "titel": "Alpro: Sustainability",
+          "url": "https://www.alpro.com/en-gb/articles/sustainability-part-of-our-dna",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "proterra-standard",
+          "titel": "ProTerra: The ProTerra Standard",
+          "url": "https://www.proterrafoundation.org/the-proterra-standard/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "non-gmo",
+            "soja"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird Alpros Soja-Warengruppe, nicht jede einzelne Charge.",
+      "relevante_siegel": [
+        {
+          "id": "proterra",
+          "rolle": "Rohstoffstandard",
+          "einordnung": "ProTerra stuetzt die Sojabewertung, ist aber nicht identisch mit der Markenlieferkette."
+        }
+      ]
+    },
+    {
+      "id": "beiersdorf-nivea-palmoel-derivate",
+      "unternehmen": "Beiersdorf AG",
+      "marke": "NIVEA",
+      "warengruppe": "Pflegeprodukte",
+      "rohstoffe": [
+        "Palmoel",
+        "Palmkernoel",
+        "Palm-Derivate"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "Palmderivate in Pflegeprodukten",
+          "RSPO- und Traceability-Ansatz"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rspo-derivate-traceability",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -3,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "beiersdorf-palm-oil"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "quelle_ids": [
+            "rspo-supply-chain"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palmderivate",
+          "beschreibung": "Palmderivate sind in Kosmetik besonders komplex und selten produktscharf physisch rueckverfolgbar.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "beiersdorf-palm-oil",
+            "rspo-supply-chain"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "traceability-ansatz",
+          "beschreibung": "Beiersdorf kommuniziert Palmrohstoffstrategie und Traceability-Massnahmen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "beiersdorf-palm-oil",
+            "beiersdorf-ar-2024"
+          ]
+        }
+      ],
+      "begruendung": "Beiersdorf/NIVEA ist ein wichtiger Massenmarkt-Drogeriefall. Die Rohstoffstrategie ist relevant, aber wegen Palmderivaten und Mass-Balance-Logik bleibt der Score im unteren Mittelfeld.",
+      "quellen": [
+        {
+          "id": "beiersdorf-palm-oil",
+          "titel": "Beiersdorf: Palm Oil",
+          "url": "https://www.beiersdorf.com/sustainability/environment/sustainable-land-use/palm-oil",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm",
+            "traceability"
+          ]
+        },
+        {
+          "id": "beiersdorf-ar-2024",
+          "titel": "Beiersdorf Annual Report 2024",
+          "url": "https://reports.beiersdorf.com/annual-report/2024/combined-management-report/non-financial-statement/general-information.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit"
+          ]
+        },
+        {
+          "id": "rspo-supply-chain",
+          "titel": "RSPO: Supply Chain Certification",
+          "url": "https://rspo.org/as-an-organisation/certification/supply-chains/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "mass-balance"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil",
+          "titel": "WWF: Palm Oil",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "palm-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Unternehmens-/Warengruppenbewertung, keine Einzelproduktkette.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "RSPO-Bezug ist relevant, aber wegen Derivaten begrenzt produktscharf."
+        }
+      ]
+    },
+    {
+      "id": "dmbio-schokolade-sierra-leone-kakao",
+      "unternehmen": "dm-drogerie markt GmbH + Co. KG",
+      "marke": "dmBio",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "dmBio-Schokolade mit Sierra-Leone-Projekt",
+          "Fairtrade/GIZ/Maestrani-Kontext"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "projektpartnerschaft-kakao",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -2,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "dm-sierra-leone-projekt",
+            "dm-newsroom-sierra-leone"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "quelle_ids": [
+            "dm-sierra-leone-projekt"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao bleibt strukturell risikobehaftet fuer Einkommen, Kinderarbeit und Entwaldung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "sierra-leone-projekt",
+          "beschreibung": "dm beschreibt ein Projekt fuer besseren Lebensunterhalt im Kakaokontext Sierra Leone.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "dm-sierra-leone-projekt",
+            "dm-newsroom-sierra-leone"
+          ]
+        }
+      ],
+      "begruendung": "dmBio Schokolade Sierra Leone ist ein guter Kakao-Projektfall mit konkreterem Ursprungskontext als normale Handelsware. Wegen Kakao-Hochrisiko und fehlender Chargentransparenz bleibt er unter den staerksten Direktbezugsfaellen.",
+      "quellen": [
+        {
+          "id": "dm-sierra-leone-projekt",
+          "titel": "dm Produktweg: Foerderung eines besseren Lebensunterhalts",
+          "url": "https://www.dm.de/produktweg/projektuebersicht/foerderung-eines-besseren-lebensunterhalts-2287128",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "sierra-leone",
+            "kakao",
+            "projekt"
+          ]
+        },
+        {
+          "id": "dm-newsroom-sierra-leone",
+          "titel": "dm Newsroom: Fairtrade und dm Projekt",
+          "url": "https://newsroom.dm.de/pressreleases/fairtrade-und-dm-projekt-zur-foerderung-von-kakaobauern-in-sierra-leone-3289604",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "fairtrade",
+            "projekt"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Projektliniennaher Fall, keine allgemeine dmBio-Schokoladenbewertung.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Projekt- und Sozialstandard",
+          "einordnung": "Der Lieferkettenscore stuetzt sich auf Projektangaben plus Fairtrade-Kontext."
+        }
+      ]
+    },
+    {
+      "id": "edeka-fleisch-fisch-ftrace",
+      "unternehmen": "EDEKA",
+      "marke": "EDEKA Eigenmarken",
+      "warengruppe": "Fleisch und Fisch",
+      "rohstoffe": [
+        "Fleisch",
+        "Fisch"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "EDEKA Herkunftsportal",
+          "fTRACE-/Tracking-Code-Kontext"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "ftrace-herkunftssystem",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": -1,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "edeka-transparenz",
+            "edeka-herkunft"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -1,
+          "quelle_ids": [
+            "wwf-fish-guide"
+          ],
+          "aussage_status": "abgeleitet"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tier-und-fischrisiken",
+          "beschreibung": "Fleisch und Fisch bleiben risikobehaftet; Tracking zeigt Herkunft, ersetzt aber keine vollstaendige Nachhaltigkeitsbewertung.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "edeka-transparenz",
+            "wwf-fish-guide"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "herkunftsportal",
+          "beschreibung": "EDEKA bietet Herkunftsinformationen ueber ein eigenes Portal bzw. Tracking.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "edeka-herkunft"
+          ]
+        }
+      ],
+      "begruendung": "EDEKA fTRACE ist ein wichtiger Massenmarktfall fuer Herkunftstransparenz. Der Score bleibt mittel, weil Tracking nur bei konkretem Code belastbar und nicht gleich Nachhaltigkeit ist.",
+      "quellen": [
+        {
+          "id": "edeka-transparenz",
+          "titel": "EDEKA: Transparenz und Rueckverfolgbarkeit",
+          "url": "https://www.edeka.de/nachhaltigkeit/produkte-verantwortung/transparenz-und-rueckverfolgbarkeit/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tracking",
+            "transparenz"
+          ]
+        },
+        {
+          "id": "edeka-herkunft",
+          "titel": "EDEKA Herkunftsportal",
+          "url": "https://herkunft.edeka.de/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "herkunft",
+            "code"
+          ]
+        },
+        {
+          "id": "wwf-fish-guide",
+          "titel": "WWF Fischratgeber",
+          "url": "https://fischratgeber.wwf.de/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "fischrisiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Nur mit konkretem Produktcode als staerkere Tracking-Aussage verwenden.",
+      "relevante_siegel": [
+        {
+          "id": "msc",
+          "rolle": "moeglicher Fischstandard",
+          "einordnung": "Siegel und Tracking liefern unterschiedliche Informationen."
+        }
+      ]
+    },
+    {
+      "id": "edeka-heimatliebe-obst-gemuese-ftrace",
+      "unternehmen": "EDEKA",
+      "marke": "EDEKA Heimatliebe",
+      "warengruppe": "Obst und Gemuese",
+      "rohstoffe": [
+        "Obst",
+        "Gemuese"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Regionalmarke Heimatliebe",
+          "Erzeuger-/Ursprungstransparenz"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "regional-ftrace",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "edeka-heimatliebe"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "regional-ist-nicht-nachhaltig",
+          "beschreibung": "Regionalitaet verbessert Herkunftstransparenz, ist aber nicht automatisch ein umfassender Nachhaltigkeitsnachweis.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "edeka-heimatliebe"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "regionalmarke",
+          "beschreibung": "EDEKA Heimatliebe kommuniziert regionale Herkunft und Erzeugerbezug.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "edeka-heimatliebe"
+          ]
+        }
+      ],
+      "begruendung": "EDEKA Heimatliebe ist ein nuetzlicher Regional- und Obst/Gemuese-Fall. Die Bewertung ist gut fuer Transparenz, aber bewusst nicht wie Bio oder Fairtrade.",
+      "quellen": [
+        {
+          "id": "edeka-heimatliebe",
+          "titel": "EDEKA Heimatliebe",
+          "url": "https://www.edeka.de/lieferanten/edeka-heimatliebe-der-regionen-owl-niedersachsen-brandenburg-sachsen-anhalt/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "regional",
+            "erzeuger",
+            "obst-gemuese"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Regionaler Transparenzfall; nicht als umfassendes Nachhaltigkeitssiegel lesen.",
+      "relevante_siegel": [
+        {
+          "id": "regionalfenster",
+          "rolle": "Vergleichsrahmen",
+          "einordnung": "Regionalfenster und Heimatliebe liefern Herkunftsinformationen, aber keine breite Nachhaltigkeitsbewertung."
+        }
+      ]
+    },
+    {
+      "id": "frosta-wildlachs-lachs-zutatentracker",
+      "unternehmen": "FRoSTA AG",
+      "marke": "FRoSTA",
+      "warengruppe": "Fischgerichte und Naturfilets",
+      "rohstoffe": [
+        "Lachs",
+        "Wildfisch",
+        "Fisch"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "konkret",
+        "scan_fakten": [
+          "FRoSTA Zutatentracker",
+          "Chargencode fuer Zutatenherkunft",
+          "MSC/ASC-Kontext"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "zutatentracker-chain-of-custody",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": 0,
+        "final": 8
+      },
+      "faktoren": [
+        {
+          "id": "echtzeit-monitoring",
+          "name": "Echtzeit-/Codebasierte Transparenz",
+          "wert": 2,
+          "quelle_ids": [
+            "frosta-naturfilets",
+            "frosta-faq"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "fisch-risiken",
+          "beschreibung": "Fisch bleibt risikobehaftet fuer Ueberfischung, Aquakulturfolgen und Fangmethoden; der Tracker reduziert Informationsluecken.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "wwf-fish-guide"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "zutatentracker",
+          "beschreibung": "FRoSTA stellt ueber Codeeingabe Zutaten- und Herkunftsinformationen bereit.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "frosta-naturfilets",
+            "frosta-faq"
+          ]
+        }
+      ],
+      "begruendung": "FRoSTA ist ein starker Verbraucher-Trackingfall, weil Zutatenherkunft ueber Codes naeher an konkrete Produkte rueckt. Der Score bleibt unter Direktbezug, weil nicht alle Vorstufen vollstaendig offengelegt sind.",
+      "quellen": [
+        {
+          "id": "frosta-naturfilets",
+          "titel": "FRoSTA: Naturfilets",
+          "url": "https://www.frosta.de/naturfilets/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkt",
+            "zutatentracker"
+          ]
+        },
+        {
+          "id": "frosta-faq",
+          "titel": "FRoSTA: Haeufig gestellte Fragen",
+          "url": "https://www.frosta.de/haeufig-gestellte-fragen/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "zutatentracker",
+            "herkunft"
+          ]
+        },
+        {
+          "id": "wwf-fish-guide",
+          "titel": "WWF Fischratgeber",
+          "url": "https://fischratgeber.wwf.de/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "fischrisiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "hoch",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bei vorhandenem FRoSTA-Code als besonders nutzernahe Herkunftsinfo geeignet.",
+      "relevante_siegel": [
+        {
+          "id": "msc",
+          "rolle": "Wildfangstandard",
+          "einordnung": "MSC kann ein Baustein sein; der Tracker liefert Zusatztransparenz."
+        },
+        {
+          "id": "asc",
+          "rolle": "Aquakulturstandard",
+          "einordnung": "ASC kann je nach Produkt relevant sein."
+        }
+      ]
+    },
+    {
+      "id": "henkel-persil-waschmittel-palmerkern-tenside",
+      "unternehmen": "Henkel AG & Co. KGaA",
+      "marke": "Persil / Henkel Laundry & Home Care",
+      "warengruppe": "Waschmittel",
+      "rohstoffe": [
+        "Palmkernoel",
+        "Palm-Derivate",
+        "Tenside"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "unternehmen",
+        "scan_fakten": [
+          "Palmkernbasierte Tensidvorstufen",
+          "RSPO-/Solidaridad-Projekte"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rspo-derivate-und-kleinbauernprogramm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -3,
+        "final": 2
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "henkel-palm-interview",
+            "henkel-solidaridad"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "massenbilanzierung",
+          "name": "Massenbilanzierung",
+          "wert": -1,
+          "quelle_ids": [
+            "rspo-supply-chain"
+          ],
+          "aussage_status": "abgeleitet"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "wwf-palm-oil"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "palmkern-tenside",
+          "beschreibung": "Palmkernbasierte Tenside sind komplexe Derivatketten mit begrenzter Produktschaerfe.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "henkel-palm-interview",
+            "rspo-supply-chain"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "solidaridad-projekte",
+          "beschreibung": "Henkel verweist auf Projekte mit Solidaridad und Palm-Kleinbauern.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "henkel-solidaridad"
+          ]
+        }
+      ],
+      "begruendung": "Henkel/Persil ist fuer Drogerie wichtig, aber die Lieferkette bleibt auf Unternehmens- und Rohstoffebene. Projekte und RSPO-Bezug sind positiv, Derivate und Mass Balance begrenzen den Score stark.",
+      "quellen": [
+        {
+          "id": "henkel-palm-interview",
+          "titel": "Henkel: It makes no sense to stop using palm oil",
+          "url": "https://www.henkel.com/spotlight/2021-03-23-it-makes-no-sense-to-stop-using-palm-oil-1163402",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "palm",
+            "strategie"
+          ]
+        },
+        {
+          "id": "henkel-solidaridad",
+          "titel": "Henkel: Improving livelihoods of palm smallholders",
+          "url": "https://www.henkel.com/spotlight/sustainability-responsibility/2024-05-29-improving-the-livelihoods-of-smallholder-farmers-of-palm-oil-and-palm-kernel-oil-1961820",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kleinbauern",
+            "palm"
+          ]
+        },
+        {
+          "id": "rspo-supply-chain",
+          "titel": "RSPO: Supply Chain Certification",
+          "url": "https://rspo.org/as-an-organisation/certification/supply-chains/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "mass-balance"
+          ]
+        },
+        {
+          "id": "wwf-palm-oil",
+          "titel": "WWF: Palm Oil",
+          "url": "https://wwf.panda.org/discover/our_focus/food_practice/sustainable_production/palm_oil/",
+          "quelle_typ": "ngo",
+          "belegt": [
+            "palm-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Keine produktscharfe Persil-Charge; Rohstoff- und Unternehmensfall.",
+      "relevante_siegel": [
+        {
+          "id": "rspo",
+          "rolle": "Palm-Lieferkettenstandard",
+          "einordnung": "RSPO ist relevant, aber bei Derivaten nur begrenzt physisch."
+        }
+      ]
+    },
+    {
+      "id": "lindt-schokolade-kakao-farming-program",
+      "unternehmen": "Lindt & Spruengli",
+      "marke": "Lindt",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Lindt & Spruengli Farming Program",
+          "First-Mile-Traceability"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "kakao-farming-program",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -2,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "lindt-rural-development"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "quelle_ids": [
+            "lindt-rural-development",
+            "lindt-glossary"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao bleibt risikobehaftet fuer Einkommen, Kinderarbeit und Entwaldung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "farming-program",
+          "beschreibung": "Lindt beschreibt ein eigenes Farming Program mit Traceability- und Rural-Development-Elementen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "lindt-rural-development"
+          ]
+        }
+      ],
+      "begruendung": "Lindt ist ein relevanter Markenfall mit eigenem Kakaoprogramm und besserer Ursprungstransparenz als Standardware. Der Score bleibt unter Direktbezugs-Pionieren, weil die Bewertung marken- und programmbezogen bleibt.",
+      "quellen": [
+        {
+          "id": "lindt-rural-development",
+          "titel": "Lindt Sustainability Report 2024: Rural Development",
+          "url": "https://reports.lindt-spruengli.com/sustainability-report-2024/pillars/improving-livelihoods/rural-development.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao",
+            "farming-program"
+          ]
+        },
+        {
+          "id": "lindt-glossary",
+          "titel": "Lindt Sustainability Report 2024: Glossary",
+          "url": "https://reports.lindt-spruengli.com/sustainability-report-2024/appendix/glossary.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "traceability"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Bewertet wird Lindts Kakao-Programm, nicht eine chargengenaue Tafel.",
+      "relevante_siegel": [
+        {
+          "id": "rainforest-alliance",
+          "rolle": "Vergleichsstandard",
+          "einordnung": "Der Score basiert vor allem auf Lindts Eigenprogramm."
+        }
+      ]
+    },
+    {
+      "id": "mars-schokolade-kakao-cocoa-for-generations",
+      "unternehmen": "Mars, Incorporated",
+      "marke": "Mars / M&M's / Schokoriegel",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Cocoa for Generations",
+          "Ziel segregierte Kakaolieferkette"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "konzernprogramm-kakao",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 2,
+        "minus": -2,
+        "final": 4
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "mars-cocoa-generations"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "ziel-segregation",
+          "name": "Ziel Segregation",
+          "wert": 1,
+          "quelle_ids": [
+            "mars-segregated-cocoa"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao ist Hochrisikorohstoff; Konzernprogramme sind wichtig, aber nicht automatisch produktgenau.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "cocoa-for-generations",
+          "beschreibung": "Mars beschreibt Cocoa for Generations und Ziele zur Kakaolieferkette.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "mars-cocoa-generations",
+            "mars-segregated-cocoa"
+          ]
+        }
+      ],
+      "begruendung": "Mars hat grossen Hebel und ambitionierte Kakaoziele, bleibt aber als Konzernprogramm ohne konkrete Produktcharge im Mittelfeld.",
+      "quellen": [
+        {
+          "id": "mars-cocoa-generations",
+          "titel": "Mars: Cocoa for Generations",
+          "url": "https://www.mars.com/sustainability-plan/cocoa-for-generations",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao",
+            "programm"
+          ]
+        },
+        {
+          "id": "mars-segregated-cocoa",
+          "titel": "Mars: segregated global cocoa supply chain",
+          "url": "https://www.mars.com/news-and-stories/press-releases-statements/mars-aims-achieve-segregated-global-cocoa-supply-chain",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "segregation",
+            "ziel"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Konzernprogramm, nicht produktscharfe Lieferkette.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "Sektorkontext",
+          "einordnung": "Risikokontext und Siegelclaims getrennt bewerten."
+        }
+      ]
+    },
+    {
+      "id": "mondelez-milka-schokolade-kakao-cocoa-life",
+      "unternehmen": "Mondelez International",
+      "marke": "Milka / Cocoa Life",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Cocoa Life Programm",
+          "Milka-/Mondelez-Kontext"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "cocoa-life-programm",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "cocoa-life",
+            "mondelez-ingredients"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao bleibt hochriskant; Programmlogik ist weniger stark als Direktbezug oder segregierte Spezialketten.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "cocoa-life",
+          "beschreibung": "Mondelez nutzt Cocoa Life als Programm fuer nachhaltigeren Kakao.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "cocoa-life",
+            "mondelez-ingredients"
+          ]
+        }
+      ],
+      "begruendung": "Cocoa Life ist wegen der Marktreichweite von Milka relevant. Der Score bleibt begrenzt, weil oeffentlich eher Programmziele als konkrete Lieferketten je Produkt sichtbar sind.",
+      "quellen": [
+        {
+          "id": "cocoa-life",
+          "titel": "Cocoa Life",
+          "url": "https://www.cocoalife.org/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao",
+            "programm"
+          ]
+        },
+        {
+          "id": "mondelez-ingredients",
+          "titel": "Mondelez: Sustainable Ingredients",
+          "url": "https://www.mondelezinternational.com/Snacking-Made-Right/Sustainable-Ingredients/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kakao",
+            "ingredients"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Programmfall fuer Kakao, keine konkrete Milka-Charge.",
+      "relevante_siegel": [
+        {
+          "id": "rainforest-alliance",
+          "rolle": "Vergleichsstandard",
+          "einordnung": "Cocoa Life wird separat von generischen Siegeln bewertet."
+        }
+      ]
+    },
+    {
+      "id": "oatly-haferdrink-hafer-nachhaltigkeitsprogramm",
+      "unternehmen": "Oatly Group AB",
+      "marke": "Oatly",
+      "warengruppe": "Haferdrink",
+      "rohstoffe": [
+        "Hafer"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Haferbasierte Milchalternative",
+          "Nachhaltigkeits- und Agrarprogramm"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "aggregierte-haferbeschaffung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": 0,
+        "final": 5
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "oatly-sustainability",
+            "oatly-report"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "aggregierte-herkunft",
+          "beschreibung": "Hafer ist weniger hochriskant als Kakao oder Palm, aber die Lieferkette ist oeffentlich nur aggregiert sichtbar.",
+          "aussage_status": "abgeleitet",
+          "quelle_ids": [
+            "oatly-report"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "nachhaltigkeitsprogramm",
+          "beschreibung": "Oatly berichtet ueber Nachhaltigkeitsziele und Beschaffungsansaetze.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "oatly-sustainability",
+            "oatly-report"
+          ]
+        }
+      ],
+      "begruendung": "Oatly erweitert die Datenbasis um Pflanzenmilch. Die Rohstoffrisiken sind geringer als bei tropischen Hochrisikorohstoffen, aber die oeffentliche Herkunftstiefe bleibt begrenzt.",
+      "quellen": [
+        {
+          "id": "oatly-sustainability",
+          "titel": "Oatly: Sustainability",
+          "url": "https://www.oatly.com/sustainability",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "nachhaltigkeit",
+            "hafer"
+          ]
+        },
+        {
+          "id": "oatly-report",
+          "titel": "Oatly: Sustainability report",
+          "url": "https://www.oatly.com/oatly-who/sustainability-plan/sustainability-report",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "bericht",
+            "lieferkette"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Warengruppenfall fuer Haferdrinks, keine chargenscharfe Herkunft.",
+      "relevante_siegel": []
+    },
+    {
+      "id": "rewe-penny-very-fair-schokolade-kakao-ghana",
+      "unternehmen": "REWE Group",
+      "marke": "Very Fair / REWE und PENNY",
+      "warengruppe": "Schokolade",
+      "rohstoffe": [
+        "Kakao"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "produktliniennah",
+        "scan_fakten": [
+          "Very Fair Schokolade",
+          "Ghana/Fanteakwa",
+          "Fairtrade und Zusatzzahlung"
+        ],
+        "tracking_code_verfuegbar": true
+      },
+      "lieferkettenmodell": "fairtrade-projektkette-living-income",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 2,
+        "minus": -2,
+        "final": 6
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "rewe-very-fair-presse"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "vor-ort-praesenz",
+          "name": "Vor-Ort-Praesenz",
+          "wert": 1,
+          "quelle_ids": [
+            "rewe-very-fair-story"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kakao-hochrisiko",
+          "beschreibung": "Kakao aus Ghana ist risikobehaftet fuer Einkommen, Kinderarbeit und Entwaldung.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-cocoa"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "living-income-differential",
+          "beschreibung": "REWE/PENNY kommunizieren eine Projektlogik mit Fairtrade und zusaetzlichem Einkommensbezug.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "rewe-very-fair-presse",
+            "rewe-very-fair-story"
+          ]
+        }
+      ],
+      "begruendung": "Very Fair ist ein konkreterer Handels-Kakaofall mit Ghana- und Projektbezug. Die Bewertung ist positiv, aber wegen Kakao-Hochrisiko und begrenzter Chargenschaerfe nicht maximal.",
+      "quellen": [
+        {
+          "id": "rewe-very-fair-presse",
+          "titel": "REWE Group: Very Fair Schokolade",
+          "url": "https://www.rewe-group.com/de/presse-und-medien/newsroom/pressemitteilungen/rewe-und-penny-verkaufen-very-fair-schokolade/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "schokolade",
+            "fairtrade",
+            "ghana"
+          ]
+        },
+        {
+          "id": "rewe-very-fair-story",
+          "titel": "REWE Group: Schokolade und Empowerment",
+          "url": "https://www.rewe-group.com/de/presse-und-medien/newsroom/stories/schokolade-und-empowerment/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "projekt",
+            "kakao"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-cocoa",
+          "titel": "Fairtrade Risk Map: Cocoa",
+          "url": "https://riskmap.fairtrade.net/commodities/cocoa",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kakao-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Produktliniennaher Projektfall, nicht gesamte REWE/PENNY-Schokolade.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "direkter Projektstandard",
+          "einordnung": "Fairtrade ist Teil der Projektlogik, aber nicht alleiniger Scoregrund."
+        }
+      ]
+    },
+    {
+      "id": "tchibo-kaffee-kaffeeprogramm-joint-forces",
+      "unternehmen": "Tchibo GmbH",
+      "marke": "Tchibo",
+      "warengruppe": "Kaffee",
+      "rohstoffe": [
+        "Kaffee"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Tchibo Kaffeeprogramme",
+          "Joint Forces und Zertifizierungen"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "kaffeeprogramm-und-zertifizierung",
+      "kettentyp": "Tier-1-Fokus",
+      "scoring": {
+        "basis": 4,
+        "plus": 1,
+        "minus": -2,
+        "final": 3
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "tchibo-kaffee",
+            "tchibo-report-2024"
+          ],
+          "aussage_status": "belegt"
+        },
+        {
+          "id": "rohstoff-spezifik",
+          "name": "Rohstoff-Spezifik",
+          "wert": -2,
+          "quelle_ids": [
+            "fairtrade-riskmap-coffee"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "kaffee-einkommen-klima",
+          "beschreibung": "Kaffee bleibt risikobehaftet fuer Einkommen, Klima und Preisschwankungen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "fairtrade-riskmap-coffee"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "kaffeeprogramme",
+          "beschreibung": "Tchibo berichtet ueber Nachhaltigkeitsprogramme und zertifizierten Kaffee.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "tchibo-kaffee",
+            "tchibo-report-2024"
+          ]
+        }
+      ],
+      "begruendung": "Tchibo ist wegen Marktreichweite wichtig, bleibt aber als Programm- und Warengruppenfall im Mittelfeld. Konkrete Kooperativen- oder Chargentransparenz ist nicht fuer jedes Produkt sichtbar.",
+      "quellen": [
+        {
+          "id": "tchibo-report-2024",
+          "titel": "Tchibo Sustainability Report 2024",
+          "url": "https://www.tchibo.com/media/pages/de/de/sustainability/reportings/reportings/020b9f4e4a-1777319898/tchibo_nachhaltigkeitsbericht_2024_eng.pdf",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee",
+            "bericht"
+          ]
+        },
+        {
+          "id": "tchibo-kaffee",
+          "titel": "Tchibo: Nachhaltigkeit Kaffee",
+          "url": "https://www.tchibo.de/c/nachhaltigkeit-kaffee",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "kaffee",
+            "programme"
+          ]
+        },
+        {
+          "id": "fairtrade-riskmap-coffee",
+          "titel": "Fairtrade Risk Map: Coffee",
+          "url": "https://riskmap.fairtrade.net/commodities/coffee",
+          "quelle_typ": "fachquelle",
+          "belegt": [
+            "kaffee-risiken"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Warengruppen- und Unternehmensprogramm, nicht Packungsschaerfe.",
+      "relevante_siegel": [
+        {
+          "id": "fairtrade",
+          "rolle": "moeglicher Standard",
+          "einordnung": "Zertifizierungen sind Bausteine, nicht die ganze Lieferkette."
+        }
+      ]
+    },
+    {
+      "id": "werner-mertz-frosch-tenside-europaeische-oele",
+      "unternehmen": "Werner & Mertz GmbH",
+      "marke": "Frosch",
+      "warengruppe": "Wasch- und Reinigungsmittel",
+      "rohstoffe": [
+        "Tenside",
+        "pflanzliche Oele"
+      ],
+      "bewertungsebene": "unternehmen_warengruppe_rohstoff",
+      "produktbezug": {
+        "produktgenauigkeit": "warengruppe",
+        "scan_fakten": [
+          "Europaeische Tensidinitiative",
+          "Reduktion tropischer Oele"
+        ],
+        "tracking_code_verfuegbar": false
+      },
+      "lieferkettenmodell": "rohstoffsubstitution-europaeische-tenside",
+      "kettentyp": "Tier-2-Transparenz",
+      "scoring": {
+        "basis": 6,
+        "plus": 1,
+        "minus": 0,
+        "final": 7
+      },
+      "faktoren": [
+        {
+          "id": "hebelwirkung",
+          "name": "Hebelwirkung",
+          "wert": 1,
+          "quelle_ids": [
+            "werner-mertz-tenside",
+            "frosch-faq"
+          ],
+          "aussage_status": "belegt"
+        }
+      ],
+      "risiken": [
+        {
+          "id": "tensidvorstufen",
+          "beschreibung": "Tenside sind komplex; Werner & Mertz reduziert Risiken durch europaeische Oel- und Tensidansaetze.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "werner-mertz-tenside"
+          ]
+        }
+      ],
+      "unternehmensmassnahmen": [
+        {
+          "id": "europaeische-tenside",
+          "beschreibung": "Werner & Mertz beschreibt eine Initiative fuer europaeische Tenside als Alternative zu tropischen Oelen.",
+          "aussage_status": "belegt",
+          "quelle_ids": [
+            "werner-mertz-tenside"
+          ]
+        }
+      ],
+      "begruendung": "Frosch/Werner & Mertz ist ein starker Drogerie-Rohstofffall, weil die Rohstoffsubstitution konkret beschrieben wird. Keine Maximalwertung, weil Produktchargen und alle Vorstufen nicht vollstaendig offen sind.",
+      "quellen": [
+        {
+          "id": "werner-mertz-tenside",
+          "titel": "Werner & Mertz: European surfactants initiative",
+          "url": "https://werner-mertz.de/en/our-european-surfactants-initiative/",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "tenside",
+            "rohstoffe"
+          ]
+        },
+        {
+          "id": "frosch-faq",
+          "titel": "Frosch: FAQ",
+          "url": "https://frosch.de/en/faq.html",
+          "quelle_typ": "primaer",
+          "belegt": [
+            "produkte",
+            "rohstoffe"
+          ]
+        }
+      ],
+      "aussage_sicherheit": "mittel",
+      "unsicherheit": "mittel",
+      "hinweis_fuer_app": "Produktliniennaher Drogerie-Rohstofffall.",
+      "relevante_siegel": [
+        {
+          "id": "blauer-engel",
+          "rolle": "Produktvergleich",
+          "einordnung": "Produktstandard und Rohstoffsubstitution getrennt bewerten."
+        }
+      ]
+    }
+  ]
+}

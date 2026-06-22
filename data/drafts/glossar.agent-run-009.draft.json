@@ -1,0 +1,206 @@
+{
+  "version": "2026.12",
+  "sprache": "de",
+  "typ": "glossar",
+  "stand": "2026-06-22",
+  "begriffe": [
+    {
+      "id": "tier-1-lieferant",
+      "begriff": "Tier-1-Lieferant",
+      "kurzdefinition": "Direkter Vertragspartner eines Unternehmens.",
+      "ausfuehrliche_erklaerung": "Tier-1-Lieferanten sind bekannt, sagen aber noch wenig ueber Rohstoffursprung oder Vorstufen aus.",
+      "bewertungsrelevanz": "Wichtig fuer die Einordnung von Lieferkettentiefe.",
+      "beispiel": "Direkter Schokoladenhersteller fuer eine Handelsmarke.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "tier-2-lieferant",
+      "begriff": "Tier-2-Lieferant",
+      "kurzdefinition": "Lieferant des direkten Lieferanten.",
+      "ausfuehrliche_erklaerung": "Tier-2-Transparenz zeigt mehr Tiefe als reine Einkaufsdaten, bleibt aber oft noch vor Farm- oder Ursprungsebene stehen.",
+      "bewertungsrelevanz": "Relevant fuer mittlere Lieferkettenbewertungen.",
+      "beispiel": "Kakaoverarbeiter hinter einem Schokoladenproduzenten.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "tier-n-lieferkette",
+      "begriff": "Tier-N-Lieferkette",
+      "kurzdefinition": "Alle tieferen Vorstufen einer Lieferkette bis zum Ursprung.",
+      "ausfuehrliche_erklaerung": "Tier-N umfasst Farmen, Sammelstellen, Zwischenhaendler, Verarbeiter und weitere Akteure.",
+      "bewertungsrelevanz": "Wichtig fuer Hochrisikorohstoffe mit vielen Zwischenstufen.",
+      "beispiel": "Palmderivat-Lieferkette bis zur Plantage.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "codebasierte-rueckverfolgbarkeit",
+      "begriff": "Codebasierte Rueckverfolgbarkeit",
+      "kurzdefinition": "Rueckverfolgbarkeit ueber QR-, Chargen-, Los- oder Produktcodes.",
+      "ausfuehrliche_erklaerung": "Codebasierte Systeme koennen Verbraucherinnen konkrete Herkunftsdaten anzeigen, wenn die Datenbank belastbar ist.",
+      "bewertungsrelevanz": "Relevant fuer Fisch, Eier, Fleisch und Tiefkuehlprodukte.",
+      "beispiel": "FRoSTA Zutatentracker.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "chargenbezug",
+      "begriff": "Chargenbezug",
+      "kurzdefinition": "Aussage bezieht sich auf eine konkrete Produktionscharge.",
+      "ausfuehrliche_erklaerung": "Chargenbezug ist genauer als Produktlinien- oder Warengruppenaussagen.",
+      "bewertungsrelevanz": "Wichtig, um hohe Transparenzscores zu begruenden.",
+      "beispiel": "Losnummer auf Fischverpackung.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "losnummer",
+      "begriff": "Losnummer",
+      "kurzdefinition": "Kennzeichnung einer Charge oder Produktionsserie.",
+      "ausfuehrliche_erklaerung": "Losnummern koennen Rueckverfolgung, Rueckrufe und Herkunftsabfragen ermoeglichen.",
+      "bewertungsrelevanz": "Relevant fuer App- oder Scan-Szenarien mit Produktcodes.",
+      "beispiel": "LOT-Code auf Fleischverpackung.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    },
+    {
+      "id": "qr-code-tracking",
+      "begriff": "QR-Code-Tracking",
+      "kurzdefinition": "Digitaler Verbraucherzugang zu Herkunfts- oder Produktdaten.",
+      "ausfuehrliche_erklaerung": "QR-Codes sind nur so gut wie die dahinterliegenden Daten und Kontrollen.",
+      "bewertungsrelevanz": "Wichtig bei Handelsfaellen mit Herkunftsportalen.",
+      "beispiel": "QR-Code fuer Bananenherkunft.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "supplier-engagement",
+      "begriff": "Supplier Engagement",
+      "kurzdefinition": "Aktive Zusammenarbeit mit Lieferanten zur Verbesserung von Standards.",
+      "ausfuehrliche_erklaerung": "Supplier Engagement umfasst Trainings, Zielvereinbarungen, Audits und Abhilfemassnahmen.",
+      "bewertungsrelevanz": "Relevant fuer Hebelwirkung in Konzern- und Handelsprogrammen.",
+      "beispiel": "Training fuer Kaffeefarmer.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "remediation",
+      "begriff": "Remediation",
+      "kurzdefinition": "Abhilfe bei festgestellten Missstaenden.",
+      "ausfuehrliche_erklaerung": "Remediation bedeutet, Probleme nicht nur zu finden, sondern Betroffene zu unterstuetzen und Ursachen zu beheben.",
+      "bewertungsrelevanz": "Wichtig bei Kinderarbeit, Arbeitsrechten und Beschwerdemechanismen.",
+      "beispiel": "Abhilfeplan nach Kinderarbeitsfund.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "clmrs",
+      "begriff": "Child Labor Monitoring and Remediation System (CLMRS)",
+      "kurzdefinition": "System zur Erkennung und Abhilfe von Kinderarbeit.",
+      "ausfuehrliche_erklaerung": "CLMRS wird vor allem in Kakao- und Agrarlieferketten genutzt und kombiniert Monitoring mit konkreter Unterstuetzung.",
+      "bewertungsrelevanz": "Relevant fuer Kakao-Lieferketten mit ehrlicher Risikobearbeitung.",
+      "beispiel": "CLMRS in westafrikanischen Kakaokooperativen.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "smallholder",
+      "begriff": "Smallholder",
+      "kurzdefinition": "Kleinbaeuerliche Produzentinnen und Produzenten.",
+      "ausfuehrliche_erklaerung": "Smallholder haben oft geringe Marktmacht und sind besonders von Preis-, Klima- und Einkommensrisiken betroffen.",
+      "bewertungsrelevanz": "Relevant fuer Kakao, Kaffee, Tee, Bananen und Naturkautschuk.",
+      "beispiel": "Kaffeekleinbauern in Peru.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "kooperative",
+      "begriff": "Kooperative",
+      "kurzdefinition": "Zusammenschluss von Produzentinnen oder Produzenten.",
+      "ausfuehrliche_erklaerung": "Kooperativen koennen Vermarktung, Praemienverwendung, Schulungen und Verhandlungsmacht buendeln.",
+      "bewertungsrelevanz": "Relevant fuer Fair-Trade- und Direktbezugsmodelle.",
+      "beispiel": "Kakaokooperative in Ghana.",
+      "kategorie": "Lieferkette & Governance"
+    },
+    {
+      "id": "farmgate-price",
+      "begriff": "Farmgate Price",
+      "kurzdefinition": "Preis, den Produzenten am Hof oder an der ersten Verkaufsstelle erhalten.",
+      "ausfuehrliche_erklaerung": "Farmgate-Preise unterscheiden sich deutlich von Export- oder Verbraucherpreisen.",
+      "bewertungsrelevanz": "Relevant fuer Einkommensbewertung und Living-Income-Fragen.",
+      "beispiel": "Kakaopreis an der Kooperative.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "premium-payment",
+      "begriff": "Premium Payment",
+      "kurzdefinition": "Zusatzprämie oberhalb des Grundpreises.",
+      "ausfuehrliche_erklaerung": "Praemien koennen zweckgebunden oder frei nutzbar sein und muessen von garantierten Einkommen unterschieden werden.",
+      "bewertungsrelevanz": "Relevant fuer Fair-Trade- und Unternehmensprogramme.",
+      "beispiel": "Kakaopraemie fuer Schulprojekte.",
+      "kategorie": "Soziales & Einkommen"
+    },
+    {
+      "id": "deforestation-monitoring",
+      "begriff": "Entwaldungsmonitoring",
+      "kurzdefinition": "Ueberwachung von Entwaldungsrisiken mit Daten oder Kontrollen.",
+      "ausfuehrliche_erklaerung": "Entwaldungsmonitoring kann Satellitendaten, Geodaten, Audits und Risikoanalysen kombinieren.",
+      "bewertungsrelevanz": "Relevant fuer EUDR-Rohstoffe und Entwaldungsclaims.",
+      "beispiel": "Satellitencheck bei Kakaofarmen.",
+      "kategorie": "Landwirtschaft & Umwelt"
+    },
+    {
+      "id": "gps-polygon",
+      "begriff": "GPS-Polygon",
+      "kurzdefinition": "Geografische Flaechenabgrenzung einer Farm oder Plantage.",
+      "ausfuehrliche_erklaerung": "GPS-Polygone sind genauer als einfache Punktkoordinaten und helfen bei Entwaldungspruefung.",
+      "bewertungsrelevanz": "Relevant fuer Kakao, Kaffee, Palm und Soja.",
+      "beispiel": "Farmgrenze als Polygon im GIS-System.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "satellitenmonitoring",
+      "begriff": "Satellitenmonitoring",
+      "kurzdefinition": "Ueberwachung von Flaechen per Satellitendaten.",
+      "ausfuehrliche_erklaerung": "Satellitenmonitoring kann Entwaldung, Landnutzung oder Veraenderungen erkennen.",
+      "bewertungsrelevanz": "Wichtig fuer Rohstoffketten mit Entwaldungsrisiko.",
+      "beispiel": "Monitoring von Palmplantagen.",
+      "kategorie": "Landwirtschaft & Umwelt"
+    },
+    {
+      "id": "traceability-platform",
+      "begriff": "Traceability Platform",
+      "kurzdefinition": "Digitale Plattform zur Verwaltung von Lieferkettendaten.",
+      "ausfuehrliche_erklaerung": "Traceability Platforms erfassen Warenfluesse, Lieferanten, Dokumente und Codes.",
+      "bewertungsrelevanz": "Relevant fuer codebasierte oder unternehmensweite Rueckverfolgung.",
+      "beispiel": "BeanTracker oder fTRACE.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "chain-risk",
+      "begriff": "Chain Risk",
+      "kurzdefinition": "Risiko, das aus Struktur und Tiefe einer Lieferkette entsteht.",
+      "ausfuehrliche_erklaerung": "Chain Risk kann aus vielen Zwischenhaendlern, fehlender Kontrolle oder anonymem Spotmarkt entstehen.",
+      "bewertungsrelevanz": "Relevant fuer Abzuege bei geringer Kontrolltiefe.",
+      "beispiel": "Brokerkette bei Kakao.",
+      "kategorie": "Bewertungsmethodik"
+    },
+    {
+      "id": "spotmarkt",
+      "begriff": "Spotmarkt",
+      "kurzdefinition": "Kurzfristiger Markt ohne stabile Lieferbeziehungen.",
+      "ausfuehrliche_erklaerung": "Spotmarktbezug erschwert Rueckverfolgbarkeit und langfristige Verbesserungen.",
+      "bewertungsrelevanz": "Wichtig fuer niedrige Lieferkettenscores.",
+      "beispiel": "Anonymer Rohkaffeezukauf.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "broker",
+      "begriff": "Broker",
+      "kurzdefinition": "Zwischenhaendler, der Waren vermittelt oder handelt.",
+      "ausfuehrliche_erklaerung": "Broker koennen Lieferketten effizient machen, aber Transparenz und Kontrolle reduzieren.",
+      "bewertungsrelevanz": "Relevant fuer komplexe Rohstoffketten.",
+      "beispiel": "Zwischenhaendler fuer Palmderivate.",
+      "kategorie": "Lieferkette & Rueckverfolgbarkeit"
+    },
+    {
+      "id": "claim-scope",
+      "begriff": "Claim Scope",
+      "kurzdefinition": "Geltungsbereich einer Produkt- oder Nachhaltigkeitsaussage.",
+      "ausfuehrliche_erklaerung": "Claim Scope klaert, ob ein Claim das Produkt, eine Zutat, Verpackung, Marke oder das Unternehmen betrifft.",
+      "bewertungsrelevanz": "Zentral, um irrefuehrende Gleichsetzungen zu vermeiden.",
+      "beispiel": "Mikroplastikfrei nur fuer Rezeptur, nicht Verpackung.",
+      "kategorie": "Prozess- & Verbraucherlabels"
+    }
+  ]
+}
