@@ -1,0 +1,21 @@
+# Konsistente Zeilenenden im gesamten Repo
+* text=auto eol=lf
+
+# Textformate explizit
+*.md       text
+*.json     text
+*.mjs      text
+*.js       text
+*.txt      text
+*.svg      text
+
+# Binärformate (kein Diff, keine EOL-Normalisierung)
+*.pptx     binary
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.pdf      binary
+
+# Sprachstatistik: Daten und Präsentations-Builds nicht als Projektsprache zählen
+data/**        linguist-documentation
+presentations/** linguist-documentation

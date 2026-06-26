@@ -13,3 +13,14 @@ build/
 Thumbs.db
 *.log
 .github-wiki/
+
+# Editor-/IDE-Konfiguration
+.idea/
+.vscode/
+*.swp
+
+# Temporaere Test-/Build-Artefakte aus Praesentations-Laeufen
+**/test_*.mjs
+**/test_*.png
+**/test_*.layout.json
+*.tmp
